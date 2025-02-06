@@ -2,7 +2,7 @@ import express from "express";
 import cors from "cors";
 import fetch from "node-fetch";
 
-const app = express(); // ✅ Initialize app first
+const app = express(); 
 const PORT = 5000;
 
 app.use(cors()); // ✅ Now it will work
