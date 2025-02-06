@@ -51,7 +51,7 @@ export default function Home() {
               Make smarter financial decisions with personalized insights, investment recommendations, and AI-powered guidance.
             </p>
             <Button asChild className="bg-white text-blue-600 hover:bg-gray-100 shadow-md">
-              <Link href="/advisor">
+              <Link href="/chatbot">
                 Get Started
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
@@ -137,19 +137,24 @@ export default function Home() {
 
       {/* New Section: Latest Financial News & Trends */}
       <section className="w-full py-12 md:py-24 bg-white">
-        <div className="container px-4 md:px-6 text-center">
-          <h2 className="text-3xl font-bold text-gray-900 sm:text-4xl">Latest Financial News & Trends</h2>
-          <div className="mt-6 space-y-4">
-            {/* You can use a dynamic news component, here is a placeholder for a scrolling ticker */}
-            <div className="overflow-x-auto whitespace-nowrap space-x-6 px-4 py-2 bg-blue-100 text-blue-800 rounded-lg">
-              <span className="inline-block">Market sees bullish trend in Q1 2025</span>
-              <span className="inline-block">AI tech stocks surge with latest updates</span>
-              <span className="inline-block">Inflation trends impact investment portfolios</span>
-              {/* Add dynamic content fetching for latest financial news */}
-            </div>
-          </div>
-        </div>
-      </section>
+  <div className="container px-4 md:px-6 text-center">
+    <h2 className="text-3xl font-bold text-gray-900 sm:text-4xl">
+      Stay Updated with the Latest Market Trends
+    </h2>
+    <p className="mt-4 text-lg text-gray-600">
+      Get real-time financial news, stock market insights, and economic updates.
+    </p>
+    <div className="mt-6">
+      <a
+        href="/news"
+        className="inline-block bg-blue-600 text-white font-medium py-3 px-6 rounded-lg shadow-md transition hover:bg-blue-700"
+      >
+        View Latest Updates
+      </a>
+    </div>
+  </div>
+</section>
+
 
       {/* New Section: FAQ */}
       <section className="w-full py-12 md:py-24 bg-gray-100">
