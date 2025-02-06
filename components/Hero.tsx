@@ -9,7 +9,7 @@ const features = [
   {
     name: 'Tax Calculator',
     description: 'Compare old vs. new tax regimes and find the optimal choice for your salary structure.',
-    href: '/tax',
+    href: '/taxations',
     icon: Calculator,
   },
   {
@@ -18,12 +18,7 @@ const features = [
     href: '/investments',
     icon: LineChart,
   }, 
-  {
-    name: 'Insurance Planning',
-    description: 'Find the best life insurance plans tailored to your needs and budget.',
-    href: '/insurance',
-    icon: Shield,
-  },
+  
   {
     name: 'Budget Management',
     description: 'Track expenses, set budgets, and get AI-powered insights for better financial planning.',
