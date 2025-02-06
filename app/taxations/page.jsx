@@ -6,6 +6,7 @@ export default function Taxations() {
   const [taxOld, setTaxOld] = useState(null);
   const [taxNew, setTaxNew] = useState(null);
 
+  // State for toggles for deductions
   const [standardDeduction, setStandardDeduction] = useState(true);
   const [section80C, setSection80C] = useState(true);
   const [section80D, setSection80D] = useState(true);
@@ -38,6 +39,7 @@ export default function Taxations() {
     const taxableIncome = Math.max(0, income - totalDeductions);
 
     let tax = 0;
+    let slabBreakdown = [];
     const slabs = [
       { limit: 250000, rate: 0 },
       { limit: 500000, rate: 0.05 },
@@ -49,16 +51,23 @@ export default function Taxations() {
     for (let { limit, rate } of slabs) {
       if (taxableIncome > prevLimit) {
         let taxableAmount = Math.min(taxableIncome, limit) - prevLimit;
-        tax += taxableAmount * rate;
+        let taxForSlab = taxableAmount * rate;
+        slabBreakdown.push({ slab: `₹${prevLimit} - ₹${limit}`, rate: `${rate * 100}%`, taxPaid: taxForSlab });
+        tax += taxForSlab;
         prevLimit = limit;
       } else break;
     }
 
-    return { totalTax: tax };
+    return { totalTax: tax, slabBreakdown };
   };
 
   const calculateTaxNew = (income) => {
+    if (income <= 1200000) {
+      return { totalTax: 0, slabBreakdown: [] };
+    }
+
     let tax = 0;
+    let slabBreakdown = [];
     const slabs = [
       { limit: 400000, rate: 0 },
       { limit: 800000, rate: 0.05 },
@@ -73,57 +82,136 @@ export default function Taxations() {
     for (let { limit, rate } of slabs) {
       if (income > prevLimit) {
         let taxableAmount = Math.min(income, limit) - prevLimit;
-        tax += taxableAmount * rate;
+        let taxForSlab = taxableAmount * rate;
+        slabBreakdown.push({ slab: `₹${prevLimit} - ₹${limit}`, rate: `${rate * 100}%`, taxPaid: taxForSlab });
+        tax += taxForSlab;
         prevLimit = limit;
       } else break;
     }
-    return { totalTax: tax };
+
+    const excessIncome = income - 1200000;
+    if (tax > excessIncome) {
+      tax = excessIncome;
+    }
+
+    return { totalTax: tax, slabBreakdown };
   };
 
   return (
-    <div className="max-w-4xl mx-auto p-6 bg-blue-100 min-h-screen">
-      <h1 className="text-3xl font-bold text-blue-700 text-center mb-6">Tax Calculation</h1>
-      <div className="mb-6 p-4 bg-white shadow-md rounded-lg">
-        <label htmlFor="salary" className="block text-lg font-semibold text-gray-700">Enter your salary:</label>
+    <div className="max-w-4xl mx-auto p-4">
+      <h1 className="text-2xl font-bold mb-4">Tax Calculation</h1>
+      <div className="mb-4">
+        <label htmlFor="salary" className="block text-lg">
+          Enter your salary:
+        </label>
         <input
           type="number"
           id="salary"
           value={salary}
           onChange={handleSalaryChange}
-          className="w-full p-3 border border-gray-300 rounded-lg mt-2 focus:outline-none focus:ring-2 focus:ring-blue-400"
+          className="w-full p-2 border border-gray-300 rounded"
           placeholder="Enter salary"
         />
       </div>
+
       {taxOld !== null || taxNew !== null ? (
-        <div className="grid grid-cols-2 gap-6">
-          {/* Old Tax Regime */}
+        <div className="mt-8 flex space-x-8">
+          {/* Old Tax Regime Section */}
           {taxOld && (
-            <div className="p-6 bg-white shadow-lg rounded-lg">
-              <h2 className="text-xl font-semibold text-blue-600 mb-4">Old Tax Regime</h2>
-              <p className="text-lg font-bold">Total Tax: ₹{taxOld.totalTax}</p>
-              <div className="mt-4 space-y-2">
-                {[{ label: "Standard Deduction", state: standardDeduction, setter: setStandardDeduction },
-                  { label: "Section 80C", state: section80C, setter: setSection80C },
-                  { label: "Section 80D", state: section80D, setter: setSection80D },
-                  { label: "Section 24B", state: section24B, setter: setSection24B },
-                  { label: "Section 80E", state: section80E, setter: setSection80E },
-                  { label: "Section 80G", state: section80G, setter: setSection80G }].map((deduction, index) => (
+            <div className="w-1/2">
+              <h2 className="text-xl font-semibold mb-4">Old Tax Regime</h2>
+              <p>Total Tax: ₹{taxOld.totalTax}</p>
+
+              <h3 className="text-lg font-medium mt-4">Tax Breakdown per Slab</h3>
+              <table className="table-auto w-full border-collapse border">
+                <thead>
+                  <tr>
+                    <th className="border p-2">Slab</th>
+                    <th className="border p-2">Tax Rate</th>
+                    <th className="border p-2">Tax Paid</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {taxOld.slabBreakdown.map((slab, index) => (
+                    <tr key={index}>
+                      <td className="border p-2">{slab.slab}</td>
+                      <td className="border p-2">{slab.rate}</td>
+                      <td className="border p-2">₹{slab.taxPaid}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+
+              {/* Deduction Toggle Section */}
+              <div className="mt-4">
+                <h3 className="font-semibold mb-2">Deductions</h3>
+                <div className="flex space-x-4">
                   <button
-                    key={index}
-                    onClick={() => deduction.setter(!deduction.state)}
-                    className={`w-full text-white font-semibold p-2 rounded-lg transition-all duration-300 ${deduction.state ? 'bg-blue-600 hover:bg-blue-700' : 'bg-gray-400 hover:bg-gray-500'}`}
+                    onClick={() => setStandardDeduction(!standardDeduction)}
+                    className={`p-2 ${standardDeduction ? 'bg-green-500' : 'bg-gray-300'}`}
                   >
-                    {deduction.label} {deduction.state ? "(Applied)" : "(Removed)"}
+                    Standard Deduction
                   </button>
-                ))}
+                  <button
+                    onClick={() => setSection80C(!section80C)}
+                    className={`p-2 ${section80C ? 'bg-green-500' : 'bg-gray-300'}`}
+                  >
+                    Section 80C
+                  </button>
+                  <button
+                    onClick={() => setSection80D(!section80D)}
+                    className={`p-2 ${section80D ? 'bg-green-500' : 'bg-gray-300'}`}
+                  >
+                    Section 80D
+                  </button>
+                  <button
+                    onClick={() => setSection24B(!section24B)}
+                    className={`p-2 ${section24B ? 'bg-green-500' : 'bg-gray-300'}`}
+                  >
+                    Section 24B
+                  </button>
+                  <button
+                    onClick={() => setSection80E(!section80E)}
+                    className={`p-2 ${section80E ? 'bg-green-500' : 'bg-gray-300'}`}
+                  >
+                    Section 80E
+                  </button>
+                  <button
+                    onClick={() => setSection80G(!section80G)}
+                    className={`p-2 ${section80G ? 'bg-green-500' : 'bg-gray-300'}`}
+                  >
+                    Section 80G
+                  </button>
+                </div>
               </div>
             </div>
           )}
-          {/* New Tax Regime */}
+
+          {/* New Tax Regime Section */}
           {taxNew && (
-            <div className="p-6 bg-white shadow-lg rounded-lg">
-              <h2 className="text-xl font-semibold text-blue-600 mb-4">New Tax Regime</h2>
-              <p className="text-lg font-bold">Total Tax: ₹{taxNew.totalTax}</p>
+            <div className="w-1/2">
+              <h2 className="text-xl font-semibold mb-4">New Tax Regime</h2>
+              <p>Total Tax: ₹{taxNew.totalTax}</p>
+
+              <h3 className="text-lg font-medium mt-4">Tax Breakdown per Slab</h3>
+              <table className="table-auto w-full border-collapse border">
+                <thead>
+                  <tr>
+                    <th className="border p-2">Slab</th>
+                    <th className="border p-2">Tax Rate</th>
+                    <th className="border p-2">Tax Paid</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {taxNew.slabBreakdown.map((slab, index) => (
+                    <tr key={index}>
+                      <td className="border p-2">{slab.slab}</td>
+                      <td className="border p-2">{slab.rate}</td>
+                      <td className="border p-2">₹{slab.taxPaid}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
             </div>
           )}
         </div>
