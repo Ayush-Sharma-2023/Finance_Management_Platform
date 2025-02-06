@@ -33,7 +33,7 @@ app.post("/", async (req, res) => {
     const cleanedReply = data.response.replace(/<think>\n\n<\/think>\n\n/, "");
     res.json({ reply: cleanedReply });
   } catch (error) {
-    console.error("Error:", error); // ✅ Debugging log
+    console.error("Error:", error); 
     res.status(500).json({ error: "Error connecting to Ollama", details: error.message });
   }
 });
