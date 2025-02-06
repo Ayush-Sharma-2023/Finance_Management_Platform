@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 'use client';
 
 import { Button } from '@/components/ui/button';
@@ -5,10 +6,12 @@ import { ModeToggle } from '@/components/mode-toggle';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { cn } from '@/lib/utils';
+// import { BarChart3, Calculator, LineChart, MessageSquare, PiggyBank } from 'lucide-react';
 import { BarChart3, Calculator, LineChart, MessageSquare, PiggyBank } from 'lucide-react';
 import { useEffect, useState } from 'react';
 import { supabase } from '@/lib/supabase';
 import type { User } from '@supabase/supabase-js';
+import ChatBot from './chatbubble';
 
 const navigation = [
   { name: 'Home', href: '/', icon: BarChart3 },
@@ -16,7 +19,7 @@ const navigation = [
   { name: 'Investments', href: '/investments', icon: LineChart },
   { name: 'Mutual Funds', href: '/mutualfunds', icon: PiggyBank },
   { name: 'Budget', href: '/budget', icon: PiggyBank },
-  { name: 'AI Advisor', href: '/chatbot', icon: MessageSquare },
+  // { name: 'AI Advisor', href: '/chatbot', icon: MessageSquare },
 ];
 
 export default function Header() {
@@ -43,6 +46,7 @@ export default function Header() {
   };
 
   return (
+    <>
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-16 items-center"> {/* Increased height */}
         <div className="mr-4 flex">
@@ -55,12 +59,12 @@ export default function Header() {
               const Icon = item.icon;
               return (
                 <Link
-                  key={item.href}
-                  href={item.href}
-                  className={cn(
-                    'hidden sm:flex items-center px-4 py-2 rounded-lg text-white bg-blue-500 transition-all duration-300 transform hover:bg-blue-700 hover:scale-110',
-                    pathname === item.href && 'bg-blue-700'
-                  )}
+                key={item.href}
+                href={item.href}
+                className={cn(
+                  'hidden sm:flex items-center px-4 py-2 rounded-lg text-white bg-blue-500 transition-all duration-300 transform hover:bg-blue-700 hover:scale-110',
+                  pathname === item.href && 'bg-blue-700'
+                )}
                 >
                   <Icon className="mr-2 h-5 w-5" />
                   {item.name}
@@ -79,5 +83,11 @@ export default function Header() {
         </div>
       </div>
     </header>
+    <div className='z-auto'>
+
+    <ChatBot/>
+    </div>
+
+          </>
   );
 }

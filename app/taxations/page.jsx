@@ -1,6 +1,7 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import Navbar from '../../components/Navbar';
+import TaxAcordian from '../../components/taxAcordian';
 
 
 export default function Taxations() {
@@ -64,7 +65,7 @@ export default function Taxations() {
   };
 
   const calculateTaxNew = (income) => {
-    if (income <= 1200000) {
+    if (income <= 1275000) {
       return { totalTax: 0, slabBreakdown: [] };
     }
 
@@ -91,7 +92,7 @@ export default function Taxations() {
       } else break;
     }
 
-    const excessIncome = income - 1200000;
+    const excessIncome = income - 1275000;
     if (tax > excessIncome) {
       tax = excessIncome;
     }
@@ -225,6 +226,8 @@ export default function Taxations() {
         </div>
       ) : null}
     </div>
+
+    <TaxAcordian />
       </>
   );
 }
