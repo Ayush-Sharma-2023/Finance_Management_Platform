@@ -1,7 +1,8 @@
 "use client";
 import { useState, useEffect, useRef } from "react";
 
-const ChatBot = () => {
+const 
+ChatBot = () => {
   const [message, setMessage] = useState("");
   const [chat, setChat] = useState([]);
   const [loading, setLoading] = useState(false);
