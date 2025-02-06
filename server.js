@@ -5,7 +5,7 @@ import fetch from "node-fetch";
 const app = express(); 
 const PORT = 5000;
 
-app.use(cors()); // ✅ Now it will work
+app.use(cors()); 
 app.use(express.json());
 
 app.get("/", (req, res) => {
