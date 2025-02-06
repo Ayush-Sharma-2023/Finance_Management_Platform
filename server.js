@@ -2,10 +2,10 @@ import express from "express";
 import cors from "cors";
 import fetch from "node-fetch";
 
-const app = express(); // ✅ Initialize app first
+const app = express(); 
 const PORT = 5000;
 
-app.use(cors()); // ✅ Now it will work
+app.use(cors()); 
 app.use(express.json());
 
 app.get("/", (req, res) => {
@@ -28,12 +28,12 @@ app.post("/", async (req, res) => {
     });
 
     const data = await response.json();
-    console.log("Ollama API Response:", data); // ✅ Debugging log
+    console.log("Ollama API Response:", data); 
 
     const cleanedReply = data.response.replace(/<think>\n\n<\/think>\n\n/, "");
     res.json({ reply: cleanedReply });
   } catch (error) {
-    console.error("Error:", error); // ✅ Debugging log
+    console.error("Error:", error); 
     res.status(500).json({ error: "Error connecting to Ollama", details: error.message });
   }
 });
