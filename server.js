@@ -28,7 +28,7 @@ app.post("/", async (req, res) => {
     });
 
     const data = await response.json();
-    console.log("Ollama API Response:", data); // ✅ Debugging log
+    console.log("Ollama API Response:", data); 
 
     const cleanedReply = data.response.replace(/<think>\n\n<\/think>\n\n/, "");
     res.json({ reply: cleanedReply });
