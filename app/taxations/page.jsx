@@ -1,5 +1,7 @@
 "use client";
 import React, { useState, useEffect } from "react";
+import Navbar from '../../components/Navbar';
+
 
 export default function Taxations() {
   const [salary, setSalary] = useState("");
@@ -98,6 +100,11 @@ export default function Taxations() {
   };
 
   return (
+    <>
+    <div className="my-4">
+    <Navbar />
+
+    </div>
     <div className="max-w-4xl mx-auto p-6 bg-gradient-to-r from-blue-500 to-indigo-600 rounded-xl shadow-lg text-white">
       <h1 className="text-3xl font-bold mb-6 text-center">Tax Calculation</h1>
       <div className="mb-6">
@@ -111,7 +118,7 @@ export default function Taxations() {
           onChange={handleSalaryChange}
           className="w-full p-3 border border-gray-200 text-black rounded-lg shadow-md focus:outline-none focus:ring-2 focus:ring-blue-500 transition"
           placeholder="Enter salary"
-        />
+          />
       </div>
 
       {taxOld !== null || taxNew !== null ? (
@@ -149,37 +156,37 @@ export default function Taxations() {
     <button
       onClick={() => setStandardDeduction(!standardDeduction)}
       className={`p-3 rounded-lg transition-all ${standardDeduction ? 'bg-blue-500 text-white' : 'bg-gray-300'}`}
-    >
+      >
       Standard Deduction
     </button>
     <button
       onClick={() => setSection80C(!section80C)}
       className={`p-3 rounded-lg transition-all ${section80C ? 'bg-blue-500 text-white' : 'bg-gray-300'}`}
-    >
+      >
       Section 80C
     </button>
     <button
       onClick={() => setSection80D(!section80D)}
       className={`p-3 rounded-lg transition-all ${section80D ? 'bg-blue-500 text-white' : 'bg-gray-300'}`}
-    >
+      >
       Section 80D
     </button>
     <button
       onClick={() => setSection24B(!section24B)}
       className={`p-3 rounded-lg transition-all ${section24B ? 'bg-blue-500 text-white' : 'bg-gray-300'}`}
-    >
+      >
       Section 24B
     </button>
     <button
       onClick={() => setSection80E(!section80E)}
       className={`p-3 rounded-lg transition-all ${section80E ? 'bg-blue-500 text-white' : 'bg-gray-300'}`}
-    >
+      >
       Section 80E
     </button>
     <button
       onClick={() => setSection80G(!section80G)}
       className={`p-3 rounded-lg transition-all ${section80G ? 'bg-blue-500 text-white' : 'bg-gray-300'}`}
-    >
+      >
       Section 80G
     </button>
   </div>
@@ -218,5 +225,6 @@ export default function Taxations() {
         </div>
       ) : null}
     </div>
+      </>
   );
 }

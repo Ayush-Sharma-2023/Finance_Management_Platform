@@ -12,9 +12,9 @@ import type { User } from '@supabase/supabase-js';
 
 const navigation = [
   { name: 'Home', href: '/', icon: BarChart3 },
-  { name: 'Tax Calculator', href: '/tax', icon: Calculator },
+  { name: 'Tax Calculator', href: '/taxations', icon: Calculator },
   { name: 'Investments', href: '/investments', icon: LineChart },
-  { name: 'Mutual Funds', href: '/mutual-funds', icon: PiggyBank },
+  { name: 'Mutual Funds', href: '/mutualfunds', icon: PiggyBank },
   { name: 'Budget', href: '/budget', icon: PiggyBank },
   { name: 'AI Advisor', href: '/advisor', icon: MessageSquare },
 ];

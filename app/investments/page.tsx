@@ -8,7 +8,7 @@ import { RadioGroup, RadioGroupItem } from '@/components/ui/radio-group';
 import { Input } from '@/components/ui/input';
 import { LineChart, Wallet } from 'lucide-react';
 import { supabase } from '@/lib/supabase';
-
+import Navbar from '../../components/Navbar';
 type RiskProfile = 'conservative' | 'moderate' | 'aggressive';
 
 type PortfolioAllocation = {
@@ -46,6 +46,8 @@ export default function InvestmentAdvisor() {
   const allocation = portfolioAllocations[riskProfile];
 
   return (
+    <>
+    <Navbar/>
     <div className="container py-10">
       {/* Header Section */}
       <div className="flex items-center space-x-3 mb-8 text-gray-800">
@@ -125,5 +127,6 @@ export default function InvestmentAdvisor() {
         </Card>
       </div>
     </div>
+            </>
   );
 }
