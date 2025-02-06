@@ -17,7 +17,7 @@ const features = [
     description: 'Get personalized mutual fund recommendations based on your risk profile.',
     href: '/investments',
     icon: LineChart,
-  },
+  }, 
   {
     name: 'Insurance Planning',
     description: 'Find the best life insurance plans tailored to your needs and budget.',
