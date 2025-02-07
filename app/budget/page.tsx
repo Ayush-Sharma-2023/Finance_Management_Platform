@@ -213,7 +213,7 @@ export default function BudgetManager() {
             placeholder="Enter your savings goal"
           />
           <Link href={`/investments?monthlyInvestment=${remainingBudget}`} className="mt-4 inline-block">
-            <Button className="w-full bg-green-600 hover:bg-green-700">
+            <Button className="w-full bg-blue-300 hover:bg-blue-500">
               <Wallet className="mr-2 h-4 w-4" />
               Optimize Investments with Remaining Budget
             </Button>

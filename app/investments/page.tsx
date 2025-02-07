@@ -42,8 +42,8 @@ export default function InvestmentAdvisor() {
 
   // Determine risk profile based on remaining budget
   const getRiskProfile = (budget: number): RiskProfile => {
-    if (budget < 10000) return 'conservative';
-    else if (budget >= 10000 && budget < 50000) return 'moderate';
+    if (budget <= 10000) return 'conservative';
+    else if (budget >= 10000 && budget <= 50000) return 'moderate';
     else return 'aggressive';
   };
 
