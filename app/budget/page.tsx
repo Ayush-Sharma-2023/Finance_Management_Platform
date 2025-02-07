@@ -76,20 +76,13 @@ export default function BudgetManager() {
 
   // Save data to localStorage whenever it changes
   useEffect(() => {
+    const remainingBudget = Number(income) - categories.reduce((acc, cat) => acc + Number(cat.amount || 0), 0);
     localStorage.setItem('income', income);
-  }, [income]);
-
-  useEffect(() => {
     localStorage.setItem('categories', JSON.stringify(categories));
-  }, [categories]);
-
-  useEffect(() => {
     localStorage.setItem('savingsGoal', savingsGoal);
-  }, [savingsGoal]);
-
-  useEffect(() => {
     localStorage.setItem('nextMonthExpenses', JSON.stringify(nextMonthExpenses));
-  }, [nextMonthExpenses]);
+    localStorage.setItem('remainingBudget', remainingBudget.toString());
+  }, [income, categories, savingsGoal, nextMonthExpenses]);
 
   const handleCategoryChange = (index, field, value) => {
     const updatedCategories = [...categories];
