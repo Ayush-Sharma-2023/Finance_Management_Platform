@@ -1,12 +1,17 @@
 'use client';
 
-import { useState } from 'react';
+
+import { useState, useMemo } from 'react';
 import { Card } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Progress } from '@/components/ui/progress';
 import { Label } from '@/components/ui/label';
 import { BarChart3, PlusCircle, ChevronDown, Trash2, XCircle } from 'lucide-react';
+import Navbar from '../../components/Navbar';
+import { Pie } from 'react-chartjs-2';
+import { Chart as ChartJS, Title, Tooltip, Legend, ArcElement, CategoryScale, LinearScale } from 'chart.js';
+ChartJS.register(Title, Tooltip, Legend, ArcElement, CategoryScale, LinearScale);
 
 
 
@@ -90,20 +95,46 @@ export default function BudgetManager() {
 
   const monthsToGoal = savingsGoal && remainingBudget > 0 ? Math.ceil(savingsGoal / remainingBudget) : 'N/A';
 
-  // Calculate the months required for each investment option
+  
   const bankSavingsMonths = savingsGoal && remainingBudget > 0 ? bankSavingsTime(remainingBudget, remainingBudget, 2, savingsGoal) : 'N/A';
-  const goldBondMonths = savingsGoal && remainingBudget > 0 ? goldBondTime(remainingBudget, 3, savingsGoal) : 'N/A';
+  //const goldBondMonths = savingsGoal && remainingBudget > 0 ? goldBondTime(remainingBudget, 3, savingsGoal) : 'N/A';
   const fdMonths = savingsGoal && remainingBudget > 0 ? compoundInvestmentTime(remainingBudget, remainingBudget, 6, savingsGoal) : 'N/A';
   const govtMonths = savingsGoal && remainingBudget > 0 ? compoundInvestmentTime(remainingBudget, remainingBudget, 9, savingsGoal) : 'N/A';
   const indexMonths = savingsGoal && remainingBudget > 0 ? compoundInvestmentTime(remainingBudget, remainingBudget, 13, savingsGoal) : 'N/A';
+  
+  const categoryLabels = categories.map(cat => cat.name);
+  const categoryAmounts = categories.map(cat => Number(cat.amount || 0));
+  const categoryBudget = categories.map(cat => 0);
+
+  const pieData = useMemo(() => ({
+    labels: categoryLabels,
+    datasets: [
+      {
+        label: 'Expenses Distribution',
+        data: categoryAmounts,
+        backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0', '#FF9F40'],
+        borderColor: ['#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0', '#FF9F40'],
+        borderWidth: 1,
+      },
+      {
+        label: 'Budget Distribution',
+        data: categoryBudget,
+        backgroundColor: ['#FF7373', '#5BC0EB', '#FFD166', '#6B8B3A', '#FF6A13'],
+        borderColor: ['#FF7373', '#5BC0EB', '#FFD166', '#6B8B3A', '#FF6A13'],
+        borderWidth: 1,
+      },
+    ],
+  }), [categoryLabels, categoryAmounts, categoryBudget]);
+
   return (
-    <div className="container py-8">
+    <> <Navbar/>
+    <div className="container py-8 bg-blue-50 text-gray-90">
       <div className="flex items-center space-x-2 mb-6">
-        <BarChart3 className="h-6 w-6 " />
-        <h1 className="text-2xl font-bold">Budget Manager</h1>
+        <BarChart3 className="h-6 w-6 text-blue-700" />
+        <h1 className="text-2xl font-bold text-blue-800">Budget Manager</h1>
       </div>
 
-      <Card className="p-6 mb-6 shadow-lg rounded-lg border border-gray-200">
+      <Card className="p-6 mb-6 shadow-lg rounded-lg border border-blue-200">
         <h2 className="text-lg font-semibold mb-4">Enter Your Monthly Details</h2>
         
         <Label htmlFor="income" className="font-medium text-black">Monthly Income</Label>
@@ -200,10 +231,10 @@ export default function BudgetManager() {
       <span className="font-semibold">{bankSavingsMonths}</span>
     </div>
 
-    <div className="flex justify-between text-sm mt-2">
+    {/* <div className="flex justify-between text-sm mt-2">
       <span>Months to Reach Goal (Gold Bond):</span>
       <span className="font-semibold">{goldBondMonths}</span>
-    </div>
+    </div> */}
 
     <div className="flex justify-between text-sm mt-2">
       <span>Months to Reach Goal (Fixed Deposit Investment):</span>
@@ -240,5 +271,6 @@ export default function BudgetManager() {
         <Progress value={(totalExpenses / (Number(income) || 1)) * 100} className="mt-4" />
       </Card>
     </div>
+    </>
   );
 }
