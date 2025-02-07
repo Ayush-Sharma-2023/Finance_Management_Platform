@@ -5,7 +5,7 @@ import { Card } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { BarChart3, Wallet } from 'lucide-react';
 import Navbar from '../../components/Navbar';
-import { ResponsiveContainer, BarChart, Bar, XAxis, YAxis, Tooltip } from 'recharts';
+import { ResponsiveContainer, BarChart, Bar, XAxis, YAxis, Tooltip, Legend } from 'recharts';
 import Link from 'next/link';
 
 export default function BudgetManager() {
@@ -17,6 +17,7 @@ export default function BudgetManager() {
     monthlyIncome: 0,
     totalExpense: 0,
     remainingBudget: 0,
+    investments: [],
   });
 
   // Fetch data from localStorage
@@ -31,6 +32,13 @@ export default function BudgetManager() {
       console.log('Stored Budget Data:', parsedData);
     }
   }, []);
+
+  const chartData = [
+    { name: 'Income', value: budgetData.monthlyIncome },
+    { name: 'Expenses', value: budgetData.totalExpense },
+    ...(budgetData.investments ? budgetData.investments.map((inv) => ({ name: inv.name, value: inv.amount })) : []),
+    { name: 'Remaining Budget', value: budgetData.remainingBudget },
+  ];
 
   return (
     <>
@@ -57,21 +65,28 @@ export default function BudgetManager() {
             <span className="font-semibold">₹{Number(budgetData.totalExpense).toLocaleString()}</span>
           </div>
 
+          {/* Investments */}
+          {(budgetData.investments || []).map((investment, index) => (
+            <div key={index} className="flex justify-between text-sm">
+              <span>{investment.name}:</span>
+              <span className="font-semibold">₹{Number(investment.amount).toLocaleString()}</span>
+            </div>
+          ))}
+
           {/* Remaining Budget */}
           <div className="flex justify-between text-sm">
             <span>Remaining Budget:</span>
-            <span className={`font-semibold ${budgetData.remainingBudget < 0 ? 'text-red-500' : 'text-green-500'}`}>
-              ₹{Number(budgetData.remainingBudget).toLocaleString()}
-            </span>
+            <span className={`font-semibold ${budgetData.remainingBudget < 0 ? 'text-red-500' : 'text-green-500'}`}>₹{Number(budgetData.remainingBudget).toLocaleString()}</span>
           </div>
 
-          {/* Bar Chart for Remaining Budget */}
+          {/* Bar Chart for Budget Breakdown */}
           <div className="mt-4 h-64">
             <ResponsiveContainer width="100%" height="100%">
-              <BarChart data={[{ name: 'Remaining Budget', value: budgetData.remainingBudget }]} layout="vertical">
+              <BarChart data={chartData} layout="vertical">
                 <XAxis type="number" />
                 <YAxis dataKey="name" type="category" width={120} />
                 <Tooltip />
+                <Legend />
                 <Bar dataKey="value" fill="#4A90E2" />
               </BarChart>
             </ResponsiveContainer>
@@ -90,7 +105,7 @@ export default function BudgetManager() {
         <Card className="p-6 mb-6 shadow-lg rounded-lg border border-gray-200">
           <h3 className="font-semibold">Expenses</h3>
           <div className="flex flex-wrap gap-4">
-          {(budgetData.categories || []).map((category, index) => (
+            {(budgetData.categories || []).map((category, index) => (
               <div key={index} className="w-full md:w-1/3 lg:w-1/4 p-4 border rounded-lg bg-gray-50 relative">
                 <h4 className="font-medium">{category.name}</h4>
                 <p>Amount: ₹{Number(category.amount).toLocaleString()}</p>
