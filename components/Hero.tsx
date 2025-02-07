@@ -51,7 +51,7 @@ export default function Home() {
               Make smarter financial decisions with personalized insights, investment recommendations, and AI-powered guidance.
             </p>
             <Button asChild className="bg-white text-blue-600 hover:bg-gray-100 shadow-md">
-              <Link href="/chatbot">
+              <Link href="/taxations">
                 Get Started
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
