@@ -36,7 +36,6 @@ const generateInvestmentGrowthData = (initialInvestment: number) => {
 const COLORS = ['#8884d8', '#82ca9d', '#ffc658', '#ff7300', '#00C49F'];
 
 export default function InvestmentAdvisor() {
-  const searchParams = useSearchParams();
   const [remainingBudget, setRemainingBudget] = useState<number>(0);
 
   // Load remaining budget from localStorage when the component mounts
@@ -44,17 +43,13 @@ export default function InvestmentAdvisor() {
     const storedRemainingBudget = localStorage.getItem('remainingBudget');
     if (storedRemainingBudget) {
       setRemainingBudget(Number(storedRemainingBudget));
-    } else {
-      const budgetFromParams = Number(searchParams.get('monthlyInvestment')) || 0;
-      setRemainingBudget(budgetFromParams);
-      localStorage.setItem('remainingBudget', budgetFromParams.toString());
     }
-  }, [searchParams]);
+  }, []);
 
   // Determine risk profile based on remaining budget
   const getRiskProfile = (budget: number): RiskProfile => {
     if (budget <= 10000) return 'conservative';
-    else if (budget >= 10000 && budget <= 50000) return 'moderate';
+    else if (budget > 10000 && budget <= 50000) return 'moderate';
     else return 'aggressive';
   };
 
