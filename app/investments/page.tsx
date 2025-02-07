@@ -1,10 +1,9 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Card } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Label } from '@/components/ui/label';
-import { RadioGroup, RadioGroupItem } from '@/components/ui/radio-group';
 import { Wallet } from 'lucide-react';
 import { PieChart, Pie, Cell, ResponsiveContainer, LineChart, Line, XAxis, YAxis, Tooltip, CartesianGrid } from 'recharts';
 import { supabase } from '@/lib/supabase';
@@ -38,7 +37,19 @@ const COLORS = ['#8884d8', '#82ca9d', '#ffc658', '#ff7300', '#00C49F'];
 
 export default function InvestmentAdvisor() {
   const searchParams = useSearchParams();
-  const remainingBudget = Number(searchParams.get('monthlyInvestment')) || 0;
+  const [remainingBudget, setRemainingBudget] = useState<number>(0);
+
+  // Load remaining budget from localStorage when the component mounts
+  useEffect(() => {
+    const storedRemainingBudget = localStorage.getItem('remainingBudget');
+    if (storedRemainingBudget) {
+      setRemainingBudget(Number(storedRemainingBudget));
+    } else {
+      const budgetFromParams = Number(searchParams.get('monthlyInvestment')) || 0;
+      setRemainingBudget(budgetFromParams);
+      localStorage.setItem('remainingBudget', budgetFromParams.toString());
+    }
+  }, [searchParams]);
 
   // Determine risk profile based on remaining budget
   const getRiskProfile = (budget: number): RiskProfile => {

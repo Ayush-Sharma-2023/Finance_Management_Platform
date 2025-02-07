@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useEffect } from 'react';
 import { Card } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
@@ -59,6 +59,36 @@ export default function BudgetManager() {
   const [savingsGoal, setSavingsGoal] = useState('');
   const [showRecurringExpenses, setShowRecurringExpenses] = useState(false);
   const [nextMonthExpenses, setNextMonthExpenses] = useState([]);
+
+  // Load data from localStorage when the component mounts
+  useEffect(() => {
+    const storedIncome = localStorage.getItem('income');
+    const storedCategories = localStorage.getItem('categories');
+    const storedSavingsGoal = localStorage.getItem('savingsGoal');
+    const storedNextMonthExpenses = localStorage.getItem('nextMonthExpenses');
+
+    if (storedIncome) setIncome(storedIncome);
+    if (storedCategories) setCategories(JSON.parse(storedCategories));
+    if (storedSavingsGoal) setSavingsGoal(storedSavingsGoal);
+    if (storedNextMonthExpenses) setNextMonthExpenses(JSON.parse(storedNextMonthExpenses));
+  }, []);
+
+  // Save data to localStorage whenever it changes
+  useEffect(() => {
+    localStorage.setItem('income', income);
+  }, [income]);
+
+  useEffect(() => {
+    localStorage.setItem('categories', JSON.stringify(categories));
+  }, [categories]);
+
+  useEffect(() => {
+    localStorage.setItem('savingsGoal', savingsGoal);
+  }, [savingsGoal]);
+
+  useEffect(() => {
+    localStorage.setItem('nextMonthExpenses', JSON.stringify(nextMonthExpenses));
+  }, [nextMonthExpenses]);
 
   const handleCategoryChange = (index, field, value) => {
     const updatedCategories = [...categories];
