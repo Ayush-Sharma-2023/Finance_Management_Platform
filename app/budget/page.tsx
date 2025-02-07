@@ -9,59 +9,28 @@ import { ResponsiveContainer, BarChart, Bar, XAxis, YAxis, Tooltip } from 'recha
 import Link from 'next/link';
 
 export default function BudgetManager() {
-  const [income, setIncome] = useState(''); // Monthly income after tax
-  const [categories, setCategories] = useState([]);
-  const [savingsGoal, setSavingsGoal] = useState('');
-  const [totalExpenses, setTotalExpenses] = useState(0);
+  const [budgetData, setBudgetData] = useState({
+    salary: '',
+    categories: [],
+    savingsGoal: '',
+    finalIncome: 0,
+    monthlyIncome: 0,
+    totalExpense: 0,
+    remainingBudget: 0,
+  });
 
-  // Fetch income after tax and expenses from localStorage
+  // Fetch data from localStorage
   useEffect(() => {
-    const storedIncome = localStorage.getItem('income'); // Total income after tax
-    const storedCategories = localStorage.getItem('categories'); // Expenses categories
-    const storedSavingsGoal = localStorage.getItem('savingsGoal'); // Savings goal
+    const storedData = localStorage.getItem('budgetData');
 
-    // Logging to check the stored data
-    console.log('Stored Income:', storedIncome);
-    console.log('Stored Categories:', storedCategories);
+    if (storedData) {
+      const parsedData = JSON.parse(storedData);
+      setBudgetData(parsedData);
 
-    if (storedIncome) {
-      const incomeAfterTax = Number(storedIncome) / 12; // Divide by 12 to get monthly income
-      setIncome(incomeAfterTax.toFixed(2)); // Set the monthly income value
+      // Logging for debugging
+      console.log('Stored Budget Data:', parsedData);
     }
-
-    if (storedCategories) {
-      const categoriesData = JSON.parse(storedCategories);
-      setCategories(categoriesData); // Set categories data
-
-      // Log to check the categories data and their amounts
-      console.log('Parsed Categories:', categoriesData);
-
-      // Calculate total expenses from the stored categories
-      const total = categoriesData.reduce((acc, cat) => {
-        if (cat.name && !isNaN(Number(cat.amount)) && cat.amount !== '') {
-          const expenseAmount = Number(cat.amount); // Ensure amount is converted to number
-          console.log(`Category: ${cat.name}, Amount: ${cat.amount}, Parsed Amount: ${expenseAmount}`);
-          return acc + expenseAmount; // Accumulate total expenses
-        } else {
-          console.log(`Skipping invalid category: ${cat.name}, Amount: ${cat.amount}`);
-        }
-        return acc; // Skip invalid categories
-      }, 0);
-      
-      setTotalExpenses(total); // Set total expenses value
-
-      // Log the total expenses to check if it's being calculated correctly
-      console.log('Total Expenses:', total);
-    }
-
-    if (storedSavingsGoal) setSavingsGoal(storedSavingsGoal); // Set savings goal
   }, []);
-
-  const remainingBudget = Number(income) - totalExpenses;
-
-  const budgetData = [
-    { name: 'Remaining Budget', years: remainingBudget },
-  ];
 
   return (
     <>
@@ -76,39 +45,40 @@ export default function BudgetManager() {
         <Card className="p-6 mb-6 shadow-lg rounded-lg border border-blue-200">
           <h2 className="text-lg font-semibold mb-4">Budget Summary</h2>
 
-          {/* Displaying Monthly Income After Tax */}
+          {/* Monthly Income */}
           <div className="flex justify-between text-sm">
             <span>Monthly Income (After Tax):</span>
-            <span className="font-semibold">₹{Number(income).toLocaleString()}</span>
+            <span className="font-semibold">₹{Number(budgetData.monthlyIncome).toLocaleString()}</span>
           </div>
 
-          {/* Displaying Total Expenses */}
+          {/* Total Expenses */}
           <div className="flex justify-between text-sm">
             <span>Total Expenses:</span>
-            <span className="font-semibold">₹{totalExpenses.toLocaleString()}</span>
+            <span className="font-semibold">₹{Number(budgetData.totalExpense).toLocaleString()}</span>
           </div>
 
-          {/* Displaying Remaining Budget */}
+          {/* Remaining Budget */}
           <div className="flex justify-between text-sm">
             <span>Remaining Budget:</span>
-            <span className={`font-semibold ${remainingBudget < 0 ? 'text-red-500' : 'text-green-500'}`}>
-              ₹{remainingBudget.toLocaleString()}
+            <span className={`font-semibold ${budgetData.remainingBudget < 0 ? 'text-red-500' : 'text-green-500'}`}>
+              ₹{Number(budgetData.remainingBudget).toLocaleString()}
             </span>
           </div>
 
+          {/* Bar Chart for Remaining Budget */}
           <div className="mt-4 h-64">
             <ResponsiveContainer width="100%" height="100%">
-              <BarChart data={budgetData} layout="vertical">
+              <BarChart data={[{ name: 'Remaining Budget', value: budgetData.remainingBudget }]} layout="vertical">
                 <XAxis type="number" />
                 <YAxis dataKey="name" type="category" width={120} />
                 <Tooltip />
-                <Bar dataKey="years" fill="#4A90E2" />
+                <Bar dataKey="value" fill="#4A90E2" />
               </BarChart>
             </ResponsiveContainer>
           </div>
 
           {/* Link to Investments Page */}
-          <Link href={`/investments?monthlyInvestment=${remainingBudget}`} className="mt-4 inline-block">
+          <Link href={`/investments?monthlyInvestment=${budgetData.remainingBudget}`} className="mt-4 inline-block">
             <Button className="w-full bg-blue-300 hover:bg-blue-500">
               <Wallet className="mr-2 h-4 w-4" />
               Optimize Investments with Remaining Budget
@@ -120,10 +90,10 @@ export default function BudgetManager() {
         <Card className="p-6 mb-6 shadow-lg rounded-lg border border-gray-200">
           <h3 className="font-semibold">Expenses</h3>
           <div className="flex flex-wrap gap-4">
-            {categories.map((category, index) => (
+          {(budgetData.categories || []).map((category, index) => (
               <div key={index} className="w-full md:w-1/3 lg:w-1/4 p-4 border rounded-lg bg-gray-50 relative">
                 <h4 className="font-medium">{category.name}</h4>
-                <p>Amount: ₹{category.amount}</p>
+                <p>Amount: ₹{Number(category.amount).toLocaleString()}</p>
                 <p>Recurring: {category.recurring ? 'Yes' : 'No'}</p>
               </div>
             ))}
@@ -133,7 +103,7 @@ export default function BudgetManager() {
         {/* Savings Goal Card */}
         <Card className="p-6 mb-6 shadow-lg rounded-lg border border-gray-200">
           <h3 className="font-semibold">Savings Goal</h3>
-          <p>Target Amount: ₹{savingsGoal}</p>
+          <p>Target Amount: ₹{Number(budgetData.savingsGoal).toLocaleString()}</p>
         </Card>
       </div>
     </>
