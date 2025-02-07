@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
 'use client';
 
 import { useState } from 'react';
@@ -7,10 +6,10 @@ import { Button } from '@/components/ui/button';
 import { Label } from '@/components/ui/label';
 import { RadioGroup, RadioGroupItem } from '@/components/ui/radio-group';
 import { Wallet } from 'lucide-react';
-import { LineChart } from 'recharts';
-import { PieChart, Pie, Cell, ResponsiveContainer, Line, XAxis, YAxis, Tooltip, CartesianGrid } from 'recharts';
+import { PieChart, Pie, Cell, ResponsiveContainer, LineChart, Line, XAxis, YAxis, Tooltip, CartesianGrid } from 'recharts';
 import { supabase } from '@/lib/supabase';
 import Navbar from '../../components/Navbar';
+import { useSearchParams } from 'next/navigation';
 
 type RiskProfile = 'conservative' | 'moderate' | 'aggressive';
 
@@ -28,20 +27,30 @@ const portfolioAllocations: Record<RiskProfile, PortfolioAllocation> = {
   aggressive: { equity: 70, debt: 15, gold: 5, crypto: 10 },
 };
 
-// Placeholder Investment Growth Data
 const generateInvestmentGrowthData = (initialInvestment: number) => {
   return Array.from({ length: 12 }, (_, i) => ({
     month: `Month ${i + 1}`,
-    value: initialInvestment * (1 + (i * 0.02)), // Simulating 2% growth per month
+    value: initialInvestment * (1 + i * 0.02), // Simulating 2% growth per month
   }));
 };
 
 const COLORS = ['#8884d8', '#82ca9d', '#ffc658', '#ff7300', '#00C49F'];
 
 export default function InvestmentAdvisor() {
-  const [riskProfile, setRiskProfile] = useState<RiskProfile>('moderate');
-  const [monthlyInvestment, setMonthlyInvestment] = useState(5000);
-  
+  const searchParams = useSearchParams();
+  const remainingBudget = Number(searchParams.get('monthlyInvestment')) || 0;
+
+  // Determine risk profile based on remaining budget
+  const getRiskProfile = (budget: number): RiskProfile => {
+    if (budget < 10000) return 'conservative';
+    else if (budget >= 10000 && budget < 50000) return 'moderate';
+    else return 'aggressive';
+  };
+
+  const [riskProfile, setRiskProfile] = useState<RiskProfile>(getRiskProfile(remainingBudget));
+  const allocation = portfolioAllocations[riskProfile];
+  const investmentGrowthData = generateInvestmentGrowthData(remainingBudget);
+
   const handleSubmit = async () => {
     if (!supabase) return;
 
@@ -52,12 +61,9 @@ export default function InvestmentAdvisor() {
       user_id: user.id,
       risk_tolerance: riskProfile,
       investment_horizon: '5+ years',
-      monthly_investment: Number(monthlyInvestment),
+      monthly_investment: remainingBudget,
     });
   };
-
-  const allocation = portfolioAllocations[riskProfile];
-  const investmentGrowthData = generateInvestmentGrowthData(monthlyInvestment);
 
   return (
     <>
@@ -73,44 +79,12 @@ export default function InvestmentAdvisor() {
             {/* Risk Profile Assessment */}
             <Card className="p-6 bg-white shadow-md rounded-lg">
               <h2 className="text-lg font-medium mb-4 text-gray-900">Risk Profile Assessment</h2>
-
               <div className="space-y-5">
                 <div>
-                  <Label className="text-gray-700">What is your risk tolerance?</Label>
-                  <RadioGroup
-                    value={riskProfile}
-                    onValueChange={(value: RiskProfile) => setRiskProfile(value)}
-                    className="space-y-3 mt-2"
-                  >
-                    {(['conservative', 'moderate', 'aggressive'] as RiskProfile[]).map((profile) => (
-                      <div key={profile} className="flex items-center space-x-3">
-                        <RadioGroupItem value={profile} id={profile} className="border-blue-500" />
-                        <Label htmlFor={profile} className="text-gray-700">
-                          {profile.charAt(0).toUpperCase() + profile.slice(1)}
-                        </Label>
-                      </div>
-                    ))}
-                  </RadioGroup>
-                </div>
-
-                <div>
-                  <Label htmlFor="monthly" className="text-gray-700">Monthly Investment Amount</Label>
-                  <div className="flex items-center space-x-3">
-                    <span className="text-gray-800">₹1,000</span>
-                    <input
-                      id="monthly"
-                      type="range"
-                      min="1000"
-                      max="200000"
-                      step="1000"
-                      value={monthlyInvestment}
-                      onChange={(e) => setMonthlyInvestment(Number(e.target.value))}
-                      className="w-full accent-blue-600"
-                    />
-                    <span className="text-gray-800">₹2,00,000</span>
-                  </div>
-                  <div className="mt-2 text-center text-gray-600">
-                    <span className="font-medium text-blue-600">Selected Amount: ₹{monthlyInvestment.toLocaleString()}</span>
+                  <Label className="text-gray-700">Your Risk Profile</Label>
+                  <div className="mt-2 text-gray-700">
+                    Based on your remaining budget of ₹{remainingBudget.toLocaleString()}, we recommend a{' '}
+                    <span className="font-semibold text-blue-600">{riskProfile}</span> portfolio.
                   </div>
                 </div>
 
@@ -124,7 +98,6 @@ export default function InvestmentAdvisor() {
             {/* Recommended Portfolio */}
             <Card className="p-6 bg-white shadow-md rounded-lg">
               <h2 className="text-lg font-medium mb-4 text-gray-900">Recommended Portfolio</h2>
-
               <div className="space-y-3">
                 {Object.entries(allocation).map(([key, value], index) => (
                   <div key={key} className="flex items-center justify-between py-2 border-b border-gray-200">
