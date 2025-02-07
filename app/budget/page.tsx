@@ -10,9 +10,9 @@ import { Label } from '@/components/ui/label';
 import { BarChart3, PlusCircle, ChevronDown, Trash2, XCircle } from 'lucide-react';
 import Navbar from '../../components/Navbar';
 import { Pie } from 'react-chartjs-2';
-import { Chart as ChartJS, Title, Tooltip, Legend, ArcElement, CategoryScale, LinearScale } from 'chart.js';
-ChartJS.register(Title, Tooltip, Legend, ArcElement, CategoryScale, LinearScale);
-import { BarChart, Bar, XAxis, YAxis, ResponsiveContainer } from "recharts";
+import { Chart as ChartJS, Title,  Legend, ArcElement, CategoryScale, LinearScale } from 'chart.js';
+ChartJS.register(Title,  Legend, ArcElement, CategoryScale, LinearScale);
+import { BarChart, Bar, XAxis, YAxis, ResponsiveContainer, Tooltip } from "recharts";
 
 
 
