@@ -79,7 +79,7 @@ export default function Form() {
         </div>
 
         <div className="p-6 mb-6 shadow-lg rounded-lg border border-blue-200">
-          <h2 className="text-lg font-semibold mb-4">Enter Your Monthly Details</h2>
+          <h2 className="text-lg font-semibold mb-4">Enter Your Financial Details</h2>
 
           <Label htmlFor="salary" className="font-medium text-black">
             Salary (₹)
@@ -93,7 +93,7 @@ export default function Form() {
             className="mb-4 bg-white"
           />
 
-          <h3 className="mt-4 font-semibold text-black">Expense Components</h3>
+          <h3 className="mt-4 font-semibold text-black">Enter your monthly expenses</h3>
           <div className="flex flex-wrap gap-4">
             {categories.map((category, index) => (
               <div key={index} className="w-full md:w-1/3 lg:w-1/4 p-4 border rounded-lg bg-gray-50 relative">
