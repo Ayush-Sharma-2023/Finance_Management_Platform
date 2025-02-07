@@ -22,6 +22,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "components/MutualFunds.jsx", "app/mutualfunds/page.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "components/MutualFunds.jsx", "app/mutualfunds/page.jsx", "components/Upstox/test.tsx"],
   "exclude": ["node_modules"]
 }

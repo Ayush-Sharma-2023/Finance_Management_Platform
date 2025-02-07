@@ -1,0 +1,8086 @@
+[
+  {
+    "name": "GTPL HATHWAY LIMITED",
+    "instrument_key": "NSE_EQ|INE869I01013"
+  },
+  {
+    "name": "SUPRAJIT ENGINEERING LTD",
+    "instrument_key": "NSE_EQ|INE399C01030"
+  },
+  {
+    "name": "ENVIRO INFRA ENGINEERS L",
+    "instrument_key": "NSE_EQ|INE0LLY01014"
+  },
+  {
+    "name": "BATA INDIA LTD",
+    "instrument_key": "NSE_EQ|INE176A01028"
+  },
+  {
+    "name": "MARUTI SUZUKI INDIA LTD.",
+    "instrument_key": "NSE_EQ|INE585B01010"
+  },
+  {
+    "name": "NATIONAL ALUMINIUM CO LTD",
+    "instrument_key": "NSE_EQ|INE139A01034"
+  },
+  {
+    "name": "TRIDENT LIMITED",
+    "instrument_key": "NSE_EQ|INE064C01022"
+  },
+  {
+    "name": "MBL INFRASTRUCTURE LTD",
+    "instrument_key": "NSE_EQ|INE912H01013"
+  },
+  {
+    "name": "NANDAN DENIM LIMITED",
+    "instrument_key": "NSE_EQ|INE875G01048"
+  },
+  {
+    "name": "MUSIC BROADCAST LIMITED",
+    "instrument_key": "NSE_EQ|INE919I01024"
+  },
+  {
+    "name": "GOKUL AGRO RESOURCES LTD",
+    "instrument_key": "NSE_EQ|INE314T01025"
+  },
+  {
+    "name": "TECHNO ELEC & ENG CO. LTD",
+    "instrument_key": "NSE_EQ|INE285K01026"
+  },
+  {
+    "name": "TRIVENI ENGG. & INDS. LTD",
+    "instrument_key": "NSE_EQ|INE256C01024"
+  },
+  {
+    "name": "STARTECK FINANCE LIMITED",
+    "instrument_key": "NSE_EQ|INE992I01013"
+  },
+  {
+    "name": "NAVKAR URBANSTRUCTURE LTD",
+    "instrument_key": "NSE_EQ|INE268H01036"
+  },
+  {
+    "name": "NINTEC SYSTEMS LIMITED",
+    "instrument_key": "NSE_EQ|INE395U01014"
+  },
+  {
+    "name": "LEMON TREE HOTELS LTD",
+    "instrument_key": "NSE_EQ|INE970X01018"
+  },
+  {
+    "name": "WESTLIFE FOODWORLD LTD",
+    "instrument_key": "NSE_EQ|INE274F01020"
+  },
+  {
+    "name": "BEDMUTHA INDUST LTD",
+    "instrument_key": "NSE_EQ|INE844K01012"
+  },
+  {
+    "name": "LAURUS LABS LIMITED",
+    "instrument_key": "NSE_EQ|INE947Q01028"
+  },
+  {
+    "name": "VL E GOV AND IT SOL LTD",
+    "instrument_key": "NSE_EQ|INE03HW01020"
+  },
+  {
+    "name": "ENDURANCE TECHNO. LTD.",
+    "instrument_key": "NSE_EQ|INE913H01037"
+  },
+  {
+    "name": "MOIL LIMITED",
+    "instrument_key": "NSE_EQ|INE490G01020"
+  },
+  {
+    "name": "BAJAJ FINSERV LTD.",
+    "instrument_key": "NSE_EQ|INE918I01026"
+  },
+  {
+    "name": "BRAND CONCEPTS LIMITED",
+    "instrument_key": "NSE_EQ|INE977Y01011"
+  },
+  {
+    "name": "SHANTI OVERSEAS INDIA LTD",
+    "instrument_key": "NSE_EQ|INE933X01016"
+  },
+  {
+    "name": "JIO FIN SERVICES LTD",
+    "instrument_key": "NSE_EQ|INE758E01017"
+  },
+  {
+    "name": "MANAPPURAM FINANCE LTD",
+    "instrument_key": "NSE_EQ|INE522D01027"
+  },
+  {
+    "name": "DR. REDDY S LABORATORIES",
+    "instrument_key": "NSE_EQ|INE089A01031"
+  },
+  {
+    "name": "JOCIL LIMITED",
+    "instrument_key": "NSE_EQ|INE839G01010"
+  },
+  {
+    "name": "MEDI ASSIST HEALTH SER L",
+    "instrument_key": "NSE_EQ|INE456Z01021"
+  },
+  {
+    "name": "SARTHAK METALS LIMITED",
+    "instrument_key": "NSE_EQ|INE017W01010"
+  },
+  {
+    "name": "VINYL CHEMICALS (I) LTD.",
+    "instrument_key": "NSE_EQ|INE250B01029"
+  },
+  {
+    "name": "IOL CHEM AND PHARMA LTD",
+    "instrument_key": "NSE_EQ|INE485C01011"
+  },
+  {
+    "name": "MIRZA INTERNATIONAL LIMIT",
+    "instrument_key": "NSE_EQ|INE771A01026"
+  },
+  {
+    "name": "SHRIRAM - LIQUIDSHRI",
+    "instrument_key": "NSE_EQ|INF680P01422"
+  },
+  {
+    "name": "ZEN TECHNOLOGIES LIMITED",
+    "instrument_key": "NSE_EQ|INE251B01027"
+  },
+  {
+    "name": "CENTRUM CAPITAL LIMITED",
+    "instrument_key": "NSE_EQ|INE660C01027"
+  },
+  {
+    "name": "PENINSULA LAND LIMITED",
+    "instrument_key": "NSE_EQ|INE138A01028"
+  },
+  {
+    "name": "ASPINWALL & CO LTD",
+    "instrument_key": "NSE_EQ|INE991I01015"
+  },
+  {
+    "name": "SHARE IND. SECURITIES LTD",
+    "instrument_key": "NSE_EQ|INE932X01026"
+  },
+  {
+    "name": "BOMBAY DYEING & MFG. CO L",
+    "instrument_key": "NSE_EQ|INE032A01023"
+  },
+  {
+    "name": "VERTOZ LIMITED",
+    "instrument_key": "NSE_EQ|INE188Y01023"
+  },
+  {
+    "name": "STL GLOBAL LIMITED",
+    "instrument_key": "NSE_EQ|INE353H01010"
+  },
+  {
+    "name": "INGERSOLL-RAND INDIA LTD",
+    "instrument_key": "NSE_EQ|INE177A01018"
+  },
+  {
+    "name": "POPULAR VEHICLES N SER L",
+    "instrument_key": "NSE_EQ|INE772T01024"
+  },
+  {
+    "name": "JAIN IRRIGATION SYSTEMS",
+    "instrument_key": "NSE_EQ|INE175A01038"
+  },
+  {
+    "name": "KAMDHENU LIMITED",
+    "instrument_key": "NSE_EQ|INE390H01020"
+  },
+  {
+    "name": "GOYAL ALUMINIUMS LIMITED",
+    "instrument_key": "NSE_EQ|INE705X01026"
+  },
+  {
+    "name": "POLYPLEX CORPORATION LTD",
+    "instrument_key": "NSE_EQ|INE633B01018"
+  },
+  {
+    "name": "STAR HEALTH & AL INS CO L",
+    "instrument_key": "NSE_EQ|INE575P01011"
+  },
+  {
+    "name": "ESTER INDUSTRIES LTD",
+    "instrument_key": "NSE_EQ|INE778B01029"
+  },
+  {
+    "name": "LYPSA GEMS & JEWEL LTD",
+    "instrument_key": "NSE_EQ|INE142K01011"
+  },
+  {
+    "name": "BANSWARA SYNTEX LIMITED",
+    "instrument_key": "NSE_EQ|INE629D01020"
+  },
+  {
+    "name": "UNICHEM LABORATORIES LTD",
+    "instrument_key": "NSE_EQ|INE351A01035"
+  },
+  {
+    "name": "FIEM INDUSTRIES LIMITED",
+    "instrument_key": "NSE_EQ|INE737H01014"
+  },
+  {
+    "name": "SHEELA FOAM LIMITED",
+    "instrument_key": "NSE_EQ|INE916U01025"
+  },
+  {
+    "name": "PLATINUM INDUSTRIES LTD",
+    "instrument_key": "NSE_EQ|INE0PT501018"
+  },
+  {
+    "name": "MAHINDRA LOGISTIC LIMITED",
+    "instrument_key": "NSE_EQ|INE766P01016"
+  },
+  {
+    "name": "PREMIER EXPLOSIVES LTD",
+    "instrument_key": "NSE_EQ|INE863B01029"
+  },
+  {
+    "name": "ZOTA HEALTH CARE LIMITED",
+    "instrument_key": "NSE_EQ|INE358U01012"
+  },
+  {
+    "name": "AMBIKA COTTON MILL LTD.",
+    "instrument_key": "NSE_EQ|INE540G01014"
+  },
+  {
+    "name": "MUNJAL AUTO IND. LTD.",
+    "instrument_key": "NSE_EQ|INE672B01032"
+  },
+  {
+    "name": "G R INFRAPROJECTS LIMITED",
+    "instrument_key": "NSE_EQ|INE201P01022"
+  },
+  {
+    "name": "TATVA CHIN PHARM CHEM LTD",
+    "instrument_key": "NSE_EQ|INE0GK401011"
+  },
+  {
+    "name": "CHALET HOTELS LIMITED",
+    "instrument_key": "NSE_EQ|INE427F01016"
+  },
+  {
+    "name": "SAKAR HEALTHCARE LIMITED",
+    "instrument_key": "NSE_EQ|INE732S01012"
+  },
+  {
+    "name": "INDOWIND ENERGY LTD",
+    "instrument_key": "NSE_EQ|INE227G01018"
+  },
+  {
+    "name": "DALMIA BHARAT LIMITED",
+    "instrument_key": "NSE_EQ|INE00R701025"
+  },
+  {
+    "name": "KHANDWALA SECURITIES LTD",
+    "instrument_key": "NSE_EQ|INE060B01014"
+  },
+  {
+    "name": "RAGHAV PRODUCTIVITY ENH L",
+    "instrument_key": "NSE_EQ|INE912T01018"
+  },
+  {
+    "name": "HT MEDIA LIMITED",
+    "instrument_key": "NSE_EQ|INE501G01024"
+  },
+  {
+    "name": "TOTAL TRANSPORT SYS LTD",
+    "instrument_key": "NSE_EQ|INE336X01012"
+  },
+  {
+    "name": "SAI SILKS (KALAMANDIR) L",
+    "instrument_key": "NSE_EQ|INE438K01021"
+  },
+  {
+    "name": "PNC INFRATECH LTD.",
+    "instrument_key": "NSE_EQ|INE195J01029"
+  },
+  {
+    "name": "RATTANINDIA ENT LIMITED",
+    "instrument_key": "NSE_EQ|INE834M01019"
+  },
+  {
+    "name": "SHRIRAM PIST. & RING LTD",
+    "instrument_key": "NSE_EQ|INE526E01018"
+  },
+  {
+    "name": "JHS SVEND. LAB. LTD",
+    "instrument_key": "NSE_EQ|INE544H01014"
+  },
+  {
+    "name": "NHPC LTD",
+    "instrument_key": "NSE_EQ|INE848E01016"
+  },
+  {
+    "name": "RANE BRAKE LINING LTD",
+    "instrument_key": "NSE_EQ|INE244J01017"
+  },
+  {
+    "name": "SHIPPING CORP OF ILA LTD",
+    "instrument_key": "NSE_EQ|INE0PB301013"
+  },
+  {
+    "name": "BAJAJ AUTO LIMITED",
+    "instrument_key": "NSE_EQ|INE917I01010"
+  },
+  {
+    "name": "ITD CEMENTATION INDIA LTD",
+    "instrument_key": "NSE_EQ|INE686A01026"
+  },
+  {
+    "name": "CIGNITI TECHNOLOGIES LTD",
+    "instrument_key": "NSE_EQ|INE675C01017"
+  },
+  {
+    "name": "MAZDA LIMITED",
+    "instrument_key": "NSE_EQ|INE885E01034"
+  },
+  {
+    "name": "RENAISSANCE GLOBAL LTD",
+    "instrument_key": "NSE_EQ|INE722H01024"
+  },
+  {
+    "name": "ZYDUS WELLNESS LIMITED",
+    "instrument_key": "NSE_EQ|INE768C01010"
+  },
+  {
+    "name": "AKG EXIM LIMITED",
+    "instrument_key": "NSE_EQ|INE00Y801016"
+  },
+  {
+    "name": "AAKASH EXPLORATION SER L",
+    "instrument_key": "NSE_EQ|INE087Z01024"
+  },
+  {
+    "name": "EPIGRAL LIMITED",
+    "instrument_key": "NSE_EQ|INE071N01016"
+  },
+  {
+    "name": "KIRLOSKAR OIL ENG LTD",
+    "instrument_key": "NSE_EQ|INE146L01010"
+  },
+  {
+    "name": "APTUS VALUE HSG FIN I LTD",
+    "instrument_key": "NSE_EQ|INE852O01025"
+  },
+  {
+    "name": "MPS LIMITED",
+    "instrument_key": "NSE_EQ|INE943D01017"
+  },
+  {
+    "name": "XTGLOBAL INFOTECH LIMITED",
+    "instrument_key": "NSE_EQ|INE547B01028"
+  },
+  {
+    "name": "EMMBI INDUSTRIES LIMITED",
+    "instrument_key": "NSE_EQ|INE753K01015"
+  },
+  {
+    "name": "TEXMO PIPE & PRODUCTS LTD",
+    "instrument_key": "NSE_EQ|INE141K01013"
+  },
+  {
+    "name": "RATNAVEER PRECISION ENG L",
+    "instrument_key": "NSE_EQ|INE05CZ01011"
+  },
+  {
+    "name": "ALLCARGO TERMINALS LTD",
+    "instrument_key": "NSE_EQ|INE0NN701020"
+  },
+  {
+    "name": "KOTAK NIFTY ETF",
+    "instrument_key": "NSE_EQ|INF174K014P6"
+  },
+  {
+    "name": "PTC INDIA FIN SERV LTD",
+    "instrument_key": "NSE_EQ|INE560K01014"
+  },
+  {
+    "name": "HINDUSTAN ZINC LIMITED",
+    "instrument_key": "NSE_EQ|INE267A01025"
+  },
+  {
+    "name": "HEG LTD",
+    "instrument_key": "NSE_EQ|INE545A01024"
+  },
+  {
+    "name": "360 ONE WAM LIMITED",
+    "instrument_key": "NSE_EQ|INE466L01038"
+  },
+  {
+    "name": "TECHNOCRAFT IND LTD",
+    "instrument_key": "NSE_EQ|INE545H01011"
+  },
+  {
+    "name": "AGI GREENPAC LIMITED",
+    "instrument_key": "NSE_EQ|INE415A01038"
+  },
+  {
+    "name": "SEPC LIMITED",
+    "instrument_key": "NSE_EQ|INE964H01014"
+  },
+  {
+    "name": "RELIANCE CHEMOTEX IND LTD",
+    "instrument_key": "NSE_EQ|INE750D01016"
+  },
+  {
+    "name": "AGI INFRA LIMITED",
+    "instrument_key": "NSE_EQ|INE976R01017"
+  },
+  {
+    "name": "SANGINITA CHEMICALS LTD",
+    "instrument_key": "NSE_EQ|INE753W01010"
+  },
+  {
+    "name": "SESHASAYEE PAPER & BOARDS",
+    "instrument_key": "NSE_EQ|INE630A01024"
+  },
+  {
+    "name": "AUTOMOTIVE STAMPINGS & AS",
+    "instrument_key": "NSE_EQ|INE900C01027"
+  },
+  {
+    "name": "SARVESHWAR FOODS LIMITED",
+    "instrument_key": "NSE_EQ|INE324X01026"
+  },
+  {
+    "name": "SHREE CEMENT LIMITED",
+    "instrument_key": "NSE_EQ|INE070A01015"
+  },
+  {
+    "name": "ONE 97 COMMUNICATIONS LTD",
+    "instrument_key": "NSE_EQ|INE982J01020"
+  },
+  {
+    "name": "DCW LTD",
+    "instrument_key": "NSE_EQ|INE500A01029"
+  },
+  {
+    "name": "ANANT RAJ LIMITED",
+    "instrument_key": "NSE_EQ|INE242C01024"
+  },
+  {
+    "name": "LIBAS CONSU PRODUCTS LTD",
+    "instrument_key": "NSE_EQ|INE908V01012"
+  },
+  {
+    "name": "AXIS MF - AXIS GOLD ETF",
+    "instrument_key": "NSE_EQ|INF846K01W80"
+  },
+  {
+    "name": "AXISAMC - AXISNIFTY",
+    "instrument_key": "NSE_EQ|INF846K01W98"
+  },
+  {
+    "name": "JAYANT AGRO ORGANICS LTD",
+    "instrument_key": "NSE_EQ|INE785A01026"
+  },
+  {
+    "name": "LLOYDS ENGG WORK LIMITED",
+    "instrument_key": "NSE_EQ|INE093R01011"
+  },
+  {
+    "name": "WONDERLA HOLIDAYS LTD.",
+    "instrument_key": "NSE_EQ|INE066O01014"
+  },
+  {
+    "name": "ASTEC LIFESCIENCES LTD",
+    "instrument_key": "NSE_EQ|INE563J01010"
+  },
+  {
+    "name": "POLY MEDICURE LIMITED",
+    "instrument_key": "NSE_EQ|INE205C01021"
+  },
+  {
+    "name": "PUDUMJEE PAPER PRO. LTD",
+    "instrument_key": "NSE_EQ|INE865T01018"
+  },
+  {
+    "name": "TVS SUPPLY CHAIN SOL L",
+    "instrument_key": "NSE_EQ|INE395N01027"
+  },
+  {
+    "name": "AADHAR HOUSING FINANCE L",
+    "instrument_key": "NSE_EQ|INE883F01010"
+  },
+  {
+    "name": "JAY BHARAT MARUTI LTD",
+    "instrument_key": "NSE_EQ|INE571B01036"
+  },
+  {
+    "name": "KNR CONSTRU LTD.",
+    "instrument_key": "NSE_EQ|INE634I01029"
+  },
+  {
+    "name": "ASIAN ENERGY SERVICES LTD",
+    "instrument_key": "NSE_EQ|INE276G01015"
+  },
+  {
+    "name": "KRITI NUTRIENTS LIMITED",
+    "instrument_key": "NSE_EQ|INE798K01010"
+  },
+  {
+    "name": "PAGE INDUSTRIES LTD",
+    "instrument_key": "NSE_EQ|INE761H01022"
+  },
+  {
+    "name": "JINDAL STEEL & POWER LTD",
+    "instrument_key": "NSE_EQ|INE749A01030"
+  },
+  {
+    "name": "ZF COM VE CTR SYS IND LTD",
+    "instrument_key": "NSE_EQ|INE342J01019"
+  },
+  {
+    "name": "BHARAT DYNAMICS LIMITED",
+    "instrument_key": "NSE_EQ|INE171Z01026"
+  },
+  {
+    "name": "VENTIVE HOSPITALITY LTD",
+    "instrument_key": "NSE_EQ|INE781S01027"
+  },
+  {
+    "name": "INNOVA CAPTAB LIMITED",
+    "instrument_key": "NSE_EQ|INE0DUT01020"
+  },
+  {
+    "name": "COFORGE LIMITED",
+    "instrument_key": "NSE_EQ|INE591G01017"
+  },
+  {
+    "name": "HIL LIMITED",
+    "instrument_key": "NSE_EQ|INE557A01011"
+  },
+  {
+    "name": "ARVIND SMARTSPACES LTD",
+    "instrument_key": "NSE_EQ|INE034S01021"
+  },
+  {
+    "name": "PLAZA WIRES LIMITED",
+    "instrument_key": "NSE_EQ|INE0INJ01017"
+  },
+  {
+    "name": "KANPUR PLASTIPACK LIMITED",
+    "instrument_key": "NSE_EQ|INE694E01014"
+  },
+  {
+    "name": "INOX GREEN ENERGY SER LTD",
+    "instrument_key": "NSE_EQ|INE510W01014"
+  },
+  {
+    "name": "ASTRA MICROWAVE LTD",
+    "instrument_key": "NSE_EQ|INE386C01029"
+  },
+  {
+    "name": "AARVI ENCON LIMITED",
+    "instrument_key": "NSE_EQ|INE754X01016"
+  },
+  {
+    "name": "SHIVAM AUTO.LTD",
+    "instrument_key": "NSE_EQ|INE637H01024"
+  },
+  {
+    "name": "BANNARI AMMAN SUGARS LTD",
+    "instrument_key": "NSE_EQ|INE459A01010"
+  },
+  {
+    "name": "JINDAL WORLDWIDE LTD",
+    "instrument_key": "NSE_EQ|INE247D01039"
+  },
+  {
+    "name": "HESTER BIOSCIENCES LTD",
+    "instrument_key": "NSE_EQ|INE782E01017"
+  },
+  {
+    "name": "GMR POW AND URBAN INFRA L",
+    "instrument_key": "NSE_EQ|INE0CU601026"
+  },
+  {
+    "name": "NIPPONAMC - NETFSILVER",
+    "instrument_key": "NSE_EQ|INF204KC1402"
+  },
+  {
+    "name": "UDAYSHIVAKUMAR INFRA LTD",
+    "instrument_key": "NSE_EQ|INE0N0Y01013"
+  },
+  {
+    "name": "FORCE MOTORS LIMITED",
+    "instrument_key": "NSE_EQ|INE451A01017"
+  },
+  {
+    "name": "SIGNATUREGLOBAL INDIA LTD",
+    "instrument_key": "NSE_EQ|INE903U01023"
+  },
+  {
+    "name": "GHCL TEXTILES LIMITED",
+    "instrument_key": "NSE_EQ|INE0PA801013"
+  },
+  {
+    "name": "LAXMI DENTAL LIMITED",
+    "instrument_key": "NSE_EQ|INE0WO601020"
+  },
+  {
+    "name": "HOV SERVICES LTD",
+    "instrument_key": "NSE_EQ|INE596H01014"
+  },
+  {
+    "name": "ASIAN GRANITO IND. LTD.",
+    "instrument_key": "NSE_EQ|INE022I01019"
+  },
+  {
+    "name": "NIP IND ETF ETF NV20",
+    "instrument_key": "NSE_EQ|INF204KB18I3"
+  },
+  {
+    "name": "TVS MOTOR COMPANY  LTD",
+    "instrument_key": "NSE_EQ|INE494B01023"
+  },
+  {
+    "name": "NAKODA GROUP OF IND. LTD",
+    "instrument_key": "NSE_EQ|INE236Y01012"
+  },
+  {
+    "name": "VST TILLERS TRACTORS LTD",
+    "instrument_key": "NSE_EQ|INE764D01017"
+  },
+  {
+    "name": "JK LAKSHMI CEMENT LTD",
+    "instrument_key": "NSE_EQ|INE786A01032"
+  },
+  {
+    "name": "ORIENT CEMENT LTD.",
+    "instrument_key": "NSE_EQ|INE876N01018"
+  },
+  {
+    "name": "MADRAS FERTILISERS LTD",
+    "instrument_key": "NSE_EQ|INE414A01015"
+  },
+  {
+    "name": "NIPPONAMC - NETFAUTO",
+    "instrument_key": "NSE_EQ|INF204KC1337"
+  },
+  {
+    "name": "RAM RATNA WIRES LIMITED",
+    "instrument_key": "NSE_EQ|INE207E01023"
+  },
+  {
+    "name": "RPSG VENTURES LIMITED",
+    "instrument_key": "NSE_EQ|INE425Y01011"
+  },
+  {
+    "name": "REDTAPE LIMITED",
+    "instrument_key": "NSE_EQ|INE0LXT01019"
+  },
+  {
+    "name": "MOTOR & GENERAL FINANCE L",
+    "instrument_key": "NSE_EQ|INE861B01023"
+  },
+  {
+    "name": "GUJ IND POW CO. LTD",
+    "instrument_key": "NSE_EQ|INE162A01010"
+  },
+  {
+    "name": "ASSO ALCOHOLS & BREW LTD",
+    "instrument_key": "NSE_EQ|INE073G01016"
+  },
+  {
+    "name": "PUNJAB NATIONAL BANK",
+    "instrument_key": "NSE_EQ|INE160A01022"
+  },
+  {
+    "name": "NIP IND ETF HANGSENG BEES",
+    "instrument_key": "NSE_EQ|INF204KB19I1"
+  },
+  {
+    "name": "NIP IND ETF GOLD BEES",
+    "instrument_key": "NSE_EQ|INF204KB17I5"
+  },
+  {
+    "name": "SKF INDIA LTD",
+    "instrument_key": "NSE_EQ|INE640A01023"
+  },
+  {
+    "name": "N R AGARWAL INDS LTD",
+    "instrument_key": "NSE_EQ|INE740D01017"
+  },
+  {
+    "name": "ADANI POWER LTD",
+    "instrument_key": "NSE_EQ|INE814H01011"
+  },
+  {
+    "name": "GOKALDAS EXPORTS LTD.",
+    "instrument_key": "NSE_EQ|INE887G01027"
+  },
+  {
+    "name": "SEQUENT SCIENTIFIC LTD.",
+    "instrument_key": "NSE_EQ|INE807F01027"
+  },
+  {
+    "name": "NIP IND ETF LONGTERM GILT",
+    "instrument_key": "NSE_EQ|INF204KB1882"
+  },
+  {
+    "name": "GNA AXLES LIMITED",
+    "instrument_key": "NSE_EQ|INE934S01014"
+  },
+  {
+    "name": "JAMNA AUTO IND LTD",
+    "instrument_key": "NSE_EQ|INE039C01032"
+  },
+  {
+    "name": "KEWAL KIRAN CLOTHING LTD",
+    "instrument_key": "NSE_EQ|INE401H01017"
+  },
+  {
+    "name": "MAWANA SUGARS LIMITED",
+    "instrument_key": "NSE_EQ|INE636A01039"
+  },
+  {
+    "name": "PRAKASH INDUSTRIES LTD",
+    "instrument_key": "NSE_EQ|INE603A01013"
+  },
+  {
+    "name": "CENTRAL DEPO SER (I) LTD",
+    "instrument_key": "NSE_EQ|INE736A01011"
+  },
+  {
+    "name": "BHAGERIA INDUSTRIES LTD",
+    "instrument_key": "NSE_EQ|INE354C01027"
+  },
+  {
+    "name": "STANDARD INDUSTRIES LTD.",
+    "instrument_key": "NSE_EQ|INE173A01025"
+  },
+  {
+    "name": "TILAKNAGAR INDUSTRIES LTD",
+    "instrument_key": "NSE_EQ|INE133E01013"
+  },
+  {
+    "name": "IFB INDUSTRIES LTD",
+    "instrument_key": "NSE_EQ|INE559A01017"
+  },
+  {
+    "name": "NIP IND ETF PSU BANK BEES",
+    "instrument_key": "NSE_EQ|INF204KB16I7"
+  },
+  {
+    "name": "TBO TEK LIMITED",
+    "instrument_key": "NSE_EQ|INE673O01025"
+  },
+  {
+    "name": "IFB AGRO INDUSTRIES LTD",
+    "instrument_key": "NSE_EQ|INE076C01018"
+  },
+  {
+    "name": "EXXARO TILES LIMITED",
+    "instrument_key": "NSE_EQ|INE0GFE01026"
+  },
+  {
+    "name": "RAYMOND LTD",
+    "instrument_key": "NSE_EQ|INE301A01014"
+  },
+  {
+    "name": "INTERGLOBE AVIATION LTD",
+    "instrument_key": "NSE_EQ|INE646L01027"
+  },
+  {
+    "name": "HYUNDAI MOTOR INDIA LTD",
+    "instrument_key": "NSE_EQ|INE0V6F01027"
+  },
+  {
+    "name": "VASCON ENGINEERS LTD",
+    "instrument_key": "NSE_EQ|INE893I01013"
+  },
+  {
+    "name": "PRAKASH PIPES LIMITED",
+    "instrument_key": "NSE_EQ|INE050001010"
+  },
+  {
+    "name": "DALMIA BHARAT SUG IN LTD",
+    "instrument_key": "NSE_EQ|INE495A01022"
+  },
+  {
+    "name": "ZYDUS LIFESCIENCES LTD",
+    "instrument_key": "NSE_EQ|INE010B01027"
+  },
+  {
+    "name": "GODREJ CONSUMER PRODUCTS",
+    "instrument_key": "NSE_EQ|INE102D01028"
+  },
+  {
+    "name": "NIP IND ETF BANK BEES",
+    "instrument_key": "NSE_EQ|INF204KB15I9"
+  },
+  {
+    "name": "DR. LAL PATH LABS LTD.",
+    "instrument_key": "NSE_EQ|INE600L01024"
+  },
+  {
+    "name": "MOREPEN LAB. LTD",
+    "instrument_key": "NSE_EQ|INE083A01026"
+  },
+  {
+    "name": "PARADEEP PHOSPHATES LTD",
+    "instrument_key": "NSE_EQ|INE088F01024"
+  },
+  {
+    "name": "EXIDE INDUSTRIES LTD",
+    "instrument_key": "NSE_EQ|INE302A01020"
+  },
+  {
+    "name": "NIP IND ETF IT",
+    "instrument_key": "NSE_EQ|INF204KB15V2"
+  },
+  {
+    "name": "RELIANCE INDUSTRIAL INFRA",
+    "instrument_key": "NSE_EQ|INE046A01015"
+  },
+  {
+    "name": "RELCAPAMC - NETFGILT5Y",
+    "instrument_key": "NSE_EQ|INF204KC1030"
+  },
+  {
+    "name": "LAXMI COTSPIN LIMITED",
+    "instrument_key": "NSE_EQ|INE801V01019"
+  },
+  {
+    "name": "RELCAPAMC-NETFSDL26",
+    "instrument_key": "NSE_EQ|INF204KC1022"
+  },
+  {
+    "name": "POWER FIN CORP LTD.",
+    "instrument_key": "NSE_EQ|INE134E01011"
+  },
+  {
+    "name": "NIPPONAMC - NETFPHARMA",
+    "instrument_key": "NSE_EQ|INF204KC1089"
+  },
+  {
+    "name": "GP PETROLEUMS LIMITED",
+    "instrument_key": "NSE_EQ|INE586G01017"
+  },
+  {
+    "name": "EUREKA FORBES LIMITED",
+    "instrument_key": "NSE_EQ|INE0KCE01017"
+  },
+  {
+    "name": "ALICON CASTALLOY LIMITED",
+    "instrument_key": "NSE_EQ|INE062D01024"
+  },
+  {
+    "name": "SONATA SOFTWARE LTD",
+    "instrument_key": "NSE_EQ|INE269A01021"
+  },
+  {
+    "name": "JUBILANT INGREVIA LIMITED",
+    "instrument_key": "NSE_EQ|INE0BY001018"
+  },
+  {
+    "name": "BANSAL WIRE INDUSTRIES L",
+    "instrument_key": "NSE_EQ|INE0B9K01025"
+  },
+  {
+    "name": "171NSETEST",
+    "instrument_key": "NSE_EQ|DUMMYSAN021"
+  },
+  {
+    "name": "181NSETEST",
+    "instrument_key": "NSE_EQ|DUMMYSAN022"
+  },
+  {
+    "name": "161NSETEST",
+    "instrument_key": "NSE_EQ|DUMMYSAN020"
+  },
+  {
+    "name": "ROLEX RINGS LIMITED",
+    "instrument_key": "NSE_EQ|INE645S01016"
+  },
+  {
+    "name": "ARKADE DEVELOPERS LIMITED",
+    "instrument_key": "NSE_EQ|INE0QRL01017"
+  },
+  {
+    "name": "061NSETEST",
+    "instrument_key": "NSE_EQ|DUMMYSAN010"
+  },
+  {
+    "name": "071NSETEST",
+    "instrument_key": "NSE_EQ|DUMMYSAN011"
+  },
+  {
+    "name": "101NSETEST",
+    "instrument_key": "NSE_EQ|DUMMYSAN014"
+  },
+  {
+    "name": "111NSETEST",
+    "instrument_key": "NSE_EQ|DUMMYSAN015"
+  },
+  {
+    "name": "081NSETEST",
+    "instrument_key": "NSE_EQ|DUMMYSAN012"
+  },
+  {
+    "name": "091NSETEST",
+    "instrument_key": "NSE_EQ|DUMMYSAN013"
+  },
+  {
+    "name": "141NSETEST",
+    "instrument_key": "NSE_EQ|DUMMYSAN018"
+  },
+  {
+    "name": "151NSETEST",
+    "instrument_key": "NSE_EQ|DUMMYSAN019"
+  },
+  {
+    "name": "121NSETEST",
+    "instrument_key": "NSE_EQ|DUMMYSAN016"
+  },
+  {
+    "name": "131NSETEST",
+    "instrument_key": "NSE_EQ|DUMMYSAN017"
+  },
+  {
+    "name": "N1NSETEST",
+    "instrument_key": "NSE_EQ|DUMMYSAN003"
+  },
+  {
+    "name": "V1NSETEST",
+    "instrument_key": "NSE_EQ|DUMMYSAN004"
+  },
+  {
+    "name": "11NSETEST",
+    "instrument_key": "NSE_EQ|DUMMYSAN001"
+  },
+  {
+    "name": "G1NSETEST",
+    "instrument_key": "NSE_EQ|DUMMYSAN002"
+  },
+  {
+    "name": "031NSETEST",
+    "instrument_key": "NSE_EQ|DUMMYSAN007"
+  },
+  {
+    "name": "041NSETEST",
+    "instrument_key": "NSE_EQ|DUMMYSAN008"
+  },
+  {
+    "name": "011NSETEST",
+    "instrument_key": "NSE_EQ|DUMMYSAN005"
+  },
+  {
+    "name": "021NSETEST",
+    "instrument_key": "NSE_EQ|DUMMYSAN006"
+  },
+  {
+    "name": "051NSETEST",
+    "instrument_key": "NSE_EQ|DUMMYSAN009"
+  },
+  {
+    "name": "INFOSYS LIMITED",
+    "instrument_key": "NSE_EQ|INE009A01021"
+  },
+  {
+    "name": "IRCON INTERNATIONAL LTD",
+    "instrument_key": "NSE_EQ|INE962Y01021"
+  },
+  {
+    "name": "SUNDARAM MULTI PAP LTD",
+    "instrument_key": "NSE_EQ|INE108E01023"
+  },
+  {
+    "name": "NIP IND ETF NIFTY BEES",
+    "instrument_key": "NSE_EQ|INF204KB14I2"
+  },
+  {
+    "name": "S H KELKAR AND CO. LTD.",
+    "instrument_key": "NSE_EQ|INE500L01026"
+  },
+  {
+    "name": "NAVIN FLUORINE INT. LTD",
+    "instrument_key": "NSE_EQ|INE048G01026"
+  },
+  {
+    "name": "SANOFI CONS HEALTHC IND L",
+    "instrument_key": "NSE_EQ|INE0UOS01011"
+  },
+  {
+    "name": "PANAMA PETROCHEM LTD",
+    "instrument_key": "NSE_EQ|INE305C01029"
+  },
+  {
+    "name": "NIIT LIMITED",
+    "instrument_key": "NSE_EQ|INE161A01038"
+  },
+  {
+    "name": "GREAVES COTTON LTD.",
+    "instrument_key": "NSE_EQ|INE224A01026"
+  },
+  {
+    "name": "RBZ JEWELLERS LIMITED",
+    "instrument_key": "NSE_EQ|INE0PEQ01016"
+  },
+  {
+    "name": "SINTERCOM INDIA LIMITED",
+    "instrument_key": "NSE_EQ|INE129Z01016"
+  },
+  {
+    "name": "VISHWARAJ SUGAR IND LTD",
+    "instrument_key": "NSE_EQ|INE430N01022"
+  },
+  {
+    "name": "SHYAM METALICS AND ENGY L",
+    "instrument_key": "NSE_EQ|INE810G01011"
+  },
+  {
+    "name": "KOTAK GOLD ETF",
+    "instrument_key": "NSE_EQ|INF174KA1HJ8"
+  },
+  {
+    "name": "KAYNES TECHNOLOGY IND LTD",
+    "instrument_key": "NSE_EQ|INE918Z01012"
+  },
+  {
+    "name": "SENCO GOLD LIMITED",
+    "instrument_key": "NSE_EQ|INE602W01019"
+  },
+  {
+    "name": "BIOCON LIMITED.",
+    "instrument_key": "NSE_EQ|INE376G01013"
+  },
+  {
+    "name": "MISHRA DHATU NIGAM LTD",
+    "instrument_key": "NSE_EQ|INE099Z01011"
+  },
+  {
+    "name": "VALIANT ORGANICS LIMITED",
+    "instrument_key": "NSE_EQ|INE565V01010"
+  },
+  {
+    "name": "SHREE RAMA NEWSPRINT LTD",
+    "instrument_key": "NSE_EQ|INE278B01020"
+  },
+  {
+    "name": "GTL LTD",
+    "instrument_key": "NSE_EQ|INE043A01012"
+  },
+  {
+    "name": "JAIPRAKASH POWER VEN. LTD",
+    "instrument_key": "NSE_EQ|INE351F01018"
+  },
+  {
+    "name": "PAISALO DIGITAL LIMITED",
+    "instrument_key": "NSE_EQ|INE420C01059"
+  },
+  {
+    "name": "EURO (I) FRESH FOODS LTD",
+    "instrument_key": "NSE_EQ|INE546V01010"
+  },
+  {
+    "name": "ZUARI INDUSTRIES LIMITED",
+    "instrument_key": "NSE_EQ|INE217A01012"
+  },
+  {
+    "name": "MANKIND PHARMA LIMITED",
+    "instrument_key": "NSE_EQ|INE634S01028"
+  },
+  {
+    "name": "KOTAKMAMC - KOTAKIT",
+    "instrument_key": "NSE_EQ|INF174KA1GC5"
+  },
+  {
+    "name": "MANUGRAPH INDIA LIMITED",
+    "instrument_key": "NSE_EQ|INE867A01022"
+  },
+  {
+    "name": "WEIZMANN LTD",
+    "instrument_key": "NSE_EQ|INE080A01014"
+  },
+  {
+    "name": "STRLNG & WIL REN ENE LTD",
+    "instrument_key": "NSE_EQ|INE00M201021"
+  },
+  {
+    "name": "UNITED NILGIRI TEA LTD",
+    "instrument_key": "NSE_EQ|INE458F01011"
+  },
+  {
+    "name": "PATANJALI FOODS LIMITED",
+    "instrument_key": "NSE_EQ|INE619A01035"
+  },
+  {
+    "name": "BLACK BOX LIMITED",
+    "instrument_key": "NSE_EQ|INE676A01027"
+  },
+  {
+    "name": "MUKAND LTD.",
+    "instrument_key": "NSE_EQ|INE304A01026"
+  },
+  {
+    "name": "BHARAT FORGE LTD",
+    "instrument_key": "NSE_EQ|INE465A01025"
+  },
+  {
+    "name": "IND TERRAIN FASHIONS LTD",
+    "instrument_key": "NSE_EQ|INE611L01021"
+  },
+  {
+    "name": "ALLIED DIGITAL SERV. LTD",
+    "instrument_key": "NSE_EQ|INE102I01027"
+  },
+  {
+    "name": "SURYALAKSHMI COT MIL LTD",
+    "instrument_key": "NSE_EQ|INE713B01026"
+  },
+  {
+    "name": "GTL INFRA.LTD",
+    "instrument_key": "NSE_EQ|INE221H01019"
+  },
+  {
+    "name": "NLC INDIA LIMITED",
+    "instrument_key": "NSE_EQ|INE589A01014"
+  },
+  {
+    "name": "WELSPUN CORP LIMITED",
+    "instrument_key": "NSE_EQ|INE191B01025"
+  },
+  {
+    "name": "BURNPUR CEMENT LTD.",
+    "instrument_key": "NSE_EQ|INE817H01014"
+  },
+  {
+    "name": "BPL LTD",
+    "instrument_key": "NSE_EQ|INE110A01019"
+  },
+  {
+    "name": "BERGER PAINTS (I) LTD",
+    "instrument_key": "NSE_EQ|INE463A01038"
+  },
+  {
+    "name": "DIGIDRIVE DISTRIBUTORS L",
+    "instrument_key": "NSE_EQ|INE0PSC01024"
+  },
+  {
+    "name": "EPACK DURABLE LIMITED",
+    "instrument_key": "NSE_EQ|INE0G5901015"
+  },
+  {
+    "name": "LOVABLE LINGERIE LTD",
+    "instrument_key": "NSE_EQ|INE597L01014"
+  },
+  {
+    "name": "ATAM VALVES LIMITED",
+    "instrument_key": "NSE_EQ|INE09KD01013"
+  },
+  {
+    "name": "GENUS POWER INFRASTRU LTD",
+    "instrument_key": "NSE_EQ|INE955D01029"
+  },
+  {
+    "name": "BHARTI AIRTEL LIMITED",
+    "instrument_key": "NSE_EQ|INE397D01024"
+  },
+  {
+    "name": "AVENUE SUPERMARTS LIMITED",
+    "instrument_key": "NSE_EQ|INE192R01011"
+  },
+  {
+    "name": "DECCAN CEMENTS LIMITED",
+    "instrument_key": "NSE_EQ|INE583C01021"
+  },
+  {
+    "name": "ASTRON PAPER BORD MIL LTD",
+    "instrument_key": "NSE_EQ|INE646X01014"
+  },
+  {
+    "name": "QUESS CORP LIMITED",
+    "instrument_key": "NSE_EQ|INE615P01015"
+  },
+  {
+    "name": "NAZARA TECHNOLOGIES LTD",
+    "instrument_key": "NSE_EQ|INE418L01021"
+  },
+  {
+    "name": "D. P. ABHUSHAN LIMITED",
+    "instrument_key": "NSE_EQ|INE266Y01019"
+  },
+  {
+    "name": "ASAHI SONGWON COLOR LTD",
+    "instrument_key": "NSE_EQ|INE228I01012"
+  },
+  {
+    "name": "NIP IND ETF JUNIOR BEES",
+    "instrument_key": "NSE_EQ|INF732E01045"
+  },
+  {
+    "name": "NIP IND ETF LIQUID BEES",
+    "instrument_key": "NSE_EQ|INF732E01037"
+  },
+  {
+    "name": "J.G.CHEMICALS LIMITED",
+    "instrument_key": "NSE_EQ|INE0MB501011"
+  },
+  {
+    "name": "UNITED BREWERIES LTD",
+    "instrument_key": "NSE_EQ|INE686F01025"
+  },
+  {
+    "name": "SATIA INDUSTRIES LIMITED",
+    "instrument_key": "NSE_EQ|INE170E01023"
+  },
+  {
+    "name": "MEDICAMEN BIOTECH LIMITED",
+    "instrument_key": "NSE_EQ|INE646B01010"
+  },
+  {
+    "name": "MMTC LIMITED",
+    "instrument_key": "NSE_EQ|INE123F01029"
+  },
+  {
+    "name": "IDBI BANK LIMITED",
+    "instrument_key": "NSE_EQ|INE008A01015"
+  },
+  {
+    "name": "ACME SOLAR HOLDINGS LTD",
+    "instrument_key": "NSE_EQ|INE622W01025"
+  },
+  {
+    "name": "VAIBHAV GLOBAL LIMITED",
+    "instrument_key": "NSE_EQ|INE884A01027"
+  },
+  {
+    "name": "PTC INDIA LIMITED",
+    "instrument_key": "NSE_EQ|INE877F01012"
+  },
+  {
+    "name": "HLE GLASCOAT LIMITED",
+    "instrument_key": "NSE_EQ|INE461D01028"
+  },
+  {
+    "name": "ZEE ENTERTAINMENT ENT LTD",
+    "instrument_key": "NSE_EQ|INE256A01028"
+  },
+  {
+    "name": "DYNACONS SYS & SOLN LTD",
+    "instrument_key": "NSE_EQ|INE417B01040"
+  },
+  {
+    "name": "ADOR WELDING LTD",
+    "instrument_key": "NSE_EQ|INE045A01017"
+  },
+  {
+    "name": "DOMS INDUSTRIES LIMITED",
+    "instrument_key": "NSE_EQ|INE321T01012"
+  },
+  {
+    "name": "DYNEMIC PRODUCTS LIMITED",
+    "instrument_key": "NSE_EQ|INE256H01015"
+  },
+  {
+    "name": "TV TODAY NETWORK LTD",
+    "instrument_key": "NSE_EQ|INE038F01029"
+  },
+  {
+    "name": "PONNIE SUGARS (ERODE) LTD",
+    "instrument_key": "NSE_EQ|INE838E01017"
+  },
+  {
+    "name": "S.A.L. STEEL LTD.",
+    "instrument_key": "NSE_EQ|INE658G01014"
+  },
+  {
+    "name": "FINE ORGANIC IND. LTD.",
+    "instrument_key": "NSE_EQ|INE686Y01026"
+  },
+  {
+    "name": "20 MICRONS LTD",
+    "instrument_key": "NSE_EQ|INE144J01027"
+  },
+  {
+    "name": "ALKEM LABORATORIES LTD.",
+    "instrument_key": "NSE_EQ|INE540L01014"
+  },
+  {
+    "name": "LE TRAVENUES TECHNOLOGY L",
+    "instrument_key": "NSE_EQ|INE0HV901016"
+  },
+  {
+    "name": "STEL HOLDINGS LIMITED",
+    "instrument_key": "NSE_EQ|INE577L01016"
+  },
+  {
+    "name": "MMP INDUSTRIES LIMITED",
+    "instrument_key": "NSE_EQ|INE511Y01018"
+  },
+  {
+    "name": "NIP IND ETF INFRA BEES",
+    "instrument_key": "NSE_EQ|INF732E01268"
+  },
+  {
+    "name": "TEGA INDUSTRIES LIMITED",
+    "instrument_key": "NSE_EQ|INE011K01018"
+  },
+  {
+    "name": "GUJ STATE FERT & CHEM LTD",
+    "instrument_key": "NSE_EQ|INE026A01025"
+  },
+  {
+    "name": "VENKY S (INDIA) LIMITED",
+    "instrument_key": "NSE_EQ|INE398A01010"
+  },
+  {
+    "name": "VIMTA LABS LIMITED",
+    "instrument_key": "NSE_EQ|INE579C01029"
+  },
+  {
+    "name": "INDIAMART INTERMESH LTD",
+    "instrument_key": "NSE_EQ|INE933S01016"
+  },
+  {
+    "name": "AZAD ENGINEERING LIMITED",
+    "instrument_key": "NSE_EQ|INE02IJ01035"
+  },
+  {
+    "name": "KOTAK MAHINDRA BANK LTD",
+    "instrument_key": "NSE_EQ|INE237A01028"
+  },
+  {
+    "name": "ANGEL ONE LIMITED",
+    "instrument_key": "NSE_EQ|INE732I01013"
+  },
+  {
+    "name": "CIPLA LTD",
+    "instrument_key": "NSE_EQ|INE059A01026"
+  },
+  {
+    "name": "TCPL PACKAGING LIMITED",
+    "instrument_key": "NSE_EQ|INE822C01015"
+  },
+  {
+    "name": "RAJESH EXPORTS LTD",
+    "instrument_key": "NSE_EQ|INE343B01030"
+  },
+  {
+    "name": "NIP IND ETF SHARIAH BEES",
+    "instrument_key": "NSE_EQ|INF732E01128"
+  },
+  {
+    "name": "ALEMBIC LIMITED",
+    "instrument_key": "NSE_EQ|INE426A01027"
+  },
+  {
+    "name": "AXISAMC - AXISBPSETF",
+    "instrument_key": "NSE_EQ|INF846K01Z04"
+  },
+  {
+    "name": "AXISAMC - AXISHCETF",
+    "instrument_key": "NSE_EQ|INF846K01Z12"
+  },
+  {
+    "name": "AXISAMC - AXISTECETF",
+    "instrument_key": "NSE_EQ|INF846K01Y96"
+  },
+  {
+    "name": "ANIK INDUSTRIES LTD",
+    "instrument_key": "NSE_EQ|INE087B01017"
+  },
+  {
+    "name": "EID PARRY INDIA LTD",
+    "instrument_key": "NSE_EQ|INE126A01031"
+  },
+  {
+    "name": "SANDUR MANG & IRON ORES L",
+    "instrument_key": "NSE_EQ|INE149K01016"
+  },
+  {
+    "name": "KOLTE PATIL DEV. LTD.",
+    "instrument_key": "NSE_EQ|INE094I01018"
+  },
+  {
+    "name": "SAKTHI SUGARS LTD",
+    "instrument_key": "NSE_EQ|INE623A01011"
+  },
+  {
+    "name": "BLUE JET HEALTHCARE LTD",
+    "instrument_key": "NSE_EQ|INE0KBH01020"
+  },
+  {
+    "name": "KOKUYO CAMLIN LIMITED",
+    "instrument_key": "NSE_EQ|INE760A01029"
+  },
+  {
+    "name": "GSS INFOTECH LIMITED",
+    "instrument_key": "NSE_EQ|INE871H01011"
+  },
+  {
+    "name": "RAVI KUMAR DIST. LTD.",
+    "instrument_key": "NSE_EQ|INE722J01012"
+  },
+  {
+    "name": "AXISAMC - AXISBNKETF",
+    "instrument_key": "NSE_EQ|INF846K01X63"
+  },
+  {
+    "name": "STRIDES PHARMA SCI LTD",
+    "instrument_key": "NSE_EQ|INE939A01011"
+  },
+  {
+    "name": "CEAT LIMITED",
+    "instrument_key": "NSE_EQ|INE482A01020"
+  },
+  {
+    "name": "ORIENTAL TRIMEX LTD",
+    "instrument_key": "NSE_EQ|INE998H01012"
+  },
+  {
+    "name": "DB (INT) STOCK BROKERS",
+    "instrument_key": "NSE_EQ|INE921B01025"
+  },
+  {
+    "name": "ROTO PUMPS LIMITED",
+    "instrument_key": "NSE_EQ|INE535D01037"
+  },
+  {
+    "name": "BIKAJI FOODS INTERN LTD",
+    "instrument_key": "NSE_EQ|INE00E101023"
+  },
+  {
+    "name": "ICRA LIMITED",
+    "instrument_key": "NSE_EQ|INE725G01011"
+  },
+  {
+    "name": "SUNDARAM FINANCE LTD",
+    "instrument_key": "NSE_EQ|INE660A01013"
+  },
+  {
+    "name": "WEST COAST PAPER MILLS LT",
+    "instrument_key": "NSE_EQ|INE976A01021"
+  },
+  {
+    "name": "SAFARI IND (INDIA) LTD",
+    "instrument_key": "NSE_EQ|INE429E01023"
+  },
+  {
+    "name": "G M BREWERIES LTD",
+    "instrument_key": "NSE_EQ|INE075D01018"
+  },
+  {
+    "name": "GODREJ AGROVET LIMITED",
+    "instrument_key": "NSE_EQ|INE850D01014"
+  },
+  {
+    "name": "DIVI S LABORATORIES LTD",
+    "instrument_key": "NSE_EQ|INE361B01024"
+  },
+  {
+    "name": "NOCIL LIMITED",
+    "instrument_key": "NSE_EQ|INE163A01018"
+  },
+  {
+    "name": "TATA TELESERV(MAHARASTRA)",
+    "instrument_key": "NSE_EQ|INE517B01013"
+  },
+  {
+    "name": "ICICIPRAMC - ICICI5GSEC",
+    "instrument_key": "NSE_EQ|INF109KC14A8"
+  },
+  {
+    "name": "ECOS (INDIA) MOB & HOSP L",
+    "instrument_key": "NSE_EQ|INE06HJ01020"
+  },
+  {
+    "name": "CHEVIOT COMPANY LIMITED",
+    "instrument_key": "NSE_EQ|INE974B01016"
+  },
+  {
+    "name": "SUVEN PHARMACEUTICALS LTD",
+    "instrument_key": "NSE_EQ|INE03QK01018"
+  },
+  {
+    "name": "KFIN TECHNOLOGIES LIMITED",
+    "instrument_key": "NSE_EQ|INE138Y01010"
+  },
+  {
+    "name": "FOSECO INDIA LTD",
+    "instrument_key": "NSE_EQ|INE519A01011"
+  },
+  {
+    "name": "NIP IND ETF NIFTY 100",
+    "instrument_key": "NSE_EQ|INF204K014N5"
+  },
+  {
+    "name": "AJOONI BIOTECH LIMITED",
+    "instrument_key": "NSE_EQ|INE820Y01021"
+  },
+  {
+    "name": "SARDA ENERGY & MIN LTD",
+    "instrument_key": "NSE_EQ|INE385C01021"
+  },
+  {
+    "name": "BFAM - LIQUIDBETF",
+    "instrument_key": "NSE_EQ|INF0QA701854"
+  },
+  {
+    "name": "BAJAJ HOUSING FINANCE LTD",
+    "instrument_key": "NSE_EQ|INE377Y01014"
+  },
+  {
+    "name": "EMCURE PHARMACEUTICALS L",
+    "instrument_key": "NSE_EQ|INE168P01015"
+  },
+  {
+    "name": "AMJ LAND HOLDINGS LIMITED",
+    "instrument_key": "NSE_EQ|INE606A01024"
+  },
+  {
+    "name": "AARTI DRUGS LTD.",
+    "instrument_key": "NSE_EQ|INE767A01016"
+  },
+  {
+    "name": "VST INDUSTRIES LTD",
+    "instrument_key": "NSE_EQ|INE710A01016"
+  },
+  {
+    "name": "JTEKT INDIA LIMITED",
+    "instrument_key": "NSE_EQ|INE643A01035"
+  },
+  {
+    "name": "BHARTI HEXACOM LIMITED",
+    "instrument_key": "NSE_EQ|INE343G01021"
+  },
+  {
+    "name": "GENERAL INS CORP OF INDIA",
+    "instrument_key": "NSE_EQ|INE481Y01014"
+  },
+  {
+    "name": "JUBILANT FOODWORKS LTD",
+    "instrument_key": "NSE_EQ|INE797F01020"
+  },
+  {
+    "name": "ICICIPRAMC - IPRU5008",
+    "instrument_key": "NSE_EQ|INF109KC15I8"
+  },
+  {
+    "name": "OSWAL GREENTECH LIMITED",
+    "instrument_key": "NSE_EQ|INE143A01010"
+  },
+  {
+    "name": "SPECIALITY REST LTD",
+    "instrument_key": "NSE_EQ|INE247M01014"
+  },
+  {
+    "name": "PRESTIGE ESTATE LTD",
+    "instrument_key": "NSE_EQ|INE811K01011"
+  },
+  {
+    "name": "VISHAL MEGA MART LIMITED",
+    "instrument_key": "NSE_EQ|INE01EA01019"
+  },
+  {
+    "name": "BFAM - BANKBETF",
+    "instrument_key": "NSE_EQ|INF0QA701714"
+  },
+  {
+    "name": "DCM LTD",
+    "instrument_key": "NSE_EQ|INE498A01018"
+  },
+  {
+    "name": "ARMAN FIN SERV LTD",
+    "instrument_key": "NSE_EQ|INE109C01017"
+  },
+  {
+    "name": "POKARNA LIMITED",
+    "instrument_key": "NSE_EQ|INE637C01025"
+  },
+  {
+    "name": "MAX FINANCIAL SERV LTD",
+    "instrument_key": "NSE_EQ|INE180A01020"
+  },
+  {
+    "name": "APOLLO SINDOORI HOTEL LTD",
+    "instrument_key": "NSE_EQ|INE451F01024"
+  },
+  {
+    "name": "VINEET LABORATORIES LTD",
+    "instrument_key": "NSE_EQ|INE505Y01010"
+  },
+  {
+    "name": "JAI BALAJI INDUSTRIES LTD",
+    "instrument_key": "NSE_EQ|INE091G01026"
+  },
+  {
+    "name": "BFAM - NIFTYBETF",
+    "instrument_key": "NSE_EQ|INF0QA701722"
+  },
+  {
+    "name": "INVENTURE GRO & SEC LTD",
+    "instrument_key": "NSE_EQ|INE878H01024"
+  },
+  {
+    "name": "CELLO WORLD LIMITED",
+    "instrument_key": "NSE_EQ|INE0LMW01024"
+  },
+  {
+    "name": "UTTAM SUGAR MILLS LTD.",
+    "instrument_key": "NSE_EQ|INE786F01031"
+  },
+  {
+    "name": "PENNAR INDUSTRIES LTD",
+    "instrument_key": "NSE_EQ|INE932A01024"
+  },
+  {
+    "name": "ICICIPRAMC - ICICIINFRA",
+    "instrument_key": "NSE_EQ|INF109KC16E5"
+  },
+  {
+    "name": "RAJNANDINI METAL LIMITED",
+    "instrument_key": "NSE_EQ|INE00KV01022"
+  },
+  {
+    "name": "BOROSIL LIMITED",
+    "instrument_key": "NSE_EQ|INE02PY01013"
+  },
+  {
+    "name": "NATIONAL FERT. LTD",
+    "instrument_key": "NSE_EQ|INE870D01012"
+  },
+  {
+    "name": "ICICIPRAMC - ICICITECH",
+    "instrument_key": "NSE_EQ|INF109KC16I6"
+  },
+  {
+    "name": "ICICI PRUD NIFTY 100 ETF",
+    "instrument_key": "NSE_EQ|INF109KC16V9"
+  },
+  {
+    "name": "ACE INTEGRATED SOLU. LTD.",
+    "instrument_key": "NSE_EQ|INE543V01017"
+  },
+  {
+    "name": "SAHYADRI INDUSTRIES LTD",
+    "instrument_key": "NSE_EQ|INE280H01015"
+  },
+  {
+    "name": "CHOICE INTERNATIONAL LTD",
+    "instrument_key": "NSE_EQ|INE102B01014"
+  },
+  {
+    "name": "ENGINEERS INDIA LTD",
+    "instrument_key": "NSE_EQ|INE510A01028"
+  },
+  {
+    "name": "WILLIAMSON MAGOR",
+    "instrument_key": "NSE_EQ|INE210A01017"
+  },
+  {
+    "name": "AU SMALL FINANCE BANK LTD",
+    "instrument_key": "NSE_EQ|INE949L01017"
+  },
+  {
+    "name": "AVT NATURAL PRODUCTS LTD",
+    "instrument_key": "NSE_EQ|INE488D01021"
+  },
+  {
+    "name": "MSTC LIMITED",
+    "instrument_key": "NSE_EQ|INE255X01014"
+  },
+  {
+    "name": "ICICIPRAMC - VAL30IETF",
+    "instrument_key": "NSE_EQ|INF109KC16X5"
+  },
+  {
+    "name": "VA TECH WABAG LTD",
+    "instrument_key": "NSE_EQ|INE956G01038"
+  },
+  {
+    "name": "FAZE THREE LIMITED",
+    "instrument_key": "NSE_EQ|INE963C01033"
+  },
+  {
+    "name": "GREENLAM INDUSTRIES LTD.",
+    "instrument_key": "NSE_EQ|INE544R01021"
+  },
+  {
+    "name": "ORACLE FIN SERV SOFT LTD.",
+    "instrument_key": "NSE_EQ|INE881D01027"
+  },
+  {
+    "name": "ICICIPRAMC - ICICIMOM30",
+    "instrument_key": "NSE_EQ|INF109KC17C7"
+  },
+  {
+    "name": "IRIS CLOTHINGS LIMITED",
+    "instrument_key": "NSE_EQ|INE01GN01025"
+  },
+  {
+    "name": "RAMKY INFRA LTD",
+    "instrument_key": "NSE_EQ|INE874I01013"
+  },
+  {
+    "name": "ICICIPRAMC-ICICIFIN",
+    "instrument_key": "NSE_EQ|INF109KC17L8"
+  },
+  {
+    "name": "HINDUSTAN UNILEVER LTD.",
+    "instrument_key": "NSE_EQ|INE030A01027"
+  },
+  {
+    "name": "ICICIPRAMC - ICICIALPLV",
+    "instrument_key": "NSE_EQ|INF109KC17V7"
+  },
+  {
+    "name": "YATHARTH HOSP & TRA C S L",
+    "instrument_key": "NSE_EQ|INE0JO301016"
+  },
+  {
+    "name": "APEX FROZEN FOODS LIMITED",
+    "instrument_key": "NSE_EQ|INE346W01013"
+  },
+  {
+    "name": "GHCL LIMITED",
+    "instrument_key": "NSE_EQ|INE539A01019"
+  },
+  {
+    "name": "SHANKARA BLDG PRODUCT LTD",
+    "instrument_key": "NSE_EQ|INE274V01019"
+  },
+  {
+    "name": "MANGALAM GLOBAL ENT LTD",
+    "instrument_key": "NSE_EQ|INE0APB01024"
+  },
+  {
+    "name": "SKM EGG PROD EXPORT(I) LT",
+    "instrument_key": "NSE_EQ|INE411D01015"
+  },
+  {
+    "name": "KILITCH DRUGS INDIA LTD",
+    "instrument_key": "NSE_EQ|INE729D01010"
+  },
+  {
+    "name": "KOTAKMAMC - KOTAKLIQ",
+    "instrument_key": "NSE_EQ|INF174KA1LV5"
+  },
+  {
+    "name": "MARAL OVERSEAS LTD",
+    "instrument_key": "NSE_EQ|INE882A01013"
+  },
+  {
+    "name": "DONEAR IND. LIMITED",
+    "instrument_key": "NSE_EQ|INE668D01028"
+  },
+  {
+    "name": "HDFC LIFE INS CO LTD",
+    "instrument_key": "NSE_EQ|INE795G01014"
+  },
+  {
+    "name": "JASH ENGINEERING LIMITED",
+    "instrument_key": "NSE_EQ|INE039O01029"
+  },
+  {
+    "name": "DEVYANI INTERNATIONAL LTD",
+    "instrument_key": "NSE_EQ|INE872J01023"
+  },
+  {
+    "name": "LEXUS GRANITO (INDIA) LTD",
+    "instrument_key": "NSE_EQ|INE500X01013"
+  },
+  {
+    "name": "MITCON CON & ENG SER LTD",
+    "instrument_key": "NSE_EQ|INE828O01033"
+  },
+  {
+    "name": "PDS LIMITED",
+    "instrument_key": "NSE_EQ|INE111Q01021"
+  },
+  {
+    "name": "ICICIPRAMC - BHARATIWIN",
+    "instrument_key": "NSE_EQ|INF109KB15Y7"
+  },
+  {
+    "name": "THEJO ENGINEERING LIMITED",
+    "instrument_key": "NSE_EQ|INE121N01019"
+  },
+  {
+    "name": "CYBER MEDIA (INDIA) LTD.",
+    "instrument_key": "NSE_EQ|INE278G01037"
+  },
+  {
+    "name": "CANARA BANK",
+    "instrument_key": "NSE_EQ|INE476A01022"
+  },
+  {
+    "name": "HAPPIEST MINDS TECHNO LTD",
+    "instrument_key": "NSE_EQ|INE419U01012"
+  },
+  {
+    "name": "UCO BANK",
+    "instrument_key": "NSE_EQ|INE691A01018"
+  },
+  {
+    "name": "SANGHVI MOVERS LTD",
+    "instrument_key": "NSE_EQ|INE989A01032"
+  },
+  {
+    "name": "ASAHI INDIA GLASS LIMITED",
+    "instrument_key": "NSE_EQ|INE439A01020"
+  },
+  {
+    "name": "SMS PHARMACEUTICALS LTD.",
+    "instrument_key": "NSE_EQ|INE812G01025"
+  },
+  {
+    "name": "KOTAKMAMC - KOTAKSILVE",
+    "instrument_key": "NSE_EQ|INF174KA1KU9"
+  },
+  {
+    "name": "PARAMOUNT COMM LTD",
+    "instrument_key": "NSE_EQ|INE074B01023"
+  },
+  {
+    "name": "KRYSTAL INTEGRATED SER L",
+    "instrument_key": "NSE_EQ|INE0QN801017"
+  },
+  {
+    "name": "MANGALAM ORGANICS LIMITED",
+    "instrument_key": "NSE_EQ|INE370D01013"
+  },
+  {
+    "name": "MULTI COMMODITY EXCHANGE",
+    "instrument_key": "NSE_EQ|INE745G01035"
+  },
+  {
+    "name": "ORIENTAL AROMATICS LTD",
+    "instrument_key": "NSE_EQ|INE959C01023"
+  },
+  {
+    "name": "ICICIPRAMC - PSUBANKICI",
+    "instrument_key": "NSE_EQ|INF109KC10S8"
+  },
+  {
+    "name": "NIP IND ETF DIV OPP",
+    "instrument_key": "NSE_EQ|INF204KA1MS3"
+  },
+  {
+    "name": "ICICI PRUD MIDCAP SEL ETF",
+    "instrument_key": "NSE_EQ|INF109KC10W0"
+  },
+  {
+    "name": "ICICIPRAMC - ICICIAUTO",
+    "instrument_key": "NSE_EQ|INF109KC10V2"
+  },
+  {
+    "name": "JANA SMALL FIN BANK LTD",
+    "instrument_key": "NSE_EQ|INE953L01027"
+  },
+  {
+    "name": "ANUPAM RASAYAN INDIA LTD",
+    "instrument_key": "NSE_EQ|INE930P01018"
+  },
+  {
+    "name": "ANDHRA SUGARS LTD",
+    "instrument_key": "NSE_EQ|INE715B01021"
+  },
+  {
+    "name": "ALLCARGO GATI LIMITED",
+    "instrument_key": "NSE_EQ|INE152B01027"
+  },
+  {
+    "name": "SAMMAAN CAPITAL LIMITED",
+    "instrument_key": "NSE_EQ|INE148I01020"
+  },
+  {
+    "name": "NUVOCO VISTAS CORP LTD",
+    "instrument_key": "NSE_EQ|INE118D01016"
+  },
+  {
+    "name": "MODI RUBBER LTD",
+    "instrument_key": "NSE_EQ|INE832A01018"
+  },
+  {
+    "name": "HINDUSTAN COPPER LTD",
+    "instrument_key": "NSE_EQ|INE531E01026"
+  },
+  {
+    "name": "TANLA PLATFORMS LIMITED",
+    "instrument_key": "NSE_EQ|INE483C01032"
+  },
+  {
+    "name": "JK CEMENT LIMITED",
+    "instrument_key": "NSE_EQ|INE823G01014"
+  },
+  {
+    "name": "GLOBUS SPIRITS LTD",
+    "instrument_key": "NSE_EQ|INE615I01010"
+  },
+  {
+    "name": "NATCO PHARMA LTD.",
+    "instrument_key": "NSE_EQ|INE987B01026"
+  },
+  {
+    "name": "SHRIRAM FINANCE LIMITED",
+    "instrument_key": "NSE_EQ|INE721A01047"
+  },
+  {
+    "name": "ICICI PRUDENTIAL NV20 ETF",
+    "instrument_key": "NSE_EQ|INF109KC11V0"
+  },
+  {
+    "name": "DREDGING CORP OF INDIA",
+    "instrument_key": "NSE_EQ|INE506A01018"
+  },
+  {
+    "name": "ICICIPRAMC - ICICIM150",
+    "instrument_key": "NSE_EQ|INF109KC11W8"
+  },
+  {
+    "name": "KAKATIYA CEM SUGAR &IND L",
+    "instrument_key": "NSE_EQ|INE437B01014"
+  },
+  {
+    "name": "BANK OF BARODA",
+    "instrument_key": "NSE_EQ|INE028A01039"
+  },
+  {
+    "name": "KOTAKMAMC - KOTAKCONS",
+    "instrument_key": "NSE_EQ|INF174KA1JE5"
+  },
+  {
+    "name": "GOPAL SNACKS LIMITED",
+    "instrument_key": "NSE_EQ|INE0L9R01028"
+  },
+  {
+    "name": "KOTAKMAMC - KOTAKMNC",
+    "instrument_key": "NSE_EQ|INF174KA1JF2"
+  },
+  {
+    "name": "KOTAKMAMC - KOTAKLOVOL",
+    "instrument_key": "NSE_EQ|INF174KA1IY5"
+  },
+  {
+    "name": "BHARAT ROAD NETWORK LTD",
+    "instrument_key": "NSE_EQ|INE727S01012"
+  },
+  {
+    "name": "VASWANI IND LTD",
+    "instrument_key": "NSE_EQ|INE590L01019"
+  },
+  {
+    "name": "MACROTECH DEVELOPERS LTD",
+    "instrument_key": "NSE_EQ|INE670K01029"
+  },
+  {
+    "name": "TITAN COMPANY LIMITED",
+    "instrument_key": "NSE_EQ|INE280A01028"
+  },
+  {
+    "name": "GE POWER INDIA LIMITED",
+    "instrument_key": "NSE_EQ|INE878A01011"
+  },
+  {
+    "name": "IFCI LTD",
+    "instrument_key": "NSE_EQ|INE039A01010"
+  },
+  {
+    "name": "GARWARE HI-TECH FILMS LTD",
+    "instrument_key": "NSE_EQ|INE291A01017"
+  },
+  {
+    "name": "LAXMI ORGANIC INDUS LTD",
+    "instrument_key": "NSE_EQ|INE576O01020"
+  },
+  {
+    "name": "STEEL STRIPS WHEELS LTD.",
+    "instrument_key": "NSE_EQ|INE802C01033"
+  },
+  {
+    "name": "DANGEE DUMS LIMITED",
+    "instrument_key": "NSE_EQ|INE688Y01022"
+  },
+  {
+    "name": "TATAAML - TNIDETF",
+    "instrument_key": "NSE_EQ|INF277KA1364"
+  },
+  {
+    "name": "S CHAND AND COMPANY LTD",
+    "instrument_key": "NSE_EQ|INE807K01035"
+  },
+  {
+    "name": "KOTAKMAMC - KOTAKMID50",
+    "instrument_key": "NSE_EQ|INF174KA1IB3"
+  },
+  {
+    "name": "KOTAKMAMC - KOTAKALPHA",
+    "instrument_key": "NSE_EQ|INF174KA1IA5"
+  },
+  {
+    "name": "GATEWAY DISTRIPARKS LTD",
+    "instrument_key": "NSE_EQ|INE079J01017"
+  },
+  {
+    "name": "JAGSONPAL PHARMACEUTICALS",
+    "instrument_key": "NSE_EQ|INE048B01035"
+  },
+  {
+    "name": "ASTER DM HEALTHCARE LTD.",
+    "instrument_key": "NSE_EQ|INE914M01019"
+  },
+  {
+    "name": "HERITAGE FOODS LTD",
+    "instrument_key": "NSE_EQ|INE978A01027"
+  },
+  {
+    "name": "NIP IND ETF CONSUMPTION",
+    "instrument_key": "NSE_EQ|INF204KA1LD7"
+  },
+  {
+    "name": "TEXMACO INFRA & HOLDG LTD",
+    "instrument_key": "NSE_EQ|INE435C01024"
+  },
+  {
+    "name": "PRECISION WIRES INDIA LTD",
+    "instrument_key": "NSE_EQ|INE372C01037"
+  },
+  {
+    "name": "CLEAN SCIENCE & TECH LTD",
+    "instrument_key": "NSE_EQ|INE227W01023"
+  },
+  {
+    "name": "SHIVALIK RASAYAN LIMITED",
+    "instrument_key": "NSE_EQ|INE788J01021"
+  },
+  {
+    "name": "SAI LIFE SCIENCES LIMITED",
+    "instrument_key": "NSE_EQ|INE570L01029"
+  },
+  {
+    "name": "DHANUKA AGRITECH LTD",
+    "instrument_key": "NSE_EQ|INE435G01025"
+  },
+  {
+    "name": "MUKTA ARTS LIMITED",
+    "instrument_key": "NSE_EQ|INE374B01019"
+  },
+  {
+    "name": "NIP IND ETF MIDCAP 150",
+    "instrument_key": "NSE_EQ|INF204KB1V68"
+  },
+  {
+    "name": "REPRO INDIA LIMITED",
+    "instrument_key": "NSE_EQ|INE461B01014"
+  },
+  {
+    "name": "WHIRLPOOL OF INDIA LTD",
+    "instrument_key": "NSE_EQ|INE716A01013"
+  },
+  {
+    "name": "IND MOTOR PART & ACC LTD",
+    "instrument_key": "NSE_EQ|INE547E01014"
+  },
+  {
+    "name": "ARCHEAN CHEMICAL IND LTD",
+    "instrument_key": "NSE_EQ|INE128X01021"
+  },
+  {
+    "name": "GENERIC ENG CONS PROJ LTD",
+    "instrument_key": "NSE_EQ|INE854S01022"
+  },
+  {
+    "name": "KRISHANA PHOSCHEM LIMITED",
+    "instrument_key": "NSE_EQ|INE506W01012"
+  },
+  {
+    "name": "HERO MOTOCORP LIMITED",
+    "instrument_key": "NSE_EQ|INE158A01026"
+  },
+  {
+    "name": "PLASTIBLENDS INDIA LTD",
+    "instrument_key": "NSE_EQ|INE083C01022"
+  },
+  {
+    "name": "MANAKSIA STEELS LTD",
+    "instrument_key": "NSE_EQ|INE824Q01011"
+  },
+  {
+    "name": "GABRIEL INDIA LTD",
+    "instrument_key": "NSE_EQ|INE524A01029"
+  },
+  {
+    "name": "IKIO LIGHTING LIMITED",
+    "instrument_key": "NSE_EQ|INE0LOJ01019"
+  },
+  {
+    "name": "LIKHITHA INFRASTRUC LTD",
+    "instrument_key": "NSE_EQ|INE060901027"
+  },
+  {
+    "name": "METROPOLIS HEALTHCARE LTD",
+    "instrument_key": "NSE_EQ|INE112L01020"
+  },
+  {
+    "name": "GO DIGIT GENERAL INS LTD",
+    "instrument_key": "NSE_EQ|INE03JT01014"
+  },
+  {
+    "name": "KPI GREEN ENERGY LIMITED",
+    "instrument_key": "NSE_EQ|INE542W01025"
+  },
+  {
+    "name": "UNO MINDA LIMITED",
+    "instrument_key": "NSE_EQ|INE405E01023"
+  },
+  {
+    "name": "LLOYDS ENTERPRISES LTD",
+    "instrument_key": "NSE_EQ|INE080I01025"
+  },
+  {
+    "name": "RSWM LIMITED",
+    "instrument_key": "NSE_EQ|INE611A01016"
+  },
+  {
+    "name": "DPSC LIMITED",
+    "instrument_key": "NSE_EQ|INE360C01024"
+  },
+  {
+    "name": "ASK AUTOMOTIVE LIMITED",
+    "instrument_key": "NSE_EQ|INE491J01022"
+  },
+  {
+    "name": "UFO MOVIEZ INDIA LTD.",
+    "instrument_key": "NSE_EQ|INE527H01019"
+  },
+  {
+    "name": "VARDHMAN SPC STEEL LTD",
+    "instrument_key": "NSE_EQ|INE050M01012"
+  },
+  {
+    "name": "HEIDELBERGCEMENT (I) LTD",
+    "instrument_key": "NSE_EQ|INE578A01017"
+  },
+  {
+    "name": "BANDHANAMC - IDFNIFTYET",
+    "instrument_key": "NSE_EQ|INF194KA1U07"
+  },
+  {
+    "name": "CHAMAN LAL SETIA EXP LTD",
+    "instrument_key": "NSE_EQ|INE419D01026"
+  },
+  {
+    "name": "RANE ENG VALVE LTD",
+    "instrument_key": "NSE_EQ|INE222J01013"
+  },
+  {
+    "name": "RUBFILA INTERNATIONAL LTD",
+    "instrument_key": "NSE_EQ|INE642C01025"
+  },
+  {
+    "name": "HITECH CORPORATION LTD",
+    "instrument_key": "NSE_EQ|INE120D01012"
+  },
+  {
+    "name": "ALANKIT LIMITED",
+    "instrument_key": "NSE_EQ|INE914E01040"
+  },
+  {
+    "name": "WHEELS INDIA LTD",
+    "instrument_key": "NSE_EQ|INE715A01015"
+  },
+  {
+    "name": "ASHAPURA MINECHEM LTD",
+    "instrument_key": "NSE_EQ|INE348A01023"
+  },
+  {
+    "name": "SUBEX LTD",
+    "instrument_key": "NSE_EQ|INE754A01055"
+  },
+  {
+    "name": "BLB LIMITED",
+    "instrument_key": "NSE_EQ|INE791A01024"
+  },
+  {
+    "name": "HUBTOWN LIMITED",
+    "instrument_key": "NSE_EQ|INE703H01016"
+  },
+  {
+    "name": "R R KABEL LIMITED",
+    "instrument_key": "NSE_EQ|INE777K01022"
+  },
+  {
+    "name": "SBI LIFE INSURANCE CO LTD",
+    "instrument_key": "NSE_EQ|INE123W01016"
+  },
+  {
+    "name": "KOTAKMAMC - KTKNV20ETF",
+    "instrument_key": "NSE_EQ|INF174K01Z71"
+  },
+  {
+    "name": "ONE MOBIKWIK SYSTEMS LTD",
+    "instrument_key": "NSE_EQ|INE0HLU01028"
+  },
+  {
+    "name": "MAHA RASHTRA APEX COPR. L",
+    "instrument_key": "NSE_EQ|INE843B01013"
+  },
+  {
+    "name": "TANTIA CONSTRUCTIONS LTD",
+    "instrument_key": "NSE_EQ|INE388G01026"
+  },
+  {
+    "name": "ELECTRONICS MART IND LTD",
+    "instrument_key": "NSE_EQ|INE02YR01019"
+  },
+  {
+    "name": "CUMMINS INDIA LTD",
+    "instrument_key": "NSE_EQ|INE298A01020"
+  },
+  {
+    "name": "THE NEW INDIA ASSU CO LTD",
+    "instrument_key": "NSE_EQ|INE470Y01017"
+  },
+  {
+    "name": "ASHIANA HOUSING LTD",
+    "instrument_key": "NSE_EQ|INE365D01021"
+  },
+  {
+    "name": "BIRLA CABLE LIMITED",
+    "instrument_key": "NSE_EQ|INE800A01015"
+  },
+  {
+    "name": "TATA CONSUMER PRODUCT LTD",
+    "instrument_key": "NSE_EQ|INE192A01025"
+  },
+  {
+    "name": "THANGAMAYIL JEWELLERY LTD",
+    "instrument_key": "NSE_EQ|INE085J01014"
+  },
+  {
+    "name": "AARTI INDUSTRIES LTD",
+    "instrument_key": "NSE_EQ|INE769A01020"
+  },
+  {
+    "name": "KARNATAKA BANK LIMITED",
+    "instrument_key": "NSE_EQ|INE614B01018"
+  },
+  {
+    "name": "SYNGENE INTERNATIONAL LTD",
+    "instrument_key": "NSE_EQ|INE398R01022"
+  },
+  {
+    "name": "AVANTEL LIMITED",
+    "instrument_key": "NSE_EQ|INE005B01027"
+  },
+  {
+    "name": "AMD INDUSTRIES LIMITED",
+    "instrument_key": "NSE_EQ|INE005I01014"
+  },
+  {
+    "name": "TATA MOTORS LIMITED",
+    "instrument_key": "NSE_EQ|INE155A01022"
+  },
+  {
+    "name": "BARBEQUE NATION HOSP. LTD",
+    "instrument_key": "NSE_EQ|INE382M01027"
+  },
+  {
+    "name": "QUICK HEAL TECH LTD",
+    "instrument_key": "NSE_EQ|INE306L01010"
+  },
+  {
+    "name": "BALRAMPUR CHINI MILLS LTD",
+    "instrument_key": "NSE_EQ|INE119A01028"
+  },
+  {
+    "name": "ARTEMIS MED SERVICE LTD",
+    "instrument_key": "NSE_EQ|INE025R01021"
+  },
+  {
+    "name": "VARDHAMAN ACRYLICS LTD",
+    "instrument_key": "NSE_EQ|INE116G01013"
+  },
+  {
+    "name": "THE INVEST TRUST OF IND L",
+    "instrument_key": "NSE_EQ|INE924D01017"
+  },
+  {
+    "name": "UNITED DRILLING TOOLS LTD",
+    "instrument_key": "NSE_EQ|INE961D01019"
+  },
+  {
+    "name": "I G PETROCHEMICALS LTD",
+    "instrument_key": "NSE_EQ|INE204A01010"
+  },
+  {
+    "name": "BAJAJ HOLDINGS & INVS LTD",
+    "instrument_key": "NSE_EQ|INE118A01012"
+  },
+  {
+    "name": "SHALBY LIMITED",
+    "instrument_key": "NSE_EQ|INE597J01018"
+  },
+  {
+    "name": "KAUSHALYA INFRA DEV LTD.",
+    "instrument_key": "NSE_EQ|INE234I01028"
+  },
+  {
+    "name": "STERLING TOOLS LIMITED",
+    "instrument_key": "NSE_EQ|INE334A01023"
+  },
+  {
+    "name": "HI-TECH PIPES LIMITED",
+    "instrument_key": "NSE_EQ|INE106T01025"
+  },
+  {
+    "name": "SIKKO INDUSTRIES LIMITED",
+    "instrument_key": "NSE_EQ|INE112X01017"
+  },
+  {
+    "name": "NRB BEARING LIMITED",
+    "instrument_key": "NSE_EQ|INE349A01021"
+  },
+  {
+    "name": "INDO RAMA SYNTHETICS LTD",
+    "instrument_key": "NSE_EQ|INE156A01020"
+  },
+  {
+    "name": "BARODABNP - BBNPPGOLD",
+    "instrument_key": "NSE_EQ|INF251K01SU9"
+  },
+  {
+    "name": "SUMITOMO CHEM INDIA LTD",
+    "instrument_key": "NSE_EQ|INE258G01013"
+  },
+  {
+    "name": "GRAPHITE INDIA LTD",
+    "instrument_key": "NSE_EQ|INE371A01025"
+  },
+  {
+    "name": "KPR MILL LTD.",
+    "instrument_key": "NSE_EQ|INE930H01031"
+  },
+  {
+    "name": "WENDT (INDIA) LIMITED",
+    "instrument_key": "NSE_EQ|INE274C01019"
+  },
+  {
+    "name": "SHALIM PAINTS LTD",
+    "instrument_key": "NSE_EQ|INE849C01026"
+  },
+  {
+    "name": "KARMA ENERGY LIMITED",
+    "instrument_key": "NSE_EQ|INE725L01011"
+  },
+  {
+    "name": "VESUVIUS INDIA LTD",
+    "instrument_key": "NSE_EQ|INE386A01015"
+  },
+  {
+    "name": "SILLY MONKS ENTERTAIN LTD",
+    "instrument_key": "NSE_EQ|INE203Y01012"
+  },
+  {
+    "name": "TAMILNAD MERCA BANK LTD",
+    "instrument_key": "NSE_EQ|INE668A01016"
+  },
+  {
+    "name": "AVANTI FEEDS LIMITED",
+    "instrument_key": "NSE_EQ|INE871C01038"
+  },
+  {
+    "name": "SHRENIK LIMITED",
+    "instrument_key": "NSE_EQ|INE632X01030"
+  },
+  {
+    "name": "GFL LIMITED",
+    "instrument_key": "NSE_EQ|INE538A01037"
+  },
+  {
+    "name": "INVESCO INDIA NIFTY ETF",
+    "instrument_key": "NSE_EQ|INF205K01DA9"
+  },
+  {
+    "name": "DSPAMC - DSPBANKETF",
+    "instrument_key": "NSE_EQ|INF740KA1RX3"
+  },
+  {
+    "name": "THE UGAR SUGAR WORKS LTD",
+    "instrument_key": "NSE_EQ|INE071E01023"
+  },
+  {
+    "name": "RICO AUTO INDUSTRIES LTD",
+    "instrument_key": "NSE_EQ|INE209B01025"
+  },
+  {
+    "name": "PRIVI SPECIALITY CHE LTD",
+    "instrument_key": "NSE_EQ|INE959A01019"
+  },
+  {
+    "name": "BASF INDIA LTD",
+    "instrument_key": "NSE_EQ|INE373A01013"
+  },
+  {
+    "name": "GOCL CORPORATION LIMITED",
+    "instrument_key": "NSE_EQ|INE077F01035"
+  },
+  {
+    "name": "RAMCO SYSTEMS LTD.",
+    "instrument_key": "NSE_EQ|INE246B01019"
+  },
+  {
+    "name": "ADITYA BIRLA CAPITAL LTD.",
+    "instrument_key": "NSE_EQ|INE674K01013"
+  },
+  {
+    "name": "KHAITAN CHEM & FERT LTD",
+    "instrument_key": "NSE_EQ|INE745B01028"
+  },
+  {
+    "name": "HINDUSTAN PETROLEUM CORP",
+    "instrument_key": "NSE_EQ|INE094A01015"
+  },
+  {
+    "name": "HINDUSTAN COMPOSITES LTD.",
+    "instrument_key": "NSE_EQ|INE310C01029"
+  },
+  {
+    "name": "NARAYANA HRUDAYALAYA LTD.",
+    "instrument_key": "NSE_EQ|INE410P01011"
+  },
+  {
+    "name": "K M SUGAR MILLS LTD",
+    "instrument_key": "NSE_EQ|INE157H01023"
+  },
+  {
+    "name": "VINATI ORGANICS LTD",
+    "instrument_key": "NSE_EQ|INE410B01037"
+  },
+  {
+    "name": "SUN PHARMA ADV.RES.CO.LTD",
+    "instrument_key": "NSE_EQ|INE232I01014"
+  },
+  {
+    "name": "RELIANCE POWER LTD.",
+    "instrument_key": "NSE_EQ|INE614G01033"
+  },
+  {
+    "name": "ASTRAZENECA PHARMA IND LT",
+    "instrument_key": "NSE_EQ|INE203A01020"
+  },
+  {
+    "name": "OIL INDIA LTD",
+    "instrument_key": "NSE_EQ|INE274J01014"
+  },
+  {
+    "name": "APAR INDUSTRIES LTD.",
+    "instrument_key": "NSE_EQ|INE372A01015"
+  },
+  {
+    "name": "CARE RATINGS LIMITED",
+    "instrument_key": "NSE_EQ|INE752H01013"
+  },
+  {
+    "name": "BARODABNP - BBNPNBETF",
+    "instrument_key": "NSE_EQ|INF251K01TL6"
+  },
+  {
+    "name": "ORISSA MIN DEV CO LTD",
+    "instrument_key": "NSE_EQ|INE725E01024"
+  },
+  {
+    "name": "DSPAMC - DSPQ50ETF",
+    "instrument_key": "NSE_EQ|INF740KA1QL0"
+  },
+  {
+    "name": "DSPAMC - DSPNEWETF",
+    "instrument_key": "NSE_EQ|INF740KA1QK2"
+  },
+  {
+    "name": "PILANI INV & IND COR LTD",
+    "instrument_key": "NSE_EQ|INE417C01014"
+  },
+  {
+    "name": "AMI ORGANICS LIMITED",
+    "instrument_key": "NSE_EQ|INE00FF01017"
+  },
+  {
+    "name": "SARASWATI SAREE DEPOT LTD",
+    "instrument_key": "NSE_EQ|INE0PQ101010"
+  },
+  {
+    "name": "DSPAMC - DSPSILVETF",
+    "instrument_key": "NSE_EQ|INF740KA1RE3"
+  },
+  {
+    "name": "KANORIA CHEMICALS & INDUS",
+    "instrument_key": "NSE_EQ|INE138C01024"
+  },
+  {
+    "name": "SPORTKING INDIA LIMITED",
+    "instrument_key": "NSE_EQ|INE885H01029"
+  },
+  {
+    "name": "LUX INDUSTRIES LIMITED",
+    "instrument_key": "NSE_EQ|INE150G01020"
+  },
+  {
+    "name": "SURYA ROSHNI LTD",
+    "instrument_key": "NSE_EQ|INE335A01020"
+  },
+  {
+    "name": "AGS TRANSACT TECH LTD",
+    "instrument_key": "NSE_EQ|INE583L01014"
+  },
+  {
+    "name": "BRAINBEES SOLUTIONS LTD",
+    "instrument_key": "NSE_EQ|INE02RE01045"
+  },
+  {
+    "name": "YES BANK LIMITED",
+    "instrument_key": "NSE_EQ|INE528G01035"
+  },
+  {
+    "name": "SUPRIYA LIFESCIENCE LTD",
+    "instrument_key": "NSE_EQ|INE07RO01027"
+  },
+  {
+    "name": "CANTABIL RETAIL LTD",
+    "instrument_key": "NSE_EQ|INE068L01024"
+  },
+  {
+    "name": "NATH BIO-GENES (I) LTD",
+    "instrument_key": "NSE_EQ|INE448G01010"
+  },
+  {
+    "name": "BLS E-SERVICES LIMITED",
+    "instrument_key": "NSE_EQ|INE0NLT01010"
+  },
+  {
+    "name": "NUVAMA WEALTH MANAGE LTD",
+    "instrument_key": "NSE_EQ|INE531F01015"
+  },
+  {
+    "name": "KEYNOTE FIN SERV LTD.",
+    "instrument_key": "NSE_EQ|INE681C01015"
+  },
+  {
+    "name": "NIIT LEARNING SYSTEMS LTD",
+    "instrument_key": "NSE_EQ|INE342G01023"
+  },
+  {
+    "name": "ELGI EQUIPMENTS LTD",
+    "instrument_key": "NSE_EQ|INE285A01027"
+  },
+  {
+    "name": "KALYANI INVEST CO LTD",
+    "instrument_key": "NSE_EQ|INE029L01018"
+  },
+  {
+    "name": "SUNDARAM CLAYTON LIMITED",
+    "instrument_key": "NSE_EQ|INE0Q3R01026"
+  },
+  {
+    "name": "MOTILALAMC - MOSMALL250",
+    "instrument_key": "NSE_EQ|INF247L01CH6"
+  },
+  {
+    "name": "PITTI ENGINEERING LIMITED",
+    "instrument_key": "NSE_EQ|INE450D01021"
+  },
+  {
+    "name": "MOTILALAMC - MOREALTY",
+    "instrument_key": "NSE_EQ|INF247L01CI4"
+  },
+  {
+    "name": "SHIVA TEXYARN LIMITED",
+    "instrument_key": "NSE_EQ|INE705C01020"
+  },
+  {
+    "name": "KUANTUM PAPERS LIMITED",
+    "instrument_key": "NSE_EQ|INE529I01021"
+  },
+  {
+    "name": "ARCHIDPLY DECOR LIMITED",
+    "instrument_key": "NSE_EQ|INE0CHO01012"
+  },
+  {
+    "name": "AXISAMC - AXISILVER",
+    "instrument_key": "NSE_EQ|INF846K011K1"
+  },
+  {
+    "name": "ISGEC HEAVY ENG LTD",
+    "instrument_key": "NSE_EQ|INE858B01029"
+  },
+  {
+    "name": "INFOMEDIA PRESS LIMITED",
+    "instrument_key": "NSE_EQ|INE669A01022"
+  },
+  {
+    "name": "INTERARCH BUILDING PROD L",
+    "instrument_key": "NSE_EQ|INE00M901018"
+  },
+  {
+    "name": "RUCHIRA PAPERS LIMITED",
+    "instrument_key": "NSE_EQ|INE803H01014"
+  },
+  {
+    "name": "OBEROI REALTY LIMITED",
+    "instrument_key": "NSE_EQ|INE093I01010"
+  },
+  {
+    "name": "MUTHOOT CAP SERV LTD",
+    "instrument_key": "NSE_EQ|INE296G01013"
+  },
+  {
+    "name": "JTL INDUSTRIES LIMITED",
+    "instrument_key": "NSE_EQ|INE391J01032"
+  },
+  {
+    "name": "SUVIDHAA INFOSERVE LTD",
+    "instrument_key": "NSE_EQ|INE018401013"
+  },
+  {
+    "name": "ICICI SECURITIES LIMITED",
+    "instrument_key": "NSE_EQ|INE763G01038"
+  },
+  {
+    "name": "FOCUS LIGHTG & FIXTRS LTD",
+    "instrument_key": "NSE_EQ|INE593W01028"
+  },
+  {
+    "name": "INOX INDIA LIMITED",
+    "instrument_key": "NSE_EQ|INE616N01034"
+  },
+  {
+    "name": "JINDAL DRILLING IND. LTD",
+    "instrument_key": "NSE_EQ|INE742C01031"
+  },
+  {
+    "name": "HISAR METAL IND. LIMITED",
+    "instrument_key": "NSE_EQ|INE598C01011"
+  },
+  {
+    "name": "THE INDIA CEMENTS LIMITED",
+    "instrument_key": "NSE_EQ|INE383A01012"
+  },
+  {
+    "name": "RANE (MADRAS) LIMITED",
+    "instrument_key": "NSE_EQ|INE050H01012"
+  },
+  {
+    "name": "MOTILALAMC - MODEFENCE",
+    "instrument_key": "NSE_EQ|INF247L01DJ0"
+  },
+  {
+    "name": "MOTILALAMC - MOMENTUM50",
+    "instrument_key": "NSE_EQ|INF247L01DK8"
+  },
+  {
+    "name": "RUPA & COMPANY LTD",
+    "instrument_key": "NSE_EQ|INE895B01021"
+  },
+  {
+    "name": "KOHINOOR FOODS LIMITED",
+    "instrument_key": "NSE_EQ|INE080B01012"
+  },
+  {
+    "name": "URAVI DEFENCE &TECH LTD",
+    "instrument_key": "NSE_EQ|INE568Z01015"
+  },
+  {
+    "name": "ICICI PRU LIFE INS CO LTD",
+    "instrument_key": "NSE_EQ|INE726G01019"
+  },
+  {
+    "name": "MOTILALAMC - MOVALUE",
+    "instrument_key": "NSE_EQ|INF247L01BE5"
+  },
+  {
+    "name": "MOTILALAMC - MOHEALTH",
+    "instrument_key": "NSE_EQ|INF247L01BB1"
+  },
+  {
+    "name": "CYIENT DLM LIMITED",
+    "instrument_key": "NSE_EQ|INE055S01018"
+  },
+  {
+    "name": "ALEMBIC PHARMA LTD",
+    "instrument_key": "NSE_EQ|INE901L01018"
+  },
+  {
+    "name": "HINDUJA GLOBAL SOLS. LTD.",
+    "instrument_key": "NSE_EQ|INE170I01016"
+  },
+  {
+    "name": "MOTILALAMC - MONQ50",
+    "instrument_key": "NSE_EQ|INF247L01AU3"
+  },
+  {
+    "name": "MANGAL CREDIT N FINCORP L",
+    "instrument_key": "NSE_EQ|INE545L01039"
+  },
+  {
+    "name": "ETHOS LIMITED",
+    "instrument_key": "NSE_EQ|INE04TZ01018"
+  },
+  {
+    "name": "AXISAMC - AXSENSEX",
+    "instrument_key": "NSE_EQ|INF846K010Q0"
+  },
+  {
+    "name": "MAHARASHTRA SEAMLESS LTD",
+    "instrument_key": "NSE_EQ|INE271B01025"
+  },
+  {
+    "name": "MOTILAL OS NASDAQ100 ETF",
+    "instrument_key": "NSE_EQ|INF247L01AP3"
+  },
+  {
+    "name": "ACC LIMITED",
+    "instrument_key": "NSE_EQ|INE012A01025"
+  },
+  {
+    "name": "TRIB BHIMJI ZAVERI LTD",
+    "instrument_key": "NSE_EQ|INE760L01018"
+  },
+  {
+    "name": "NMDC STEEL LIMITED",
+    "instrument_key": "NSE_EQ|INE0NNS01018"
+  },
+  {
+    "name": "RADICO KHAITAN LTD",
+    "instrument_key": "NSE_EQ|INE944F01028"
+  },
+  {
+    "name": "MOTILALAMC - G5",
+    "instrument_key": "NSE_EQ|INF247L01AK4"
+  },
+  {
+    "name": "HATHWAY CABLE & DATACOM",
+    "instrument_key": "NSE_EQ|INE982F01036"
+  },
+  {
+    "name": "INDIA NIPPON ELECT  LTD",
+    "instrument_key": "NSE_EQ|INE092B01025"
+  },
+  {
+    "name": "PNB HOUSING FIN LTD.",
+    "instrument_key": "NSE_EQ|INE572E01012"
+  },
+  {
+    "name": "APOLLO PIPES LIMITED",
+    "instrument_key": "NSE_EQ|INE126J01016"
+  },
+  {
+    "name": "TRANSWORLD SHIP LINES LTD",
+    "instrument_key": "NSE_EQ|INE757B01015"
+  },
+  {
+    "name": "SECMARK CONSULTANCY LTD",
+    "instrument_key": "NSE_EQ|INE0BTM01013"
+  },
+  {
+    "name": "DSPAMC - TOP10ADD",
+    "instrument_key": "NSE_EQ|INF740KA1UR9"
+  },
+  {
+    "name": "VISHNU CHEMICALS LIMITED",
+    "instrument_key": "NSE_EQ|INE270I01022"
+  },
+  {
+    "name": "MOTILALAMC - MONIFTY500",
+    "instrument_key": "NSE_EQ|INF247L01BU1"
+  },
+  {
+    "name": "LLOYDS METALS N ENERGY L",
+    "instrument_key": "NSE_EQ|INE281B01032"
+  },
+  {
+    "name": "INFOBEANS TECHNO. LTD.",
+    "instrument_key": "NSE_EQ|INE344S01016"
+  },
+  {
+    "name": "MOTILALAMC - MOQUALITY",
+    "instrument_key": "NSE_EQ|INF247L01BH8"
+  },
+  {
+    "name": "SONA BLW PRECISION FRGS L",
+    "instrument_key": "NSE_EQ|INE073K01018"
+  },
+  {
+    "name": "BOMBAY BURMAH TRADING COR",
+    "instrument_key": "NSE_EQ|INE050A01025"
+  },
+  {
+    "name": "KRONOX LAB SCIENCES LTD",
+    "instrument_key": "NSE_EQ|INE0ATZ01017"
+  },
+  {
+    "name": "MOTILALAMC - MOLOWVOL",
+    "instrument_key": "NSE_EQ|INF247L01BL0"
+  },
+  {
+    "name": "MOTILALAMC - MOMOMENTUM",
+    "instrument_key": "NSE_EQ|INF247L01BK2"
+  },
+  {
+    "name": "KAVERI SEED CO. LTD.",
+    "instrument_key": "NSE_EQ|INE455I01029"
+  },
+  {
+    "name": "ZERODHAAMC - LIQUIDCASE",
+    "instrument_key": "NSE_EQ|INF0R8F01034"
+  },
+  {
+    "name": "ZERODHAAMC - GOLDCASE",
+    "instrument_key": "NSE_EQ|INF0R8F01042"
+  },
+  {
+    "name": "SANOFI INDIA LIMITED",
+    "instrument_key": "NSE_EQ|INE058A01010"
+  },
+  {
+    "name": "INDUSIND BANK LIMITED",
+    "instrument_key": "NSE_EQ|INE095A01012"
+  },
+  {
+    "name": "EIH ASSOCIATED HOTELS LTD",
+    "instrument_key": "NSE_EQ|INE276C01014"
+  },
+  {
+    "name": "STYLAM INDUSTRIES LIMITED",
+    "instrument_key": "NSE_EQ|INE239C01020"
+  },
+  {
+    "name": "GUJARAT FLUOROCHEM LTD",
+    "instrument_key": "NSE_EQ|INE09N301011"
+  },
+  {
+    "name": "PATEL ENGINEERING LTD.",
+    "instrument_key": "NSE_EQ|INE244B01030"
+  },
+  {
+    "name": "ASTRAL LIMITED",
+    "instrument_key": "NSE_EQ|INE006I01046"
+  },
+  {
+    "name": "SINDHU TRADE LINKS LTD",
+    "instrument_key": "NSE_EQ|INE325D01025"
+  },
+  {
+    "name": "SCHAEFFLER INDIA LIMITED",
+    "instrument_key": "NSE_EQ|INE513A01022"
+  },
+  {
+    "name": "DSPAMC - LIQUIDADD",
+    "instrument_key": "NSE_EQ|INF740KA1UM0"
+  },
+  {
+    "name": "AWFIS SPACE SOLUTIONS LTD",
+    "instrument_key": "NSE_EQ|INE108V01019"
+  },
+  {
+    "name": "VENUS REMEDIES LIMITED",
+    "instrument_key": "NSE_EQ|INE411B01019"
+  },
+  {
+    "name": "DSPAMC - HEALTHADD",
+    "instrument_key": "NSE_EQ|INF740KA1UF4"
+  },
+  {
+    "name": "ZERODHAAMC - MID150CASE",
+    "instrument_key": "NSE_EQ|INF0R8F01059"
+  },
+  {
+    "name": "ZERODHAAMC - TOP100CASE",
+    "instrument_key": "NSE_EQ|INF0R8F01067"
+  },
+  {
+    "name": "INDIAN BANK",
+    "instrument_key": "NSE_EQ|INE562A01011"
+  },
+  {
+    "name": "MANGALAM CEMENT LTD",
+    "instrument_key": "NSE_EQ|INE347A01017"
+  },
+  {
+    "name": "DSPAMC - DSPGOLDETF",
+    "instrument_key": "NSE_EQ|INF740KA1SW3"
+  },
+  {
+    "name": "DSPAMC - DSPITETF",
+    "instrument_key": "NSE_EQ|INF740KA1SX1"
+  },
+  {
+    "name": "DSPAMC - DSPPSBKETF",
+    "instrument_key": "NSE_EQ|INF740KA1SY9"
+  },
+  {
+    "name": "PNB GILTS LIMITED",
+    "instrument_key": "NSE_EQ|INE859A01011"
+  },
+  {
+    "name": "DSPAMC - DSPSENXETF",
+    "instrument_key": "NSE_EQ|INF740KA1SZ6"
+  },
+  {
+    "name": "JM FINANCIAL LIMITED",
+    "instrument_key": "NSE_EQ|INE780C01023"
+  },
+  {
+    "name": "SUPREME INDUSTRIES LTD",
+    "instrument_key": "NSE_EQ|INE195A01028"
+  },
+  {
+    "name": "TATA TECHNOLOGIES LIMITED",
+    "instrument_key": "NSE_EQ|INE142M01025"
+  },
+  {
+    "name": "MIC ELECTRONICS LTD",
+    "instrument_key": "NSE_EQ|INE287C01037"
+  },
+  {
+    "name": "KARUR VYSYA BANK LTD",
+    "instrument_key": "NSE_EQ|INE036D01028"
+  },
+  {
+    "name": "VINTAGE COFFEE N BVRGS L",
+    "instrument_key": "NSE_EQ|INE498Q01014"
+  },
+  {
+    "name": "TOKYO PLAST INTL LTD",
+    "instrument_key": "NSE_EQ|INE932C01012"
+  },
+  {
+    "name": "NITIRAJ ENGINEERS LTD",
+    "instrument_key": "NSE_EQ|INE439T01012"
+  },
+  {
+    "name": "RADHIKA JEWELTECH LIMITED",
+    "instrument_key": "NSE_EQ|INE583V01021"
+  },
+  {
+    "name": "BANKA BIOLOO LIMITED",
+    "instrument_key": "NSE_EQ|INE862Y01015"
+  },
+  {
+    "name": "AMARA RAJA ENERGY MOB LTD",
+    "instrument_key": "NSE_EQ|INE885A01032"
+  },
+  {
+    "name": "ASIAN HOTELS (EAST) LTD",
+    "instrument_key": "NSE_EQ|INE926K01017"
+  },
+  {
+    "name": "BLUE DART EXPRESS LTD",
+    "instrument_key": "NSE_EQ|INE233B01017"
+  },
+  {
+    "name": "SURATWWALA BUS GROUP LTD",
+    "instrument_key": "NSE_EQ|INE05ST01028"
+  },
+  {
+    "name": "AGRI-TECH (INDIA) LIMITED",
+    "instrument_key": "NSE_EQ|INE449G01018"
+  },
+  {
+    "name": "COROMANDEL INTERNTL. LTD",
+    "instrument_key": "NSE_EQ|INE169A01031"
+  },
+  {
+    "name": "GEECEE VENTURES LIMITED",
+    "instrument_key": "NSE_EQ|INE916G01016"
+  },
+  {
+    "name": "DSPAMC - DSPPVBKETF",
+    "instrument_key": "NSE_EQ|INF740KA1TA7"
+  },
+  {
+    "name": "RANE HOLDINGS LIMITED",
+    "instrument_key": "NSE_EQ|INE384A01010"
+  },
+  {
+    "name": "WOCKHARDT LIMITED",
+    "instrument_key": "NSE_EQ|INE049B01025"
+  },
+  {
+    "name": "BIRLA CORPORATION LTD",
+    "instrument_key": "NSE_EQ|INE340A01012"
+  },
+  {
+    "name": "FINOLEX CABLES LTD",
+    "instrument_key": "NSE_EQ|INE235A01022"
+  },
+  {
+    "name": "JYOTHY LABS LIMITED",
+    "instrument_key": "NSE_EQ|INE668F01031"
+  },
+  {
+    "name": "SUYOG TELEMATICS LIMITED",
+    "instrument_key": "NSE_EQ|INE442P01014"
+  },
+  {
+    "name": "DIC INDIA LIMITED",
+    "instrument_key": "NSE_EQ|INE303A01010"
+  },
+  {
+    "name": "TRENT LTD",
+    "instrument_key": "NSE_EQ|INE849A01020"
+  },
+  {
+    "name": "SUPERHOUSE LIMITED",
+    "instrument_key": "NSE_EQ|INE712B01010"
+  },
+  {
+    "name": "CARYSIL LIMITED",
+    "instrument_key": "NSE_EQ|INE482D01024"
+  },
+  {
+    "name": "BHARAT BIJLEE LTD",
+    "instrument_key": "NSE_EQ|INE464A01036"
+  },
+  {
+    "name": "TECH MAHINDRA LIMITED",
+    "instrument_key": "NSE_EQ|INE669C01036"
+  },
+  {
+    "name": "LUMAX AUTO TECH LTD",
+    "instrument_key": "NSE_EQ|INE872H01027"
+  },
+  {
+    "name": "GILLETTE INDIA LTD",
+    "instrument_key": "NSE_EQ|INE322A01010"
+  },
+  {
+    "name": "RAIN INDUSTRIES LIMITED",
+    "instrument_key": "NSE_EQ|INE855B01025"
+  },
+  {
+    "name": "LICNAMC - LICNFNHGP",
+    "instrument_key": "NSE_EQ|INF767K01PC8"
+  },
+  {
+    "name": "CENTRAL BANK OF INDIA",
+    "instrument_key": "NSE_EQ|INE483A01010"
+  },
+  {
+    "name": "CYIENT LIMITED",
+    "instrument_key": "NSE_EQ|INE136B01020"
+  },
+  {
+    "name": "BRITANNIA INDUSTRIES LTD",
+    "instrument_key": "NSE_EQ|INE216A01030"
+  },
+  {
+    "name": "LICNAMC - LICNFESGP",
+    "instrument_key": "NSE_EQ|INF767K01OT5"
+  },
+  {
+    "name": "ALLIED BLEND N DISTILS L",
+    "instrument_key": "NSE_EQ|INE552Z01027"
+  },
+  {
+    "name": "LICNAMC - LICNFENGP",
+    "instrument_key": "NSE_EQ|INF767K01OS7"
+  },
+  {
+    "name": "AETHER INDUSTRIES LIMITED",
+    "instrument_key": "NSE_EQ|INE0BWX01014"
+  },
+  {
+    "name": "RUSHIL DECOR LIMITED",
+    "instrument_key": "NSE_EQ|INE573K01025"
+  },
+  {
+    "name": "CMS INFO SYSTEMS LIMITED",
+    "instrument_key": "NSE_EQ|INE925R01014"
+  },
+  {
+    "name": "TVS SRICHAKRA LIMITED",
+    "instrument_key": "NSE_EQ|INE421C01016"
+  },
+  {
+    "name": "VIJAYA DIAGNOSTIC CEN LTD",
+    "instrument_key": "NSE_EQ|INE043W01024"
+  },
+  {
+    "name": "MAHANAGAR GAS LTD.",
+    "instrument_key": "NSE_EQ|INE002S01010"
+  },
+  {
+    "name": "MAHINDRA EPC IRRIG LTD",
+    "instrument_key": "NSE_EQ|INE215D01010"
+  },
+  {
+    "name": "GOA CARBON LIMITED",
+    "instrument_key": "NSE_EQ|INE426D01013"
+  },
+  {
+    "name": "CONSO. FIN. & HOLD. LTD.",
+    "instrument_key": "NSE_EQ|INE025A01027"
+  },
+  {
+    "name": "CONTAINER CORP OF IND LTD",
+    "instrument_key": "NSE_EQ|INE111A01025"
+  },
+  {
+    "name": "DEEPAK BUILDERS & ENG I L",
+    "instrument_key": "NSE_EQ|INE0OPA01019"
+  },
+  {
+    "name": "VIDHI SPCLTY F INGRDNTS L",
+    "instrument_key": "NSE_EQ|INE632C01026"
+  },
+  {
+    "name": "JUPITER WAGONS LIMITED",
+    "instrument_key": "NSE_EQ|INE209L01016"
+  },
+  {
+    "name": "ENTERTAIN NET. IND. LTD.",
+    "instrument_key": "NSE_EQ|INE265F01028"
+  },
+  {
+    "name": "SALZER ELECTRONICS LTD",
+    "instrument_key": "NSE_EQ|INE457F01013"
+  },
+  {
+    "name": "MALU PAPER MILLS LIMITED",
+    "instrument_key": "NSE_EQ|INE383H01017"
+  },
+  {
+    "name": "APTECH LIMITED",
+    "instrument_key": "NSE_EQ|INE266F01018"
+  },
+  {
+    "name": "THYROCARE TECH LTD",
+    "instrument_key": "NSE_EQ|INE594H01019"
+  },
+  {
+    "name": "UMA EXPORTS LIMITED",
+    "instrument_key": "NSE_EQ|INE0GIU01018"
+  },
+  {
+    "name": "DEE DEVELOPMENT ENG LTD",
+    "instrument_key": "NSE_EQ|INE841L01016"
+  },
+  {
+    "name": "ANTONY WASTE HDG CELL LTD",
+    "instrument_key": "NSE_EQ|INE01BK01022"
+  },
+  {
+    "name": "PUNJAB CHEM & CROP PROT L",
+    "instrument_key": "NSE_EQ|INE277B01014"
+  },
+  {
+    "name": "MONTE CARLO FASHIONS LTD.",
+    "instrument_key": "NSE_EQ|INE950M01013"
+  },
+  {
+    "name": "J & K BANK LTD.",
+    "instrument_key": "NSE_EQ|INE168A01041"
+  },
+  {
+    "name": "VRAJ IRON AND STEEL LTD",
+    "instrument_key": "NSE_EQ|INE0S2V01010"
+  },
+  {
+    "name": "SILGO RETAIL LIMITED",
+    "instrument_key": "NSE_EQ|INE01II01013"
+  },
+  {
+    "name": "KANSAI NEROLAC PAINTS LTD",
+    "instrument_key": "NSE_EQ|INE531A01024"
+  },
+  {
+    "name": "VARROC ENGINEERING LTD.",
+    "instrument_key": "NSE_EQ|INE665L01035"
+  },
+  {
+    "name": "HCL INFOSYSTEMS LTD",
+    "instrument_key": "NSE_EQ|INE236A01020"
+  },
+  {
+    "name": "NETWORK18 MEDIA & INV LTD",
+    "instrument_key": "NSE_EQ|INE870H01013"
+  },
+  {
+    "name": "SAGARDEEP ALLOYS LIMITED",
+    "instrument_key": "NSE_EQ|INE976T01013"
+  },
+  {
+    "name": "SANGHI INDUSTRIES LTD",
+    "instrument_key": "NSE_EQ|INE999B01013"
+  },
+  {
+    "name": "STATE BANK OF INDIA",
+    "instrument_key": "NSE_EQ|INE062A01020"
+  },
+  {
+    "name": "MEDPLUS HEALTH SERV LTD",
+    "instrument_key": "NSE_EQ|INE804L01022"
+  },
+  {
+    "name": "KIRLOSKAR ELECTRIC CO LTD",
+    "instrument_key": "NSE_EQ|INE134B01017"
+  },
+  {
+    "name": "KAMAT HOTELS (I) LTD",
+    "instrument_key": "NSE_EQ|INE967C01018"
+  },
+  {
+    "name": "EXPLEO SOLUTIONS LIMITED",
+    "instrument_key": "NSE_EQ|INE201K01015"
+  },
+  {
+    "name": "HINDUSTAN MOTORS LIMITED",
+    "instrument_key": "NSE_EQ|INE253A01025"
+  },
+  {
+    "name": "LICNAMC - LICNMFET",
+    "instrument_key": "NSE_EQ|INF767K01MV5"
+  },
+  {
+    "name": "CAPRI GLOBAL CAPITAL LTD",
+    "instrument_key": "NSE_EQ|INE180C01042"
+  },
+  {
+    "name": "PANACEA BIOTEC LTD",
+    "instrument_key": "NSE_EQ|INE922B01023"
+  },
+  {
+    "name": "EPL LIMITED",
+    "instrument_key": "NSE_EQ|INE255A01020"
+  },
+  {
+    "name": "MAHINDRA LIFESPACE DEVLTD",
+    "instrument_key": "NSE_EQ|INE813A01018"
+  },
+  {
+    "name": "PRITI INTERNATIONAL LTD",
+    "instrument_key": "NSE_EQ|INE974Z01015"
+  },
+  {
+    "name": "NAHAR SPINNING MILLS LTD.",
+    "instrument_key": "NSE_EQ|INE290A01027"
+  },
+  {
+    "name": "PODDAR PIGMENTS LIMITED",
+    "instrument_key": "NSE_EQ|INE371C01013"
+  },
+  {
+    "name": "KDDL LIMITED",
+    "instrument_key": "NSE_EQ|INE291D01011"
+  },
+  {
+    "name": "IMAGICAAWORLD ENT LTD",
+    "instrument_key": "NSE_EQ|INE172N01012"
+  },
+  {
+    "name": "FIVE-STAR BUS FIN LTD",
+    "instrument_key": "NSE_EQ|INE128S01021"
+  },
+  {
+    "name": "INSPIRISYS SOLUTIONS LTD",
+    "instrument_key": "NSE_EQ|INE020G01017"
+  },
+  {
+    "name": "TALBROS AUTO. COMP. LTD",
+    "instrument_key": "NSE_EQ|INE187D01029"
+  },
+  {
+    "name": "BSE LIMITED",
+    "instrument_key": "NSE_EQ|INE118H01025"
+  },
+  {
+    "name": "GRM OVERSEAS LIMITED",
+    "instrument_key": "NSE_EQ|INE192H01020"
+  },
+  {
+    "name": "TEAMLEASE SERVICES LTD.",
+    "instrument_key": "NSE_EQ|INE985S01024"
+  },
+  {
+    "name": "SURYODAY SMALL FIN BK LTD",
+    "instrument_key": "NSE_EQ|INE428Q01011"
+  },
+  {
+    "name": "ADANI GREEN ENERGY LTD",
+    "instrument_key": "NSE_EQ|INE364U01010"
+  },
+  {
+    "name": "DIGISPICE TECHNOLOGIES LT",
+    "instrument_key": "NSE_EQ|INE927C01020"
+  },
+  {
+    "name": "PARAS PETROFILS LTD.",
+    "instrument_key": "NSE_EQ|INE162C01024"
+  },
+  {
+    "name": "EMS LIMITED",
+    "instrument_key": "NSE_EQ|INE0OV601013"
+  },
+  {
+    "name": "TATA INVESTMENT CORP LTD",
+    "instrument_key": "NSE_EQ|INE672A01018"
+  },
+  {
+    "name": "AAVAS FINANCIERS LIMITED",
+    "instrument_key": "NSE_EQ|INE216P01012"
+  },
+  {
+    "name": "RACE ECO CHAIN LIMITED",
+    "instrument_key": "NSE_EQ|INE084Q01012"
+  },
+  {
+    "name": "EDELAMC - EBBETF0430",
+    "instrument_key": "NSE_EQ|INF754K01KO2"
+  },
+  {
+    "name": "AFCONS INFRASTRUCTURE LTD",
+    "instrument_key": "NSE_EQ|INE101I01011"
+  },
+  {
+    "name": "FDC LIMITED",
+    "instrument_key": "NSE_EQ|INE258B01022"
+  },
+  {
+    "name": "RESTAURANT BRAND ASIA LTD",
+    "instrument_key": "NSE_EQ|INE07T201019"
+  },
+  {
+    "name": "JK PAPER LIMITED",
+    "instrument_key": "NSE_EQ|INE789E01012"
+  },
+  {
+    "name": "HATSUN AGRO PRODUCT LTD.",
+    "instrument_key": "NSE_EQ|INE473B01035"
+  },
+  {
+    "name": "INDO FARM EQUIPMENT LTD",
+    "instrument_key": "NSE_EQ|INE622H01018"
+  },
+  {
+    "name": "KALPATARU PROJECT INT LTD",
+    "instrument_key": "NSE_EQ|INE220B01022"
+  },
+  {
+    "name": "AXIS BANK LIMITED",
+    "instrument_key": "NSE_EQ|INE238A01034"
+  },
+  {
+    "name": "TATA STEEL LIMITED",
+    "instrument_key": "NSE_EQ|INE081A01020"
+  },
+  {
+    "name": "VETO SWITCHGEAR CABLE LTD",
+    "instrument_key": "NSE_EQ|INE918N01018"
+  },
+  {
+    "name": "SURAJ ESTATE DEVELOPERS L",
+    "instrument_key": "NSE_EQ|INE843S01025"
+  },
+  {
+    "name": "EDELAMC - EBBETF0431",
+    "instrument_key": "NSE_EQ|INF754K01LE1"
+  },
+  {
+    "name": "EDELAMC - EBBETF0425",
+    "instrument_key": "NSE_EQ|INF754K01LD3"
+  },
+  {
+    "name": "PIX TRANSMISSIONS LIMITED",
+    "instrument_key": "NSE_EQ|INE751B01018"
+  },
+  {
+    "name": "THE RUBY MILLS LTD",
+    "instrument_key": "NSE_EQ|INE301D01026"
+  },
+  {
+    "name": "KBC GLOBAL LIMITED",
+    "instrument_key": "NSE_EQ|INE278R01034"
+  },
+  {
+    "name": "KOTAKMAMC-KOTAKBKETF",
+    "instrument_key": "NSE_EQ|INF174K01F59"
+  },
+  {
+    "name": "CRISIL LTD",
+    "instrument_key": "NSE_EQ|INE007A01025"
+  },
+  {
+    "name": "ARCHIDPLY IND. LTD",
+    "instrument_key": "NSE_EQ|INE877I01016"
+  },
+  {
+    "name": "UDAIPUR CEMENT WORKS LTD",
+    "instrument_key": "NSE_EQ|INE225C01029"
+  },
+  {
+    "name": "DIAMINES & CHEMICALS LTD",
+    "instrument_key": "NSE_EQ|INE591D01014"
+  },
+  {
+    "name": "INDEGENE LIMITED",
+    "instrument_key": "NSE_EQ|INE065X01017"
+  },
+  {
+    "name": "TASTY BITE EATABLES LTD",
+    "instrument_key": "NSE_EQ|INE488B01017"
+  },
+  {
+    "name": "HEALTHCARE GLOB. ENT. LTD",
+    "instrument_key": "NSE_EQ|INE075I01017"
+  },
+  {
+    "name": "LOKESH MACHINES LTD",
+    "instrument_key": "NSE_EQ|INE397H01017"
+  },
+  {
+    "name": "AXISAMC - AXISCETF",
+    "instrument_key": "NSE_EQ|INF846K016C7"
+  },
+  {
+    "name": "JAGRAN PRAKASHAN LIMITED",
+    "instrument_key": "NSE_EQ|INE199G01027"
+  },
+  {
+    "name": "RAMA PHOSPHATES LIMITED",
+    "instrument_key": "NSE_EQ|INE809A01024"
+  },
+  {
+    "name": "UTIAMC - NIF10GETF",
+    "instrument_key": "NSE_EQ|INF789F1AZF3"
+  },
+  {
+    "name": "SILVER TOUCH TECHNO LTD",
+    "instrument_key": "NSE_EQ|INE625X01018"
+  },
+  {
+    "name": "UTIAMC - NIF5GETF",
+    "instrument_key": "NSE_EQ|INF789F1AZE6"
+  },
+  {
+    "name": "UTIAMC - NIFITETF",
+    "instrument_key": "NSE_EQ|INF789F1AZD8"
+  },
+  {
+    "name": "SUN PHARMACEUTICAL IND L",
+    "instrument_key": "NSE_EQ|INE044A01036"
+  },
+  {
+    "name": "THE ANUP ENGINEERING LTD",
+    "instrument_key": "NSE_EQ|INE294Z01018"
+  },
+  {
+    "name": "LICNAMC - LICNMID100",
+    "instrument_key": "NSE_EQ|INF767K01RN1"
+  },
+  {
+    "name": "UTIAMC - UTINIFTETF",
+    "instrument_key": "NSE_EQ|INF789F1AZC0"
+  },
+  {
+    "name": "VENUS PIPES & TUBES LTD",
+    "instrument_key": "NSE_EQ|INE0JA001018"
+  },
+  {
+    "name": "AGRO PHOS INDIA LIMITED",
+    "instrument_key": "NSE_EQ|INE740V01019"
+  },
+  {
+    "name": "ARO GRANITE IND. LTD.",
+    "instrument_key": "NSE_EQ|INE210C01013"
+  },
+  {
+    "name": "UTIAMC - NIFMID150",
+    "instrument_key": "NSE_EQ|INF789F1AYX9"
+  },
+  {
+    "name": "GLOBAL SURFACES LIMITED",
+    "instrument_key": "NSE_EQ|INE0JSX01015"
+  },
+  {
+    "name": "KSOLVES INDIA LIMITED",
+    "instrument_key": "NSE_EQ|INE0D6I01015"
+  },
+  {
+    "name": "HMA AGRO INDUSTRIES LTD",
+    "instrument_key": "NSE_EQ|INE0ECP01024"
+  },
+  {
+    "name": "OMAXE LIMITED",
+    "instrument_key": "NSE_EQ|INE800H01010"
+  },
+  {
+    "name": "UTIAMC - SILVERETF",
+    "instrument_key": "NSE_EQ|INF789F1AYK6"
+  },
+  {
+    "name": "JINDAL PHOTO LIMITED",
+    "instrument_key": "NSE_EQ|INE796G01012"
+  },
+  {
+    "name": "MRF LTD",
+    "instrument_key": "NSE_EQ|INE883A01011"
+  },
+  {
+    "name": "NAHAR CAP & FIN.",
+    "instrument_key": "NSE_EQ|INE049I01012"
+  },
+  {
+    "name": "MTAR TECHNOLOGIES LIMITED",
+    "instrument_key": "NSE_EQ|INE864I01014"
+  },
+  {
+    "name": "HIKAL LIMITED",
+    "instrument_key": "NSE_EQ|INE475B01022"
+  },
+  {
+    "name": "OMAX AUTOS LTD",
+    "instrument_key": "NSE_EQ|INE090B01011"
+  },
+  {
+    "name": "WIPRO LTD",
+    "instrument_key": "NSE_EQ|INE075A01022"
+  },
+  {
+    "name": "EDELAMC - BBETF0432",
+    "instrument_key": "NSE_EQ|INF754K01OB1"
+  },
+  {
+    "name": "SANSTAR LIMITED",
+    "instrument_key": "NSE_EQ|INE08NE01025"
+  },
+  {
+    "name": "NGL FINE CHEM LIMITED",
+    "instrument_key": "NSE_EQ|INE887E01022"
+  },
+  {
+    "name": "NORTHERN ARC CAPITAL LTD",
+    "instrument_key": "NSE_EQ|INE850M01015"
+  },
+  {
+    "name": "TAMILNADU NEWSPRT & PAPER",
+    "instrument_key": "NSE_EQ|INE107A01015"
+  },
+  {
+    "name": "DCM SHRIRAM IND LTD",
+    "instrument_key": "NSE_EQ|INE843D01027"
+  },
+  {
+    "name": "MOTILAL OSWAL M50 ETF",
+    "instrument_key": "NSE_EQ|INF247L01536"
+  },
+  {
+    "name": "REPCO HOME FINANCE LTD",
+    "instrument_key": "NSE_EQ|INE612J01015"
+  },
+  {
+    "name": "GENESYS INTL CORPN LTD",
+    "instrument_key": "NSE_EQ|INE727B01026"
+  },
+  {
+    "name": "LAGNAM SPINTEX LIMITED",
+    "instrument_key": "NSE_EQ|INE548Z01017"
+  },
+  {
+    "name": "L&T FINANCE LIMITED",
+    "instrument_key": "NSE_EQ|INE498L01015"
+  },
+  {
+    "name": "SIGACHI INDUSTRIES LTD",
+    "instrument_key": "NSE_EQ|INE0D0K01022"
+  },
+  {
+    "name": "CHEMBOND CHEMICALS LTD",
+    "instrument_key": "NSE_EQ|INE995D01025"
+  },
+  {
+    "name": "BHANDARI HOSIERY EXP LTD",
+    "instrument_key": "NSE_EQ|INE474E01029"
+  },
+  {
+    "name": "GUJARAT AMBUJA EXPORTS LT",
+    "instrument_key": "NSE_EQ|INE036B01030"
+  },
+  {
+    "name": "NDL VENTURES LIMITED",
+    "instrument_key": "NSE_EQ|INE353A01023"
+  },
+  {
+    "name": "AKSHARCHEM INDIA LIMITED",
+    "instrument_key": "NSE_EQ|INE542B01011"
+  },
+  {
+    "name": "NOVA AGRITECH LIMITED",
+    "instrument_key": "NSE_EQ|INE02H701025"
+  },
+  {
+    "name": "TRANSPORT CORPN OF INDIA",
+    "instrument_key": "NSE_EQ|INE688A01022"
+  },
+  {
+    "name": "GODAWARI POW & ISP LTD",
+    "instrument_key": "NSE_EQ|INE177H01039"
+  },
+  {
+    "name": "3M INDIA LIMITED",
+    "instrument_key": "NSE_EQ|INE470A01017"
+  },
+  {
+    "name": "BEML LAND ASSETS LIMITED",
+    "instrument_key": "NSE_EQ|INE0N7W01012"
+  },
+  {
+    "name": "SOUTH WEST PINNACLE LTD",
+    "instrument_key": "NSE_EQ|INE980Y01015"
+  },
+  {
+    "name": "JITF INFRALOGISTICS LTD",
+    "instrument_key": "NSE_EQ|INE863T01013"
+  },
+  {
+    "name": "YUKEN INDIA LIMITED",
+    "instrument_key": "NSE_EQ|INE384C01016"
+  },
+  {
+    "name": "MOTILAL OSWAL FIN LTD",
+    "instrument_key": "NSE_EQ|INE338I01027"
+  },
+  {
+    "name": "UTI GOLD ETF",
+    "instrument_key": "NSE_EQ|INF789F1AUX7"
+  },
+  {
+    "name": "UTIAMC - UTIBANKETF",
+    "instrument_key": "NSE_EQ|INF789F1AUV1"
+  },
+  {
+    "name": "UTIAMC - UTINEXT50",
+    "instrument_key": "NSE_EQ|INF789F1AUW9"
+  },
+  {
+    "name": "RATEGAIN TRAVEL TECHN LTD",
+    "instrument_key": "NSE_EQ|INE0CLI01024"
+  },
+  {
+    "name": "ORIENT TECHNOLOGIES LTD",
+    "instrument_key": "NSE_EQ|INE0PPK01015"
+  },
+  {
+    "name": "UTIAMC - UTISXN50",
+    "instrument_key": "NSE_EQ|INF789F1AUU3"
+  },
+  {
+    "name": "DAVANGERE SUGAR COMPANY L",
+    "instrument_key": "NSE_EQ|INE179G01029"
+  },
+  {
+    "name": "ZEE LEARN LIMITED",
+    "instrument_key": "NSE_EQ|INE565L01011"
+  },
+  {
+    "name": "MRS BECTORS FOOD SPE LTD",
+    "instrument_key": "NSE_EQ|INE495P01012"
+  },
+  {
+    "name": "ONWARD TECHNOLOGIES LTD",
+    "instrument_key": "NSE_EQ|INE229A01017"
+  },
+  {
+    "name": "DIXON TECHNO (INDIA) LTD",
+    "instrument_key": "NSE_EQ|INE935N01020"
+  },
+  {
+    "name": "SJVN LTD",
+    "instrument_key": "NSE_EQ|INE002L01015"
+  },
+  {
+    "name": "WAAREE ENERGIES LIMITED",
+    "instrument_key": "NSE_EQ|INE377N01017"
+  },
+  {
+    "name": "KIOCL LIMITED",
+    "instrument_key": "NSE_EQ|INE880L01014"
+  },
+  {
+    "name": "HINDALCO  INDUSTRIES  LTD",
+    "instrument_key": "NSE_EQ|INE038A01020"
+  },
+  {
+    "name": "UNICOMMERCE ESOLUTIONS L",
+    "instrument_key": "NSE_EQ|INE00U401027"
+  },
+  {
+    "name": "RAJ OIL MILLS LIMITED",
+    "instrument_key": "NSE_EQ|INE294G01026"
+  },
+  {
+    "name": "LANCOR HOLDINGS LIMITED",
+    "instrument_key": "NSE_EQ|INE572G01025"
+  },
+  {
+    "name": "BAJAJ HEALTHCARE LIMITED",
+    "instrument_key": "NSE_EQ|INE411U01027"
+  },
+  {
+    "name": "GODREJ PROPERTIES LTD",
+    "instrument_key": "NSE_EQ|INE484J01027"
+  },
+  {
+    "name": "MANOMAY TEX INDIA LTD",
+    "instrument_key": "NSE_EQ|INE784W01015"
+  },
+  {
+    "name": "SAREGAMA INDIA LIMITED",
+    "instrument_key": "NSE_EQ|INE979A01025"
+  },
+  {
+    "name": "EQUINOX INDIA DEV LTD",
+    "instrument_key": "NSE_EQ|INE069I01010"
+  },
+  {
+    "name": "KOTHARI PETROCHEM LTD",
+    "instrument_key": "NSE_EQ|INE720A01015"
+  },
+  {
+    "name": "DWARIKESH SUGAR IND LTD",
+    "instrument_key": "NSE_EQ|INE366A01041"
+  },
+  {
+    "name": "MUNJAL SHOWA LTD",
+    "instrument_key": "NSE_EQ|INE577A01027"
+  },
+  {
+    "name": "EDELAMC - EGOLD",
+    "instrument_key": "NSE_EQ|INF754K01SE6"
+  },
+  {
+    "name": "ZEE MEDIA CORPORATION LTD",
+    "instrument_key": "NSE_EQ|INE966H01019"
+  },
+  {
+    "name": "EDELAMC - ESILVER",
+    "instrument_key": "NSE_EQ|INF754K01SF3"
+  },
+  {
+    "name": "DSP LIQUID ETF",
+    "instrument_key": "NSE_EQ|INF740KA1EU7"
+  },
+  {
+    "name": "JIND POL INV & FIN CO LTD",
+    "instrument_key": "NSE_EQ|INE147P01019"
+  },
+  {
+    "name": "FACT LTD",
+    "instrument_key": "NSE_EQ|INE188A01015"
+  },
+  {
+    "name": "HSG & URBAN DEV CORPN LTD",
+    "instrument_key": "NSE_EQ|INE031A01017"
+  },
+  {
+    "name": "AUTOLINE INDUSTRIES LTD",
+    "instrument_key": "NSE_EQ|INE718H01014"
+  },
+  {
+    "name": "GENUS P&B LIMITED",
+    "instrument_key": "NSE_EQ|INE949P01018"
+  },
+  {
+    "name": "HARRISON MALAYALAM LTD",
+    "instrument_key": "NSE_EQ|INE544A01019"
+  },
+  {
+    "name": "BF INVESTMENT LIMITED",
+    "instrument_key": "NSE_EQ|INE878K01010"
+  },
+  {
+    "name": "LYKA LABS LTD",
+    "instrument_key": "NSE_EQ|INE933A01014"
+  },
+  {
+    "name": "STEEL EXCHANGE INDIA LTD",
+    "instrument_key": "NSE_EQ|INE503B01021"
+  },
+  {
+    "name": "EDELAMC - EBANKNIFTY",
+    "instrument_key": "NSE_EQ|INF754K01TE4"
+  },
+  {
+    "name": "EDELAMC - EMULTIMQ",
+    "instrument_key": "NSE_EQ|INF754K01TF1"
+  },
+  {
+    "name": "RASHTRIYA CHEMICALS & FER",
+    "instrument_key": "NSE_EQ|INE027A01015"
+  },
+  {
+    "name": "HILTON METAL FORGING LTD",
+    "instrument_key": "NSE_EQ|INE788H01017"
+  },
+  {
+    "name": "VEEDOL CORPORATION LTD",
+    "instrument_key": "NSE_EQ|INE484C01030"
+  },
+  {
+    "name": "PC JEWELLER LTD",
+    "instrument_key": "NSE_EQ|INE785M01021"
+  },
+  {
+    "name": "INDIAN OIL CORP LTD",
+    "instrument_key": "NSE_EQ|INE242A01010"
+  },
+  {
+    "name": "AARTI PHARMALABS LIMITED",
+    "instrument_key": "NSE_EQ|INE0LRU01027"
+  },
+  {
+    "name": "VEDANTA LIMITED",
+    "instrument_key": "NSE_EQ|INE205A01025"
+  },
+  {
+    "name": "STANDARD GLASS LIN TECH L",
+    "instrument_key": "NSE_EQ|INE0M4D01010"
+  },
+  {
+    "name": "INDIAN HUME PIPE CO. LTD.",
+    "instrument_key": "NSE_EQ|INE323C01030"
+  },
+  {
+    "name": "EDELAMC - ECAPINSURE",
+    "instrument_key": "NSE_EQ|INF754K01TX4"
+  },
+  {
+    "name": "NURECA LIMITED",
+    "instrument_key": "NSE_EQ|INE0DSF01015"
+  },
+  {
+    "name": "VIBHOR STEEL TUBES LTD",
+    "instrument_key": "NSE_EQ|INE0QTF01015"
+  },
+  {
+    "name": "PIRAMAL PHARMA LIMITED",
+    "instrument_key": "NSE_EQ|INE0DK501011"
+  },
+  {
+    "name": "TARC LIMITED",
+    "instrument_key": "NSE_EQ|INE0EK901012"
+  },
+  {
+    "name": "KALYANI STEELS LIMITED",
+    "instrument_key": "NSE_EQ|INE907A01026"
+  },
+  {
+    "name": "INCREDIBLE INDUSTRIES LTD",
+    "instrument_key": "NSE_EQ|INE452L01012"
+  },
+  {
+    "name": "OSWAL AGRO MILLS LTD",
+    "instrument_key": "NSE_EQ|INE142A01012"
+  },
+  {
+    "name": "BHARAT RASAYAN LTD",
+    "instrument_key": "NSE_EQ|INE838B01013"
+  },
+  {
+    "name": "C.E. INFO SYSTEMS LIMITED",
+    "instrument_key": "NSE_EQ|INE0BV301023"
+  },
+  {
+    "name": "GANESHA ECOSPHERE LIMITED",
+    "instrument_key": "NSE_EQ|INE845D01014"
+  },
+  {
+    "name": "GENSOL ENGINEERING LTD",
+    "instrument_key": "NSE_EQ|INE06H201014"
+  },
+  {
+    "name": "MADHUCON PROJECTS LTD.",
+    "instrument_key": "NSE_EQ|INE378D01032"
+  },
+  {
+    "name": "BIOFIL CHEM & PHARMA LTD",
+    "instrument_key": "NSE_EQ|INE829A01014"
+  },
+  {
+    "name": "MOTISONS JEWELLERS LTD",
+    "instrument_key": "NSE_EQ|INE0FRK01020"
+  },
+  {
+    "name": "THE STATE TRADING CORPN",
+    "instrument_key": "NSE_EQ|INE655A01013"
+  },
+  {
+    "name": "TVS HOLDINGS LIMITED",
+    "instrument_key": "NSE_EQ|INE105A01035"
+  },
+  {
+    "name": "MAHARASHTRA SCOOTERS LTD",
+    "instrument_key": "NSE_EQ|INE288A01013"
+  },
+  {
+    "name": "EDELAMC - EBBETF0433",
+    "instrument_key": "NSE_EQ|INF754K01QX0"
+  },
+  {
+    "name": "GUJARAT MINERAL DEV CORP",
+    "instrument_key": "NSE_EQ|INE131A01031"
+  },
+  {
+    "name": "MAGADH SUGAR & ENERGY LTD",
+    "instrument_key": "NSE_EQ|INE347W01011"
+  },
+  {
+    "name": "ENTERO HEALTHCARE SOLU L",
+    "instrument_key": "NSE_EQ|INE010601016"
+  },
+  {
+    "name": "MOTILAL OS MIDCAP100 ETF",
+    "instrument_key": "NSE_EQ|INF247L01023"
+  },
+  {
+    "name": "MAX HEALTHCARE INS LTD",
+    "instrument_key": "NSE_EQ|INE027H01010"
+  },
+  {
+    "name": "SALONA COTSPIN LTD.",
+    "instrument_key": "NSE_EQ|INE498E01010"
+  },
+  {
+    "name": "DEN NETWORKS LTD",
+    "instrument_key": "NSE_EQ|INE947J01015"
+  },
+  {
+    "name": "UNION BANK OF INDIA",
+    "instrument_key": "NSE_EQ|INE692A01016"
+  },
+  {
+    "name": "DSPAMC - DSPN50ETF",
+    "instrument_key": "NSE_EQ|INF740KA1CL0"
+  },
+  {
+    "name": "FINEOTEX CHEMICAL LIMITED",
+    "instrument_key": "NSE_EQ|INE045J01026"
+  },
+  {
+    "name": "TAJ GVK HOTELS & RESORTS",
+    "instrument_key": "NSE_EQ|INE586B01026"
+  },
+  {
+    "name": "B&B TRIPLEWALL CONT LTD",
+    "instrument_key": "NSE_EQ|INE01EE01011"
+  },
+  {
+    "name": "CAN FIN HOMES LTD",
+    "instrument_key": "NSE_EQ|INE477A01020"
+  },
+  {
+    "name": "CERA SANITARYWARE LTD",
+    "instrument_key": "NSE_EQ|INE739E01017"
+  },
+  {
+    "name": "SOMI CONVEYOR BELT. LTD.",
+    "instrument_key": "NSE_EQ|INE323J01019"
+  },
+  {
+    "name": "INVESCO INDIA GOLD ETF",
+    "instrument_key": "NSE_EQ|INF205K01361"
+  },
+  {
+    "name": "KPIT TECHNOLOGIES LIMITED",
+    "instrument_key": "NSE_EQ|INE04I401011"
+  },
+  {
+    "name": "FORTIS HEALTHCARE LTD",
+    "instrument_key": "NSE_EQ|INE061F01013"
+  },
+  {
+    "name": "ACCURACY SHIPPING LIMITED",
+    "instrument_key": "NSE_EQ|INE648Z01023"
+  },
+  {
+    "name": "MOLD-TEK PACKAGING LTD",
+    "instrument_key": "NSE_EQ|INE893J01029"
+  },
+  {
+    "name": "CAREER POINT LIMITED",
+    "instrument_key": "NSE_EQ|INE521J01018"
+  },
+  {
+    "name": "HDFCAMC - HDFCSILVER",
+    "instrument_key": "NSE_EQ|INF179KC1DI2"
+  },
+  {
+    "name": "PRIME FOCUS LIMITED",
+    "instrument_key": "NSE_EQ|INE367G01038"
+  },
+  {
+    "name": "NIPPON L I A M LTD",
+    "instrument_key": "NSE_EQ|INE298J01013"
+  },
+  {
+    "name": "KAPSTON SERVICES LIMITED",
+    "instrument_key": "NSE_EQ|INE542Z01028"
+  },
+  {
+    "name": "LMW LIMITED",
+    "instrument_key": "NSE_EQ|INE269B01029"
+  },
+  {
+    "name": "PRECISION CAMSHAFTS LTD.",
+    "instrument_key": "NSE_EQ|INE484I01029"
+  },
+  {
+    "name": "TRACXN TECHNOLOGIES LTD",
+    "instrument_key": "NSE_EQ|INE0HMF01019"
+  },
+  {
+    "name": "GRANULES INDIA LIMITED",
+    "instrument_key": "NSE_EQ|INE101D01020"
+  },
+  {
+    "name": "L&T TECHNOLOGY SER. LTD.",
+    "instrument_key": "NSE_EQ|INE010V01017"
+  },
+  {
+    "name": "GLOSTER LIMITED",
+    "instrument_key": "NSE_EQ|INE350Z01018"
+  },
+  {
+    "name": "JUNIPER HOTELS LIMITED",
+    "instrument_key": "NSE_EQ|INE696F01016"
+  },
+  {
+    "name": "KINGFA SCI & TEC IND LTD.",
+    "instrument_key": "NSE_EQ|INE473D01015"
+  },
+  {
+    "name": "SHOPPERS STOP LIMITED",
+    "instrument_key": "NSE_EQ|INE498B01024"
+  },
+  {
+    "name": "BHARAT ELECTRONICS LTD",
+    "instrument_key": "NSE_EQ|INE263A01024"
+  },
+  {
+    "name": "PSP PROJECTS LIMITED",
+    "instrument_key": "NSE_EQ|INE488V01015"
+  },
+  {
+    "name": "CARBORUNDUM UNIVERSAL LTD",
+    "instrument_key": "NSE_EQ|INE120A01034"
+  },
+  {
+    "name": "REC LIMITED",
+    "instrument_key": "NSE_EQ|INE020B01018"
+  },
+  {
+    "name": "AIA ENGINEERING LIMITED",
+    "instrument_key": "NSE_EQ|INE212H01026"
+  },
+  {
+    "name": "CAPACITE INFRAPROJECT LTD",
+    "instrument_key": "NSE_EQ|INE264T01014"
+  },
+  {
+    "name": "TORRENT PHARMACEUTICALS L",
+    "instrument_key": "NSE_EQ|INE685A01028"
+  },
+  {
+    "name": "JUPITER LIFE LINE HOSP L",
+    "instrument_key": "NSE_EQ|INE682M01012"
+  },
+  {
+    "name": "SRF LTD",
+    "instrument_key": "NSE_EQ|INE647A01010"
+  },
+  {
+    "name": "CINEVISTA LIMITED",
+    "instrument_key": "NSE_EQ|INE039B01026"
+  },
+  {
+    "name": "SURANA SOLAR LIMITED",
+    "instrument_key": "NSE_EQ|INE272L01022"
+  },
+  {
+    "name": "KELLTON TECH SOL LTD",
+    "instrument_key": "NSE_EQ|INE164B01022"
+  },
+  {
+    "name": "CITY UNION BANK LTD",
+    "instrument_key": "NSE_EQ|INE491A01021"
+  },
+  {
+    "name": "GUJARAT PIPAVAV PORT LTD",
+    "instrument_key": "NSE_EQ|INE517F01014"
+  },
+  {
+    "name": "IFGL REFRACTORIES LIMITED",
+    "instrument_key": "NSE_EQ|INE133Y01011"
+  },
+  {
+    "name": "MUFIN GREEN FINANCE LTD",
+    "instrument_key": "NSE_EQ|INE08KJ01020"
+  },
+  {
+    "name": "EXCEL INDUSTRIES LTD",
+    "instrument_key": "NSE_EQ|INE369A01029"
+  },
+  {
+    "name": "HEUBACH COLORANTS IND LTD",
+    "instrument_key": "NSE_EQ|INE492A01029"
+  },
+  {
+    "name": "ASHOKA BUILDCON LTD",
+    "instrument_key": "NSE_EQ|INE442H01029"
+  },
+  {
+    "name": "KRISHNA INST OF MED SCI L",
+    "instrument_key": "NSE_EQ|INE967H01025"
+  },
+  {
+    "name": "STAR PAPER MILLS LTD",
+    "instrument_key": "NSE_EQ|INE733A01018"
+  },
+  {
+    "name": "HDFCAMC - HDFCSML250",
+    "instrument_key": "NSE_EQ|INF179KC1FB2"
+  },
+  {
+    "name": "LUMAX INDUSTRIES LTD",
+    "instrument_key": "NSE_EQ|INE162B01018"
+  },
+  {
+    "name": "SANSERA ENGINEERING LTD",
+    "instrument_key": "NSE_EQ|INE953O01021"
+  },
+  {
+    "name": "SULA VINEYARDS LIMITED",
+    "instrument_key": "NSE_EQ|INE142Q01026"
+  },
+  {
+    "name": "HDFCAMC - HDFCBSE500",
+    "instrument_key": "NSE_EQ|INF179KC1EZ4"
+  },
+  {
+    "name": "CHOLAMANDALAM IN & FIN CO",
+    "instrument_key": "NSE_EQ|INE121A01024"
+  },
+  {
+    "name": "DCM NOUVELLE LIMITED",
+    "instrument_key": "NSE_EQ|INE08KP01019"
+  },
+  {
+    "name": "UPDATER SERVICES LIMITED",
+    "instrument_key": "NSE_EQ|INE851I01011"
+  },
+  {
+    "name": "NEOGEN CHEMICALS LIMITED",
+    "instrument_key": "NSE_EQ|INE136S01016"
+  },
+  {
+    "name": "ARVIND LIMITED",
+    "instrument_key": "NSE_EQ|INE034A01011"
+  },
+  {
+    "name": "DHRUV CONSULTANCY SER LTD",
+    "instrument_key": "NSE_EQ|INE506Z01015"
+  },
+  {
+    "name": "PRITISH NANDY COMMUNICATI",
+    "instrument_key": "NSE_EQ|INE392B01011"
+  },
+  {
+    "name": "SANDESH LTD",
+    "instrument_key": "NSE_EQ|INE583B01015"
+  },
+  {
+    "name": "SECUREKLOUD TECH LIMITED",
+    "instrument_key": "NSE_EQ|INE650K01021"
+  },
+  {
+    "name": "U. Y. FINCORP LIMITED",
+    "instrument_key": "NSE_EQ|INE152C01025"
+  },
+  {
+    "name": "DHAMPUR BIO ORGANICS LTD",
+    "instrument_key": "NSE_EQ|INE0I3401014"
+  },
+  {
+    "name": "ADITYA VISION LIMITED",
+    "instrument_key": "NSE_EQ|INE679V01027"
+  },
+  {
+    "name": "BINANI INDUSTRIES LTD",
+    "instrument_key": "NSE_EQ|INE071A01013"
+  },
+  {
+    "name": "GANDHAR OIL REFINE IND L",
+    "instrument_key": "NSE_EQ|INE717W01049"
+  },
+  {
+    "name": "SHIVALIK BIMETAL CON. LTD",
+    "instrument_key": "NSE_EQ|INE386D01027"
+  },
+  {
+    "name": "DCB BANK LIMITED",
+    "instrument_key": "NSE_EQ|INE503A01015"
+  },
+  {
+    "name": "HDFCAMC - HDFCQUAL",
+    "instrument_key": "NSE_EQ|INF179KC1DL6"
+  },
+  {
+    "name": "HDFCAMC - HDFCGROWTH",
+    "instrument_key": "NSE_EQ|INF179KC1DJ0"
+  },
+  {
+    "name": "HDFCAMC - HDFCVALUE",
+    "instrument_key": "NSE_EQ|INF179KC1DK8"
+  },
+  {
+    "name": "SHEMAROO ENTER. LTD.",
+    "instrument_key": "NSE_EQ|INE363M01019"
+  },
+  {
+    "name": "5PAISA CAPITAL LIMITED",
+    "instrument_key": "NSE_EQ|INE618L01018"
+  },
+  {
+    "name": "HCL TECHNOLOGIES LTD",
+    "instrument_key": "NSE_EQ|INE860A01027"
+  },
+  {
+    "name": "SHIVA MILLS LIMITED",
+    "instrument_key": "NSE_EQ|INE644Y01017"
+  },
+  {
+    "name": "NILKAMAL LIMITED",
+    "instrument_key": "NSE_EQ|INE310A01015"
+  },
+  {
+    "name": "TEJAS NETWORKS LIMITED",
+    "instrument_key": "NSE_EQ|INE010J01012"
+  },
+  {
+    "name": "RELIANCE INFRASTRUCTU LTD",
+    "instrument_key": "NSE_EQ|INE036A01016"
+  },
+  {
+    "name": "HDFCAMC - HDFCLIQUID",
+    "instrument_key": "NSE_EQ|INF179KC1HE2"
+  },
+  {
+    "name": "SHANTHI GEARS LTD",
+    "instrument_key": "NSE_EQ|INE631A01022"
+  },
+  {
+    "name": "DHUNSERI INVESTMENTS LTD",
+    "instrument_key": "NSE_EQ|INE320L01011"
+  },
+  {
+    "name": "DREAMFOLKS SERVICES LTD",
+    "instrument_key": "NSE_EQ|INE0JS101016"
+  },
+  {
+    "name": "PUNJAB & SIND BANK",
+    "instrument_key": "NSE_EQ|INE608A01012"
+  },
+  {
+    "name": "PREMIER ENERGIES LIMITED",
+    "instrument_key": "NSE_EQ|INE0BS701011"
+  },
+  {
+    "name": "SWIGGY LIMITED",
+    "instrument_key": "NSE_EQ|INE00H001014"
+  },
+  {
+    "name": "GLOBAL HEALTH LIMITED",
+    "instrument_key": "NSE_EQ|INE474Q01031"
+  },
+  {
+    "name": "VISHNU PRAKASH R PUNGLI L",
+    "instrument_key": "NSE_EQ|INE0AE001013"
+  },
+  {
+    "name": "CHENNAI PETROLEUM CORP LT",
+    "instrument_key": "NSE_EQ|INE178A01016"
+  },
+  {
+    "name": "BANK OF MAHARASHTRA",
+    "instrument_key": "NSE_EQ|INE457A01014"
+  },
+  {
+    "name": "MANOJ VAIBHAV GEM N JEW L",
+    "instrument_key": "NSE_EQ|INE0KNT01012"
+  },
+  {
+    "name": "ARCHIES LTD",
+    "instrument_key": "NSE_EQ|INE731A01020"
+  },
+  {
+    "name": "DODLA DAIRY LIMITED",
+    "instrument_key": "NSE_EQ|INE021O01019"
+  },
+  {
+    "name": "NITIN SPINNERS LIMITED",
+    "instrument_key": "NSE_EQ|INE229H01012"
+  },
+  {
+    "name": "SCHNEIDER ELECTRIC INFRA",
+    "instrument_key": "NSE_EQ|INE839M01018"
+  },
+  {
+    "name": "P&G HYGIENE & HEALTH CARE",
+    "instrument_key": "NSE_EQ|INE179A01014"
+  },
+  {
+    "name": "ELECTROSTEEL CASTINGS LTD",
+    "instrument_key": "NSE_EQ|INE086A01029"
+  },
+  {
+    "name": "INTL CONVEYORS LIMITED",
+    "instrument_key": "NSE_EQ|INE575C01027"
+  },
+  {
+    "name": "FIBERWEB INDIA LIMITED",
+    "instrument_key": "NSE_EQ|INE296C01020"
+  },
+  {
+    "name": "NAGREEKA EXPORTS LTD.",
+    "instrument_key": "NSE_EQ|INE123B01028"
+  },
+  {
+    "name": "UNIVERSAL CABLES LTD",
+    "instrument_key": "NSE_EQ|INE279A01012"
+  },
+  {
+    "name": "SWELECT ENERGY SYS LTD",
+    "instrument_key": "NSE_EQ|INE409B01013"
+  },
+  {
+    "name": "MANAK ALUMINIUM CO. LTD.",
+    "instrument_key": "NSE_EQ|INE859Q01017"
+  },
+  {
+    "name": "TD POWER SYSTEMS LTD.",
+    "instrument_key": "NSE_EQ|INE419M01027"
+  },
+  {
+    "name": "PALASH SECURITIES LTD",
+    "instrument_key": "NSE_EQ|INE471W01019"
+  },
+  {
+    "name": "PRAJ INDUSTRIES LTD",
+    "instrument_key": "NSE_EQ|INE074A01025"
+  },
+  {
+    "name": "TUBE INVEST OF INDIA LTD",
+    "instrument_key": "NSE_EQ|INE974X01010"
+  },
+  {
+    "name": "UNIPHOS ENTERPRISES LTD",
+    "instrument_key": "NSE_EQ|INE037A01022"
+  },
+  {
+    "name": "COASTAL CORPORATION LTD",
+    "instrument_key": "NSE_EQ|INE377E01016"
+  },
+  {
+    "name": "UNITED SPIRITS LIMITED",
+    "instrument_key": "NSE_EQ|INE854D01024"
+  },
+  {
+    "name": "VIP CLOTHING LIMITED",
+    "instrument_key": "NSE_EQ|INE450G01024"
+  },
+  {
+    "name": "BIRLASLAMC - TECH",
+    "instrument_key": "NSE_EQ|INF209KB11D8"
+  },
+  {
+    "name": "THE SOUTH INDIAN BANK LTD",
+    "instrument_key": "NSE_EQ|INE683A01023"
+  },
+  {
+    "name": "PRICOL LIMITED",
+    "instrument_key": "NSE_EQ|INE726V01018"
+  },
+  {
+    "name": "NAVKAR CORPORATION LTD.",
+    "instrument_key": "NSE_EQ|INE278M01019"
+  },
+  {
+    "name": "ORICON ENTERPRISES LTD",
+    "instrument_key": "NSE_EQ|INE730A01022"
+  },
+  {
+    "name": "REDINGTON LIMITED",
+    "instrument_key": "NSE_EQ|INE891D01026"
+  },
+  {
+    "name": "SUVEN LIFE SCIENCES LTD",
+    "instrument_key": "NSE_EQ|INE495B01038"
+  },
+  {
+    "name": "SOBHA LIMITED",
+    "instrument_key": "NSE_EQ|INE671H01015"
+  },
+  {
+    "name": "MANAKSIA LTD.",
+    "instrument_key": "NSE_EQ|INE015D01022"
+  },
+  {
+    "name": "SIYARAM SILK MILLS LTD",
+    "instrument_key": "NSE_EQ|INE076B01028"
+  },
+  {
+    "name": "GMM PFAUDLER LIMITED",
+    "instrument_key": "NSE_EQ|INE541A01023"
+  },
+  {
+    "name": "SPL INDUSTRIES LIMITED",
+    "instrument_key": "NSE_EQ|INE978G01016"
+  },
+  {
+    "name": "WINDLAS BIOTECH LIMITED",
+    "instrument_key": "NSE_EQ|INE0H5O01029"
+  },
+  {
+    "name": "KOTHARI SUG & CHEM LTD.",
+    "instrument_key": "NSE_EQ|INE419A01022"
+  },
+  {
+    "name": "BIRLASLAMC - BSLSENETFG",
+    "instrument_key": "NSE_EQ|INF209KB10E8"
+  },
+  {
+    "name": "JINDAL STAINLESS LIMITED",
+    "instrument_key": "NSE_EQ|INE220G01021"
+  },
+  {
+    "name": "BIRLASLAMC - HEALTHY",
+    "instrument_key": "NSE_EQ|INF209KB10C2"
+  },
+  {
+    "name": "TREJHARA SOLUTIONS LTD",
+    "instrument_key": "NSE_EQ|INE00CA01015"
+  },
+  {
+    "name": "ADANI PORT & SEZ LTD",
+    "instrument_key": "NSE_EQ|INE742F01042"
+  },
+  {
+    "name": "USHA MARTIN EDU & SOL LTD",
+    "instrument_key": "NSE_EQ|INE240C01028"
+  },
+  {
+    "name": "W.S.INDUSTRIES (I) LTD.",
+    "instrument_key": "NSE_EQ|INE100D01014"
+  },
+  {
+    "name": "HDFCAMC - HDFCNIFIT",
+    "instrument_key": "NSE_EQ|INF179KC1IA8"
+  },
+  {
+    "name": "ABANS HOLDINGS LIMITED",
+    "instrument_key": "NSE_EQ|INE00ZE01026"
+  },
+  {
+    "name": "VOLTAS LTD",
+    "instrument_key": "NSE_EQ|INE226A01021"
+  },
+  {
+    "name": "KEYSTONE REALTORS LIMITED",
+    "instrument_key": "NSE_EQ|INE263M01029"
+  },
+  {
+    "name": "HDFCAMC - HDFCPVTBAN",
+    "instrument_key": "NSE_EQ|INF179KC1HZ7"
+  },
+  {
+    "name": "AVADH SUG & ENERGY LTD",
+    "instrument_key": "NSE_EQ|INE349W01017"
+  },
+  {
+    "name": "HDFCAMC - HDFCSENSEX",
+    "instrument_key": "NSE_EQ|INF179KC1HX2"
+  },
+  {
+    "name": "HDFCAMC - HDFCNIFBAN",
+    "instrument_key": "NSE_EQ|INF179KC1HY0"
+  },
+  {
+    "name": "HDFCAMC - HDFCMOMENT",
+    "instrument_key": "NSE_EQ|INF179KC1HV6"
+  },
+  {
+    "name": "CAMPUS ACTIVEWEAR LIMITED",
+    "instrument_key": "NSE_EQ|INE278Y01022"
+  },
+  {
+    "name": "HDFCAMC HDFCPSUBK",
+    "instrument_key": "NSE_EQ|INF179KC1HW4"
+  },
+  {
+    "name": "JHS SVENDGAARD RETAIL V L",
+    "instrument_key": "NSE_EQ|INE03DD01011"
+  },
+  {
+    "name": "HDFCAMC - HDFCMID150",
+    "instrument_key": "NSE_EQ|INF179KC1HT0"
+  },
+  {
+    "name": "HDFCAMC - HDFCLOWVOL",
+    "instrument_key": "NSE_EQ|INF179KC1HU8"
+  },
+  {
+    "name": "GOODLUCK INDIA LIMITED",
+    "instrument_key": "NSE_EQ|INE127I01024"
+  },
+  {
+    "name": "BHAGYANAGAR INDIA LIMITED",
+    "instrument_key": "NSE_EQ|INE458B01036"
+  },
+  {
+    "name": "HDFCAMC - HDFCNIF100",
+    "instrument_key": "NSE_EQ|INF179KC1HR4"
+  },
+  {
+    "name": "HDFCAMC - HDFCNEXT50",
+    "instrument_key": "NSE_EQ|INF179KC1HS2"
+  },
+  {
+    "name": "TPL PLASTECH LIMITED",
+    "instrument_key": "NSE_EQ|INE413G01022"
+  },
+  {
+    "name": "ALBERT DAVID LIMITED",
+    "instrument_key": "NSE_EQ|INE155C01010"
+  },
+  {
+    "name": "FEDERAL BANK LTD",
+    "instrument_key": "NSE_EQ|INE171A01029"
+  },
+  {
+    "name": "DRC SYSTEMS INDIA LIMITED",
+    "instrument_key": "NSE_EQ|INE03RS01027"
+  },
+  {
+    "name": "NETWEB TECH INDIA LTD",
+    "instrument_key": "NSE_EQ|INE0NT901020"
+  },
+  {
+    "name": "RBL BANK LIMITED",
+    "instrument_key": "NSE_EQ|INE976G01028"
+  },
+  {
+    "name": "K.P. ENERGY LIMITED",
+    "instrument_key": "NSE_EQ|INE127T01021"
+  },
+  {
+    "name": "HBL ENGINEERING LTD",
+    "instrument_key": "NSE_EQ|INE292B01021"
+  },
+  {
+    "name": "DYNAMIC CABLES LIMITED",
+    "instrument_key": "NSE_EQ|INE600Y01019"
+  },
+  {
+    "name": "ESAF SMALL FINANCE BANK L",
+    "instrument_key": "NSE_EQ|INE818W01011"
+  },
+  {
+    "name": "GRASIM INDUSTRIES LTD",
+    "instrument_key": "NSE_EQ|INE047A01021"
+  },
+  {
+    "name": "LUPIN LIMITED",
+    "instrument_key": "NSE_EQ|INE326A01037"
+  },
+  {
+    "name": "JAIN DVR EQUITY SHARES",
+    "instrument_key": "NSE_EQ|IN9175A01010"
+  },
+  {
+    "name": "AVALON TECHNOLOGIES LTD",
+    "instrument_key": "NSE_EQ|INE0LCL01028"
+  },
+  {
+    "name": "PERSISTENT SYSTEMS LTD",
+    "instrument_key": "NSE_EQ|INE262H01021"
+  },
+  {
+    "name": "DELTA CORP LIMITED",
+    "instrument_key": "NSE_EQ|INE124G01033"
+  },
+  {
+    "name": "NMDC LTD.",
+    "instrument_key": "NSE_EQ|INE584A01023"
+  },
+  {
+    "name": "BANK OF INDIA",
+    "instrument_key": "NSE_EQ|INE084A01016"
+  },
+  {
+    "name": "STOVE KRAFT LIMITED",
+    "instrument_key": "NSE_EQ|INE00IN01015"
+  },
+  {
+    "name": "CHAMBAL FERTILIZERS LTD",
+    "instrument_key": "NSE_EQ|INE085A01013"
+  },
+  {
+    "name": "MANBA FINANCE LIMITED",
+    "instrument_key": "NSE_EQ|INE939X01013"
+  },
+  {
+    "name": "B.L.KASHYAP & SON LTD",
+    "instrument_key": "NSE_EQ|INE350H01032"
+  },
+  {
+    "name": "SAMVRDHNA MTHRSN INTL LTD",
+    "instrument_key": "NSE_EQ|INE775A01035"
+  },
+  {
+    "name": "KAJARIA CERAMICS LTD",
+    "instrument_key": "NSE_EQ|INE217B01036"
+  },
+  {
+    "name": "KEI INDUSTRIES LTD.",
+    "instrument_key": "NSE_EQ|INE878B01027"
+  },
+  {
+    "name": "SOM DIST & BREW LTD",
+    "instrument_key": "NSE_EQ|INE480C01038"
+  },
+  {
+    "name": "SASKEN TECHNOLOGIES LTD",
+    "instrument_key": "NSE_EQ|INE231F01020"
+  },
+  {
+    "name": "D.B.CORP LTD",
+    "instrument_key": "NSE_EQ|INE950I01011"
+  },
+  {
+    "name": "MUKKA PROTEINS LIMITED",
+    "instrument_key": "NSE_EQ|INE0CG401037"
+  },
+  {
+    "name": "KABRA EXTRUSION TECHNIK L",
+    "instrument_key": "NSE_EQ|INE900B01029"
+  },
+  {
+    "name": "ALIVUS LIFE SCIENCES LTD",
+    "instrument_key": "NSE_EQ|INE03Q201024"
+  },
+  {
+    "name": "JUSTDIAL LTD.",
+    "instrument_key": "NSE_EQ|INE599M01018"
+  },
+  {
+    "name": "WONDER ELECTRICALS LTD",
+    "instrument_key": "NSE_EQ|INE02WG01024"
+  },
+  {
+    "name": "BIRLASOFT LIMITED",
+    "instrument_key": "NSE_EQ|INE836A01035"
+  },
+  {
+    "name": "XELPMOC DESIGN & TECH LTD",
+    "instrument_key": "NSE_EQ|INE01P501012"
+  },
+  {
+    "name": "63 MOONS TECHNOLOGIES LTD",
+    "instrument_key": "NSE_EQ|INE111B01023"
+  },
+  {
+    "name": "INDIGO PAINTS LIMITED",
+    "instrument_key": "NSE_EQ|INE09VQ01012"
+  },
+  {
+    "name": "INDO COUNT INDUSTRIES LTD",
+    "instrument_key": "NSE_EQ|INE483B01026"
+  },
+  {
+    "name": "SUNTECK REALTY LIMITED",
+    "instrument_key": "NSE_EQ|INE805D01034"
+  },
+  {
+    "name": "PVP VENTURES LIMITED",
+    "instrument_key": "NSE_EQ|INE362A01016"
+  },
+  {
+    "name": "SBI-ETF NIFTY 50",
+    "instrument_key": "NSE_EQ|INF200KA1FS1"
+  },
+  {
+    "name": "MOKSH ORNAMENTS LIMITED",
+    "instrument_key": "NSE_EQ|INE514Y01020"
+  },
+  {
+    "name": "VOLTAMP TRANSFORMERS LTD",
+    "instrument_key": "NSE_EQ|INE540H01012"
+  },
+  {
+    "name": "TIMKEN INDIA LTD.",
+    "instrument_key": "NSE_EQ|INE325A01013"
+  },
+  {
+    "name": "HFCL LIMITED",
+    "instrument_key": "NSE_EQ|INE548A01028"
+  },
+  {
+    "name": "VISAGAR POLYTEX LTD",
+    "instrument_key": "NSE_EQ|INE370E01029"
+  },
+  {
+    "name": "TOLINS TYRES LIMITED",
+    "instrument_key": "NSE_EQ|INE0RWQ01014"
+  },
+  {
+    "name": "AARON INDUSTRIES LIMITED",
+    "instrument_key": "NSE_EQ|INE721Z01010"
+  },
+  {
+    "name": "MONARCH NETWORTH CAP LTD",
+    "instrument_key": "NSE_EQ|INE903D01011"
+  },
+  {
+    "name": "RPG LIFE SCIENCES LTD",
+    "instrument_key": "NSE_EQ|INE105J01010"
+  },
+  {
+    "name": "ICICI PRUD SENSEX ETF",
+    "instrument_key": "NSE_EQ|INF346A01034"
+  },
+  {
+    "name": "GPT INFRAPROJECTS LTD",
+    "instrument_key": "NSE_EQ|INE390G01014"
+  },
+  {
+    "name": "JINDAL POLY FILMS LIMITED",
+    "instrument_key": "NSE_EQ|INE197D01010"
+  },
+  {
+    "name": "METRO BRANDS LIMITED",
+    "instrument_key": "NSE_EQ|INE317I01021"
+  },
+  {
+    "name": "AMRUTAJAN HEALTH LTD",
+    "instrument_key": "NSE_EQ|INE098F01031"
+  },
+  {
+    "name": "SRG HOUSING FINANCE L",
+    "instrument_key": "NSE_EQ|INE559N01010"
+  },
+  {
+    "name": "TRANSINDIA REAL ESTATE L",
+    "instrument_key": "NSE_EQ|INE0O3901029"
+  },
+  {
+    "name": "CREDITACCESS GRAMEEN LTD",
+    "instrument_key": "NSE_EQ|INE741K01010"
+  },
+  {
+    "name": "NACL INDUSTRIES LIMITED",
+    "instrument_key": "NSE_EQ|INE295D01020"
+  },
+  {
+    "name": "CAPITAL SMALL FIN BANK L",
+    "instrument_key": "NSE_EQ|INE646H01017"
+  },
+  {
+    "name": "DEEPAK FERTILIZERS & PETR",
+    "instrument_key": "NSE_EQ|INE501A01019"
+  },
+  {
+    "name": "MUTHOOT FINANCE LIMITED",
+    "instrument_key": "NSE_EQ|INE414G01012"
+  },
+  {
+    "name": "TARMAT LIMITED",
+    "instrument_key": "NSE_EQ|INE924H01018"
+  },
+  {
+    "name": "RITCO LOGISTICS LIMITED",
+    "instrument_key": "NSE_EQ|INE01EG01016"
+  },
+  {
+    "name": "SBI CARDS & PAY SER LTD",
+    "instrument_key": "NSE_EQ|INE018E01016"
+  },
+  {
+    "name": "OLA ELECTRIC MOBILITY LTD",
+    "instrument_key": "NSE_EQ|INE0LXG01040"
+  },
+  {
+    "name": "VODAFONE IDEA LIMITED",
+    "instrument_key": "NSE_EQ|INE669E01016"
+  },
+  {
+    "name": "RHI MAGNESITA INDIA LTD",
+    "instrument_key": "NSE_EQ|INE743M01012"
+  },
+  {
+    "name": "GMR AIRPORTS LIMITED",
+    "instrument_key": "NSE_EQ|INE776C01039"
+  },
+  {
+    "name": "SUDARSHAN CHEMICAL INDS L",
+    "instrument_key": "NSE_EQ|INE659A01023"
+  },
+  {
+    "name": "UNIINFO TELECOM SERVI LTD",
+    "instrument_key": "NSE_EQ|INE481Z01011"
+  },
+  {
+    "name": "JINDAL SAW LIMITED",
+    "instrument_key": "NSE_EQ|INE324A01032"
+  },
+  {
+    "name": "THE PHOENIX MILLS LTD",
+    "instrument_key": "NSE_EQ|INE211B01039"
+  },
+  {
+    "name": "PB FINTECH LIMITED",
+    "instrument_key": "NSE_EQ|INE417T01026"
+  },
+  {
+    "name": "PRAKASH STEELAGE LTD",
+    "instrument_key": "NSE_EQ|INE696K01024"
+  },
+  {
+    "name": "GLAND PHARMA LIMITED",
+    "instrument_key": "NSE_EQ|INE068V01023"
+  },
+  {
+    "name": "TORRENT POWER LTD",
+    "instrument_key": "NSE_EQ|INE813H01021"
+  },
+  {
+    "name": "BAJAJ ELECT.LTD",
+    "instrument_key": "NSE_EQ|INE193E01025"
+  },
+  {
+    "name": "PRIME SECURITIES LIMITED",
+    "instrument_key": "NSE_EQ|INE032B01021"
+  },
+  {
+    "name": "INDO BORAX & CHEMICAL LTD",
+    "instrument_key": "NSE_EQ|INE803D01021"
+  },
+  {
+    "name": "CIE AUTOMOTIVE INDIA LTD",
+    "instrument_key": "NSE_EQ|INE536H01010"
+  },
+  {
+    "name": "LA OPALA RG LIMITED",
+    "instrument_key": "NSE_EQ|INE059D01020"
+  },
+  {
+    "name": "INOX WIND LIMITED",
+    "instrument_key": "NSE_EQ|INE066P01011"
+  },
+  {
+    "name": "SHEETAL COOL PRODUCTS LTD",
+    "instrument_key": "NSE_EQ|INE501Y01019"
+  },
+  {
+    "name": "JSW INFRASTRUCTURE LTD",
+    "instrument_key": "NSE_EQ|INE880J01026"
+  },
+  {
+    "name": "ABBOTT INDIA LIMITED",
+    "instrument_key": "NSE_EQ|INE358A01014"
+  },
+  {
+    "name": "AHLADA ENGINEERS LIMITED",
+    "instrument_key": "NSE_EQ|INE00PV01013"
+  },
+  {
+    "name": "VMART RETAIL LTD",
+    "instrument_key": "NSE_EQ|INE665J01013"
+  },
+  {
+    "name": "SIGNET INDUSTRIES LIMITED",
+    "instrument_key": "NSE_EQ|INE529F01035"
+  },
+  {
+    "name": "SBIAMC - SETF10GILT",
+    "instrument_key": "NSE_EQ|INF200KA1JT1"
+  },
+  {
+    "name": "STEEL CITY SECURITIES LTD",
+    "instrument_key": "NSE_EQ|INE395H01011"
+  },
+  {
+    "name": "NCC LIMITED",
+    "instrument_key": "NSE_EQ|INE868B01028"
+  },
+  {
+    "name": "DHANI SERVICES LIMITED",
+    "instrument_key": "NSE_EQ|INE274G01010"
+  },
+  {
+    "name": "INVENTURUS KNOWLEDGE SO L",
+    "instrument_key": "NSE_EQ|INE115Q01022"
+  },
+  {
+    "name": "AEROFLEX INDUSTRIES LTD",
+    "instrument_key": "NSE_EQ|INE024001021"
+  },
+  {
+    "name": "CASTROL INDIA LIMITED",
+    "instrument_key": "NSE_EQ|INE172A01027"
+  },
+  {
+    "name": "ZAGGLE PREPA OCEAN SER L",
+    "instrument_key": "NSE_EQ|INE07K301024"
+  },
+  {
+    "name": "GALA PRECISION ENG LTD",
+    "instrument_key": "NSE_EQ|INE0RE001014"
+  },
+  {
+    "name": "PCBL CHEMICAL LIMITED",
+    "instrument_key": "NSE_EQ|INE602A01031"
+  },
+  {
+    "name": "OIL AND NATURAL GAS CORP.",
+    "instrument_key": "NSE_EQ|INE213A01029"
+  },
+  {
+    "name": "VARDHMAN TEXTILES LIMITED",
+    "instrument_key": "NSE_EQ|INE825A01020"
+  },
+  {
+    "name": "SRI HAVISHA HOSP & INFR L",
+    "instrument_key": "NSE_EQ|INE293B01029"
+  },
+  {
+    "name": "MEGASTAR FOODS LIMITED",
+    "instrument_key": "NSE_EQ|INE00EM01016"
+  },
+  {
+    "name": "BOMBAY SUPER HYBRID SEEDS",
+    "instrument_key": "NSE_EQ|INE032Z01020"
+  },
+  {
+    "name": "SREELEATHERS LIMITED",
+    "instrument_key": "NSE_EQ|INE099F01013"
+  },
+  {
+    "name": "NAGARJUN FERT AND CHE LTD",
+    "instrument_key": "NSE_EQ|INE454M01024"
+  },
+  {
+    "name": "ROSSARI BIOTECH LIMITED",
+    "instrument_key": "NSE_EQ|INE02A801020"
+  },
+  {
+    "name": "KIRLOSKAR INDUSTRIES LTD",
+    "instrument_key": "NSE_EQ|INE250A01039"
+  },
+  {
+    "name": "LINCOLN PHARMA LTD",
+    "instrument_key": "NSE_EQ|INE405C01035"
+  },
+  {
+    "name": "BALU FORGE INDUSTRIES LTD",
+    "instrument_key": "NSE_EQ|INE011E01029"
+  },
+  {
+    "name": "MINDTECK (INDIA) LIMITED",
+    "instrument_key": "NSE_EQ|INE110B01017"
+  },
+  {
+    "name": "MOTHERSON SUMI WRNG IND L",
+    "instrument_key": "NSE_EQ|INE0FS801015"
+  },
+  {
+    "name": "VALOR ESTATE LIMITED",
+    "instrument_key": "NSE_EQ|INE879I01012"
+  },
+  {
+    "name": "RAIL VIKAS NIGAM LIMITED",
+    "instrument_key": "NSE_EQ|INE415G01027"
+  },
+  {
+    "name": "INDIAN RAIL TOUR CORP LTD",
+    "instrument_key": "NSE_EQ|INE335Y01020"
+  },
+  {
+    "name": "HINDWARE HME INOVATON LTD",
+    "instrument_key": "NSE_EQ|INE05AN01011"
+  },
+  {
+    "name": "CHEMCON SPECIAL CHEM LTD",
+    "instrument_key": "NSE_EQ|INE03YM01018"
+  },
+  {
+    "name": "CSL FINANCE LIMITED",
+    "instrument_key": "NSE_EQ|INE718F01018"
+  },
+  {
+    "name": "ERIS LIFESCIENCES LIMITED",
+    "instrument_key": "NSE_EQ|INE406M01024"
+  },
+  {
+    "name": "INNOVANA THINKLABS LTD",
+    "instrument_key": "NSE_EQ|INE403Y01018"
+  },
+  {
+    "name": "DATAMATICS GLOBAL SER LTD",
+    "instrument_key": "NSE_EQ|INE365B01017"
+  },
+  {
+    "name": "NAVA LIMITED",
+    "instrument_key": "NSE_EQ|INE725A01030"
+  },
+  {
+    "name": "BSL LTD",
+    "instrument_key": "NSE_EQ|INE594B01012"
+  },
+  {
+    "name": "VIRINCHI LIMITED",
+    "instrument_key": "NSE_EQ|INE539B01017"
+  },
+  {
+    "name": "AFFLE (INDIA) LIMITED",
+    "instrument_key": "NSE_EQ|INE00WC01027"
+  },
+  {
+    "name": "DEEP INDUSTRIES LIMITED",
+    "instrument_key": "NSE_EQ|INE0FHS01024"
+  },
+  {
+    "name": "ADANI ENERGY SOLUTION LTD",
+    "instrument_key": "NSE_EQ|INE931S01010"
+  },
+  {
+    "name": "MIRAEAMC - LIQUIDPLUS",
+    "instrument_key": "NSE_EQ|INF769K01MY5"
+  },
+  {
+    "name": "LIBERTY SHOES LTD",
+    "instrument_key": "NSE_EQ|INE557B01019"
+  },
+  {
+    "name": "GLOBAL EDUCATION LIMITED",
+    "instrument_key": "NSE_EQ|INE291W01037"
+  },
+  {
+    "name": "BRIGADE ENTER. LTD",
+    "instrument_key": "NSE_EQ|INE791I01019"
+  },
+  {
+    "name": "CONTROL PRINT LIMITED",
+    "instrument_key": "NSE_EQ|INE663B01015"
+  },
+  {
+    "name": "HINDPRAKASH INDUSTRY LTD",
+    "instrument_key": "NSE_EQ|INE05X901010"
+  },
+  {
+    "name": "SAGAR CEMENTS LIMITED",
+    "instrument_key": "NSE_EQ|INE229C01021"
+  },
+  {
+    "name": "MIRAEAMC - CONSUMER",
+    "instrument_key": "NSE_EQ|INF769K01NS5"
+  },
+  {
+    "name": "TAMILNADU PETROPRODUCTS L",
+    "instrument_key": "NSE_EQ|INE148A01019"
+  },
+  {
+    "name": "INDIA PESTICIDES LIMITED",
+    "instrument_key": "NSE_EQ|INE0D6701023"
+  },
+  {
+    "name": "MIRAEAMC - MASILVER",
+    "instrument_key": "NSE_EQ|INF769K01KG6"
+  },
+  {
+    "name": "ANJANI PORTLAND CEM LTD",
+    "instrument_key": "NSE_EQ|INE071F01012"
+  },
+  {
+    "name": "MOLD-TEK TECHNOLOGIES LTD",
+    "instrument_key": "NSE_EQ|INE835B01035"
+  },
+  {
+    "name": "RATTANINDIA POWER LIMITED",
+    "instrument_key": "NSE_EQ|INE399K01017"
+  },
+  {
+    "name": "MIRAEAMC - MAGS813ETF",
+    "instrument_key": "NSE_EQ|INF769K01KF8"
+  },
+  {
+    "name": "CAMLIN FINE SCIENCES LTD",
+    "instrument_key": "NSE_EQ|INE052I01032"
+  },
+  {
+    "name": "NALWA SONS INVESTMENT LTD",
+    "instrument_key": "NSE_EQ|INE023A01030"
+  },
+  {
+    "name": "VADILAL INDUSTRIES LTD",
+    "instrument_key": "NSE_EQ|INE694D01016"
+  },
+  {
+    "name": "MIRAEAMC - BANKETF",
+    "instrument_key": "NSE_EQ|INF769K01KR3"
+  },
+  {
+    "name": "IRB INFRA DEV LTD.",
+    "instrument_key": "NSE_EQ|INE821I01022"
+  },
+  {
+    "name": "DYNAMATIC TECHNOLOGIES",
+    "instrument_key": "NSE_EQ|INE221B01012"
+  },
+  {
+    "name": "COCHIN SHIPYARD LIMITED",
+    "instrument_key": "NSE_EQ|INE704P01025"
+  },
+  {
+    "name": "BARAK VALLEY CEM. LTD.",
+    "instrument_key": "NSE_EQ|INE139I01011"
+  },
+  {
+    "name": "BALKRISHNA PAPER MILLS L",
+    "instrument_key": "NSE_EQ|INE875R01011"
+  },
+  {
+    "name": "DHAMPUR SUGAR MILLS LTD.",
+    "instrument_key": "NSE_EQ|INE041A01016"
+  },
+  {
+    "name": "NAVNEET EDUCATION LTD",
+    "instrument_key": "NSE_EQ|INE060A01024"
+  },
+  {
+    "name": "INDIAN RAILWAY FIN CORP L",
+    "instrument_key": "NSE_EQ|INE053F01010"
+  },
+  {
+    "name": "INSECTICIDES (I) LTD",
+    "instrument_key": "NSE_EQ|INE070I01018"
+  },
+  {
+    "name": "MIRAEAMC - LIQUID",
+    "instrument_key": "NSE_EQ|INF769K01KS1"
+  },
+  {
+    "name": "MIRAEAMC - SENSEXETF",
+    "instrument_key": "NSE_EQ|INF769K01KT9"
+  },
+  {
+    "name": "MIRAEAMC - ALPHAETF",
+    "instrument_key": "NSE_EQ|INF769K01KU7"
+  },
+  {
+    "name": "MIRAEAMC - ITETF",
+    "instrument_key": "NSE_EQ|INF769K01KV5"
+  },
+  {
+    "name": "JAYASWAL NECO INDUSTR LTD",
+    "instrument_key": "NSE_EQ|INE854B01010"
+  },
+  {
+    "name": "MIRAEAMC - SMALLCAP",
+    "instrument_key": "NSE_EQ|INF769K01LC3"
+  },
+  {
+    "name": "BOSCH LIMITED",
+    "instrument_key": "NSE_EQ|INE323A01026"
+  },
+  {
+    "name": "ADVANI HOT.& RES.(I) LTD",
+    "instrument_key": "NSE_EQ|INE199C01026"
+  },
+  {
+    "name": "MIRAEAMC - MIDSMALL",
+    "instrument_key": "NSE_EQ|INF769K01LJ8"
+  },
+  {
+    "name": "PARKHOTELS",
+    "instrument_key": "NSE_EQ|INE988S01028"
+  },
+  {
+    "name": "JOHNSON CONTROLS HITACHI",
+    "instrument_key": "NSE_EQ|INE782A01015"
+  },
+  {
+    "name": "MIRAEAMC - EVINDIA",
+    "instrument_key": "NSE_EQ|INF769K01LQ3"
+  },
+  {
+    "name": "MAYUR UNIQUOTERS LTD",
+    "instrument_key": "NSE_EQ|INE040D01038"
+  },
+  {
+    "name": "IL&FS INVESTMENT MANAGERS",
+    "instrument_key": "NSE_EQ|INE050B01023"
+  },
+  {
+    "name": "MIRAEAMC - METAL",
+    "instrument_key": "NSE_EQ|INF769K01LY7"
+  },
+  {
+    "name": "MIRAEAMC - BANKPSU",
+    "instrument_key": "NSE_EQ|INF769K01LZ4"
+  },
+  {
+    "name": "ZODIAC CLOTHING CO. LTD.",
+    "instrument_key": "NSE_EQ|INE206B01013"
+  },
+  {
+    "name": "ADVANCED ENZYME TECH LTD",
+    "instrument_key": "NSE_EQ|INE837H01020"
+  },
+  {
+    "name": "YATRA ONLINE LIMITED",
+    "instrument_key": "NSE_EQ|INE0JR601024"
+  },
+  {
+    "name": "MIRAEAMC - MULTICAP",
+    "instrument_key": "NSE_EQ|INF769K01LX9"
+  },
+  {
+    "name": "AFFORD ROBO & AUTO LTD",
+    "instrument_key": "NSE_EQ|INE692Z01013"
+  },
+  {
+    "name": "RITES LIMITED",
+    "instrument_key": "NSE_EQ|INE320J01015"
+  },
+  {
+    "name": "S&S POWER SWITCHGEARS LTD",
+    "instrument_key": "NSE_EQ|INE902B01017"
+  },
+  {
+    "name": "HPL ELECTRIC & POWER LTD",
+    "instrument_key": "NSE_EQ|INE495S01016"
+  },
+  {
+    "name": "MIRAEAMC - MAM150ETF",
+    "instrument_key": "NSE_EQ|INF769K01IC9"
+  },
+  {
+    "name": "TVS ELECTRONICS LTD",
+    "instrument_key": "NSE_EQ|INE236G01019"
+  },
+  {
+    "name": "ZINKA LOGISTICS SOL LTD",
+    "instrument_key": "NSE_EQ|INE0UIZ01018"
+  },
+  {
+    "name": "SUTLEJ TEXT & INDUS LTD",
+    "instrument_key": "NSE_EQ|INE645H01027"
+  },
+  {
+    "name": "GUJ. APOLLO IND. LTD.",
+    "instrument_key": "NSE_EQ|INE826C01016"
+  },
+  {
+    "name": "MASTER TRUST LIMITED",
+    "instrument_key": "NSE_EQ|INE677D01037"
+  },
+  {
+    "name": "MIRAEAMC - MAMFGETF",
+    "instrument_key": "NSE_EQ|INF769K01IB1"
+  },
+  {
+    "name": "SJS ENTERPRISES LIMITED",
+    "instrument_key": "NSE_EQ|INE284S01014"
+  },
+  {
+    "name": "NAHAR INDS ENT LTD",
+    "instrument_key": "NSE_EQ|INE289A01011"
+  },
+  {
+    "name": "SBIAMC - LIQUIDSBI",
+    "instrument_key": "NSE_EQ|INF200KA13Z8"
+  },
+  {
+    "name": "HDFC AMC LIMITED",
+    "instrument_key": "NSE_EQ|INE127D01025"
+  },
+  {
+    "name": "HINDUSTAN FOODS LIMITED",
+    "instrument_key": "NSE_EQ|INE254N01026"
+  },
+  {
+    "name": "VALIANT LABORATORIES LTD",
+    "instrument_key": "NSE_EQ|INE0JWS01017"
+  },
+  {
+    "name": "REMSONS INDUSTRIES LTD",
+    "instrument_key": "NSE_EQ|INE474C01023"
+  },
+  {
+    "name": "NDR AUTO COMPONENTS LTD",
+    "instrument_key": "NSE_EQ|INE07OG01012"
+  },
+  {
+    "name": "SML ISUZU LIMITED",
+    "instrument_key": "NSE_EQ|INE294B01019"
+  },
+  {
+    "name": "DELTA MANUFACTURING LTD",
+    "instrument_key": "NSE_EQ|INE393A01011"
+  },
+  {
+    "name": "ASIAN PAINTS LIMITED",
+    "instrument_key": "NSE_EQ|INE021A01026"
+  },
+  {
+    "name": "H.G.INFRA ENGINEERING LTD",
+    "instrument_key": "NSE_EQ|INE926X01010"
+  },
+  {
+    "name": "PFIZER LTD",
+    "instrument_key": "NSE_EQ|INE182A01018"
+  },
+  {
+    "name": "MIRAEAMC - MAGOLDETF",
+    "instrument_key": "NSE_EQ|INF769K01JP9"
+  },
+  {
+    "name": "AURIONPRO SOLN LTD",
+    "instrument_key": "NSE_EQ|INE132H01018"
+  },
+  {
+    "name": "MIRAEAMC - MANV30F",
+    "instrument_key": "NSE_EQ|INF769K01JU9"
+  },
+  {
+    "name": "FAIRCHEM ORGANICS LIMITED",
+    "instrument_key": "NSE_EQ|INE0DNW01011"
+  },
+  {
+    "name": "HEADS UP VENTURES LIMITED",
+    "instrument_key": "NSE_EQ|INE759V01019"
+  },
+  {
+    "name": "SBI-ETF NIFTY BANK",
+    "instrument_key": "NSE_EQ|INF200KA1580"
+  },
+  {
+    "name": "SBI-ETF NIFTY NEXT 50",
+    "instrument_key": "NSE_EQ|INF200KA1598"
+  },
+  {
+    "name": "EMAMI LIMITED",
+    "instrument_key": "NSE_EQ|INE548C01032"
+  },
+  {
+    "name": "BODAL CHEMICALS LTD",
+    "instrument_key": "NSE_EQ|INE338D01028"
+  },
+  {
+    "name": "ORIENT GREEN POWER CO LTD",
+    "instrument_key": "NSE_EQ|INE999K01014"
+  },
+  {
+    "name": "SANDHAR TECHNOLOGIES LTD",
+    "instrument_key": "NSE_EQ|INE278H01035"
+  },
+  {
+    "name": "MAGNUM VENTURES LTD.",
+    "instrument_key": "NSE_EQ|INE387I01016"
+  },
+  {
+    "name": "SIS LIMITED",
+    "instrument_key": "NSE_EQ|INE285J01028"
+  },
+  {
+    "name": "RUCHI INFRASTRUCTURE LTD",
+    "instrument_key": "NSE_EQ|INE413B01023"
+  },
+  {
+    "name": "HONEYWELL AUTOMATION IND",
+    "instrument_key": "NSE_EQ|INE671A01010"
+  },
+  {
+    "name": "CREDO BRANDS MARKETING L",
+    "instrument_key": "NSE_EQ|INE220Q01020"
+  },
+  {
+    "name": "HDFC GOLD ETF",
+    "instrument_key": "NSE_EQ|INF179KC1981"
+  },
+  {
+    "name": "LINC LIMITED",
+    "instrument_key": "NSE_EQ|INE802B01027"
+  },
+  {
+    "name": "MIRAEAMC - MAESGETF",
+    "instrument_key": "NSE_EQ|INF769K01GS9"
+  },
+  {
+    "name": "HDFCAMC - HDFCNIFTY",
+    "instrument_key": "NSE_EQ|INF179KC1965"
+  },
+  {
+    "name": "MIRAEAMC - MAFSETF",
+    "instrument_key": "NSE_EQ|INF769K01HI8"
+  },
+  {
+    "name": "MPHASIS LIMITED",
+    "instrument_key": "NSE_EQ|INE356A01018"
+  },
+  {
+    "name": "IPCA LABORATORIES LTD",
+    "instrument_key": "NSE_EQ|INE571A01038"
+  },
+  {
+    "name": "NTPC LTD",
+    "instrument_key": "NSE_EQ|INE733E01010"
+  },
+  {
+    "name": "MIRAEAMC - MAFANG",
+    "instrument_key": "NSE_EQ|INF769K01HF4"
+  },
+  {
+    "name": "HONDA I POWER PRODUCT LTD",
+    "instrument_key": "NSE_EQ|INE634A01018"
+  },
+  {
+    "name": "MIRAEAMC - MAHKTECH",
+    "instrument_key": "NSE_EQ|INF769K01HS7"
+  },
+  {
+    "name": "THEMIS MEDICARE LTD.",
+    "instrument_key": "NSE_EQ|INE083B01024"
+  },
+  {
+    "name": "RASHI PERIPHERALS LIMITED",
+    "instrument_key": "NSE_EQ|INE0J1F01024"
+  },
+  {
+    "name": "MIRAEAMC - MASPTOP50",
+    "instrument_key": "NSE_EQ|INF769K01HP3"
+  },
+  {
+    "name": "LTIMINDTREE LIMITED",
+    "instrument_key": "NSE_EQ|INE214T01019"
+  },
+  {
+    "name": "ZIM LABORATORIES LIMITED",
+    "instrument_key": "NSE_EQ|INE518E01015"
+  },
+  {
+    "name": "HAVELLS INDIA LIMITED",
+    "instrument_key": "NSE_EQ|INE176B01034"
+  },
+  {
+    "name": "BIGBLOC CONSTRUCTION LTD",
+    "instrument_key": "NSE_EQ|INE412U01025"
+  },
+  {
+    "name": "CPSE ETF",
+    "instrument_key": "NSE_EQ|INF457M01133"
+  },
+  {
+    "name": "ADIT BIRL SUN LIF AMC LTD",
+    "instrument_key": "NSE_EQ|INE404A01024"
+  },
+  {
+    "name": "EIH LIMITED",
+    "instrument_key": "NSE_EQ|INE230A01023"
+  },
+  {
+    "name": "CHEMFAB ALKALIS LIMITED",
+    "instrument_key": "NSE_EQ|INE783X01023"
+  },
+  {
+    "name": "IDEAFORGE TECHNO LTD",
+    "instrument_key": "NSE_EQ|INE349Y01013"
+  },
+  {
+    "name": "INDIAN OVERSEAS BANK",
+    "instrument_key": "NSE_EQ|INE565A01014"
+  },
+  {
+    "name": "INDIAN ENERGY EXC LTD",
+    "instrument_key": "NSE_EQ|INE022Q01020"
+  },
+  {
+    "name": "RAVINDRA ENERGY LIMITED",
+    "instrument_key": "NSE_EQ|INE206N01018"
+  },
+  {
+    "name": "UGRO CAPITAL LIMITED",
+    "instrument_key": "NSE_EQ|INE583D01011"
+  },
+  {
+    "name": "GALAXY SURFACTANTS LTD",
+    "instrument_key": "NSE_EQ|INE600K01018"
+  },
+  {
+    "name": "UNIMECH AEROSPACE N MFG L",
+    "instrument_key": "NSE_EQ|INE0U3I01011"
+  },
+  {
+    "name": "SPANDANA SPHOORTY FIN LTD",
+    "instrument_key": "NSE_EQ|INE572J01011"
+  },
+  {
+    "name": "SBIAMC - SBISILVER",
+    "instrument_key": "NSE_EQ|INF200KB1217"
+  },
+  {
+    "name": "BANDHAN BANK LIMITED",
+    "instrument_key": "NSE_EQ|INE545U01014"
+  },
+  {
+    "name": "JKUMAR INFR.LTD.",
+    "instrument_key": "NSE_EQ|INE576I01022"
+  },
+  {
+    "name": "AKME FINTRADE (INDIA) LTD",
+    "instrument_key": "NSE_EQ|INE916Y01019"
+  },
+  {
+    "name": "MIRAEAMC - MAN50ETF",
+    "instrument_key": "NSE_EQ|INF769K01EG9"
+  },
+  {
+    "name": "GKW LIMITED",
+    "instrument_key": "NSE_EQ|INE528A01020"
+  },
+  {
+    "name": "SBIAMC - SBINEQWETF",
+    "instrument_key": "NSE_EQ|INF200KB1282"
+  },
+  {
+    "name": "KIRI INDUSTRIES LIMITED",
+    "instrument_key": "NSE_EQ|INE415I01015"
+  },
+  {
+    "name": "SREE RAYALSEEMA HHP LTD.",
+    "instrument_key": "NSE_EQ|INE917H01012"
+  },
+  {
+    "name": "MARKSANS PHARMA LIMITED",
+    "instrument_key": "NSE_EQ|INE750C01026"
+  },
+  {
+    "name": "GLOBE TEXTILES (I) LTD.",
+    "instrument_key": "NSE_EQ|INE581X01021"
+  },
+  {
+    "name": "PRISM JOHNSON LIMITED",
+    "instrument_key": "NSE_EQ|INE010A01011"
+  },
+  {
+    "name": "MAHINDRA HOLIDAYS LTD",
+    "instrument_key": "NSE_EQ|INE998I01010"
+  },
+  {
+    "name": "SURANA TELECOM AND POW LT",
+    "instrument_key": "NSE_EQ|INE130B01031"
+  },
+  {
+    "name": "ANDHRA CEMENTS LIMITED",
+    "instrument_key": "NSE_EQ|INE666E01020"
+  },
+  {
+    "name": "THE GROB TEA COMPANY LTD",
+    "instrument_key": "NSE_EQ|INE646C01018"
+  },
+  {
+    "name": "UTIAMC - UTISENSETF",
+    "instrument_key": "NSE_EQ|INF789FB1X58"
+  },
+  {
+    "name": "QUANTUM NIFTY 50 ETF",
+    "instrument_key": "NSE_EQ|INF082J01028"
+  },
+  {
+    "name": "RESPONSIVE INDUSTRIES LTD",
+    "instrument_key": "NSE_EQ|INE688D01026"
+  },
+  {
+    "name": "YASHO INDUSTRIES LIMITED",
+    "instrument_key": "NSE_EQ|INE616Z01012"
+  },
+  {
+    "name": "THERMAX LTD",
+    "instrument_key": "NSE_EQ|INE152A01029"
+  },
+  {
+    "name": "POONAWALLA FINCORP LTD",
+    "instrument_key": "NSE_EQ|INE511C01022"
+  },
+  {
+    "name": "MIRAEAMC - MANXT50",
+    "instrument_key": "NSE_EQ|INF769K01FN2"
+  },
+  {
+    "name": "GULF OIL LUB. IND. LTD.",
+    "instrument_key": "NSE_EQ|INE635Q01029"
+  },
+  {
+    "name": "SADBHAV ENGINEERING LTD",
+    "instrument_key": "NSE_EQ|INE226H01026"
+  },
+  {
+    "name": "INDBANK MERCH BANK",
+    "instrument_key": "NSE_EQ|INE841B01017"
+  },
+  {
+    "name": "LIC HOUSING FINANCE LTD",
+    "instrument_key": "NSE_EQ|INE115A01026"
+  },
+  {
+    "name": "EQUITAS SMALL FIN BNK LTD",
+    "instrument_key": "NSE_EQ|INE063P01018"
+  },
+  {
+    "name": "GARWARE TECH FIBRES LTD",
+    "instrument_key": "NSE_EQ|INE276A01018"
+  },
+  {
+    "name": "CAPLIN POINT LAB LTD.",
+    "instrument_key": "NSE_EQ|INE475E01026"
+  },
+  {
+    "name": "HIND RECTIFIER LIMITED",
+    "instrument_key": "NSE_EQ|INE835D01023"
+  },
+  {
+    "name": "VIKAS ECOTECH LIMITED",
+    "instrument_key": "NSE_EQ|INE806A01020"
+  },
+  {
+    "name": "ANAND RATHI WEALTH LTD",
+    "instrument_key": "NSE_EQ|INE463V01026"
+  },
+  {
+    "name": "ACCELYA SOLN INDIA LTD",
+    "instrument_key": "NSE_EQ|INE793A01012"
+  },
+  {
+    "name": "CUBEX TUBINGS LTD",
+    "instrument_key": "NSE_EQ|INE144D01012"
+  },
+  {
+    "name": "ABAN OFFSHORE LTD.",
+    "instrument_key": "NSE_EQ|INE421A01028"
+  },
+  {
+    "name": "PATEL INT. LOG. LTD",
+    "instrument_key": "NSE_EQ|INE529D01014"
+  },
+  {
+    "name": "BIRLASLAMC - NIFTYQLITY",
+    "instrument_key": "NSE_EQ|INF209KB15K4"
+  },
+  {
+    "name": "KOTAK PSU BANK",
+    "instrument_key": "NSE_EQ|INF373I01023"
+  },
+  {
+    "name": "DISH TV INDIA LTD.",
+    "instrument_key": "NSE_EQ|INE836F01026"
+  },
+  {
+    "name": "CARTRADE TECH LIMITED",
+    "instrument_key": "NSE_EQ|INE290S01011"
+  },
+  {
+    "name": "ALKYL AMINES CHEM. LTD",
+    "instrument_key": "NSE_EQ|INE150B01039"
+  },
+  {
+    "name": "GRP LIMITED",
+    "instrument_key": "NSE_EQ|INE137I01015"
+  },
+  {
+    "name": "INDIAN METALS & FERRO",
+    "instrument_key": "NSE_EQ|INE919H01018"
+  },
+  {
+    "name": "MAX ESTATES LIMITED",
+    "instrument_key": "NSE_EQ|INE03EI01018"
+  },
+  {
+    "name": "GVP INFOTECH LIMITED",
+    "instrument_key": "NSE_EQ|INE382T01030"
+  },
+  {
+    "name": "SBI-ETF GOLD",
+    "instrument_key": "NSE_EQ|INF200KA16D8"
+  },
+  {
+    "name": "INDO-NATIONAL LIMITED",
+    "instrument_key": "NSE_EQ|INE567A01028"
+  },
+  {
+    "name": "COMPUTER AGE MNGT SER LTD",
+    "instrument_key": "NSE_EQ|INE596I01012"
+  },
+  {
+    "name": "DISHMAN CARBO AMCIS LTD",
+    "instrument_key": "NSE_EQ|INE385W01011"
+  },
+  {
+    "name": "MAZAGON DOCK SHIPBUIL LTD",
+    "instrument_key": "NSE_EQ|INE249Z01020"
+  },
+  {
+    "name": "RELIABLE DATA SERVICE LTD",
+    "instrument_key": "NSE_EQ|INE375Y01018"
+  },
+  {
+    "name": "MAITHAN ALLOYS LTD",
+    "instrument_key": "NSE_EQ|INE683C01011"
+  },
+  {
+    "name": "BIRLASLAMC - MOMENTUM",
+    "instrument_key": "NSE_EQ|INF209KB14K7"
+  },
+  {
+    "name": "QUADRANT FUTURE TEK LTD",
+    "instrument_key": "NSE_EQ|INE0LRY01011"
+  },
+  {
+    "name": "BCL INDUSTRIES LIMITED",
+    "instrument_key": "NSE_EQ|INE412G01024"
+  },
+  {
+    "name": "SHYAM CENTURY FERROUS LTD",
+    "instrument_key": "NSE_EQ|INE979R01011"
+  },
+  {
+    "name": "PAVNA INDUSTRIES LIMITED",
+    "instrument_key": "NSE_EQ|INE07S101020"
+  },
+  {
+    "name": "BHARAT WIRE ROPES LTD.",
+    "instrument_key": "NSE_EQ|INE316L01019"
+  },
+  {
+    "name": "CROWN LIFTERS LIMITED",
+    "instrument_key": "NSE_EQ|INE491V01019"
+  },
+  {
+    "name": "MRO-TEK REALTY LIMITED",
+    "instrument_key": "NSE_EQ|INE398B01018"
+  },
+  {
+    "name": "BANCO PRODUCTS (I) LTD",
+    "instrument_key": "NSE_EQ|INE213C01025"
+  },
+  {
+    "name": "GARUDA CONSTRUCT N ENG L",
+    "instrument_key": "NSE_EQ|INE0JVO01026"
+  },
+  {
+    "name": "KESORAM INDUSTRIES LTD",
+    "instrument_key": "NSE_EQ|INE087A01019"
+  },
+  {
+    "name": "FIRSTSOURCE SOLU. LTD.",
+    "instrument_key": "NSE_EQ|INE684F01012"
+  },
+  {
+    "name": "RAILTEL CORP OF IND LTD",
+    "instrument_key": "NSE_EQ|INE0DD101019"
+  },
+  {
+    "name": "BTRFLY GANDHI APPL LTD",
+    "instrument_key": "NSE_EQ|INE295F01017"
+  },
+  {
+    "name": "SAKSOFT LIMITED",
+    "instrument_key": "NSE_EQ|INE667G01023"
+  },
+  {
+    "name": "SHREE RENUKA SUGARS LTD",
+    "instrument_key": "NSE_EQ|INE087H01022"
+  },
+  {
+    "name": "GULSHAN POLYOLS LIMITED",
+    "instrument_key": "NSE_EQ|INE255D01024"
+  },
+  {
+    "name": "RADIANT CASH MGMT SER LTD",
+    "instrument_key": "NSE_EQ|INE855R01021"
+  },
+  {
+    "name": "BAJAJ HINDUSTHAN SUGAR LT",
+    "instrument_key": "NSE_EQ|INE306A01021"
+  },
+  {
+    "name": "APL APOLLO TUBES LTD",
+    "instrument_key": "NSE_EQ|INE702C01027"
+  },
+  {
+    "name": "ORIENT BELL LIMITED",
+    "instrument_key": "NSE_EQ|INE607D01018"
+  },
+  {
+    "name": "KRSNAA DIAGNOSTICS LTD",
+    "instrument_key": "NSE_EQ|INE08LI01020"
+  },
+  {
+    "name": "GANGES SECURITIES LIMITED",
+    "instrument_key": "NSE_EQ|INE335W01016"
+  },
+  {
+    "name": "SHREE DIGVIJAY CEM CO LTD",
+    "instrument_key": "NSE_EQ|INE232A01011"
+  },
+  {
+    "name": "ADITYBIRLA SL GOLD ETF-GR",
+    "instrument_key": "NSE_EQ|INF209KB18D3"
+  },
+  {
+    "name": "MAX INDIA LIMITED",
+    "instrument_key": "NSE_EQ|INE0CG601016"
+  },
+  {
+    "name": "SOLAR INDUSTRIES (I) LTD",
+    "instrument_key": "NSE_EQ|INE343H01029"
+  },
+  {
+    "name": "CREATIVE NEWTECH LIMITED",
+    "instrument_key": "NSE_EQ|INE985W01018"
+  },
+  {
+    "name": "BIRLASLAMC - ABSLNN50ET",
+    "instrument_key": "NSE_EQ|INF209KB16D7"
+  },
+  {
+    "name": "RELIGARE ENTER. LTD.",
+    "instrument_key": "NSE_EQ|INE621H01010"
+  },
+  {
+    "name": "KIRLOSKAR BROTHERS LTD",
+    "instrument_key": "NSE_EQ|INE732A01036"
+  },
+  {
+    "name": "THE GE SHPG.LTD",
+    "instrument_key": "NSE_EQ|INE017A01032"
+  },
+  {
+    "name": "MANGALAM DRUG & CHEM LTD",
+    "instrument_key": "NSE_EQ|INE584F01014"
+  },
+  {
+    "name": "PVR INOX LIMITED",
+    "instrument_key": "NSE_EQ|INE191H01014"
+  },
+  {
+    "name": "OPTIEMUS INFRACOM LTD",
+    "instrument_key": "NSE_EQ|INE350C01017"
+  },
+  {
+    "name": "BIRLASLAMC - ABGSEC",
+    "instrument_key": "NSE_EQ|INF209KC1134"
+  },
+  {
+    "name": "MUTHOOT MICROFIN LIMITED",
+    "instrument_key": "NSE_EQ|INE046W01019"
+  },
+  {
+    "name": "BAAZAR STYLE RETAIL LTD",
+    "instrument_key": "NSE_EQ|INE01FR01028"
+  },
+  {
+    "name": "AKASH INFRA-PROJECTS LTD",
+    "instrument_key": "NSE_EQ|INE737W01013"
+  },
+  {
+    "name": "QUANTUM GOLD FUND",
+    "instrument_key": "NSE_EQ|INF082J01408"
+  },
+  {
+    "name": "JNK INDIA LIMITED",
+    "instrument_key": "NSE_EQ|INE0OAF01028"
+  },
+  {
+    "name": "BIRLASLAMC - ABSLBANETF",
+    "instrument_key": "NSE_EQ|INF209KB17D5"
+  },
+  {
+    "name": "FSN E COMMERCE VENTURES",
+    "instrument_key": "NSE_EQ|INE388Y01029"
+  },
+  {
+    "name": "MAN INDUSTRIES (I) LTD.",
+    "instrument_key": "NSE_EQ|INE993A01026"
+  },
+  {
+    "name": "BAID FINSERV LIMITED",
+    "instrument_key": "NSE_EQ|INE020D01022"
+  },
+  {
+    "name": "VIP INDUSTRIES LTD",
+    "instrument_key": "NSE_EQ|INE054A01027"
+  },
+  {
+    "name": "CENTURY PLYBOARDS (I) LTD",
+    "instrument_key": "NSE_EQ|INE348B01021"
+  },
+  {
+    "name": "UTI ASSET MNGMT CO LTD",
+    "instrument_key": "NSE_EQ|INE094J01016"
+  },
+  {
+    "name": "BIRLASLAMC - GSEC10ABSL",
+    "instrument_key": "NSE_EQ|INF209KC1142"
+  },
+  {
+    "name": "GINNI FILAMENTS LTD",
+    "instrument_key": "NSE_EQ|INE424C01010"
+  },
+  {
+    "name": "ABB INDIA LIMITED",
+    "instrument_key": "NSE_EQ|INE117A01022"
+  },
+  {
+    "name": "AXITA COTTON LIMITED",
+    "instrument_key": "NSE_EQ|INE02EZ01022"
+  },
+  {
+    "name": "CALIFORNIA SOFTWARE CO LT",
+    "instrument_key": "NSE_EQ|INE526B01014"
+  },
+  {
+    "name": "IIFL FINANCE LIMITED",
+    "instrument_key": "NSE_EQ|INE530B01024"
+  },
+  {
+    "name": "DC INFOTECH AND COMUN LTD",
+    "instrument_key": "NSE_EQ|INE0A1101019"
+  },
+  {
+    "name": "ZUARI AGRO CHEMICALS LTD",
+    "instrument_key": "NSE_EQ|INE840M01016"
+  },
+  {
+    "name": "GREENPLY INDUSTRIES LTD",
+    "instrument_key": "NSE_EQ|INE461C01038"
+  },
+  {
+    "name": "RACL GEARTECH LIMITED",
+    "instrument_key": "NSE_EQ|INE704B01017"
+  },
+  {
+    "name": "ZENITH STEEL PIP IND LTD",
+    "instrument_key": "NSE_EQ|INE318D01020"
+  },
+  {
+    "name": "NESTLE INDIA LIMITED",
+    "instrument_key": "NSE_EQ|INE239A01024"
+  },
+  {
+    "name": "INDIA SHELTER FIN CORP L",
+    "instrument_key": "NSE_EQ|INE922K01024"
+  },
+  {
+    "name": "ORCHID PHARMA LIMITED",
+    "instrument_key": "NSE_EQ|INE191A01027"
+  },
+  {
+    "name": "ZOMATO LIMITED",
+    "instrument_key": "NSE_EQ|INE758T01015"
+  },
+  {
+    "name": "AAA TECHNOLOGIES LIMITED",
+    "instrument_key": "NSE_EQ|INE0D0U01013"
+  },
+  {
+    "name": "NUCLEUS SOFTWARE EXPORTS",
+    "instrument_key": "NSE_EQ|INE096B01018"
+  },
+  {
+    "name": "SADBHAV INFRA PROJ LTD.",
+    "instrument_key": "NSE_EQ|INE764L01010"
+  },
+  {
+    "name": "BIRLASLAMC-ABSLPSE",
+    "instrument_key": "NSE_EQ|INF209KB19Z4"
+  },
+  {
+    "name": "HARSHA ENGINEERS INT LTD",
+    "instrument_key": "NSE_EQ|INE0JUS01029"
+  },
+  {
+    "name": "ITC LTD",
+    "instrument_key": "NSE_EQ|INE154A01025"
+  },
+  {
+    "name": "SNOWMAN LOGISTICS LTD.",
+    "instrument_key": "NSE_EQ|INE734N01019"
+  },
+  {
+    "name": "INTRASOFT TECH. LTD",
+    "instrument_key": "NSE_EQ|INE566K01011"
+  },
+  {
+    "name": "POLYCAB INDIA LIMITED",
+    "instrument_key": "NSE_EQ|INE455K01017"
+  },
+  {
+    "name": "RAYMOND LIFESTYLE LIMITED",
+    "instrument_key": "NSE_EQ|INE02ID01020"
+  },
+  {
+    "name": "JYOTI CNC AUTOMATION LTD",
+    "instrument_key": "NSE_EQ|INE980O01024"
+  },
+  {
+    "name": "BHARAT GEARS LTD.",
+    "instrument_key": "NSE_EQ|INE561C01019"
+  },
+  {
+    "name": "BAJAJ CONSUMER CARE LTD",
+    "instrument_key": "NSE_EQ|INE933K01021"
+  },
+  {
+    "name": "ALPA LABORATORIES LTD",
+    "instrument_key": "NSE_EQ|INE385I01010"
+  },
+  {
+    "name": "AUROBINDO PHARMA LTD",
+    "instrument_key": "NSE_EQ|INE406A01037"
+  },
+  {
+    "name": "BIRLASLAMC - ABSLLIQUID",
+    "instrument_key": "NSE_EQ|INF209KB18T9"
+  },
+  {
+    "name": "CL EDUCATE LIMITED",
+    "instrument_key": "NSE_EQ|INE201M01029"
+  },
+  {
+    "name": "GODAVARI BIOREFINERIES L",
+    "instrument_key": "NSE_EQ|INE497S01012"
+  },
+  {
+    "name": "WESTERN CARRIERS (IND) L",
+    "instrument_key": "NSE_EQ|INE0CJF01024"
+  },
+  {
+    "name": "EVEREADY INDS. IND.  LTD.",
+    "instrument_key": "NSE_EQ|INE128A01029"
+  },
+  {
+    "name": "TIME TECHNOPLAST LTD.",
+    "instrument_key": "NSE_EQ|INE508G01029"
+  },
+  {
+    "name": "ICE MAKE REFRIGERAT LTD",
+    "instrument_key": "NSE_EQ|INE520Y01019"
+  },
+  {
+    "name": "USHA MARTIN LTD.",
+    "instrument_key": "NSE_EQ|INE228A01035"
+  },
+  {
+    "name": "SANATHAN TEXTILES LIMITED",
+    "instrument_key": "NSE_EQ|INE0JPD01013"
+  },
+  {
+    "name": "ARROW GREENTECH LIMITED",
+    "instrument_key": "NSE_EQ|INE570D01018"
+  },
+  {
+    "name": "BIRLASLAMC - SILVER",
+    "instrument_key": "NSE_EQ|INF209KB19F6"
+  },
+  {
+    "name": "ADITYBIRLA SL NIF ETF-GR",
+    "instrument_key": "NSE_EQ|INF209KB19D1"
+  },
+  {
+    "name": "SYMPHONY LIMITED",
+    "instrument_key": "NSE_EQ|INE225D01027"
+  },
+  {
+    "name": "CENTURY EXTRUSIONS LTD",
+    "instrument_key": "NSE_EQ|INE281A01026"
+  },
+  {
+    "name": "SUNDRAM FASTENERS LTD",
+    "instrument_key": "NSE_EQ|INE387A01021"
+  },
+  {
+    "name": "RATNAMANI MET & TUB LTD.",
+    "instrument_key": "NSE_EQ|INE703B01027"
+  },
+  {
+    "name": "SHRIRAM PROPERTIES LTD",
+    "instrument_key": "NSE_EQ|INE217L01019"
+  },
+  {
+    "name": "DE NORA INDIA LIMITED",
+    "instrument_key": "NSE_EQ|INE244A01016"
+  },
+  {
+    "name": "EASY TRIP PLANNERS LTD",
+    "instrument_key": "NSE_EQ|INE07O001026"
+  },
+  {
+    "name": "PURAVANKARA LIMITED",
+    "instrument_key": "NSE_EQ|INE323I01011"
+  },
+  {
+    "name": "P N GADGIL JEWELLERS LTD",
+    "instrument_key": "NSE_EQ|INE953R01016"
+  },
+  {
+    "name": "ZENITH EXPORTS LTD",
+    "instrument_key": "NSE_EQ|INE058B01018"
+  },
+  {
+    "name": "MAHINDRA & MAHINDRA LTD",
+    "instrument_key": "NSE_EQ|INE101A01026"
+  },
+  {
+    "name": "SBC EXPORTS LIMITED",
+    "instrument_key": "NSE_EQ|INE04AK01028"
+  },
+  {
+    "name": "INDIA GLYCOLS LTD",
+    "instrument_key": "NSE_EQ|INE560A01015"
+  },
+  {
+    "name": "APOLLO HOSPITALS ENTER. L",
+    "instrument_key": "NSE_EQ|INE437A01024"
+  },
+  {
+    "name": "INOX WIND ENERGY LIMITED",
+    "instrument_key": "NSE_EQ|INE0FLR01028"
+  },
+  {
+    "name": "ASHOK LEYLAND LTD",
+    "instrument_key": "NSE_EQ|INE208A01029"
+  },
+  {
+    "name": "DOLLAR INDUSTRIES LIMITED",
+    "instrument_key": "NSE_EQ|INE325C01035"
+  },
+  {
+    "name": "MATRIMONY.COM LIMITED",
+    "instrument_key": "NSE_EQ|INE866R01028"
+  },
+  {
+    "name": "HEXA TRADEX LIMITED",
+    "instrument_key": "NSE_EQ|INE750M01017"
+  },
+  {
+    "name": "KALYAN JEWELLERS IND LTD",
+    "instrument_key": "NSE_EQ|INE303R01014"
+  },
+  {
+    "name": "MAHESHWARI LOGISTICS LTD.",
+    "instrument_key": "NSE_EQ|INE263W01010"
+  },
+  {
+    "name": "SADHANA NITROCHEM LIMITED",
+    "instrument_key": "NSE_EQ|INE888C01040"
+  },
+  {
+    "name": "TATA POWER CO LTD",
+    "instrument_key": "NSE_EQ|INE245A01021"
+  },
+  {
+    "name": "CARRARO INDIA LIMITED",
+    "instrument_key": "NSE_EQ|INE0V7W01012"
+  },
+  {
+    "name": "MAN INFRA LTD",
+    "instrument_key": "NSE_EQ|INE949H01023"
+  },
+  {
+    "name": "UTKARSH SMALL FIN BANK L",
+    "instrument_key": "NSE_EQ|INE735W01017"
+  },
+  {
+    "name": "JULLUNDUR MOT AGENCY LTD",
+    "instrument_key": "NSE_EQ|INE412C01023"
+  },
+  {
+    "name": "DCX SYSTEMS LIMITED",
+    "instrument_key": "NSE_EQ|INE0KL801015"
+  },
+  {
+    "name": "INDIA TOUR. DEV. CO. LTD.",
+    "instrument_key": "NSE_EQ|INE353K01014"
+  },
+  {
+    "name": "DEEPAK NITRITE LTD",
+    "instrument_key": "NSE_EQ|INE288B01029"
+  },
+  {
+    "name": "SUBROS LIMITED",
+    "instrument_key": "NSE_EQ|INE287B01021"
+  },
+  {
+    "name": "STANLEY LIFESTYLES LTD",
+    "instrument_key": "NSE_EQ|INE01A001028"
+  },
+  {
+    "name": "WINDSOR MACHINES LIMITED",
+    "instrument_key": "NSE_EQ|INE052A01021"
+  },
+  {
+    "name": "DELHIVERY LIMITED",
+    "instrument_key": "NSE_EQ|INE148O01028"
+  },
+  {
+    "name": "THOMAS COOK (INDIA) LTD",
+    "instrument_key": "NSE_EQ|INE332A01027"
+  },
+  {
+    "name": "THE RAMCO CEMENTS LIMITED",
+    "instrument_key": "NSE_EQ|INE331A01037"
+  },
+  {
+    "name": "CREST VENTURES LIMITED",
+    "instrument_key": "NSE_EQ|INE559D01011"
+  },
+  {
+    "name": "THE INDIAN HOTELS CO. LTD",
+    "instrument_key": "NSE_EQ|INE053A01029"
+  },
+  {
+    "name": "JBM AUTO LIMITED",
+    "instrument_key": "NSE_EQ|INE927D01044"
+  },
+  {
+    "name": "MADHYA BHARAT AGRO P. LTD",
+    "instrument_key": "NSE_EQ|INE900L01010"
+  },
+  {
+    "name": "DEV INFO TECHNOLOGY LTD",
+    "instrument_key": "NSE_EQ|INE060X01026"
+  },
+  {
+    "name": "ICICI BANK LTD.",
+    "instrument_key": "NSE_EQ|INE090A01021"
+  },
+  {
+    "name": "BLUE STAR LIMITED",
+    "instrument_key": "NSE_EQ|INE472A01039"
+  },
+  {
+    "name": "NDTV LTD",
+    "instrument_key": "NSE_EQ|INE155G01029"
+  },
+  {
+    "name": "UPL LIMITED",
+    "instrument_key": "NSE_EQ|INE628A01036"
+  },
+  {
+    "name": "DIFFUSION ENGINEERS LTD",
+    "instrument_key": "NSE_EQ|INE184O01015"
+  },
+  {
+    "name": "ANDHRA PAPER LIMITED",
+    "instrument_key": "NSE_EQ|INE435A01051"
+  },
+  {
+    "name": "MSP STEEL & POWER LTD.",
+    "instrument_key": "NSE_EQ|INE752G01015"
+  },
+  {
+    "name": "NIVA BUPA HEALTH INS CO L",
+    "instrument_key": "NSE_EQ|INE995S01015"
+  },
+  {
+    "name": "ATUL LTD",
+    "instrument_key": "NSE_EQ|INE100A01010"
+  },
+  {
+    "name": "SALASAR TECHNO ENGG. LTD.",
+    "instrument_key": "NSE_EQ|INE170V01027"
+  },
+  {
+    "name": "BEST AGROLIFE LIMITED",
+    "instrument_key": "NSE_EQ|INE052T01013"
+  },
+  {
+    "name": "GLAXOSMITHKLINE PHARMA LT",
+    "instrument_key": "NSE_EQ|INE159A01016"
+  },
+  {
+    "name": "MITTAL LIFE STYLE LIMITED",
+    "instrument_key": "NSE_EQ|INE997Y01027"
+  },
+  {
+    "name": "3I INFOTECH LIMITED",
+    "instrument_key": "NSE_EQ|INE748C01038"
+  },
+  {
+    "name": "CEIGALL INDIA LIMITED",
+    "instrument_key": "NSE_EQ|INE0AG901020"
+  },
+  {
+    "name": "HLV LIMITED",
+    "instrument_key": "NSE_EQ|INE102A01024"
+  },
+  {
+    "name": "IRM ENERGY LIMITED",
+    "instrument_key": "NSE_EQ|INE07U701015"
+  },
+  {
+    "name": "NORTH EAST CARRY CORP LTD",
+    "instrument_key": "NSE_EQ|INE553C01016"
+  },
+  {
+    "name": "STAR CEMENT LIMITED",
+    "instrument_key": "NSE_EQ|INE460H01021"
+  },
+  {
+    "name": "NILA INFRASTRUCTURES LTD",
+    "instrument_key": "NSE_EQ|INE937C01029"
+  },
+  {
+    "name": "SWAN ENERGY LIMITED",
+    "instrument_key": "NSE_EQ|INE665A01038"
+  },
+  {
+    "name": "MARICO LIMITED",
+    "instrument_key": "NSE_EQ|INE196A01026"
+  },
+  {
+    "name": "FCS SOFTWARE SOLN. LTD.",
+    "instrument_key": "NSE_EQ|INE512B01022"
+  },
+  {
+    "name": "CONCORD BIOTECH LIMITED",
+    "instrument_key": "NSE_EQ|INE338H01029"
+  },
+  {
+    "name": "AJMERA REALTY & INF I LTD",
+    "instrument_key": "NSE_EQ|INE298G01027"
+  },
+  {
+    "name": "JAI CORP LIMITED",
+    "instrument_key": "NSE_EQ|INE070D01027"
+  },
+  {
+    "name": "PRUDENT CORP ADV SER LTD",
+    "instrument_key": "NSE_EQ|INE00F201020"
+  },
+  {
+    "name": "JYOTI STRUCTURES LTD",
+    "instrument_key": "NSE_EQ|INE197A01024"
+  },
+  {
+    "name": "SHARDA CROPCHEM LTD.",
+    "instrument_key": "NSE_EQ|INE221J01015"
+  },
+  {
+    "name": "BALKRISHNA IND. LTD",
+    "instrument_key": "NSE_EQ|INE787D01026"
+  },
+  {
+    "name": "TRIVENI TURBINE LIMITED",
+    "instrument_key": "NSE_EQ|INE152M01016"
+  },
+  {
+    "name": "SUZLON ENERGY LIMITED",
+    "instrument_key": "NSE_EQ|INE040H01021"
+  },
+  {
+    "name": "AKUMS DRUGS AND PHARMA L",
+    "instrument_key": "NSE_EQ|INE09XN01023"
+  },
+  {
+    "name": "ICICIPRAMC - ICICI10GS",
+    "instrument_key": "NSE_EQ|INF109KC18O0"
+  },
+  {
+    "name": "TGB BANQUETS&HOTELS LTD",
+    "instrument_key": "NSE_EQ|INE797H01018"
+  },
+  {
+    "name": "ANUH PHARMA LIMITED",
+    "instrument_key": "NSE_EQ|INE489G01022"
+  },
+  {
+    "name": "HB STOCKHOLDINGS LIMITED",
+    "instrument_key": "NSE_EQ|INE550B01022"
+  },
+  {
+    "name": "LASA SUPERGENERICS LTD",
+    "instrument_key": "NSE_EQ|INE670X01014"
+  },
+  {
+    "name": "ICICIPRAMC - OILIETF",
+    "instrument_key": "NSE_EQ|INF109KC18W3"
+  },
+  {
+    "name": "FINO PAYMENTS BANK LTD",
+    "instrument_key": "NSE_EQ|INE02NC01014"
+  },
+  {
+    "name": "SUMMIT SECURITIES LTD",
+    "instrument_key": "NSE_EQ|INE519C01017"
+  },
+  {
+    "name": "EMAMI PAPER MILLS LIMITED",
+    "instrument_key": "NSE_EQ|INE830C01026"
+  },
+  {
+    "name": "ICICIPRAMC - ICICIQTY30",
+    "instrument_key": "NSE_EQ|INF109KC18V5"
+  },
+  {
+    "name": "ICICIPRAMC - ICICIBANKP",
+    "instrument_key": "NSE_EQ|INF109KC18U7"
+  },
+  {
+    "name": "WELSPUN ENTERPRISES LTD.",
+    "instrument_key": "NSE_EQ|INE625G01013"
+  },
+  {
+    "name": "SIRCA PAINT INDIA LIMITED",
+    "instrument_key": "NSE_EQ|INE792Z01011"
+  },
+  {
+    "name": "ORIENT ELECTRIC LIMITED",
+    "instrument_key": "NSE_EQ|INE142Z01019"
+  },
+  {
+    "name": "LARSEN & TOUBRO LTD.",
+    "instrument_key": "NSE_EQ|INE018A01030"
+  },
+  {
+    "name": "TATAAML-TATSILV",
+    "instrument_key": "NSE_EQ|INF277KA1984"
+  },
+  {
+    "name": "INDOCO REMEDIES LTD.",
+    "instrument_key": "NSE_EQ|INE873D01024"
+  },
+  {
+    "name": "DHUNSERI VENTURES LIMITED",
+    "instrument_key": "NSE_EQ|INE477B01010"
+  },
+  {
+    "name": "INDUS TOWERS LIMITED",
+    "instrument_key": "NSE_EQ|INE121J01017"
+  },
+  {
+    "name": "ICICIPRAMC - ICICICOMMO",
+    "instrument_key": "NSE_EQ|INF109KC19O8"
+  },
+  {
+    "name": "PIRAMAL ENTERPRISES LTD",
+    "instrument_key": "NSE_EQ|INE140A01024"
+  },
+  {
+    "name": "STEELCAST LIMITED",
+    "instrument_key": "NSE_EQ|INE124E01020"
+  },
+  {
+    "name": "ICICIPRAMC - ICICIFMCG",
+    "instrument_key": "NSE_EQ|INF109KC19V3"
+  },
+  {
+    "name": "ICICI PR NIF LW VL 30 ETF",
+    "instrument_key": "NSE_EQ|INF109KC19U5"
+  },
+  {
+    "name": "KEC INTL. LIMITED",
+    "instrument_key": "NSE_EQ|INE389H01022"
+  },
+  {
+    "name": "KSB LIMITED",
+    "instrument_key": "NSE_EQ|INE999A01023"
+  },
+  {
+    "name": "ADANI TOTAL GAS LIMITED",
+    "instrument_key": "NSE_EQ|INE399L01023"
+  },
+  {
+    "name": "ICICIPRAMC - METALIETF",
+    "instrument_key": "NSE_EQ|INF109KC19W1"
+  },
+  {
+    "name": "MURUDESHWAR CERAMICS LTD",
+    "instrument_key": "NSE_EQ|INE692B01014"
+  },
+  {
+    "name": "ADITYA BIRLA REAL EST LTD",
+    "instrument_key": "NSE_EQ|INE055A01016"
+  },
+  {
+    "name": "NANDANI CREATION LIMITED",
+    "instrument_key": "NSE_EQ|INE696V01013"
+  },
+  {
+    "name": "IVP LTD",
+    "instrument_key": "NSE_EQ|INE043C01018"
+  },
+  {
+    "name": "TATAAML-TATAGOLD",
+    "instrument_key": "NSE_EQ|INF277KA1976"
+  },
+  {
+    "name": "PANSARI DEVELOPERS LTD",
+    "instrument_key": "NSE_EQ|INE697V01011"
+  },
+  {
+    "name": "CORAL INDIA FIN & HOUS LT",
+    "instrument_key": "NSE_EQ|INE558D01021"
+  },
+  {
+    "name": "ARIHANT CAPITAL MKTS LTD",
+    "instrument_key": "NSE_EQ|INE420B01036"
+  },
+  {
+    "name": "INDO AMINES LIMITED",
+    "instrument_key": "NSE_EQ|INE760F01028"
+  },
+  {
+    "name": "IDFC FIRST BANK LIMITED",
+    "instrument_key": "NSE_EQ|INE092T01019"
+  },
+  {
+    "name": "KRBL LIMITED",
+    "instrument_key": "NSE_EQ|INE001B01026"
+  },
+  {
+    "name": "JUBILANT PHARMOVA LTD",
+    "instrument_key": "NSE_EQ|INE700A01033"
+  },
+  {
+    "name": "BLISS GVS PHARMA LTD",
+    "instrument_key": "NSE_EQ|INE416D01022"
+  },
+  {
+    "name": "TEXMACO RAIL & ENG. LTD.",
+    "instrument_key": "NSE_EQ|INE621L01012"
+  },
+  {
+    "name": "PTL ENTERPRISES LTD",
+    "instrument_key": "NSE_EQ|INE034D01049"
+  },
+  {
+    "name": "PETRONET LNG LIMITED",
+    "instrument_key": "NSE_EQ|INE347G01014"
+  },
+  {
+    "name": "MRPL",
+    "instrument_key": "NSE_EQ|INE103A01014"
+  },
+  {
+    "name": "CG POWER AND IND SOL LTD",
+    "instrument_key": "NSE_EQ|INE067A01029"
+  },
+  {
+    "name": "GPT HEALTHCARE LIMITED",
+    "instrument_key": "NSE_EQ|INE486R01017"
+  },
+  {
+    "name": "TOUCHWOOD ENTERTAIN LTD.",
+    "instrument_key": "NSE_EQ|INE486Y01013"
+  },
+  {
+    "name": "GRAVITA INDIA LIMITED",
+    "instrument_key": "NSE_EQ|INE024L01027"
+  },
+  {
+    "name": "AMBICA AGAR & AROMAINDLTD",
+    "instrument_key": "NSE_EQ|INE792B01012"
+  },
+  {
+    "name": "APOLLO TYRES LTD",
+    "instrument_key": "NSE_EQ|INE438A01022"
+  },
+  {
+    "name": "HP ADHESIVES LIMITED",
+    "instrument_key": "NSE_EQ|INE0GSL01024"
+  },
+  {
+    "name": "OLECTRA GREENTECH LIMITED",
+    "instrument_key": "NSE_EQ|INE260D01016"
+  },
+  {
+    "name": "DHUNSERI TEA & IND. LTD.",
+    "instrument_key": "NSE_EQ|INE341R01014"
+  },
+  {
+    "name": "COSMO FIRST LIMITED",
+    "instrument_key": "NSE_EQ|INE757A01017"
+  },
+  {
+    "name": "CENTUM ELECTRONICS LTD",
+    "instrument_key": "NSE_EQ|INE320B01020"
+  },
+  {
+    "name": "ELIN ELECTRONICS LIMITED",
+    "instrument_key": "NSE_EQ|INE050401020"
+  },
+  {
+    "name": "NEULAND LAB LTD.",
+    "instrument_key": "NSE_EQ|INE794A01010"
+  },
+  {
+    "name": "MENON BEARINGS LIMITED",
+    "instrument_key": "NSE_EQ|INE071D01033"
+  },
+  {
+    "name": "TITAGARH RAIL SYSTEMS LTD",
+    "instrument_key": "NSE_EQ|INE615H01020"
+  },
+  {
+    "name": "A B INFRABUILD LIMITED",
+    "instrument_key": "NSE_EQ|INE00YB01017"
+  },
+  {
+    "name": "COUNTRY CONDO S LIMITED",
+    "instrument_key": "NSE_EQ|INE695B01025"
+  },
+  {
+    "name": "HINDUSTAN OIL EXPLORATION",
+    "instrument_key": "NSE_EQ|INE345A01011"
+  },
+  {
+    "name": "ALPHAGEO (INDIA) LIMITED",
+    "instrument_key": "NSE_EQ|INE137C01018"
+  },
+  {
+    "name": "GEOJIT FINANCIAL SER L",
+    "instrument_key": "NSE_EQ|INE007B01023"
+  },
+  {
+    "name": "NAHAR POLY FILMS LIMITED",
+    "instrument_key": "NSE_EQ|INE308A01027"
+  },
+  {
+    "name": "MANORAMA INDUSTRIES LTD",
+    "instrument_key": "NSE_EQ|INE00VM01036"
+  },
+  {
+    "name": "HEMISPHERE PROP IND LTD",
+    "instrument_key": "NSE_EQ|INE0AJG01018"
+  },
+  {
+    "name": "NCL INDUSTRIES LIMITED",
+    "instrument_key": "NSE_EQ|INE732C01016"
+  },
+  {
+    "name": "CELEBRITY FASHIONS LTD",
+    "instrument_key": "NSE_EQ|INE185H01016"
+  },
+  {
+    "name": "POWER MECH PROJECTS LTD.",
+    "instrument_key": "NSE_EQ|INE211R01019"
+  },
+  {
+    "name": "ZODIAC ENERGY LIMITED",
+    "instrument_key": "NSE_EQ|INE761Y01019"
+  },
+  {
+    "name": "INFIBEAM AVENUES LIMITED",
+    "instrument_key": "NSE_EQ|INE483S01020"
+  },
+  {
+    "name": "RELAXO FOOT LTD.",
+    "instrument_key": "NSE_EQ|INE131B01039"
+  },
+  {
+    "name": "ICICI PRUD NIFTY ETF",
+    "instrument_key": "NSE_EQ|INF109K012R6"
+  },
+  {
+    "name": "SHREE TIRUPATI BALAJEE L",
+    "instrument_key": "NSE_EQ|INE0S2G01011"
+  },
+  {
+    "name": "IIFL CAPITAL SERVICES LTD",
+    "instrument_key": "NSE_EQ|INE489L01022"
+  },
+  {
+    "name": "ADANI ENTERPRISES LIMITED",
+    "instrument_key": "NSE_EQ|INE423A01024"
+  },
+  {
+    "name": "GANDHI SPL. TUBES LTD",
+    "instrument_key": "NSE_EQ|INE524B01027"
+  },
+  {
+    "name": "BAL PHARMA LTD.",
+    "instrument_key": "NSE_EQ|INE083D01012"
+  },
+  {
+    "name": "NARMADA AGROBASE LIMITED",
+    "instrument_key": "NSE_EQ|INE117Z01011"
+  },
+  {
+    "name": "JSW ENERGY LIMITED",
+    "instrument_key": "NSE_EQ|INE121E01018"
+  },
+  {
+    "name": "BARTRONICS INDIA LIMITED",
+    "instrument_key": "NSE_EQ|INE855F01042"
+  },
+  {
+    "name": "PRITIKA AUTO INDUS LTD",
+    "instrument_key": "NSE_EQ|INE583R01029"
+  },
+  {
+    "name": "JSW STEEL LIMITED",
+    "instrument_key": "NSE_EQ|INE019A01038"
+  },
+  {
+    "name": "KHAITAN (INDIA)LTD.",
+    "instrument_key": "NSE_EQ|INE731C01018"
+  },
+  {
+    "name": "VARDHMAN HOLDINGS LIMITED",
+    "instrument_key": "NSE_EQ|INE701A01023"
+  },
+  {
+    "name": "DAMODAR INDUSTRIES LTD",
+    "instrument_key": "NSE_EQ|INE497D01022"
+  },
+  {
+    "name": "TARSONS PRODUCTS LIMITED",
+    "instrument_key": "NSE_EQ|INE144Z01023"
+  },
+  {
+    "name": "AMINES & PLASTICIZERS LTD",
+    "instrument_key": "NSE_EQ|INE275D01022"
+  },
+  {
+    "name": "RAMCO INDUSTRIES LIMITED",
+    "instrument_key": "NSE_EQ|INE614A01028"
+  },
+  {
+    "name": "ADF FOODS LIMITED",
+    "instrument_key": "NSE_EQ|INE982B01027"
+  },
+  {
+    "name": "DATA PATTERNS INDIA LTD",
+    "instrument_key": "NSE_EQ|INE0IX101010"
+  },
+  {
+    "name": "IGARASHI MOTORS INDIA LTD",
+    "instrument_key": "NSE_EQ|INE188B01013"
+  },
+  {
+    "name": "AIRAN LIMITED",
+    "instrument_key": "NSE_EQ|INE645W01026"
+  },
+  {
+    "name": "LG BALAKRISHNAN & BROS",
+    "instrument_key": "NSE_EQ|INE337A01034"
+  },
+  {
+    "name": "VRL LOGISTICS LIMITED",
+    "instrument_key": "NSE_EQ|INE366I01010"
+  },
+  {
+    "name": "NELCO LTD",
+    "instrument_key": "NSE_EQ|INE045B01015"
+  },
+  {
+    "name": "KANANI INDUSTRIES LTD",
+    "instrument_key": "NSE_EQ|INE879E01037"
+  },
+  {
+    "name": "EVEREST KANTO CYLINDERLTD",
+    "instrument_key": "NSE_EQ|INE184H01027"
+  },
+  {
+    "name": "ROUTE MOBILE LIMITED",
+    "instrument_key": "NSE_EQ|INE450U01017"
+  },
+  {
+    "name": "TATA COMMUNICATIONS LTD",
+    "instrument_key": "NSE_EQ|INE151A01013"
+  },
+  {
+    "name": "EXICOM TELE SYSTEMS LTD",
+    "instrument_key": "NSE_EQ|INE777F01014"
+  },
+  {
+    "name": "SPENCER S RETAIL LIMITED",
+    "instrument_key": "NSE_EQ|INE020801028"
+  },
+  {
+    "name": "VERANDA LEARNING SOL LTD",
+    "instrument_key": "NSE_EQ|INE0IQ001011"
+  },
+  {
+    "name": "SAURASHTRA CEMENT LIMITED",
+    "instrument_key": "NSE_EQ|INE626A01014"
+  },
+  {
+    "name": "COLGATE PALMOLIVE LTD.",
+    "instrument_key": "NSE_EQ|INE259A01022"
+  },
+  {
+    "name": "KNOWLEDGE MARINE & EN W L",
+    "instrument_key": "NSE_EQ|INE0CJD01011"
+  },
+  {
+    "name": "COAL INDIA LTD",
+    "instrument_key": "NSE_EQ|INE522F01014"
+  },
+  {
+    "name": "GARDEN REACH SHIP&ENG LTD",
+    "instrument_key": "NSE_EQ|INE382Z01011"
+  },
+  {
+    "name": "NBCC (INDIA) LIMITED",
+    "instrument_key": "NSE_EQ|INE095N01031"
+  },
+  {
+    "name": "ONMOBILE GLOBAL LTD.",
+    "instrument_key": "NSE_EQ|INE809I01019"
+  },
+  {
+    "name": "BAJAJ FINANCE LIMITED",
+    "instrument_key": "NSE_EQ|INE296A01024"
+  },
+  {
+    "name": "HITACHI ENERGY INDIA LTD",
+    "instrument_key": "NSE_EQ|INE07Y701011"
+  },
+  {
+    "name": "ICICI LOMBARD GIC LIMITED",
+    "instrument_key": "NSE_EQ|INE765G01017"
+  },
+  {
+    "name": "HINDUSTAN AERONAUTICS LTD",
+    "instrument_key": "NSE_EQ|INE066F01020"
+  },
+  {
+    "name": "BHEL",
+    "instrument_key": "NSE_EQ|INE257A01026"
+  },
+  {
+    "name": "TRANSRAIL LIGHTING LTD",
+    "instrument_key": "NSE_EQ|INE454P01035"
+  },
+  {
+    "name": "RELIANCE INDUSTRIES LTD",
+    "instrument_key": "NSE_EQ|INE002A01018"
+  },
+  {
+    "name": "SUPREME PETROCHEM LIMITED",
+    "instrument_key": "NSE_EQ|INE663A01033"
+  },
+  {
+    "name": "ORIENT HOTELS LTD",
+    "instrument_key": "NSE_EQ|INE750A01020"
+  },
+  {
+    "name": "EDELWEISS FIN SERV LTD",
+    "instrument_key": "NSE_EQ|INE532F01054"
+  },
+  {
+    "name": "DDEV PLASTIKS IND LTD",
+    "instrument_key": "NSE_EQ|INE0HR601026"
+  },
+  {
+    "name": "D-LINK INDIA LTD",
+    "instrument_key": "NSE_EQ|INE250K01012"
+  },
+  {
+    "name": "NESCO LTD.",
+    "instrument_key": "NSE_EQ|INE317F01035"
+  },
+  {
+    "name": "NELCAST LIMITED",
+    "instrument_key": "NSE_EQ|INE189I01024"
+  },
+  {
+    "name": "PRAJAY ENG. SYN. LTD.",
+    "instrument_key": "NSE_EQ|INE505C01016"
+  },
+  {
+    "name": "DILIP BUILDCON LIMITED",
+    "instrument_key": "NSE_EQ|INE917M01012"
+  },
+  {
+    "name": "BAYER CROPSCIENCE LTD",
+    "instrument_key": "NSE_EQ|INE462A01022"
+  },
+  {
+    "name": "RAINBOW CHILDRENS MED LTD",
+    "instrument_key": "NSE_EQ|INE961O01016"
+  },
+  {
+    "name": "SAVITA OIL TECHNOLO. LTD",
+    "instrument_key": "NSE_EQ|INE035D01020"
+  },
+  {
+    "name": "INDRAPRASTHA GAS LTD",
+    "instrument_key": "NSE_EQ|INE203G01027"
+  },
+  {
+    "name": "CENTURY ENKA LTD",
+    "instrument_key": "NSE_EQ|INE485A01015"
+  },
+  {
+    "name": "STYRENIX PERFORMANCE LTD",
+    "instrument_key": "NSE_EQ|INE189B01011"
+  },
+  {
+    "name": "KHADIM INDIA LIMITED",
+    "instrument_key": "NSE_EQ|INE834I01025"
+  },
+  {
+    "name": "ESAB INDIA LTD",
+    "instrument_key": "NSE_EQ|INE284A01012"
+  },
+  {
+    "name": "NEWGEN SOFTWARE TECH LTD",
+    "instrument_key": "NSE_EQ|INE619B01017"
+  },
+  {
+    "name": "SHIPPING CORP OF INDIA LT",
+    "instrument_key": "NSE_EQ|INE109A01011"
+  },
+  {
+    "name": "HAPPY FORGINGS LIMITED",
+    "instrument_key": "NSE_EQ|INE330T01021"
+  },
+  {
+    "name": "CONFIDENCE PETRO IND LTD.",
+    "instrument_key": "NSE_EQ|INE552D01024"
+  },
+  {
+    "name": "RALLIS INDIA LTD",
+    "instrument_key": "NSE_EQ|INE613A01020"
+  },
+  {
+    "name": "AIRO LAM LIMITED",
+    "instrument_key": "NSE_EQ|INE801L01010"
+  },
+  {
+    "name": "SHREYANS INDUSTRIES LTD",
+    "instrument_key": "NSE_EQ|INE231C01019"
+  },
+  {
+    "name": "ONE POINT ONE SOL LTD",
+    "instrument_key": "NSE_EQ|INE840Y01029"
+  },
+  {
+    "name": "ROYAL ORCHID HOTELS LTD",
+    "instrument_key": "NSE_EQ|INE283H01019"
+  },
+  {
+    "name": "DAM CAPITAL ADVISORS LTD",
+    "instrument_key": "NSE_EQ|INE284H01025"
+  },
+  {
+    "name": "AYM SYNTEX LIMITED",
+    "instrument_key": "NSE_EQ|INE193B01039"
+  },
+  {
+    "name": "FINOLEX INDUSTRIES LTD",
+    "instrument_key": "NSE_EQ|INE183A01024"
+  },
+  {
+    "name": "SENORES PHARMACEUTICALS L",
+    "instrument_key": "NSE_EQ|INE0RB801010"
+  },
+  {
+    "name": "AGRO TECH FOODS LIMITED",
+    "instrument_key": "NSE_EQ|INE209A01019"
+  },
+  {
+    "name": "GUJ NAR VAL FER & CHEM L",
+    "instrument_key": "NSE_EQ|INE113A01013"
+  },
+  {
+    "name": "MAMATA MACHINERY LIMITED",
+    "instrument_key": "NSE_EQ|INE0TO701015"
+  },
+  {
+    "name": "GIC HOUSING FINANCE LTD",
+    "instrument_key": "NSE_EQ|INE289B01019"
+  },
+  {
+    "name": "TATA CONSULTANCY SERV LT",
+    "instrument_key": "NSE_EQ|INE467B01029"
+  },
+  {
+    "name": "MANALI PETROCHEMICALS LT",
+    "instrument_key": "NSE_EQ|INE201A01024"
+  },
+  {
+    "name": "D P WIRES LIMITED",
+    "instrument_key": "NSE_EQ|INE864X01013"
+  },
+  {
+    "name": "M&M FIN. SERVICES LTD",
+    "instrument_key": "NSE_EQ|INE774D01024"
+  },
+  {
+    "name": "MODISON LIMITED",
+    "instrument_key": "NSE_EQ|INE737D01021"
+  },
+  {
+    "name": "JK TYRE & INDUSTRIES LTD",
+    "instrument_key": "NSE_EQ|INE573A01042"
+  },
+  {
+    "name": "AUTHUM INVEST & INFRA LTD",
+    "instrument_key": "NSE_EQ|INE206F01022"
+  },
+  {
+    "name": "ONELIFE CAP ADVISORS LTD",
+    "instrument_key": "NSE_EQ|INE912L01015"
+  },
+  {
+    "name": "MM FORGINGS LTD",
+    "instrument_key": "NSE_EQ|INE227C01017"
+  },
+  {
+    "name": "LAKSHMI FIN IND CORP LTD",
+    "instrument_key": "NSE_EQ|INE850E01012"
+  },
+  {
+    "name": "RAJRATAN GLOBAL WIRE LTD",
+    "instrument_key": "NSE_EQ|INE451D01029"
+  },
+  {
+    "name": "SINCLAIRS HOTELS LIMITED",
+    "instrument_key": "NSE_EQ|INE985A01022"
+  },
+  {
+    "name": "MACPOWER CNC MACHINES LTD",
+    "instrument_key": "NSE_EQ|INE155Z01011"
+  },
+  {
+    "name": "SAPPHIRE FOODS INDIA LTD",
+    "instrument_key": "NSE_EQ|INE806T01020"
+  },
+  {
+    "name": "TRIGYN TECHNOLOGIES LTD",
+    "instrument_key": "NSE_EQ|INE948A01012"
+  },
+  {
+    "name": "LINDE INDIA LIMITED",
+    "instrument_key": "NSE_EQ|INE473A01011"
+  },
+  {
+    "name": "PRINCE PIPES FITTINGS LTD",
+    "instrument_key": "NSE_EQ|INE689W01016"
+  },
+  {
+    "name": "BOROSIL SCIENTIFIC LTD",
+    "instrument_key": "NSE_EQ|INE02L001032"
+  },
+  {
+    "name": "BHAGIRADHA CHEM & INDS L",
+    "instrument_key": "NSE_EQ|INE414D01027"
+  },
+  {
+    "name": "DILIGENT MEDIA CORP LTD.",
+    "instrument_key": "NSE_EQ|INE016M01021"
+  },
+  {
+    "name": "EVEREST INDUSTRIES LTD",
+    "instrument_key": "NSE_EQ|INE295A01018"
+  },
+  {
+    "name": "TIL LTD",
+    "instrument_key": "NSE_EQ|INE806C01018"
+  },
+  {
+    "name": "SHILPA MEDICARE LTD",
+    "instrument_key": "NSE_EQ|INE790G01031"
+  },
+  {
+    "name": "BLS INTL SERVS LTD",
+    "instrument_key": "NSE_EQ|INE153T01027"
+  },
+  {
+    "name": "SUN TV NETWORK LIMITED",
+    "instrument_key": "NSE_EQ|INE424H01027"
+  },
+  {
+    "name": "GRINDWELL NORTON LIMITED",
+    "instrument_key": "NSE_EQ|INE536A01023"
+  },
+  {
+    "name": "BEML LIMITED",
+    "instrument_key": "NSE_EQ|INE258A01016"
+  },
+  {
+    "name": "MASTEK LTD",
+    "instrument_key": "NSE_EQ|INE759A01021"
+  },
+  {
+    "name": "HINDUSTAN MEDIA VENT LTD",
+    "instrument_key": "NSE_EQ|INE871K01015"
+  },
+  {
+    "name": "KCP LTD",
+    "instrument_key": "NSE_EQ|INE805C01028"
+  },
+  {
+    "name": "INDOSTAR CAPITAL FIN LTD",
+    "instrument_key": "NSE_EQ|INE896L01010"
+  },
+  {
+    "name": "ARVEE LABORATORIES I LTD",
+    "instrument_key": "NSE_EQ|INE006Z01016"
+  },
+  {
+    "name": "TTK HEALTHCARE LIMITED",
+    "instrument_key": "NSE_EQ|INE910C01018"
+  },
+  {
+    "name": "NTPC GREEN ENERGY LIMITED",
+    "instrument_key": "NSE_EQ|INE0ONG01011"
+  },
+  {
+    "name": "TAINWALA CHEMICAL AND PLA",
+    "instrument_key": "NSE_EQ|INE123C01018"
+  },
+  {
+    "name": "UNIPARTS INDIA LIMITED",
+    "instrument_key": "NSE_EQ|INE244O01017"
+  },
+  {
+    "name": "MINDA CORPORATION LTD",
+    "instrument_key": "NSE_EQ|INE842C01021"
+  },
+  {
+    "name": "ORIENTAL CARBN & CHEM LTD",
+    "instrument_key": "NSE_EQ|INE321D01016"
+  },
+  {
+    "name": "GUJARAT STATE PETRO LTD",
+    "instrument_key": "NSE_EQ|INE246F01010"
+  },
+  {
+    "name": "SATIN CREDIT NET LTD",
+    "instrument_key": "NSE_EQ|INE836B01017"
+  },
+  {
+    "name": "SANGAM (INDIA) LTD",
+    "instrument_key": "NSE_EQ|INE495C01010"
+  },
+  {
+    "name": "INDRAPRASTHA MEDICAL CORP",
+    "instrument_key": "NSE_EQ|INE681B01017"
+  },
+  {
+    "name": "HARIOM PIPE INDUSTRIES L",
+    "instrument_key": "NSE_EQ|INE00EV01017"
+  },
+  {
+    "name": "XCHANGING SOLUTIONS LTD",
+    "instrument_key": "NSE_EQ|INE692G01013"
+  },
+  {
+    "name": "ICICIPRAMC - ICICINXT50",
+    "instrument_key": "NSE_EQ|INF109KC1NS5"
+  },
+  {
+    "name": "ICICI PRUDENTIAL GOLD ETF",
+    "instrument_key": "NSE_EQ|INF109KC1NT3"
+  },
+  {
+    "name": "CHOLAMANDALAM FIN HOL LTD",
+    "instrument_key": "NSE_EQ|INE149A01033"
+  },
+  {
+    "name": "ALKALI METALS LTD",
+    "instrument_key": "NSE_EQ|INE773I01017"
+  },
+  {
+    "name": "ORTIN GLOBAL LIMITED",
+    "instrument_key": "NSE_EQ|INE749B01020"
+  },
+  {
+    "name": "SBIAMC - SBIETFIT",
+    "instrument_key": "NSE_EQ|INF200KA1S14"
+  },
+  {
+    "name": "MALLCOM (INDIA) LIMITED",
+    "instrument_key": "NSE_EQ|INE389C01015"
+  },
+  {
+    "name": "GUJARAT ALKALIES & CHEM",
+    "instrument_key": "NSE_EQ|INE186A01019"
+  },
+  {
+    "name": "PAKKA LIMITED",
+    "instrument_key": "NSE_EQ|INE551D01018"
+  },
+  {
+    "name": "SBIAMC - SBIETFPB",
+    "instrument_key": "NSE_EQ|INF200KA1S22"
+  },
+  {
+    "name": "LANDMARK CARS LIMITED",
+    "instrument_key": "NSE_EQ|INE559R01029"
+  },
+  {
+    "name": "RANA SUGARS LTD.",
+    "instrument_key": "NSE_EQ|INE625B01014"
+  },
+  {
+    "name": "ADANI WILMAR LIMITED",
+    "instrument_key": "NSE_EQ|INE699H01024"
+  },
+  {
+    "name": "MIRC ELECTRONICS LTD",
+    "instrument_key": "NSE_EQ|INE831A01028"
+  },
+  {
+    "name": "PEARL GLOBAL IND LIMITED",
+    "instrument_key": "NSE_EQ|INE940H01022"
+  },
+  {
+    "name": "VINDHYA TELELINKS LTD",
+    "instrument_key": "NSE_EQ|INE707A01012"
+  },
+  {
+    "name": "WELSPUN LIVING LIMITED",
+    "instrument_key": "NSE_EQ|INE192B01031"
+  },
+  {
+    "name": "ADITYA BIRLA FASHION & RT",
+    "instrument_key": "NSE_EQ|INE647O01011"
+  },
+  {
+    "name": "AMBUJA CEMENTS LTD",
+    "instrument_key": "NSE_EQ|INE079A01024"
+  },
+  {
+    "name": "CORDS CABLE INDUS LTD.",
+    "instrument_key": "NSE_EQ|INE792I01017"
+  },
+  {
+    "name": "HIMADRI SPECIALITY CHEM L",
+    "instrument_key": "NSE_EQ|INE019C01026"
+  },
+  {
+    "name": "PG ELECTROPLAST LTD",
+    "instrument_key": "NSE_EQ|INE457L01029"
+  },
+  {
+    "name": "SPIC LTD",
+    "instrument_key": "NSE_EQ|INE147A01011"
+  },
+  {
+    "name": "TATAAML - NPBET",
+    "instrument_key": "NSE_EQ|INF277K010X4"
+  },
+  {
+    "name": "GAIL (INDIA) LTD",
+    "instrument_key": "NSE_EQ|INE129A01019"
+  },
+  {
+    "name": "ARIHANT SUPERSTRUCT LTD",
+    "instrument_key": "NSE_EQ|INE643K01018"
+  },
+  {
+    "name": "LIFE INSURA CORP OF INDIA",
+    "instrument_key": "NSE_EQ|INE0J1Y01017"
+  },
+  {
+    "name": "EMUDHRA LIMITED",
+    "instrument_key": "NSE_EQ|INE01QM01018"
+  },
+  {
+    "name": "GODFREY PHILLIPS INDIA LT",
+    "instrument_key": "NSE_EQ|INE260B01028"
+  },
+  {
+    "name": "PRATAAP SNACKS LIMITED",
+    "instrument_key": "NSE_EQ|INE393P01035"
+  },
+  {
+    "name": "ANTARCTICA LTD",
+    "instrument_key": "NSE_EQ|INE414B01021"
+  },
+  {
+    "name": "ION EXCHANGE (INDIA) LTD",
+    "instrument_key": "NSE_EQ|INE570A01022"
+  },
+  {
+    "name": "ICICIPRAMC - ICICIPHARM",
+    "instrument_key": "NSE_EQ|INF109KC1Q72"
+  },
+  {
+    "name": "VEDANT FASHIONS LIMITED",
+    "instrument_key": "NSE_EQ|INE825V01034"
+  },
+  {
+    "name": "KIRLOSKAR PNEUMATIC COM L",
+    "instrument_key": "NSE_EQ|INE811A01020"
+  },
+  {
+    "name": "ACTION CONST EQUIP LTD",
+    "instrument_key": "NSE_EQ|INE731H01025"
+  },
+  {
+    "name": "DIVGI TORQTRANSFER SYST L",
+    "instrument_key": "NSE_EQ|INE753U01022"
+  },
+  {
+    "name": "SUKHJIT STARCH & CHEM LTD",
+    "instrument_key": "NSE_EQ|INE450E01029"
+  },
+  {
+    "name": "SBFC FINANCE LIMITED",
+    "instrument_key": "NSE_EQ|INE423Y01016"
+  },
+  {
+    "name": "COMPUCOM SOFTWARE LTD",
+    "instrument_key": "NSE_EQ|INE453B01029"
+  },
+  {
+    "name": "ULTRATECH CEMENT LIMITED",
+    "instrument_key": "NSE_EQ|INE481G01011"
+  },
+  {
+    "name": "CROMPT GREA CON ELEC LTD",
+    "instrument_key": "NSE_EQ|INE299U01018"
+  },
+  {
+    "name": "SHAH METACORP LIMITED",
+    "instrument_key": "NSE_EQ|INE482J01021"
+  },
+  {
+    "name": "HDFC BANK LTD",
+    "instrument_key": "NSE_EQ|INE040A01034"
+  },
+  {
+    "name": "MARATHON NXTGEN REALT LTD",
+    "instrument_key": "NSE_EQ|INE182D01020"
+  },
+  {
+    "name": "CYBERTECH SYSTEMS & SOFTW",
+    "instrument_key": "NSE_EQ|INE214A01019"
+  },
+  {
+    "name": "BALAJI AMINES LIMITED",
+    "instrument_key": "NSE_EQ|INE050E01027"
+  },
+  {
+    "name": "AARTI SURFACTANTS LIMITED",
+    "instrument_key": "NSE_EQ|INE09EO01013"
+  },
+  {
+    "name": "MEDICO REMEDIES LIMITED",
+    "instrument_key": "NSE_EQ|INE630Y01024"
+  },
+  {
+    "name": "WORTH PERIPHERALS LIMITED",
+    "instrument_key": "NSE_EQ|INE196Y01018"
+  },
+  {
+    "name": "J B CHEMICALS AND PHARMA",
+    "instrument_key": "NSE_EQ|INE572A01036"
+  },
+  {
+    "name": "GE VERNOVA T&D INDIA LTD",
+    "instrument_key": "NSE_EQ|INE200A01026"
+  },
+  {
+    "name": "SHRE PUSH CHEM & FERT LTD",
+    "instrument_key": "NSE_EQ|INE712K01011"
+  },
+  {
+    "name": "CUPID LIMITED",
+    "instrument_key": "NSE_EQ|INE509F01029"
+  },
+  {
+    "name": "HINDUSTAN CONSTRUCTION CO",
+    "instrument_key": "NSE_EQ|INE549A01026"
+  },
+  {
+    "name": "LATENT VIEW ANALYTICS LTD",
+    "instrument_key": "NSE_EQ|INE0I7C01011"
+  },
+  {
+    "name": "ATUL AUTO LIMITED",
+    "instrument_key": "NSE_EQ|INE951D01028"
+  },
+  {
+    "name": "ALOK INDUSTRIES LIMITED",
+    "instrument_key": "NSE_EQ|INE270A01029"
+  },
+  {
+    "name": "GODREJ INDUSTRIES LTD",
+    "instrument_key": "NSE_EQ|INE233A01035"
+  },
+  {
+    "name": "CAMBRIDGE TECH ENTER LTD",
+    "instrument_key": "NSE_EQ|INE627H01017"
+  },
+  {
+    "name": "RAJSHREE POLYPACK LTD",
+    "instrument_key": "NSE_EQ|INE760W01023"
+  },
+  {
+    "name": "OCCL LIMITED",
+    "instrument_key": "NSE_EQ|INE0PK601023"
+  },
+  {
+    "name": "GALLANTT ISPAT LIMITED",
+    "instrument_key": "NSE_EQ|INE297H01019"
+  },
+  {
+    "name": "AMBER ENTERPRISES (I) LTD",
+    "instrument_key": "NSE_EQ|INE371P01015"
+  },
+  {
+    "name": "UFLEX LIMITED",
+    "instrument_key": "NSE_EQ|INE516A01017"
+  },
+  {
+    "name": "R SYS INTERNATIONAL LTD",
+    "instrument_key": "NSE_EQ|INE411H01032"
+  },
+  {
+    "name": "RISHABH INSTRUMENTS LTD",
+    "instrument_key": "NSE_EQ|INE0N2P01017"
+  },
+  {
+    "name": "SEL MANUFACTURING CO LTD",
+    "instrument_key": "NSE_EQ|INE105I01020"
+  },
+  {
+    "name": "TAKE SOLUTIONS LTD",
+    "instrument_key": "NSE_EQ|INE142I01023"
+  },
+  {
+    "name": "THIRUMALAI CHEMICALS LTD",
+    "instrument_key": "NSE_EQ|INE338A01024"
+  },
+  {
+    "name": "STEEL AUTHORITY OF INDIA",
+    "instrument_key": "NSE_EQ|INE114A01011"
+  },
+  {
+    "name": "NIRAJ ISPAT IND LTD",
+    "instrument_key": "NSE_EQ|INE326T01011"
+  },
+  {
+    "name": "SMC GLOBAL SECURITIES LTD",
+    "instrument_key": "NSE_EQ|INE103C01036"
+  },
+  {
+    "name": "VLS FINANCE LTD",
+    "instrument_key": "NSE_EQ|INE709A01018"
+  },
+  {
+    "name": "ELECON ENG. CO. LTD",
+    "instrument_key": "NSE_EQ|INE205B01031"
+  },
+  {
+    "name": "WE WIN LIMITED",
+    "instrument_key": "NSE_EQ|INE082W01014"
+  },
+  {
+    "name": "AJANTA PHARMA LIMITED",
+    "instrument_key": "NSE_EQ|INE031B01049"
+  },
+  {
+    "name": "ICICIPRAMC - ICICILIQ",
+    "instrument_key": "NSE_EQ|INF109KC1KT9"
+  },
+  {
+    "name": "VIKAS LIFECARE LIMITED",
+    "instrument_key": "NSE_EQ|INE161L01027"
+  },
+  {
+    "name": "AKZO NOBEL INDIA LIMITED",
+    "instrument_key": "NSE_EQ|INE133A01011"
+  },
+  {
+    "name": "CSB BANK LIMITED",
+    "instrument_key": "NSE_EQ|INE679A01013"
+  },
+  {
+    "name": "TTK PRESTIGE LTD",
+    "instrument_key": "NSE_EQ|INE690A01028"
+  },
+  {
+    "name": "ASHOKA METCAST LIMITED",
+    "instrument_key": "NSE_EQ|INE760Y01011"
+  },
+  {
+    "name": "STERLITE TECHNOLOGIES LTD",
+    "instrument_key": "NSE_EQ|INE089C01029"
+  },
+  {
+    "name": "CESC LTD",
+    "instrument_key": "NSE_EQ|INE486A01021"
+  },
+  {
+    "name": "BODHI TREE MULTIMEDIA LTD",
+    "instrument_key": "NSE_EQ|INE0EEJ01023"
+  },
+  {
+    "name": "GLENMARK PHARMACEUTICALS",
+    "instrument_key": "NSE_EQ|INE935A01035"
+  },
+  {
+    "name": "MANG.CHEM.FERT.LTD",
+    "instrument_key": "NSE_EQ|INE558B01017"
+  },
+  {
+    "name": "LOTUS EYE HOSP & INST L",
+    "instrument_key": "NSE_EQ|INE947I01017"
+  },
+  {
+    "name": "RAMKRISHNA FORGINGS LTD",
+    "instrument_key": "NSE_EQ|INE399G01023"
+  },
+  {
+    "name": "PIL ITALICA LIFESTYLE LTD",
+    "instrument_key": "NSE_EQ|INE600A01035"
+  },
+  {
+    "name": "AUTOMOTIVE AXLES LIMITED",
+    "instrument_key": "NSE_EQ|INE449A01011"
+  },
+  {
+    "name": "S. P. APPARELS LIMITED",
+    "instrument_key": "NSE_EQ|INE212I01016"
+  },
+  {
+    "name": "PI INDUSTRIES LTD",
+    "instrument_key": "NSE_EQ|INE603J01030"
+  },
+  {
+    "name": "SIEMENS LTD",
+    "instrument_key": "NSE_EQ|INE003A01024"
+  },
+  {
+    "name": "SOLARA ACTIVE PHA SCI LTD",
+    "instrument_key": "NSE_EQ|INE624Z01016"
+  },
+  {
+    "name": "GANGA FORGING LIMITED",
+    "instrument_key": "NSE_EQ|INE691Z01023"
+  },
+  {
+    "name": "INDIAN RENEWABLE ENERGY",
+    "instrument_key": "NSE_EQ|INE202E01016"
+  },
+  {
+    "name": "EICHER MOTORS LTD",
+    "instrument_key": "NSE_EQ|INE066A01021"
+  },
+  {
+    "name": "GUJARAT GAS LIMITED",
+    "instrument_key": "NSE_EQ|INE844O01030"
+  },
+  {
+    "name": "PPAP AUTOMOTIVE LIMITED",
+    "instrument_key": "NSE_EQ|INE095I01015"
+  },
+  {
+    "name": "ALLCARGO LOGISTICS LTD",
+    "instrument_key": "NSE_EQ|INE418H01029"
+  },
+  {
+    "name": "PEARL POLYMERS LTD",
+    "instrument_key": "NSE_EQ|INE844A01013"
+  },
+  {
+    "name": "HOME FIRST FIN CO IND LTD",
+    "instrument_key": "NSE_EQ|INE481N01025"
+  },
+  {
+    "name": "KROSS LIMITED",
+    "instrument_key": "NSE_EQ|INE0O6601022"
+  },
+  {
+    "name": "SAMHI HOTELS LIMITED",
+    "instrument_key": "NSE_EQ|INE08U801020"
+  },
+  {
+    "name": "BHARAT PETROLEUM CORP  LT",
+    "instrument_key": "NSE_EQ|INE029A01011"
+  },
+  {
+    "name": "CHEMPLAST SANMAR LIMITED",
+    "instrument_key": "NSE_EQ|INE488A01050"
+  },
+  {
+    "name": "BAJEL PROJECTS LIMITED",
+    "instrument_key": "NSE_EQ|INE0KQN01018"
+  },
+  {
+    "name": "WALCHANDNAGAR INDUSTRIES",
+    "instrument_key": "NSE_EQ|INE711A01022"
+  },
+  {
+    "name": "SURAKSHA DIAGNOSTIC LTD",
+    "instrument_key": "NSE_EQ|INE877V01027"
+  },
+  {
+    "name": "MAHANAGAR TELEPHONE NIGAM",
+    "instrument_key": "NSE_EQ|INE153A01019"
+  },
+  {
+    "name": "OM INFRA LIMITED",
+    "instrument_key": "NSE_EQ|INE239D01028"
+  },
+  {
+    "name": "TATA ELXSI LIMITED",
+    "instrument_key": "NSE_EQ|INE670A01012"
+  },
+  {
+    "name": "GOLDIAM INTERNATIONAL LTD",
+    "instrument_key": "NSE_EQ|INE025B01025"
+  },
+  {
+    "name": "INFO EDGE (I) LTD",
+    "instrument_key": "NSE_EQ|INE663F01024"
+  },
+  {
+    "name": "SAT INDUSTRIES LIMITED",
+    "instrument_key": "NSE_EQ|INE065D01027"
+  },
+  {
+    "name": "MADHAV MARBLE & GRANITE",
+    "instrument_key": "NSE_EQ|INE925C01016"
+  },
+  {
+    "name": "CCL PRODUCTS (I) LTD",
+    "instrument_key": "NSE_EQ|INE421D01022"
+  },
+  {
+    "name": "JAYSHREE TEA & INDUSTRIES",
+    "instrument_key": "NSE_EQ|INE364A01020"
+  },
+  {
+    "name": "FEDERAL-MOGUL GOETZE (IND",
+    "instrument_key": "NSE_EQ|INE529A01010"
+  },
+  {
+    "name": "BHANSALI ENG. POLYMERS LT",
+    "instrument_key": "NSE_EQ|INE922A01025"
+  },
+  {
+    "name": "ORIENT PAPER AND INDS LTD",
+    "instrument_key": "NSE_EQ|INE592A01026"
+  },
+  {
+    "name": "SERVOTECH REN POW SYS LTD",
+    "instrument_key": "NSE_EQ|INE782X01033"
+  },
+  {
+    "name": "APCOTEX INDUSTRIES LIMITE",
+    "instrument_key": "NSE_EQ|INE116A01032"
+  },
+  {
+    "name": "KRN HEAT EXCHANGE N REF L",
+    "instrument_key": "NSE_EQ|INE0Q3J01015"
+  },
+  {
+    "name": "SUNDARAM FINANCE HOLD LTD",
+    "instrument_key": "NSE_EQ|INE202Z01029"
+  },
+  {
+    "name": "RAJSHREE SUGAR & CHEMICAL",
+    "instrument_key": "NSE_EQ|INE562B01019"
+  },
+  {
+    "name": "V-GUARD IND LTD.",
+    "instrument_key": "NSE_EQ|INE951I01027"
+  },
+  {
+    "name": "SWARAJ ENGINES LTD",
+    "instrument_key": "NSE_EQ|INE277A01016"
+  },
+  {
+    "name": "POWER GRID CORP. LTD.",
+    "instrument_key": "NSE_EQ|INE752E01010"
+  },
+  {
+    "name": "GREENPANEL INDUSTRIES LTD",
+    "instrument_key": "NSE_EQ|INE08ZM01014"
+  },
+  {
+    "name": "SBIAMC - SBIETFCON",
+    "instrument_key": "NSE_EQ|INF200KA1X17"
+  },
+  {
+    "name": "ANMOL INDIA LIMITED",
+    "instrument_key": "NSE_EQ|INE02AR01019"
+  },
+  {
+    "name": "XPRO INDIA LIMITED",
+    "instrument_key": "NSE_EQ|INE445C01015"
+  },
+  {
+    "name": "PYRAMID TECHNOPLAST LTD",
+    "instrument_key": "NSE_EQ|INE0MIS01010"
+  },
+  {
+    "name": "SBIAMC - SBIETFQLTY",
+    "instrument_key": "NSE_EQ|INF200KA1WX6"
+  },
+  {
+    "name": "TIPS MUSIC LIMITED",
+    "instrument_key": "NSE_EQ|INE716B01029"
+  },
+  {
+    "name": "PARAG MILK FOODS LTD.",
+    "instrument_key": "NSE_EQ|INE883N01014"
+  },
+  {
+    "name": "EIMCO ELECON (INDIA) LTD",
+    "instrument_key": "NSE_EQ|INE158B01016"
+  },
+  {
+    "name": "RAMA STEEL TUBES LIMITED",
+    "instrument_key": "NSE_EQ|INE230R01035"
+  },
+  {
+    "name": "VISAKA INDUSTRIES LIMITED",
+    "instrument_key": "NSE_EQ|INE392A01021"
+  },
+  {
+    "name": "TATA CHEMICALS LTD",
+    "instrument_key": "NSE_EQ|INE092A01019"
+  },
+  {
+    "name": "ICICIPRAMC - ICICISILVE",
+    "instrument_key": "NSE_EQ|INF109KC1Y56"
+  },
+  {
+    "name": "HIMATSINGKA SEIDE LTD",
+    "instrument_key": "NSE_EQ|INE049A01027"
+  },
+  {
+    "name": "DLF LIMITED",
+    "instrument_key": "NSE_EQ|INE271C01023"
+  },
+  {
+    "name": "TRF LIMITED",
+    "instrument_key": "NSE_EQ|INE391D01019"
+  },
+  {
+    "name": "CONCORD ENVIRO SYSTEMS L",
+    "instrument_key": "NSE_EQ|INE037Z01029"
+  },
+  {
+    "name": "PIDILITE INDUSTRIES LTD",
+    "instrument_key": "NSE_EQ|INE318A01026"
+  },
+  {
+    "name": "COUNTRY CLUB HOSP HOL LTD",
+    "instrument_key": "NSE_EQ|INE652F01027"
+  },
+  {
+    "name": "HUHTAMAKI INDIA LIMITED",
+    "instrument_key": "NSE_EQ|INE275B01026"
+  },
+  {
+    "name": "BANNARI AM SPIN MILL LTD.",
+    "instrument_key": "NSE_EQ|INE186H01022"
+  },
+  {
+    "name": "VARUN BEVERAGES LIMITED",
+    "instrument_key": "NSE_EQ|INE200M01039"
+  },
+  {
+    "name": "GANESH HOUSING CORP LTD",
+    "instrument_key": "NSE_EQ|INE460C01014"
+  },
+  {
+    "name": "SYRMA SGS TECHNOLOGY LTD",
+    "instrument_key": "NSE_EQ|INE0DYJ01015"
+  },
+  {
+    "name": "PARAS DEF AND SPCE TECH L",
+    "instrument_key": "NSE_EQ|INE045601015"
+  },
+  {
+    "name": "SOMANY CERAMICS LIMITED",
+    "instrument_key": "NSE_EQ|INE355A01028"
+  },
+  {
+    "name": "BALAXI PHARMA LTD",
+    "instrument_key": "NSE_EQ|INE618N01022"
+  },
+  {
+    "name": "GEEKAY WIRES LIMITED",
+    "instrument_key": "NSE_EQ|INE669X01024"
+  },
+  {
+    "name": "ARVIND FASHIONS LIMITED",
+    "instrument_key": "NSE_EQ|INE955V01021"
+  },
+  {
+    "name": "RKEC PROJECTS LIMITED",
+    "instrument_key": "NSE_EQ|INE786W01010"
+  },
+  {
+    "name": "MAS FINANCIAL SERV LTD",
+    "instrument_key": "NSE_EQ|INE348L01012"
+  },
+  {
+    "name": "TCI EXPRESS LIMITED",
+    "instrument_key": "NSE_EQ|INE586V01016"
+  },
+  {
+    "name": "BALMER LAWRIE & CO LTD",
+    "instrument_key": "NSE_EQ|INE164A01016"
+  },
+  {
+    "name": "ECLERX SERVICES LTD",
+    "instrument_key": "NSE_EQ|INE738I01010"
+  },
+  {
+    "name": "MEGHMANI ORGANICS LIMITED",
+    "instrument_key": "NSE_EQ|INE0CT101020"
+  },
+  {
+    "name": "GROWWAMC - GROWWEV",
+    "instrument_key": "NSE_EQ|INF666M01IH2"
+  },
+  {
+    "name": "DOLAT ALGOTECH LIMITED",
+    "instrument_key": "NSE_EQ|INE966A01022"
+  },
+  {
+    "name": "DHARMAJ CROP GUARD LTD",
+    "instrument_key": "NSE_EQ|INE00OQ01016"
+  },
+  {
+    "name": "AEGIS LOGISTICS LIMITED",
+    "instrument_key": "NSE_EQ|INE208C01025"
+  },
+  {
+    "name": "GROWWAMC - GROWWLIQID",
+    "instrument_key": "NSE_EQ|INF666M01IP5"
+  },
+  {
+    "name": "GROWWAMC - GROWWDEFNC",
+    "instrument_key": "NSE_EQ|INF666M01IO8"
+  },
+  {
+    "name": "DUCON INFRATECHNOLOGIES L",
+    "instrument_key": "NSE_EQ|INE741L01018"
+  },
+  {
+    "name": "CRAFTSMAN AUTOMATION LTD",
+    "instrument_key": "NSE_EQ|INE00LO01017"
+  },
+  {
+    "name": "GROWWAMC - GROWWGOLD",
+    "instrument_key": "NSE_EQ|INF666M01IW1"
+  },
+  {
+    "name": "AHLUWALIA CONT IND LTD",
+    "instrument_key": "NSE_EQ|INE758C01029"
+  },
+  {
+    "name": "GUFIC BIOSCIENCES LTD.",
+    "instrument_key": "NSE_EQ|INE742B01025"
+  },
+  {
+    "name": "ORISSA BENGAL CARRIER LTD",
+    "instrument_key": "NSE_EQ|INE426Z01016"
+  },
+  {
+    "name": "HERANBA INDUSTRIES LTD",
+    "instrument_key": "NSE_EQ|INE694N01015"
+  },
+  {
+    "name": "SIGMA SOLVE LIMITED",
+    "instrument_key": "NSE_EQ|INE0A0S01010"
+  },
+  {
+    "name": "R K SWAMY LIMITED",
+    "instrument_key": "NSE_EQ|INE0NQ801033"
+  },
+  {
+    "name": "ZENSAR TECHNOLOGIES  LTD",
+    "instrument_key": "NSE_EQ|INE520A01027"
+  },
+  {
+    "name": "HONASA CONSUMER LIMITED",
+    "instrument_key": "NSE_EQ|INE0J5401028"
+  },
+  {
+    "name": "SKIPPER LIMITED",
+    "instrument_key": "NSE_EQ|INE439E01022"
+  },
+  {
+    "name": "TOURISM FINANCE CORP. OF",
+    "instrument_key": "NSE_EQ|INE305A01015"
+  },
+  {
+    "name": "ROSSELL TECHSYS LIMITED",
+    "instrument_key": "NSE_EQ|INE0OJW01016"
+  },
+  {
+    "name": "FILATEX INDIA LTD",
+    "instrument_key": "NSE_EQ|INE816B01035"
+  },
+  {
+    "name": "LT FOODS LIMITED",
+    "instrument_key": "NSE_EQ|INE818H01020"
+  },
+  {
+    "name": "ALLDIGI TECH LIMITED",
+    "instrument_key": "NSE_EQ|INE835G01018"
+  },
+  {
+    "name": "FEDBANK FINANCIAL SER L",
+    "instrument_key": "NSE_EQ|INE007N01010"
+  },
+  {
+    "name": "DCM SHRIRAM LIMITED",
+    "instrument_key": "NSE_EQ|INE499A01024"
+  },
+  {
+    "name": "FOODS & INNS LIMITED",
+    "instrument_key": "NSE_EQ|INE976E01023"
+  },
+  {
+    "name": "WELSPUN INV & COMM LTD",
+    "instrument_key": "NSE_EQ|INE389K01018"
+  },
+  {
+    "name": "SASTASUNDAR VENTURES LTD",
+    "instrument_key": "NSE_EQ|INE019J01013"
+  },
+  {
+    "name": "FLAIR WRITING INDUST LTD",
+    "instrument_key": "NSE_EQ|INE00Y201027"
+  },
+  {
+    "name": "GO FASHION INDIA LTD",
+    "instrument_key": "NSE_EQ|INE0BJS01011"
+  },
+  {
+    "name": "INTERNATIO GEMM INS (I) L",
+    "instrument_key": "NSE_EQ|INE0Q9301021"
+  },
+  {
+    "name": "SEAMEC LIMITED",
+    "instrument_key": "NSE_EQ|INE497B01018"
+  },
+  {
+    "name": "PONDY OXIDES & CHEM LTD",
+    "instrument_key": "NSE_EQ|INE063E01053"
+  },
+  {
+    "name": "DABUR INDIA LTD",
+    "instrument_key": "NSE_EQ|INE016A01026"
+  },
+  {
+    "name": "INTELLECT DESIGN ARENA",
+    "instrument_key": "NSE_EQ|INE306R01017"
+  },
+  {
+    "name": "ORIENT CERATECH LIMITED",
+    "instrument_key": "NSE_EQ|INE569C01020"
+  },
+  {
+    "name": "INTENSE TECHNOLOGIES LTD",
+    "instrument_key": "NSE_EQ|INE781A01025"
+  },
+  {
+    "name": "UJJIVAN SMALL FINANC BANK",
+    "instrument_key": "NSE_EQ|INE551W01018"
+  },
+  {
+    "name": "KCP SUGAR IND CORP LTD.",
+    "instrument_key": "NSE_EQ|INE790B01024"
+  },
+  {
+    "name": "TATAAML - NETF",
+    "instrument_key": "NSE_EQ|INF277K015R5"
+  },
+  {
+    "name": "BEARDSELL LIMITED",
+    "instrument_key": "NSE_EQ|INE520H01022"
+  },
+  {
+    "name": "ESCORTS KUBOTA LIMITED",
+    "instrument_key": "NSE_EQ|INE042A01014"
+  },
+  {
+    "name": "SYNCOM FORMU (I) LTD",
+    "instrument_key": "NSE_EQ|INE312C01025"
+  },
+  {
+    "name": "PROCTER & GAMBLE HEALTH L",
+    "instrument_key": "NSE_EQ|INE199A01012"
+  },
+  {
+    "name": "FUSION FINANCE LIMITED",
+    "instrument_key": "NSE_EQ|INE139R01012"
+  },
+  {
+    "name": "VAKRANGEE LIMITED",
+    "instrument_key": "NSE_EQ|INE051B01021"
+  },
+  {
+    "name": "AURUM PROPTECH LIMITED",
+    "instrument_key": "NSE_EQ|INE898S01029"
+  },
+  {
+    "name": "ICICIPRAMC - ICICICONSU",
+    "instrument_key": "NSE_EQ|INF109KC1V42"
+  },
+  {
+    "name": "SHARDA MOTOR INDS LTD",
+    "instrument_key": "NSE_EQ|INE597I01028"
+  },
+  {
+    "name": "LIC MF - LIC GOLD ETF",
+    "instrument_key": "NSE_EQ|INF397L01554"
+  },
+  {
+    "name": "ELDECO HSG & IND LTD.",
+    "instrument_key": "NSE_EQ|INE668G01021"
+  },
+  {
+    "name": "PTC INDUSTRIES LIMITED",
+    "instrument_key": "NSE_EQ|INE596F01018"
+  },
+  {
+    "name": "TECIL CHEMICALS",
+    "instrument_key": "NSE_EQ|INE014B01011"
+  },
+  {
+    "name": "GANESH BENZOPLAST LIMITED",
+    "instrument_key": "NSE_EQ|INE388A01029"
+  },
+  {
+    "name": "APOLLO MICRO SYSTEMS LTD",
+    "instrument_key": "NSE_EQ|INE713T01028"
+  },
+  {
+    "name": "ICICIPRAMC - ICICI500",
+    "instrument_key": "NSE_EQ|INF109KC1V59"
+  },
+  {
+    "name": "SELAN EXPLO. TECH LTD",
+    "instrument_key": "NSE_EQ|INE818A01017"
+  },
+  {
+    "name": "AGARWAL INDS CORP LTD.",
+    "instrument_key": "NSE_EQ|INE204E01012"
+  }
+]
