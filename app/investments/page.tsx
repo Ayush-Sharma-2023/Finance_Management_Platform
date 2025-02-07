@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react';
 import { Card } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
+import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { Wallet } from 'lucide-react';
 import { PieChart, Pie, Cell, ResponsiveContainer, LineChart, Line, XAxis, YAxis, Tooltip, CartesianGrid } from 'recharts';
@@ -26,11 +27,16 @@ const portfolioAllocations: Record<RiskProfile, PortfolioAllocation> = {
   aggressive: { equity: 70, debt: 15, gold: 5, crypto: 10 },
 };
 
-const generateInvestmentGrowthData = (initialInvestment: number) => {
-  return Array.from({ length: 12 }, (_, i) => ({
-    month: `Month ${i + 1}`,
-    value: initialInvestment * (1 + i * 0.02), // Simulating 2% growth per month
-  }));
+const generateInvestmentGrowthData = (initialInvestment: number, months: number) => {
+  let currentInvestment = initialInvestment;
+  return Array.from({ length: months }, (_, i) => {
+    const growthRate = -0.05 + Math.random() * 0.1; // Simulating random growth rate between -5% and 5%
+    currentInvestment *= 1 + growthRate;
+    return {
+      month: `Month ${i + 1}`,
+      value: currentInvestment,
+    };
+  });
 };
 
 const COLORS = ['#8884d8', '#82ca9d', '#ffc658', '#ff7300', '#00C49F'];
@@ -38,6 +44,7 @@ const COLORS = ['#8884d8', '#82ca9d', '#ffc658', '#ff7300', '#00C49F'];
 export default function InvestmentAdvisor() {
   const [remainingBudget, setRemainingBudget] = useState<number>(0);
   const [riskProfile, setRiskProfile] = useState<RiskProfile>('conservative');
+  const [months, setMonths] = useState<number>(12);
 
   // Load remaining budget from localStorage when the component mounts
   useEffect(() => {
@@ -59,7 +66,7 @@ export default function InvestmentAdvisor() {
   }, [remainingBudget]);
 
   const allocation = portfolioAllocations[riskProfile];
-  const investmentGrowthData = generateInvestmentGrowthData(remainingBudget);
+  const investmentGrowthData = generateInvestmentGrowthData(remainingBudget, months);
 
   const handleSubmit = async () => {
     if (!supabase) return;
@@ -155,10 +162,75 @@ export default function InvestmentAdvisor() {
                   <Line type="monotone" dataKey="value" stroke="#8884d8" strokeWidth={2} />
                 </LineChart>
               </ResponsiveContainer>
+              <div className="mt-4">
+                <Label htmlFor="months">Duration (Months):</Label>
+                <Input
+                  id="months"
+                  type="range"
+                  min="12"
+                  max="120"
+                  value={months}
+                  onChange={(e) => setMonths(Number(e.target.value))}
+                  className="w-full"
+                />
+                <div className="text-center mt-2">{months} Months</div>
+              </div>
             </Card>
           </div>
         </div>
       </div>
+      <div className="container mx-auto px-4 py-6">
+  <h1 className="text-3xl font-bold mb-6 text-center text-blue-600">My Holdings</h1>
+  <table className="min-w-full bg-white shadow-lg rounded-lg overflow-hidden border-collapse">
+    <thead className="bg-gray-800 text-white">
+      <tr>
+        <th className="py-3 px-6 text-left">Company</th>
+        <th className="py-3 px-6 text-left">Average Price</th>
+        <th className="py-3 px-6 text-left">Last Price</th>
+        <th className="py-3 px-6 text-left">P&L</th>
+        <th className="py-3 px-6 text-left">Quantity</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr className="bg-gray-50 border-b hover:bg-gray-100">
+        <td className="py-4 px-6">Reliance Industries</td>
+        <td className="py-4 px-6">₹2,000.00</td>
+        <td className="py-4 px-6">₹2,100.00</td>
+        <td className="py-4 px-6 text-green-500">₹100.00</td>
+        <td className="py-4 px-6">50</td>
+      </tr>
+      <tr className="bg-white border-b hover:bg-gray-100">
+        <td className="py-4 px-6">Tata Consultancy Services</td>
+        <td className="py-4 px-6">₹3,000.00</td>
+        <td className="py-4 px-6">₹3,200.00</td>
+        <td className="py-4 px-6 text-green-500">₹200.00</td>
+        <td className="py-4 px-6">30</td>
+      </tr>
+      <tr className="bg-gray-50 border-b hover:bg-gray-100">
+        <td className="py-4 px-6">HDFC Bank</td>
+        <td className="py-4 px-6">₹1,500.00</td>
+        <td className="py-4 px-6">₹1,450.00</td>
+        <td className="py-4 px-6 text-red-500">-₹50.00</td>
+        <td className="py-4 px-6">40</td>
+      </tr>
+      <tr className="bg-white border-b hover:bg-gray-100">
+        <td className="py-4 px-6">Infosys</td>
+        <td className="py-4 px-6">₹1,200.00</td>
+        <td className="py-4 px-6">₹1,250.00</td>
+        <td className="py-4 px-6 text-green-500">₹50.00</td>
+        <td className="py-4 px-6">60</td>
+      </tr>
+      <tr className="bg-gray-50 border-b hover:bg-gray-100">
+        <td className="py-4 px-6">ICICI Bank</td>
+        <td className="py-4 px-6">₹700.00</td>
+        <td className="py-4 px-6">₹750.00</td>
+        <td className="py-4 px-6 text-green-500">₹50.00</td>
+        <td className="py-4 px-6">100</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+     
     </>
   );
 }
