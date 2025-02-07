@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useState, useRef } from 'react';
+import Navbar from '../../components/Navbar';
 
 interface Article {
   title: string;
@@ -74,6 +75,7 @@ const NewsPage = () => {
   }, [page]); // Depend on 'page' instead of 'news' to prevent excessive re-renders
 
   return (
+    <><Navbar/>
     <div className="container mx-auto px-4 py-6">
       <h1 className="text-3xl font-bold text-center text-blue-600 mb-6">Latest Stock Market News</h1>
 
@@ -118,6 +120,7 @@ const NewsPage = () => {
       {/* Invisible trigger element for Infinite Scroll */}
       <div id="load-more" className="h-10"></div>
     </div>
+    </>
   );
 };
 
