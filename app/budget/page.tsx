@@ -52,6 +52,10 @@ function compoundInvestmentTime(initial: number, monthly: number, rate: number, 
 
   return months;
 }
+import { Chart as ChartJS, Title, Legend, ArcElement, CategoryScale, LinearScale } from 'chart.js';
+ChartJS.register(Title, Legend, ArcElement, CategoryScale, LinearScale);
+import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer } from "recharts";
+import BudgetSummary from '../../Backend_calls/budgetSummary'; // Adjust the path if needed
 
 export default function BudgetManager() {
   const [income, setIncome] = useState('');
@@ -59,6 +63,7 @@ export default function BudgetManager() {
   const [savingsGoal, setSavingsGoal] = useState('');
   const [showRecurringExpenses, setShowRecurringExpenses] = useState(false);
   const [nextMonthExpenses, setNextMonthExpenses] = useState([]);
+  const [investmentOption, setInvestmentOption] = useState(''); // New state for investment type
 
   const handleCategoryChange = (index, field, value) => {
     const updatedCategories = [...categories];
@@ -86,46 +91,83 @@ export default function BudgetManager() {
   const remainingBudget = Number(income) - totalExpenses;
   const nextMonthFixedExpenses = nextMonthExpenses.reduce((acc, exp) => acc + Number(exp.amount || 0), 0);
 
-  const monthsToGoal = savingsGoal && remainingBudget > 0 ? Math.ceil(savingsGoal / remainingBudget) : 'N/A';
-  const bankSavingsMonths = savingsGoal && remainingBudget > 0 ? bankSavingsTime(remainingBudget, remainingBudget, 2, savingsGoal) : 'N/A';
-  const fdMonths = savingsGoal && remainingBudget > 0 ? compoundInvestmentTime(remainingBudget, remainingBudget, 6, savingsGoal) : 'N/A';
-  const govtMonths = savingsGoal && remainingBudget > 0 ? compoundInvestmentTime(remainingBudget, remainingBudget, 9, savingsGoal) : 'N/A';
-  const indexMonths = savingsGoal && remainingBudget > 0 ? compoundInvestmentTime(remainingBudget, remainingBudget, 13, savingsGoal) : 'N/A';
+  // Function for bank savings account
+  function bankSavingsTime(initial: number, monthly: number, rate: number, target: number): number {
+    if (initial >= target) return 0; // If already reached, return 0 years.
+
+    let years = 0;
+    let balance = initial;
+    const monthlyRate = rate / 12 / 100; // Convert annual rate to monthly rate
+
+    while (balance < target) {
+      balance *= (1 + monthlyRate); // Apply compound interest
+      balance += monthly; // Add monthly contribution
+      years += 1 / 12; // Increment by 1/12 year
+
+      // Prevent infinite loop
+      if (years > 100) break;
+    }
+
+    return years;
+  }
+
+  // Function for FD, Govt. Bonds, and Index Funds
+  function compoundInvestmentTime(initial: number, monthly: number, rate: number, target: number): number {
+    if (initial >= target) return 0; // Already reached
+
+    let years = 0;
+    let balance = initial;
+    const monthlyRate = rate / 12 / 100; // Convert annual rate to monthly rate
+
+    while (balance < target) {
+      balance *= (1 + monthlyRate); // Apply compound interest
+      balance += monthly; // Add monthly deposit
+      years += 1 / 12; // Increment by 1/12 year
+
+      if (years > 100) break; // Prevent infinite loops
+    }
+
+    return years;
+  }
+
+  const yearsToGoal = savingsGoal && remainingBudget > 0 ? (savingsGoal / remainingBudget) / 12 : 'N/A';
+
+  const bankSavingsYears = savingsGoal && remainingBudget > 0 ? bankSavingsTime(remainingBudget, remainingBudget, 2, savingsGoal) : 'N/A';
+  const fdYears = savingsGoal && remainingBudget > 0 ? compoundInvestmentTime(remainingBudget, remainingBudget, 6, savingsGoal) : 'N/A';
+  const govtYears = savingsGoal && remainingBudget > 0 ? compoundInvestmentTime(remainingBudget, remainingBudget, 9, savingsGoal) : 'N/A';
+  const indexYears = savingsGoal && remainingBudget > 0 ? compoundInvestmentTime(remainingBudget, remainingBudget, 13, savingsGoal) : 'N/A';
 
   const budgetData = [
-    { name: 'Default', months: monthsToGoal },
-    { name: 'Bank Savings', months: bankSavingsMonths },
-    { name: 'Fixed Deposit', months: fdMonths },
-    { name: 'Govt Investment', months: govtMonths },
-    { name: 'Index Investment', months: indexMonths },
+    { name: "Default", years: yearsToGoal },
+    { name: "Bank Savings", years: bankSavingsYears },
+    { name: "Fixed Deposit", years: fdYears },
+    { name: "Govt Investment", years: govtYears },
+    { name: "Index Investment", years: indexYears },
   ];
 
-  const categoryLabels = categories.map((cat) => cat.name);
-  const categoryAmounts = categories.map((cat) => Number(cat.amount || 0));
-  const categoryBudget = categories.map((cat) => 0);
+  const categoryLabels = categories.map(cat => cat.name);
+  const categoryAmounts = categories.map(cat => Number(cat.amount || 0));
+  const categoryBudget = categories.map(cat => 0);
 
-  const pieData = useMemo(
-    () => ({
-      labels: categoryLabels,
-      datasets: [
-        {
-          label: 'Expenses Distribution',
-          data: categoryAmounts,
-          backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0', '#FF9F40'],
-          borderColor: ['#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0', '#FF9F40'],
-          borderWidth: 1,
-        },
-        {
-          label: 'Budget Distribution',
-          data: categoryBudget,
-          backgroundColor: ['#FF7373', '#5BC0EB', '#FFD166', '#6B8B3A', '#FF6A13'],
-          borderColor: ['#FF7373', '#5BC0EB', '#FFD166', '#6B8B3A', '#FF6A13'],
-          borderWidth: 1,
-        },
-      ],
-    }),
-    [categoryLabels, categoryAmounts, categoryBudget]
-  );
+  const pieData = useMemo(() => ({
+    labels: categoryLabels,
+    datasets: [
+      {
+        label: 'Expenses Distribution',
+        data: categoryAmounts,
+        backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0', '#FF9F40'],
+        borderColor: ['#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0', '#FF9F40'],
+        borderWidth: 1,
+      },
+      {
+        label: 'Budget Distribution',
+        data: categoryBudget,
+        backgroundColor: ['#FF7373', '#5BC0EB', '#FFD166', '#6B8B3A', '#FF6A13'],
+        borderColor: ['#FF7373', '#5BC0EB', '#FFD166', '#6B8B3A', '#FF6A13'],
+        borderWidth: 1,
+      },
+    ],
+  }), [categoryLabels, categoryAmounts, categoryBudget]);
 
   return (
     <>
@@ -139,9 +181,7 @@ export default function BudgetManager() {
         <Card className="p-6 mb-6 shadow-lg rounded-lg border border-blue-200">
           <h2 className="text-lg font-semibold mb-4">Enter Your Monthly Details</h2>
 
-          <Label htmlFor="income" className="font-medium text-black">
-            Monthly Income
-          </Label>
+          <Label htmlFor="income" className="font-medium text-black">Monthly Income</Label>
           <Input
             id="income"
             type="number"
@@ -214,6 +254,17 @@ export default function BudgetManager() {
             </Button>
           </Link>
         </Card>
+        <Card className="p-6 mb-6 shadow-lg rounded-lg border border-gray-200">
+          <h3 className="font-semibold">Savings Goal</h3>
+          <Label htmlFor="savingsGoal">Target Amount</Label>
+          <Input
+            id="savingsGoal"
+            type="number"
+            value={savingsGoal}
+            onChange={(e) => setSavingsGoal(e.target.value)}
+            placeholder="Enter your savings goal"
+          />
+        </Card>
 
         <Card className="p-6 shadow-lg rounded-lg border border-gray-200">
           <h2 className="text-lg font-semibold mb-4">Budget Summary</h2>
@@ -228,6 +279,14 @@ export default function BudgetManager() {
               ₹{remainingBudget.toLocaleString()}
             </span>
           </div>
+          <div className="flex justify-between text-sm">
+            <span>Total Expenses:</span>
+            <span className="font-semibold">₹{totalExpenses.toLocaleString()}</span>
+          </div>
+          <div className="flex justify-between text-sm">
+            <span>Remaining Budget:</span>
+            <span className={`font-semibold ${remainingBudget < 0 ? 'text-red-500' : 'text-green-500'}`}>₹{remainingBudget.toLocaleString()}</span>
+          </div>
 
           <div className="mt-4 h-64">
             <ResponsiveContainer width="100%" height="100%">
@@ -235,7 +294,7 @@ export default function BudgetManager() {
                 <XAxis type="number" />
                 <YAxis dataKey="name" type="category" width={120} />
                 <Tooltip />
-                <Bar dataKey="months" fill="#4A90E2" />
+                <Bar dataKey="years" fill="#4A90E2" />
               </BarChart>
             </ResponsiveContainer>
           </div>
@@ -260,6 +319,7 @@ export default function BudgetManager() {
 
           <Progress value={(totalExpenses / (Number(income) || 1)) * 100} className="mt-4" />
         </Card>
+        <BudgetSummary remainingBudget={remainingBudget} totalExpenses={totalExpenses} />
       </div>
     </>
   );

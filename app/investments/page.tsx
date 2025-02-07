@@ -1,4 +1,5 @@
 'use client';
+import BudgetSummary from '../../Backend_calls/budgetSummary';
 
 import { useState } from 'react';
 import { Card } from '@/components/ui/card';
