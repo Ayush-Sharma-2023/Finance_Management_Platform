@@ -8,8 +8,9 @@ import { Progress } from '@/components/ui/progress';
 import { Label } from '@/components/ui/label';
 import { BarChart3, PlusCircle, ChevronDown, Trash2, XCircle, Wallet } from 'lucide-react';
 import Navbar from '../../components/Navbar';
-import { Pie } from 'react-chartjs-2';
+// import { Pie } from 'react-chartjs-2';
 import { Chart as ChartJS, Title, Legend, ArcElement, CategoryScale, LinearScale } from 'chart.js';
+import { PieChart, Pie, Cell, ResponsiveContainer, LineChart, Line, XAxis, YAxis, Tooltip, CartesianGrid } from 'recharts';
 ChartJS.register(Title, Legend, ArcElement, CategoryScale, LinearScale);
 import { BarChart, Bar, XAxis, YAxis, ResponsiveContainer, Tooltip } from 'recharts';
 import Link from 'next/link';
@@ -295,6 +296,10 @@ export default function BudgetManager() {
 
           <Progress value={(totalExpenses / (Number(income) || 1)) * 100} className="mt-4" />
         </Card>
+
+        
+
+
       </div>
     </>
   );
