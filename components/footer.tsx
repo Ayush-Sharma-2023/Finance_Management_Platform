@@ -48,8 +48,8 @@ export default function Footer() {
             <h3 className="text-xl font-semibold">Contact Us</h3>
             <p className="text-gray-300">Feel free to reach out to us with any questions or feedback.</p>
             <ul className="space-y-2 text-gray-300">
-              <li>Email: <a href="mailto:support@yourcompany.com" className="hover:text-white">support@yourcompany.com</a></li>
-              <li>Phone: <a href="tel:+1234567890" className="hover:text-white">+123 456 7890</a></li>
+              <li>Email: <a href="mailto:support@yourcompany.com" className="hover:text-white">altafraza7206@gmail.com</a></li>
+              <li>Phone: <a href="tel:+1234567890" className="hover:text-white">+91-8709670822</a></li>
             </ul>
           </div>
 
@@ -58,16 +58,16 @@ export default function Footer() {
             <h3 className="text-xl font-semibold">Follow Us</h3>
             <ul className="space-y-2 text-gray-300">
               <li>
-                <a href="https://www.facebook.com/yourcompany" target="_blank" rel="noopener noreferrer" className="hover:text-white">Facebook</a>
+                <a href="https://www.facebook.com/mdaltaf.raza.940" target="_blank" rel="noopener noreferrer" className="hover:text-white">Facebook</a>
               </li>
               <li>
-                <a href="https://twitter.com/yourcompany" target="_blank" rel="noopener noreferrer" className="hover:text-white">Twitter</a>
+                <a href="https://x.com/itsactualAltaf" target="_blank" rel="noopener noreferrer" className="hover:text-white">Twitter</a>
               </li>
               <li>
-                <a href="https://www.linkedin.com/company/yourcompany" target="_blank" rel="noopener noreferrer" className="hover:text-white">LinkedIn</a>
+                <a href="https://www.linkedin.com/in/altaf-raza-4b3576263/" target="_blank" rel="noopener noreferrer" className="hover:text-white">LinkedIn</a>
               </li>
               <li>
-                <a href="https://www.instagram.com/yourcompany" target="_blank" rel="noopener noreferrer" className="hover:text-white">Instagram</a>
+                <a href="https://www.instagram.com/md_altaf_wasim" target="_blank" rel="noopener noreferrer" className="hover:text-white">Instagram</a>
               </li>
             </ul>
           </div>
@@ -75,7 +75,7 @@ export default function Footer() {
 
         {/* Footer Bottom */}
         <div className="mt-12 border-t border-gray-700 pt-6 text-center text-gray-400">
-          <p>&copy; 2025 AI Financial Advisor. All rights reserved.</p>
+          <p>&copy; 2025 FinanceAI. All rights reserved.</p>
         </div>
       </div>
     </footer>
