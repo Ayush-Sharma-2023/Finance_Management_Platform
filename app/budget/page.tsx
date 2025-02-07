@@ -86,11 +86,16 @@ export default function BudgetManager() {
   const remainingBudget = Number(income) - totalExpenses;
   const nextMonthFixedExpenses = nextMonthExpenses.reduce((acc, exp) => acc + Number(exp.amount || 0), 0);
 
-  const yearsToGoal = savingsGoal && remainingBudget > 0 ? (savingsGoal / remainingBudget) : 'N/A';
-  const bankSavingsYears = savingsGoal && remainingBudget > 0 ? bankSavingsTime(remainingBudget, remainingBudget, 2, savingsGoal) : 'N/A';
-  const fdYears = savingsGoal && remainingBudget > 0 ? compoundInvestmentTime(remainingBudget, remainingBudget, 6, savingsGoal) : 'N/A';
-  const govtYears = savingsGoal && remainingBudget > 0 ? compoundInvestmentTime(remainingBudget, remainingBudget, 9, savingsGoal) : 'N/A';
-  const indexYears = savingsGoal && remainingBudget > 0 ? compoundInvestmentTime(remainingBudget, remainingBudget, 13, savingsGoal) : 'N/A';
+  // Convert monthly values to yearly values
+  const yearlyIncome = Number(income) * 12;
+  const yearlyExpenses = totalExpenses * 12;
+  const yearlyRemainingBudget = remainingBudget * 12;
+
+  const yearsToGoal = savingsGoal && yearlyRemainingBudget > 0 ? (savingsGoal / yearlyRemainingBudget) : 'N/A';
+  const bankSavingsYears = savingsGoal && yearlyRemainingBudget > 0 ? bankSavingsTime(0, yearlyRemainingBudget, 2, savingsGoal) : 'N/A';
+  const fdYears = savingsGoal && yearlyRemainingBudget > 0 ? compoundInvestmentTime(0, yearlyRemainingBudget, 6, savingsGoal) : 'N/A';
+  const govtYears = savingsGoal && yearlyRemainingBudget > 0 ? compoundInvestmentTime(0, yearlyRemainingBudget, 9, savingsGoal) : 'N/A';
+  const indexYears = savingsGoal && yearlyRemainingBudget > 0 ? compoundInvestmentTime(0, yearlyRemainingBudget, 13, savingsGoal) : 'N/A';
 
   const budgetData = [
     { name: 'Default', years: yearsToGoal },
