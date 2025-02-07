@@ -87,6 +87,7 @@ export default function Home() {
           className="px-4 py-2 w-1/3 border-2 border-blue-500 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
         />
       </div>
+      
 
       {/* Filter Options */}
       <div className="flex justify-center mb-6 space-x-4">
@@ -112,10 +113,20 @@ export default function Home() {
             <option value="dividend reinvestment">Dividend Reinvestment</option>
           </select>
         </div>
-      </div>
+
+        </div>
+        <div className="mt-6 text-center">
+
+        <a
+            href="/demat"
+            className="bg-white text-black py-2 px-6 rounded-lg hover:bg-gray-300 transition border-blue-500 border-2"
+          >
+            View demat account
+          </a>
+        </div>
 
       {/* Display Mutual Fund Cards */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-4">
         {funds.map((fund, index) => (
           <div key={index} className="bg-white rounded-lg shadow-lg overflow-hidden">
             <div className="px-6 py-4">

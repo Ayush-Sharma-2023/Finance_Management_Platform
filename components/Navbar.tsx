@@ -75,14 +75,7 @@ export default function Header() {
             })}
           </nav>
         </div>
-        <div className="ml-auto flex items-center space-x-4">
-          <ModeToggle />
-          {user && (
-            <Button variant="outline" onClick={handleSignOut} className="border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white">
-              Sign Out
-            </Button>
-          )}
-        </div>
+        
       </div>
     </header>
     <div className='z-auto'>
