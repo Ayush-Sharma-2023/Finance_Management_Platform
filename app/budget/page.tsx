@@ -8,12 +8,15 @@ import { Progress } from '@/components/ui/progress';
 import { Label } from '@/components/ui/label';
 import { BarChart3, PlusCircle, ChevronDown, Trash2, XCircle } from 'lucide-react';
 
+
+
 export default function BudgetManager() {
   const [income, setIncome] = useState('');
   const [categories, setCategories] = useState([{ name: '', amount: '', recurring: false }]);
   const [savingsGoal, setSavingsGoal] = useState('');
   const [showRecurringExpenses, setShowRecurringExpenses] = useState(false);
   const [nextMonthExpenses, setNextMonthExpenses] = useState([]);
+  const [investmentOption, setInvestmentOption] = useState(''); // New state for investment type
 
   const handleCategoryChange = (index, field, value) => {
     const updatedCategories = [...categories];
@@ -40,16 +43,67 @@ export default function BudgetManager() {
   const totalExpenses = categories.reduce((acc, cat) => acc + Number(cat.amount || 0), 0);
   const remainingBudget = Number(income) - totalExpenses;
   const nextMonthFixedExpenses = nextMonthExpenses.reduce((acc, exp) => acc + Number(exp.amount || 0), 0);
+
+  // Function for bank savings account
+  function bankSavingsTime(initial: number, monthly: number, rate: number, target: number): number {
+    let months = 0;
+    let balance = initial;
+    let monthlyRate = rate / 12 / 100; // Convert annual rate to monthly rate
+
+    while (balance < target) {
+        balance *= (1 + monthlyRate); // Apply compound interest
+        balance += monthly; // Add monthly contribution
+        months++;
+    }
+
+    return months;
+  }
+
+  // Function for gold bonds
+  function goldBondTime(initial: number, rate: number, target: number): number {
+    let months = 0;
+    let balance = initial;
+    let monthlyInterest = (initial * rate / 100) / 12; // Simple interest per month
+
+    while (balance < target) {
+        balance += monthlyInterest;
+        months++;
+    }
+
+    return months;
+  }
+
+  // Function for FD, Govt. Bonds, and Index Funds
+  function compoundInvestmentTime(initial: number, monthly: number, rate: number, target: number): number {
+    let months = 0;
+    let balance = initial;
+    let monthlyRate = rate / 12 / 100; // Convert annual rate to monthly rate
+
+    while (balance < target) {
+        balance *= (1 + monthlyRate); // Apply compound interest
+        balance += monthly; // Add monthly deposit
+        months++;
+    }
+
+    return months;
+  }
+
   const monthsToGoal = savingsGoal && remainingBudget > 0 ? Math.ceil(savingsGoal / remainingBudget) : 'N/A';
 
+  // Calculate the months required for each investment option
+  const bankSavingsMonths = savingsGoal && remainingBudget > 0 ? bankSavingsTime(remainingBudget, remainingBudget, 2, savingsGoal) : 'N/A';
+  const goldBondMonths = savingsGoal && remainingBudget > 0 ? goldBondTime(remainingBudget, 3, savingsGoal) : 'N/A';
+  const fdMonths = savingsGoal && remainingBudget > 0 ? compoundInvestmentTime(remainingBudget, remainingBudget, 6, savingsGoal) : 'N/A';
+  const govtMonths = savingsGoal && remainingBudget > 0 ? compoundInvestmentTime(remainingBudget, remainingBudget, 9, savingsGoal) : 'N/A';
+  const indexMonths = savingsGoal && remainingBudget > 0 ? compoundInvestmentTime(remainingBudget, remainingBudget, 13, savingsGoal) : 'N/A';
   return (
     <div className="container py-8">
       <div className="flex items-center space-x-2 mb-6">
-        <BarChart3 className="h-6 w-6 padding+" />
+        <BarChart3 className="h-6 w-6 " />
         <h1 className="text-2xl font-bold">Budget Manager</h1>
       </div>
 
-      <Card className="p-6 mb-6 shadow-lg rounded-lg border border-gray-200" >
+      <Card className="p-6 mb-6 shadow-lg rounded-lg border border-gray-200">
         <h2 className="text-lg font-semibold mb-4">Enter Your Monthly Details</h2>
         
         <Label htmlFor="income" className="font-medium text-black">Monthly Income</Label>
@@ -119,7 +173,7 @@ export default function BudgetManager() {
           placeholder="Enter your savings goal"
         />
       </Card>
-      
+
       <Card className="p-6 shadow-lg rounded-lg border border-gray-200">
         <h2 className="text-lg font-semibold mb-4">Budget Summary</h2>
         
@@ -135,6 +189,36 @@ export default function BudgetManager() {
           <span>Months to Reach Goal:</span>
           <span className="font-semibold">{monthsToGoal}</span>
         </div>
+        
+        <div className="flex justify-between text-sm mt-2">
+      <span>Months to Reach Goal (Default):</span>
+      <span className="font-semibold">{monthsToGoal}</span>
+    </div>
+    
+    <div className="flex justify-between text-sm mt-2">
+      <span>Months to Reach Goal (Bank Savings):</span>
+      <span className="font-semibold">{bankSavingsMonths}</span>
+    </div>
+
+    <div className="flex justify-between text-sm mt-2">
+      <span>Months to Reach Goal (Gold Bond):</span>
+      <span className="font-semibold">{goldBondMonths}</span>
+    </div>
+
+    <div className="flex justify-between text-sm mt-2">
+      <span>Months to Reach Goal (Fixed Deposit Investment):</span>
+      <span className="font-semibold">{fdMonths}</span>
+    </div>
+
+    <div className="flex justify-between text-sm mt-2">
+      <span>Months to Reach Goal (Government Investment):</span>
+      <span className="font-semibold">{govtMonths}</span>
+    </div>
+	
+    <div className="flex justify-between text-sm mt-2">
+      <span>Months to Reach Goal (Index Investment):</span>
+      <span className="font-semibold">{indexMonths}</span>
+    </div>
 
         <div className="mt-4">
           <Button onClick={() => setShowRecurringExpenses(!showRecurringExpenses)}>
