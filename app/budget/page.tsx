@@ -12,7 +12,7 @@ import Navbar from '../../components/Navbar';
 import { Chart as ChartJS, Title, Legend, ArcElement, CategoryScale, LinearScale } from 'chart.js';
 import { PieChart, Pie, Cell, ResponsiveContainer, LineChart, Line, XAxis, YAxis, Tooltip, CartesianGrid } from 'recharts';
 ChartJS.register(Title, Legend, ArcElement, CategoryScale, LinearScale);
-// import { BarChart, Bar, XAxis, YAxis, ResponsiveContainer, Tooltip } from 'recharts';
+import { BarChart, Bar } from 'recharts';
 import Link from 'next/link';
 
 // Utility function for bank savings account
