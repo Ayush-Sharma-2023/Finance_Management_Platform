@@ -19,8 +19,8 @@ const navigation = [
   { name: 'Investments', href: '/investments', icon: LineChart },
   { name: 'Mutual Funds', href: '/mutualfunds', icon: PiggyBank },
   { name: 'Budget', href: '/budget', icon: PiggyBank },
-  { name: 'Demat Account', href: '/demat', icon: MessageSquare },
   { name: 'AI Advisor', href: '/chatbot', icon: MessageSquare },
+  { name: 'Demat Account', href: '/demat', icon: MessageSquare },
   // { name: 'AI Advisor', href: '/chatbot', icon: MessageSquare },
 ];
 
