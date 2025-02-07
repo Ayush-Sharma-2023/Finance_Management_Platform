@@ -3,11 +3,11 @@ import React, { useState, useEffect } from "react";
 import Navbar from '../../components/Navbar';
 import TaxAcordian from '../../components/taxAcordian';
 
-
 export default function Taxations() {
   const [salary, setSalary] = useState("");
   const [taxOld, setTaxOld] = useState(null);
   const [taxNew, setTaxNew] = useState(null);
+  const [totalIncome, setTotalIncome] = useState(null);
 
   // State for toggles for deductions
   const [standardDeduction, setStandardDeduction] = useState(true);
@@ -17,15 +17,41 @@ export default function Taxations() {
   const [section80E, setSection80E] = useState(true);
   const [section80G, setSection80G] = useState(true);
 
+  // Handle salary input change
   const handleSalaryChange = (e) => {
     setSalary(e.target.value);
   };
 
+  // Retrieve saved salary and tax data from localStorage when the component mounts
+  useEffect(() => {
+    const savedBudgetData = localStorage.getItem("budgetData");
+    if (savedBudgetData) {
+      const parsedData = JSON.parse(savedBudgetData);
+      if (parsedData.salary) {
+        setSalary(parsedData.salary);
+      }
+    }
+  }, []);
+  
+
+  // Update tax values and total income when salary or deductions change
   useEffect(() => {
     if (salary && !isNaN(salary) && salary > 0) {
       const income = parseFloat(salary);
       setTaxOld(calculateTaxOld(income));
       setTaxNew(calculateTaxNew(income));
+
+      // Save salary and tax data to localStorage under the 'taxData' key
+      const taxData = {
+        salary: income,
+        totalIncome: income,
+        taxOld: taxOld,
+        taxNew: taxNew,
+      };
+      localStorage.setItem("taxData", JSON.stringify(taxData));
+
+      // Set total income
+      setTotalIncome(income);
     }
   }, [salary, standardDeduction, section80C, section80D, section24B, section80E, section80G]);
 
@@ -102,132 +128,101 @@ export default function Taxations() {
 
   return (
     <>
-    <div className="my-4">
-    <Navbar />
-
-    </div>
-    <div className="max-w-4xl mx-auto p-6 bg-gradient-to-r from-blue-500 to-indigo-600 rounded-xl shadow-lg text-white">
-      <h1 className="text-3xl font-bold mb-6 text-center">Tax Calculation</h1>
-      <div className="mb-6">
-        <label htmlFor="salary" className="block text-lg mb-2">
-          Enter your salary:
-        </label>
-        <input
-          type="number"
-          id="salary"
-          value={salary}
-          onChange={handleSalaryChange}
-          className="w-full p-3 border border-gray-200 text-black rounded-lg shadow-md focus:outline-none focus:ring-2 focus:ring-blue-500 transition"
-          placeholder="Enter salary"
+      <div className="my-4">
+        <Navbar />
+      </div>
+      <div className="max-w-4xl mx-auto p-6 bg-gradient-to-r from-blue-500 to-indigo-600 rounded-xl shadow-lg text-white">
+        <h1 className="text-3xl font-bold mb-6 text-center">Tax Calculation</h1>
+        <div className="mb-6">
+          <label htmlFor="salary" className="block text-lg mb-2">
+            Enter your salary:
+          </label>
+          <input
+            type="number"
+            id="salary"
+            value={salary}
+            onChange={handleSalaryChange}
+            className="w-full p-3 border border-gray-200 text-black rounded-lg shadow-md focus:outline-none focus:ring-2 focus:ring-blue-500 transition"
+            placeholder="Enter salary"
           />
+        </div>
+
+        {taxOld !== null || taxNew !== null ? (
+          <div className="mt-8 flex space-x-6">
+            {/* Old Tax Regime Section */}
+            {taxOld && (
+              <div className="w-1/2 bg-white p-6 rounded-lg shadow-md text-gray-800">
+                <h2 className="text-2xl font-semibold mb-4 text-blue-600">Old Tax Regime</h2>
+                <p className="text-lg mb-4 font-medium">Total Tax: ₹{taxOld.totalTax}</p>
+                <p className="text-lg mb-4 font-medium">Total Income: ₹{totalIncome}</p>
+                <p className="text-lg mb-4 font-medium">Final Income: ₹{totalIncome - taxOld.totalTax}</p>
+
+                <h3 className="text-xl font-medium mb-4">Tax Breakdown per Slab</h3>
+                <table className="table-auto w-full border-collapse border border-gray-300">
+                  <thead>
+                    <tr>
+                      <th className="border p-3 bg-blue-100">Slab</th>
+                      <th className="border p-3 bg-blue-100">Tax Rate</th>
+                      <th className="border p-3 bg-blue-100">Tax Paid</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {taxOld.slabBreakdown.map((slab, index) => (
+                      <tr key={index} className="hover:bg-blue-50">
+                        <td className="border p-3">{slab.slab}</td>
+                        <td className="border p-3">{slab.rate}</td>
+                        <td className="border p-3">₹{slab.taxPaid}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            )}
+
+            {/* New Tax Regime Section */}
+            {taxNew && (
+              <div className="w-1/2 bg-white p-6 rounded-lg shadow-md text-gray-800">
+                <h2 className="text-2xl font-semibold mb-4 text-blue-600">New Tax Regime</h2>
+                <p className="text-lg mb-4 font-medium">Total Tax: ₹{taxNew.totalTax}</p>
+                <p className="text-lg mb-4 font-medium">Total Income: ₹{totalIncome}</p>
+                <p className="text-lg mb-4 font-medium">Final Income: ₹{totalIncome - taxNew.totalTax}</p>
+
+                <h3 className="text-xl font-medium mb-4">Tax Breakdown per Slab</h3>
+                <table className="table-auto w-full border-collapse border border-gray-300">
+                  <thead>
+                    <tr>
+                      <th className="border p-3 bg-blue-100">Slab</th>
+                      <th className="border p-3 bg-blue-100">Tax Rate</th>
+                      <th className="border p-3 bg-blue-100">Tax Paid</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {taxNew.slabBreakdown.map((slab, index) => (
+                      <tr key={index} className="hover:bg-blue-50">
+                        <td className="border p-3">{slab.slab}</td>
+                        <td className="border p-3">{slab.rate}</td>
+                        <td className="border p-3">₹{slab.taxPaid}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            )}
+          </div>
+        ) : null}
+
+        {/* Manage Budget Button */}
+        <div className="mt-6 text-center">
+          <a
+            href="/budget"
+            className="bg-blue-600 text-white py-2 px-6 rounded-lg hover:bg-blue-700 transition"
+          >
+            Manage Budget
+          </a>
+        </div>
       </div>
 
-      {taxOld !== null || taxNew !== null ? (
-        <div className="mt-8 flex space-x-6">
-          {/* Old Tax Regime Section */}
-          {taxOld && (
-            <div className="w-1/2 bg-white p-6 rounded-lg shadow-md text-gray-800">
-              <h2 className="text-2xl font-semibold mb-4 text-blue-600">Old Tax Regime</h2>
-              <p className="text-lg mb-4 font-medium">Total Tax: ₹{taxOld.totalTax}</p>
-
-              <h3 className="text-xl font-medium mb-4">Tax Breakdown per Slab</h3>
-              <table className="table-auto w-full border-collapse border border-gray-300">
-                <thead>
-                  <tr>
-                    <th className="border p-3 bg-blue-100">Slab</th>
-                    <th className="border p-3 bg-blue-100">Tax Rate</th>
-                    <th className="border p-3 bg-blue-100">Tax Paid</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {taxOld.slabBreakdown.map((slab, index) => (
-                    <tr key={index} className="hover:bg-blue-50">
-                      <td className="border p-3">{slab.slab}</td>
-                      <td className="border p-3">{slab.rate}</td>
-                      <td className="border p-3">₹{slab.taxPaid}</td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-
-              {/* Deduction Toggle Section */}
-              <div className="mt-6">
-  <h3 className="font-semibold text-lg mb-4">Deductions</h3>
-  <div className="grid grid-cols-3 gap-4">
-    <button
-      onClick={() => setStandardDeduction(!standardDeduction)}
-      className={`p-3 rounded-lg transition-all ${standardDeduction ? 'bg-blue-500 text-white' : 'bg-gray-300'}`}
-      >
-      Standard Deduction
-    </button>
-    <button
-      onClick={() => setSection80C(!section80C)}
-      className={`p-3 rounded-lg transition-all ${section80C ? 'bg-blue-500 text-white' : 'bg-gray-300'}`}
-      >
-      Section 80C
-    </button>
-    <button
-      onClick={() => setSection80D(!section80D)}
-      className={`p-3 rounded-lg transition-all ${section80D ? 'bg-blue-500 text-white' : 'bg-gray-300'}`}
-      >
-      Section 80D
-    </button>
-    <button
-      onClick={() => setSection24B(!section24B)}
-      className={`p-3 rounded-lg transition-all ${section24B ? 'bg-blue-500 text-white' : 'bg-gray-300'}`}
-      >
-      Section 24B
-    </button>
-    <button
-      onClick={() => setSection80E(!section80E)}
-      className={`p-3 rounded-lg transition-all ${section80E ? 'bg-blue-500 text-white' : 'bg-gray-300'}`}
-      >
-      Section 80E
-    </button>
-    <button
-      onClick={() => setSection80G(!section80G)}
-      className={`p-3 rounded-lg transition-all ${section80G ? 'bg-blue-500 text-white' : 'bg-gray-300'}`}
-      >
-      Section 80G
-    </button>
-  </div>
-</div>
-
-            </div>
-          )}
-
-          {/* New Tax Regime Section */}
-          {taxNew && (
-            <div className="w-1/2 bg-white p-6 rounded-lg shadow-md text-gray-800">
-              <h2 className="text-2xl font-semibold mb-4 text-blue-600">New Tax Regime</h2>
-              <p className="text-lg mb-4 font-medium">Total Tax: ₹{taxNew.totalTax}</p>
-
-              <h3 className="text-xl font-medium mb-4">Tax Breakdown per Slab</h3>
-              <table className="table-auto w-full border-collapse border border-gray-300">
-                <thead>
-                  <tr>
-                    <th className="border p-3 bg-blue-100">Slab</th>
-                    <th className="border p-3 bg-blue-100">Tax Rate</th>
-                    <th className="border p-3 bg-blue-100">Tax Paid</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {taxNew.slabBreakdown.map((slab, index) => (
-                    <tr key={index} className="hover:bg-blue-50">
-                      <td className="border p-3">{slab.slab}</td>
-                      <td className="border p-3">{slab.rate}</td>
-                      <td className="border p-3">₹{slab.taxPaid}</td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
-          )}
-        </div>
-      ) : null}
-    </div>
-
-    <TaxAcordian />
-      </>
+      <TaxAcordian />
+    </>
   );
 }
