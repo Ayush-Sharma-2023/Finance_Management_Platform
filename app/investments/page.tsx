@@ -37,6 +37,7 @@ const COLORS = ['#8884d8', '#82ca9d', '#ffc658', '#ff7300', '#00C49F'];
 
 export default function InvestmentAdvisor() {
   const [remainingBudget, setRemainingBudget] = useState<number>(0);
+  const [riskProfile, setRiskProfile] = useState<RiskProfile>('conservative');
 
   // Load remaining budget from localStorage when the component mounts
   useEffect(() => {
@@ -46,14 +47,17 @@ export default function InvestmentAdvisor() {
     }
   }, []);
 
-  // Determine risk profile based on remaining budget
-  const getRiskProfile = (budget: number): RiskProfile => {
-    if (budget <= 10000) return 'conservative';
-    else if (budget > 10000 && budget <= 50000) return 'moderate';
-    else return 'aggressive';
-  };
+  // Update risk profile based on remaining budget
+  useEffect(() => {
+    const getRiskProfile = (budget: number): RiskProfile => {
+      if (budget <= 10000) return 'conservative';
+      else if (budget > 10000 && budget <= 50000) return 'moderate';
+      else return 'aggressive';
+    };
 
-  const [riskProfile, setRiskProfile] = useState<RiskProfile>(getRiskProfile(remainingBudget));
+    setRiskProfile(getRiskProfile(remainingBudget));
+  }, [remainingBudget]);
+
   const allocation = portfolioAllocations[riskProfile];
   const investmentGrowthData = generateInvestmentGrowthData(remainingBudget);
 
