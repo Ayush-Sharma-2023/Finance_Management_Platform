@@ -151,9 +151,18 @@ export default function Form() {
           />
         </div>
 
-        <Button onClick={saveToLocalStorage} className="mt-4 w-full bg-blue-500 hover:bg-blue-700">
-          Save Budget Information
-        </Button>
+        <a
+  href="/taxations"
+  onClick={(e) => {
+    e.preventDefault(); // Prevents immediate navigation
+    saveToLocalStorage(); // Calls your function before redirection
+    window.location.href = "/taxations"; // Redirects after saving
+  }}
+  className="mt-4 w-full bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded text-center block"
+>
+  Save Budget Information
+</a>
+
       </div>
     </>
   );

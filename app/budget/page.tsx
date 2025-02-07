@@ -40,6 +40,25 @@ export default function BudgetManager() {
     { name: 'Remaining Budget', value: budgetData.remainingBudget },
   ];
 
+  const calculateInvestmentTime = (goal, monthlySavings, rate) => {
+    let months = 0;
+    let balance = 0;
+    const monthlyRate = rate / 12 / 100;
+
+    while (balance < goal) {
+      balance = (balance + monthlySavings) * (1 + monthlyRate);
+      months++;
+    }
+    return months;
+  };
+
+  const investmentTimeData = [
+    { name: 'Bank Savings (2%)', months: calculateInvestmentTime(budgetData.savingsGoal, budgetData.remainingBudget, 2) },
+    { name: 'Fixed Deposit (6%)', months: calculateInvestmentTime(budgetData.savingsGoal, budgetData.remainingBudget, 6) },
+    { name: 'Govt Bonds (9%)', months: calculateInvestmentTime(budgetData.savingsGoal, budgetData.remainingBudget, 9) },
+    { name: 'Index Funds (13%)', months: calculateInvestmentTime(budgetData.savingsGoal, budgetData.remainingBudget, 13) },
+  ];
+
   return (
     <>
       <Navbar />
@@ -80,7 +99,7 @@ export default function BudgetManager() {
           </div>
 
           {/* Bar Chart for Budget Breakdown */}
-          <div className="mt-4 h-64">
+          {/* <div className="mt-4 h-64">
             <ResponsiveContainer width="100%" height="100%">
               <BarChart data={chartData} layout="vertical">
                 <XAxis type="number" />
@@ -90,10 +109,24 @@ export default function BudgetManager() {
                 <Bar dataKey="value" fill="#4A90E2" />
               </BarChart>
             </ResponsiveContainer>
+          </div> */}
+          <Card className="p-6 mb-6 shadow-lg rounded-lg border border-gray-200">
+          <h3 className="text-lg font-semibold mb-4">Investment Time Calculation Bar Chart</h3>
+          <div className="mt-4 h-64">
+            <ResponsiveContainer width="100%" height="100%">
+              <BarChart data={investmentTimeData} layout="vertical">
+                <XAxis type="number" />
+                <YAxis dataKey="name" type="category" width={120} />
+                <Tooltip />
+                <Legend />
+                <Bar dataKey="months" fill="#4A90E2" />
+              </BarChart>
+            </ResponsiveContainer>
           </div>
-
+        </Card>
           {/* Link to Investments Page */}
-          <Link href={`/investments?monthlyInvestment=${budgetData.remainingBudget}`} className="mt-4 inline-block">
+          {/* <Link href={`/investments?monthlyInvestment=${budgetData.remainingBudget}`} className="mt-4 inline-block"> */}
+          <Link href={`/investments?monthlyInvestment`} className="mt-4 inline-block">
             <Button className="w-full bg-blue-300 hover:bg-blue-500">
               <Wallet className="mr-2 h-4 w-4" />
               Optimize Investments with Remaining Budget
@@ -101,25 +134,22 @@ export default function BudgetManager() {
           </Link>
         </Card>
 
-        {/* Categories Card - Display Expenses */}
-        <Card className="p-6 mb-6 shadow-lg rounded-lg border border-gray-200">
-          <h3 className="font-semibold">Expenses</h3>
-          <div className="flex flex-wrap gap-4">
-            {(budgetData.categories || []).map((category, index) => (
-              <div key={index} className="w-full md:w-1/3 lg:w-1/4 p-4 border rounded-lg bg-gray-50 relative">
-                <h4 className="font-medium">{category.name}</h4>
-                <p>Amount: ₹{Number(category.amount).toLocaleString()}</p>
-                <p>Recurring: {category.recurring ? 'Yes' : 'No'}</p>
-              </div>
-            ))}
-          </div>
-        </Card>
+        {/* Investment Time Calculation Section */}
+        {/* <Card className="p-6 mb-6 shadow-lg rounded-lg border border-gray-200">
+          <h3 className="text-lg font-semibold mb-4">Investment Time Calculation</h3>
+          <p>
+            Estimated months required to reach your savings goal:
+          </p>
+          <ul className="list-disc pl-6 mt-2">
+            <li><strong>Bank Savings (2%):</strong> {calculateInvestmentTime(budgetData.savingsGoal, budgetData.remainingBudget, 2)} months</li>
+            <li><strong>Fixed Deposit (6%):</strong> {calculateInvestmentTime(budgetData.savingsGoal, budgetData.remainingBudget, 6)} months</li>
+            <li><strong>Govt Bonds (9%):</strong> {calculateInvestmentTime(budgetData.savingsGoal, budgetData.remainingBudget, 9)} months</li>
+            <li><strong>Index Funds (13%):</strong> {calculateInvestmentTime(budgetData.savingsGoal, budgetData.remainingBudget, 13)} months</li>
+          </ul>
+        </Card> */}
 
-        {/* Savings Goal Card */}
-        <Card className="p-6 mb-6 shadow-lg rounded-lg border border-gray-200">
-          <h3 className="font-semibold">Savings Goal</h3>
-          <p>Target Amount: ₹{Number(budgetData.savingsGoal).toLocaleString()}</p>
-        </Card>
+        {/* Investment Time Calculation Bar Chart */}
+   
       </div>
     </>
   );

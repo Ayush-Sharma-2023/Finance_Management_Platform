@@ -30,7 +30,7 @@ const portfolioAllocations: Record<RiskProfile, PortfolioAllocation> = {
 const generateInvestmentGrowthData = (initialInvestment: number, months: number) => {
   let currentInvestment = initialInvestment;
   return Array.from({ length: months }, (_, i) => {
-    const growthRate = -0.05 + Math.random() * 0.1; // Simulating random growth rate between -5% and 5%
+    const growthRate = -0.05 + Math.random() * 0.1;
     currentInvestment *= 1 + growthRate;
     return {
       month: `Month ${i + 1}`,
@@ -46,11 +46,18 @@ export default function InvestmentAdvisor() {
   const [riskProfile, setRiskProfile] = useState<RiskProfile>('conservative');
   const [months, setMonths] = useState<number>(12);
 
-  // Load remaining budget from localStorage when the component mounts
+  // Load budgetData correctly from localStorage
   useEffect(() => {
-    const storedRemainingBudget = localStorage.getItem('remainingBudget');
-    if (storedRemainingBudget) {
-      setRemainingBudget(Number(storedRemainingBudget));
+    try {
+      const storedData = localStorage.getItem('budgetData');
+      if (storedData) {
+        const parsedData = JSON.parse(storedData);
+        if (parsedData.remainingBudget !== undefined) {
+          setRemainingBudget(parsedData.remainingBudget);
+        }
+      }
+    } catch (error) {
+      console.error('Error loading budget data:', error);
     }
   }, []);
 
@@ -87,7 +94,6 @@ export default function InvestmentAdvisor() {
       <Navbar />
       <div className="container py-10">
         <div className="flex items-center space-x-3 mb-8 text-gray-800">
-          <LineChart className="h-7 w-7 text-blue-500" />
           <h1 className="text-2xl font-semibold text-gray-900">Investment Advisor</h1>
         </div>
 
@@ -105,10 +111,14 @@ export default function InvestmentAdvisor() {
                   </div>
                 </div>
 
-                <Button onClick={handleSubmit} className="w-full bg-blue-600 hover:bg-blue-700 text-white">
-                  <Wallet className="mr-2 h-5 w-5" />
-                  Save Preferences
-                </Button>
+                <a
+  href="/mutualfunds"
+  className="w-full bg-blue-600 hover:bg-blue-700 text-white flex items-center justify-center py-2 px-4 rounded"
+>
+  <Wallet className="mr-2 h-5 w-5" />
+  View Mutual Funds
+</a>
+
               </div>
             </Card>
 
@@ -179,7 +189,10 @@ export default function InvestmentAdvisor() {
           </div>
         </div>
       </div>
-      <div className="container mx-auto px-4 py-6">
+
+
+      
+  <div className="container mx-auto px-4 py-6">
   <h1 className="text-3xl font-bold mb-6 text-center text-blue-600">My Holdings</h1>
   <table className="min-w-full bg-white shadow-lg rounded-lg overflow-hidden border-collapse">
     <thead className="bg-gray-800 text-white">
