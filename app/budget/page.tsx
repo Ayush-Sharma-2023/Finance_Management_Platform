@@ -126,7 +126,7 @@ export default function BudgetManager() {
         </Card>
           {/* Link to Investments Page */}
           {/* <Link href={`/investments?monthlyInvestment=${budgetData.remainingBudget}`} className="mt-4 inline-block"> */}
-          <Link href={`/investments?monthlyInvestment`} className="mt-4 inline-block">
+          <Link href={`/investments`} className="mt-4 inline-block">
             <Button className="w-full bg-blue-300 hover:bg-blue-500">
               <Wallet className="mr-2 h-4 w-4" />
               Optimize Investments with Remaining Budget

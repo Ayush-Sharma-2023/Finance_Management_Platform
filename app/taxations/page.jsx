@@ -215,7 +215,7 @@ export default function Taxations() {
         <div className="mt-6 text-center">
           <a
             href="/budget"
-            className="bg-blue-600 text-white py-2 px-6 rounded-lg hover:bg-blue-700 transition"
+            className="bg-white text-black py-2 px-6 rounded-lg hover:bg-gray-300 transition"
           >
             Manage Budget
           </a>
