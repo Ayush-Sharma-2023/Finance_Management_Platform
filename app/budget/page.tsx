@@ -14,44 +14,43 @@ ChartJS.register(Title, Legend, ArcElement, CategoryScale, LinearScale);
 import { BarChart, Bar, XAxis, YAxis, ResponsiveContainer, Tooltip } from 'recharts';
 import Link from 'next/link';
 
-
 // Utility function for bank savings account
-function bankSavingsTime(initial: number, monthly: number, rate: number, target: number): number {
-  if (initial >= target) return 0; // If already reached, return 0 months.
+function bankSavingsTime(initial: number, yearly: number, rate: number, target: number): number {
+  if (initial >= target) return 0; // If already reached, return 0 years.
 
-  let months = 0;
+  let years = 0;
   let balance = initial;
-  const monthlyRate = rate / 12 / 100; // Convert annual rate to monthly rate
+  const yearlyRate = rate / 100; // Convert annual rate to yearly rate
 
   while (balance < target) {
-    balance *= 1 + monthlyRate; // Apply compound interest
-    balance += monthly; // Add monthly contribution
-    months++;
+    balance *= 1 + yearlyRate; // Apply compound interest
+    balance += yearly; // Add yearly contribution
+    years++;
 
     // Prevent infinite loop
-    if (months > 1000) break;
+    if (years > 100) break;
   }
 
-  return months;
+  return years;
 }
 
 // Utility function for compound investments (FD, Govt. Bonds, Index Funds)
-function compoundInvestmentTime(initial: number, monthly: number, rate: number, target: number): number {
+function compoundInvestmentTime(initial: number, yearly: number, rate: number, target: number): number {
   if (initial >= target) return 0; // Already reached
 
-  let months = 0;
+  let years = 0;
   let balance = initial;
-  const monthlyRate = rate / 12 / 100; // Convert annual rate to monthly rate
+  const yearlyRate = rate / 100; // Convert annual rate to yearly rate
 
   while (balance < target) {
-    balance *= 1 + monthlyRate; // Apply compound interest
-    balance += monthly; // Add monthly deposit
-    months++;
+    balance *= 1 + yearlyRate; // Apply compound interest
+    balance += yearly; // Add yearly deposit
+    years++;
 
-    if (months > 1000) break; // Prevent infinite loops
+    if (years > 100) break; // Prevent infinite loops
   }
 
-  return months;
+  return years;
 }
 
 export default function BudgetManager() {
@@ -87,18 +86,18 @@ export default function BudgetManager() {
   const remainingBudget = Number(income) - totalExpenses;
   const nextMonthFixedExpenses = nextMonthExpenses.reduce((acc, exp) => acc + Number(exp.amount || 0), 0);
 
-  const monthsToGoal = savingsGoal && remainingBudget > 0 ? Math.ceil(savingsGoal / remainingBudget) : 'N/A';
-  const bankSavingsMonths = savingsGoal && remainingBudget > 0 ? bankSavingsTime(remainingBudget, remainingBudget, 2, savingsGoal) : 'N/A';
-  const fdMonths = savingsGoal && remainingBudget > 0 ? compoundInvestmentTime(remainingBudget, remainingBudget, 6, savingsGoal) : 'N/A';
-  const govtMonths = savingsGoal && remainingBudget > 0 ? compoundInvestmentTime(remainingBudget, remainingBudget, 9, savingsGoal) : 'N/A';
-  const indexMonths = savingsGoal && remainingBudget > 0 ? compoundInvestmentTime(remainingBudget, remainingBudget, 13, savingsGoal) : 'N/A';
+  const yearsToGoal = savingsGoal && remainingBudget > 0 ? (savingsGoal / remainingBudget) : 'N/A';
+  const bankSavingsYears = savingsGoal && remainingBudget > 0 ? bankSavingsTime(remainingBudget, remainingBudget, 2, savingsGoal) : 'N/A';
+  const fdYears = savingsGoal && remainingBudget > 0 ? compoundInvestmentTime(remainingBudget, remainingBudget, 6, savingsGoal) : 'N/A';
+  const govtYears = savingsGoal && remainingBudget > 0 ? compoundInvestmentTime(remainingBudget, remainingBudget, 9, savingsGoal) : 'N/A';
+  const indexYears = savingsGoal && remainingBudget > 0 ? compoundInvestmentTime(remainingBudget, remainingBudget, 13, savingsGoal) : 'N/A';
 
   const budgetData = [
-    { name: 'Default', months: monthsToGoal },
-    { name: 'Bank Savings', months: bankSavingsMonths },
-    { name: 'Fixed Deposit', months: fdMonths },
-    { name: 'Govt Investment', months: govtMonths },
-    { name: 'Index Investment', months: indexMonths },
+    { name: 'Default', years: yearsToGoal },
+    { name: 'Bank Savings', years: bankSavingsYears },
+    { name: 'Fixed Deposit', years: fdYears },
+    { name: 'Govt Investment', years: govtYears },
+    { name: 'Index Investment', years: indexYears },
   ];
 
   const categoryLabels = categories.map((cat) => cat.name);
@@ -236,7 +235,7 @@ export default function BudgetManager() {
                 <XAxis type="number" />
                 <YAxis dataKey="name" type="category" width={120} />
                 <Tooltip />
-                <Bar dataKey="months" fill="#4A90E2" />
+                <Bar dataKey="years" fill="#4A90E2" />
               </BarChart>
             </ResponsiveContainer>
           </div>
