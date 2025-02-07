@@ -14,6 +14,7 @@ ChartJS.register(Title, Legend, ArcElement, CategoryScale, LinearScale);
 import { BarChart, Bar, XAxis, YAxis, ResponsiveContainer, Tooltip } from 'recharts';
 import Link from 'next/link';
 
+
 // Utility function for bank savings account
 function bankSavingsTime(initial: number, monthly: number, rate: number, target: number): number {
   if (initial >= target) return 0; // If already reached, return 0 months.
