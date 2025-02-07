@@ -102,29 +102,7 @@ export default function BudgetManager() {
   const govtMonths = savingsGoal && remainingBudget > 0 ? compoundInvestmentTime(remainingBudget, remainingBudget, 9, savingsGoal) : 'N/A';
   const indexMonths = savingsGoal && remainingBudget > 0 ? compoundInvestmentTime(remainingBudget, remainingBudget, 13, savingsGoal) : 'N/A';
   
-  const categoryLabels = categories.map(cat => cat.name);
-  const categoryAmounts = categories.map(cat => Number(cat.amount || 0));
-  const categoryBudget = categories.map(cat => 0);
-
-  const pieData = useMemo(() => ({
-    labels: categoryLabels,
-    datasets: [
-      {
-        label: 'Expenses Distribution',
-        data: categoryAmounts,
-        backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0', '#FF9F40'],
-        borderColor: ['#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0', '#FF9F40'],
-        borderWidth: 1,
-      },
-      {
-        label: 'Budget Distribution',
-        data: categoryBudget,
-        backgroundColor: ['#FF7373', '#5BC0EB', '#FFD166', '#6B8B3A', '#FF6A13'],
-        borderColor: ['#FF7373', '#5BC0EB', '#FFD166', '#6B8B3A', '#FF6A13'],
-        borderWidth: 1,
-      },
-    ],
-  }), [categoryLabels, categoryAmounts, categoryBudget]);
+  
 
   return (
     <> <Navbar/>
