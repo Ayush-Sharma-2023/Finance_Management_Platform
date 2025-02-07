@@ -21,7 +21,7 @@ get(url, { headers })
     funds = response.data.data.equity.available_margin;
   })
   .catch(error => {
-    console.error('Error:', error.message);
+    console.log('Error:', error.message);
   });
 
   export function getFunds() { return funds; }
