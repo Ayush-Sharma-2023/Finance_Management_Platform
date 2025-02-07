@@ -8,11 +8,9 @@ import { Progress } from '@/components/ui/progress';
 import { Label } from '@/components/ui/label';
 import { BarChart3, PlusCircle, ChevronDown, Trash2, XCircle, Wallet } from 'lucide-react';
 import Navbar from '../../components/Navbar';
-// import { Pie } from 'react-chartjs-2';
 import { Chart as ChartJS, Title, Legend, ArcElement, CategoryScale, LinearScale } from 'chart.js';
-import { PieChart, Pie, Cell, ResponsiveContainer, LineChart, Line, XAxis, YAxis, Tooltip, CartesianGrid } from 'recharts';
+import { PieChart, Pie, Cell, ResponsiveContainer, BarChart, Bar, XAxis, YAxis, Tooltip } from 'recharts';
 ChartJS.register(Title, Legend, ArcElement, CategoryScale, LinearScale);
-import { BarChart, Bar } from 'recharts';
 import Link from 'next/link';
 
 // Utility function for bank savings account
@@ -76,13 +74,20 @@ export default function BudgetManager() {
 
   // Save data to localStorage whenever it changes
   useEffect(() => {
-    const remainingBudget = Number(income) - categories.reduce((acc, cat) => acc + Number(cat.amount || 0), 0);
     localStorage.setItem('income', income);
+  }, [income]);
+
+  useEffect(() => {
     localStorage.setItem('categories', JSON.stringify(categories));
+  }, [categories]);
+
+  useEffect(() => {
     localStorage.setItem('savingsGoal', savingsGoal);
+  }, [savingsGoal]);
+
+  useEffect(() => {
     localStorage.setItem('nextMonthExpenses', JSON.stringify(nextMonthExpenses));
-    localStorage.setItem('remainingBudget', remainingBudget.toString());
-  }, [income, categories, savingsGoal, nextMonthExpenses]);
+  }, [nextMonthExpenses]);
 
   const handleCategoryChange = (index, field, value) => {
     const updatedCategories = [...categories];
@@ -291,8 +296,102 @@ export default function BudgetManager() {
         </Card>
 
         
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
+       {/* Actual Expenses and Savings Pie Chart */}
+       <Card className="p-6 bg-white shadow-md rounded-lg">
+  <h2 className="text-lg font-medium mb-4 text-gray-900">Actual Expenses and Savings</h2>
+  <div className="flex flex-col md:flex-row items-center gap-6">
+    <ResponsiveContainer width="100%" height={300}>
+      <PieChart>
+        <Pie
+          data={useMemo(
+            () => [
+              { name: 'Rent', value: Number(categories.find((cat) => cat.name === 'Rent')?.amount || 0) },
+              { name: 'Food, Travel & Bills', value: Number(categories.find((cat) => cat.name === 'Food, Travel & Bills')?.amount || 0) },
+              { name: 'Loan', value: Number(categories.find((cat) => cat.name === 'Loan')?.amount || 0) },
+              { name: 'EMI', value: Number(categories.find((cat) => cat.name === 'EMI')?.amount || 0) },
+              { name: 'Lifestyle', value: Number(categories.find((cat) => cat.name === 'Lifestyle')?.amount || 0) },
+              { name: 'Entertainment', value: Number(categories.find((cat) => cat.name === 'Entertainment')?.amount || 0) },
+              { name: 'Savings', value: remainingBudget > 0 ? remainingBudget : 0 },
+            ],
+            [categories, remainingBudget] // Recalculate when categories or remainingBudget changes
+          )}
+          dataKey="value"
+          cx="50%"
+          cy="50%"
+          label
+          outerRadius={100}
+        >
+          {['#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0', '#FF9F40', '#FF7373', '#5BC0EB'].map((color, index) => (
+            <Cell key={`cell-${index}`} fill={color} />
+          ))}
+        </Pie>
+        <Tooltip />
+      </PieChart>
+    </ResponsiveContainer>
 
+    {/* Legend for Actual Expenses and Savings */}
+    <div className="space-y-2">
+      {[
+        { name: 'Rent', color: '#FF6384' },
+        { name: 'Food, Travel & Bills', color: '#36A2EB' },
+        { name: 'Loan', color: '#FFCE56' },
+        { name: 'EMI', color: '#4BC0C0' },
+        { name: 'Lifestyle', color: '#FF9F40' },
+        { name: 'Entertainment', color: '#FF7373' },
+        { name: 'Savings', color: '#5BC0EB' },
+      ].map((item, index) => (
+        <div key={index} className="flex items-center space-x-2">
+          <div className="w-4 h-4 rounded-full" style={{ backgroundColor: item.color }} />
+          <span className="text-sm text-gray-700">{item.name}</span>
+        </div>
+      ))}
+    </div>
+  </div>
+</Card>
 
+  {/* Recommended Budget Allocation Pie Chart */}
+  <Card className="p-6 bg-white shadow-md rounded-lg">
+    <h2 className="text-lg font-medium mb-4 text-gray-900">Recommended Budget Allocation</h2>
+    <div className="flex flex-col md:flex-row items-center gap-6">
+      <ResponsiveContainer width="100%" height={300}>
+        <PieChart>
+          <Pie
+            data={[
+              { name: 'Rent, Food, Travel, Loan, EMI', value: 0.5 * Number(income) },
+              { name: 'Lifestyle, Entertainment', value: 0.3 * Number(income) },
+              { name: 'Savings', value: 0.2 * Number(income) },
+            ]}
+            dataKey="value"
+            cx="50%"
+            cy="50%"
+            label
+            outerRadius={100}
+          >
+            {['#8884d8', '#82ca9d', '#ffc658'].map((color, index) => (
+              <Cell key={`cell-${index}`} fill={color} />
+            ))}
+          </Pie>
+          <Tooltip />
+        </PieChart>
+      </ResponsiveContainer>
+
+      {/* Legend for Recommended Budget Allocation */}
+      <div className="space-y-2">
+        {[
+          { name: 'Rent, Food, Travel, Loan, EMI', color: '#8884d8' },
+          { name: 'Lifestyle, Entertainment', color: '#82ca9d' },
+          { name: 'Savings', color: '#ffc658' },
+        ].map((item, index) => (
+          <div key={index} className="flex items-center space-x-2">
+            <div className="w-4 h-4 rounded-full" style={{ backgroundColor: item.color }} />
+            <span className="text-sm text-gray-700">{item.name}</span>
+          </div>
+        ))}
+      </div>
+    </div>
+  </Card>
+</div>
       </div>
     </>
   );
