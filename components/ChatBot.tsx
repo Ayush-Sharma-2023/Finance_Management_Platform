@@ -35,6 +35,8 @@ const ChatBot = () => {
       });
 
       const data = await res.json();
+      console.log("API Response:", data);
+
       let botReply = data.reply.trim();
       botReply = botReply.replace(/<think>.*?<\/think>/gs, "").trim();
 
