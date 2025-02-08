@@ -19,6 +19,24 @@ const ChatBot = () => {
   const [loading, setLoading] = useState(false);
   const chatContainerRef = useRef<HTMLDivElement>(null);
 
+  // Function to clean up bot responses
+  const cleanBotResponse = (response: string): string => {
+    // Remove <think> tags and add a space after the closing tag
+    response = response.replace(/<think>.*?<\/think>\s*/gs, "");
+
+    // Remove unwanted characters like *, #, and -
+    response = response.replace(/[*#-]/g, "");
+
+    // Trim extra spaces and newlines
+    response = response.trim();
+
+    // Format numbered lists
+    response = response.replace(/(\d+\.)\s*/g, "\n$1 "); // Add a newline before each numbered point
+    response = response.replace(/\n+/g, "\n"); // Remove extra newlines
+
+    return response;
+  };
+
   const sendMessage = async () => {
     if (!message.trim() || loading) return;
 
@@ -35,22 +53,31 @@ const ChatBot = () => {
       });
 
       const data = await res.json();
-      console.log("API Response:", data);
-
       let botReply = data.reply.trim();
-      botReply = botReply.replace(/<think>.*?<\/think>/gs, "").trim();
+
+      // Clean up the bot's response
+      botReply = cleanBotResponse(botReply);
 
       if (botReply) {
         setChat((prevChat) => [...prevChat, { sender: "Bot", text: botReply }]);
       }
     } catch (error) {
       console.error("Error:", error);
-      setChat((prevChat) => [...prevChat, { sender: "Bot", text: "Sorry, something went wrong." }]);
+      setChat((prevChat) => [
+        ...prevChat,
+        { sender: "Bot", text: "Sorry, something went wrong. Please try again later." },
+      ]);
     } finally {
       setLoading(false);
     }
   };
 
+  // Add a welcome message when the component mounts
+  useEffect(() => {
+    setChat([{ sender: "Bot", text: "Hi, I am your Personal Chatbot Assistant. How can I assist you?" }]);
+  }, []);
+
+  // Scroll to the bottom of the chat when new messages are added
   useEffect(() => {
     if (chatContainerRef.current) {
       chatContainerRef.current.scrollTop = chatContainerRef.current.scrollHeight;
@@ -76,7 +103,8 @@ const ChatBot = () => {
                   msg.sender === "User" ? "bg-blue-500 text-white ml-auto" : "bg-gray-300 text-black"
                 }`}
               >
-                <strong>{msg.sender}:</strong> {msg.text}
+                <strong>{msg.sender}:</strong>{" "}
+                <div className="whitespace-pre-line">{msg.text}</div> {/* Preserve line breaks */}
               </motion.div>
             ))}
 
