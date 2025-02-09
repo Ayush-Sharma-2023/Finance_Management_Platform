@@ -5,6 +5,8 @@
 // import Nifty from "@/components/Upstox/nifty";
 // import Funds from "@/components/Upstox/Funds";
 
+import exp from "constants";
+
 // export default function Template() {
 //   return (
 //     <div className="min-h-screen bg-gray-100 text-gray-900">
@@ -24,3 +26,10 @@
 //     </div>
 //   );
 // }
+
+export default function Template() {
+  return (
+    <h1>To be added later</h1>
+  ) 
+}
+
