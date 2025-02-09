@@ -1,3 +1,14 @@
+// Define categories array
+const categories = [
+  { name: 'Food', amount: '200' },
+  { name: 'Transport', amount: '100' },
+  { name: 'Entertainment', amount: '150' }
+];
+
+// Define salary and savingsGoal
+const salary = '5000'; // Example salary value
+const savingsGoal = '1000'; // Example savings goal value
+
 // Save data to localStorage
 const saveToLocalStorage = () => {
   // Calculate total expenses from all categories

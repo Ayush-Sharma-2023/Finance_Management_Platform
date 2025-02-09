@@ -21,7 +21,7 @@ export default function Form() {
   // Handle category field changes
   const handleCategoryChange = (index: number, field: keyof Category, value: string | boolean) => {
     const updatedCategories = [...categories];
-    updatedCategories[index][field] = value;
+    updatedCategories[index][field as keyof Category] = value as never;
     setCategories(updatedCategories);
   };
 
@@ -41,7 +41,7 @@ export default function Form() {
     const totalExpense = categories.reduce((total, category) => total + (parseFloat(category.amount) || 0), 0);
 
     // Calculate final income (consider any deductions or other logic here if necessary)
-    const finalIncome = parseFloat(salary) || 0;
+    const finalIncome = parseFloat(salary.toString()) || 0;
 
     // Calculate monthly income (final income / 12)
     const monthlyIncome = finalIncome / 12;
