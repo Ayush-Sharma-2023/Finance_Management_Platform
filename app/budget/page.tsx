@@ -5,7 +5,7 @@ import { Card } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { BarChart3, Wallet } from 'lucide-react';
 import Navbar from '../../components/Navbar';
-import { ResponsiveContainer, BarChart, Bar, XAxis, YAxis, Tooltip, Legend } from 'recharts';
+import { ResponsiveContainer, BarChart, Bar, XAxis, YAxis, Tooltip, Legend, PieChart, Pie, Cell } from 'recharts';
 import Link from 'next/link';
 
 export default function BudgetManager() {
@@ -33,12 +33,41 @@ export default function BudgetManager() {
     }
   }, []);
 
-  const chartData = [
-    { name: 'Income', value: budgetData.monthlyIncome },
-    { name: 'Expenses', value: budgetData.totalExpense },
-    ...(budgetData.investments ? budgetData.investments.map((inv) => ({ name: inv.name, value: inv.amount })) : []),
-    { name: 'Remaining Budget', value: budgetData.remainingBudget },
+  // Calculate actual expenses and savings
+  const actualExpenses = budgetData.categories.reduce((acc, cat) => acc + Number(cat.amount || 0), 0);
+  const actualSavings = budgetData.remainingBudget > 0 ? budgetData.remainingBudget : 0;
+
+  // Data for actual expenses and savings pie chart
+  const actualData = [
+    ...budgetData.categories.map((cat) => ({
+      name: cat.name,
+      value: Number(cat.amount || 0),
+    })),
+    { name: 'Savings', value: actualSavings },
   ];
+
+  // Logging for debugging
+  console.log('Actual Data for Pie Chart:', actualData);
+
+  // Colors for the actual pie chart
+  const actualColors = ['#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0', '#FF9F40', '#FF7373', '#5BC0EB'];
+
+  // Calculate recommended expenses and savings
+  const recommendedExpenses = {
+    rentFoodTravelLoanEMI: 0.5 * budgetData.monthlyIncome,
+    lifestyleEntertainment: 0.3 * budgetData.monthlyIncome,
+    savings: 0.2 * budgetData.monthlyIncome,
+  };
+
+  // Data for recommended expenses and savings pie chart
+  const recommendedData = [
+    { name: 'Rent, Food, Travel, Loan, EMI', value: recommendedExpenses.rentFoodTravelLoanEMI },
+    { name: 'Lifestyle, Entertainment', value: recommendedExpenses.lifestyleEntertainment },
+    { name: 'Savings', value: recommendedExpenses.savings },
+  ];
+
+  // Colors for the recommended pie chart
+  const recommendedColors = ['#8884d8', '#82ca9d', '#ffc658'];
 
   const calculateInvestmentTime = (goal, monthlySavings, rate) => {
     let months = 0;
@@ -98,20 +127,75 @@ export default function BudgetManager() {
             <span className={`font-semibold ${budgetData.remainingBudget < 0 ? 'text-red-500' : 'text-green-500'}`}>₹{Number(budgetData.remainingBudget).toLocaleString()}</span>
           </div>
 
-          {/* Bar Chart for Budget Breakdown */}
-          {/* <div className="mt-4 h-64">
-            <ResponsiveContainer width="100%" height="100%">
-              <BarChart data={chartData} layout="vertical">
-                <XAxis type="number" />
-                <YAxis dataKey="name" type="category" width={120} />
-                <Tooltip />
-                <Legend />
-                <Bar dataKey="value" fill="#4A90E2" />
-              </BarChart>
-            </ResponsiveContainer>
-          </div> */}
-          <Card className="p-6 mb-6 shadow-lg rounded-lg border border-gray-200">
-          <h3 className="text-lg font-semibold mb-4">Investment Time Calculation Bar Chart</h3>
+          {/* Link to Investments Page */}
+          <Link href={`/investments`} className="mt-4 inline-block">
+            <Button className="w-full bg-blue-300 hover:bg-blue-500">
+              <Wallet className="mr-2 h-4 w-4" />
+              Optimize Investments with Remaining Budget
+            </Button>
+          </Link>
+        </Card>
+
+        {/* Container for both charts */}
+<div className="flex justify-between space-x-4 mb-6">
+  {/* Actual Expenses and Savings Pie Chart */}
+  <Card className="w-1/2 p-6 shadow-lg rounded-lg border border-gray-200">
+    <h3 className="text-lg font-semibold mb-4">Actual Expenses and Savings</h3>
+    <div className="h-72"> {/* Increased height from h-64 to h-72 */}
+      <ResponsiveContainer width="100%" height="100%">
+        <PieChart>
+          <Pie
+            data={actualData}
+            dataKey="value"
+            cx="50%"
+            cy="50%"
+            outerRadius={110}
+            label={({ name, value }) => `${name}: ${value.toLocaleString()}`}
+            labelLine={false}
+          >
+            {actualData.map((_, index) => (
+              <Cell key={`cell-${index}`} fill={actualColors[index % actualColors.length]} />
+            ))}
+          </Pie>
+          <Tooltip formatter={(value) => value.toLocaleString()} />
+          <Legend />
+        </PieChart>
+      </ResponsiveContainer>
+    </div>
+  </Card>
+
+  {/* Recommended Expenses and Savings Pie Chart */}
+  <Card className="w-1/2 p-6 shadow-lg rounded-lg border border-gray-200">
+    <h3 className="text-lg font-semibold mb-4">Recommended Expenses and Savings</h3>
+    <div className="h-72"> {/* Increased height from h-64 to h-72 */}
+      <ResponsiveContainer width="100%" height="100%">
+        <PieChart>
+          <Pie
+            data={recommendedData}
+            dataKey="value"
+            cx="50%"
+            cy="50%"
+            outerRadius={110}
+            label={({ name, value }) => `${name}: ${value.toLocaleString()}`}
+            labelLine={false}
+          >
+            {recommendedData.map((_, index) => (
+              <Cell key={`cell-${index}`} fill={recommendedColors[index % recommendedColors.length]} />
+            ))}
+          </Pie>
+          <Tooltip formatter={(value) => value.toLocaleString()} />
+          <Legend />
+        </PieChart>
+      </ResponsiveContainer>
+    </div>
+  </Card>
+</div>
+
+
+
+        {/* Investment Time Calculation Bar Chart */}
+        <Card className="p-6 mb-6 shadow-lg rounded-lg border border-gray-200">
+          <h3 className="text-lg font-semibold mb-4">Investment Time Calculation</h3>
           <div className="mt-4 h-64">
             <ResponsiveContainer width="100%" height="100%">
               <BarChart data={investmentTimeData} layout="vertical">
@@ -124,32 +208,6 @@ export default function BudgetManager() {
             </ResponsiveContainer>
           </div>
         </Card>
-          {/* Link to Investments Page */}
-          {/* <Link href={`/investments?monthlyInvestment=${budgetData.remainingBudget}`} className="mt-4 inline-block"> */}
-          <Link href={`/investments`} className="mt-4 inline-block">
-            <Button className="w-full bg-blue-300 hover:bg-blue-500">
-              <Wallet className="mr-2 h-4 w-4" />
-              Optimize Investments with Remaining Budget
-            </Button>
-          </Link>
-        </Card>
-
-        {/* Investment Time Calculation Section */}
-        {/* <Card className="p-6 mb-6 shadow-lg rounded-lg border border-gray-200">
-          <h3 className="text-lg font-semibold mb-4">Investment Time Calculation</h3>
-          <p>
-            Estimated months required to reach your savings goal:
-          </p>
-          <ul className="list-disc pl-6 mt-2">
-            <li><strong>Bank Savings (2%):</strong> {calculateInvestmentTime(budgetData.savingsGoal, budgetData.remainingBudget, 2)} months</li>
-            <li><strong>Fixed Deposit (6%):</strong> {calculateInvestmentTime(budgetData.savingsGoal, budgetData.remainingBudget, 6)} months</li>
-            <li><strong>Govt Bonds (9%):</strong> {calculateInvestmentTime(budgetData.savingsGoal, budgetData.remainingBudget, 9)} months</li>
-            <li><strong>Index Funds (13%):</strong> {calculateInvestmentTime(budgetData.savingsGoal, budgetData.remainingBudget, 13)} months</li>
-          </ul>
-        </Card> */}
-
-        {/* Investment Time Calculation Bar Chart */}
-   
       </div>
     </>
   );

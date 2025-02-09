@@ -137,9 +137,20 @@ export default function Home() {
                 <p className="text-blue-700 font-semibold">3 Year Return: {fund.threeYear}%</p>
                 <p className="text-blue-700 font-semibold">5 Year Return: {fund.fiveYear}%</p>
               </div>
+              <div className='flex justify-around'>
+
               <div className="mt-4">
                 <p className="text-gray-600">Expense Ratio: {fund.expRatio}%</p>
                 <p className="text-gray-600">AUM: {formatAUM(fund.aum)}</p>
+              </div>
+              <div className='flex justify-center items-center mt-4'>
+
+              <a href="https://upstox.com/mutual-funds/explore/nifty-50-return-funds " target="_blank" rel="noreferrer">
+
+              <button
+              className='bg-blue-600 text-white px-4 py-2 rounded-xl'>View</button>
+              </a>
+              </div>
               </div>
             </div>
           </div>
