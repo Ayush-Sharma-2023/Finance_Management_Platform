@@ -9,7 +9,28 @@ import { ResponsiveContainer, BarChart, Bar, XAxis, YAxis, Tooltip, Legend, PieC
 import Link from 'next/link';
 
 export default function BudgetManager() {
-  const [budgetData, setBudgetData] = useState({
+  interface Category {
+    name: string;
+    amount: number;
+  }
+
+  interface Investment {
+    name: string;
+    amount: number;
+  }
+
+  interface BudgetData {
+    salary: string;
+    categories: Category[];
+    savingsGoal: string;
+    finalIncome: number;
+    monthlyIncome: number;
+    totalExpense: number;
+    remainingBudget: number;
+    investments: Investment[];
+  }
+
+  const [budgetData, setBudgetData] = useState<BudgetData>({
     salary: '',
     categories: [],
     savingsGoal: '',
@@ -69,7 +90,7 @@ export default function BudgetManager() {
   // Colors for the recommended pie chart
   const recommendedColors = ['#8884d8', '#82ca9d', '#ffc658'];
 
-  const calculateInvestmentTime = (goal, monthlySavings, rate) => {
+  const calculateInvestmentTime = (goal: number, monthlySavings: number, rate: number) => {
     let months = 0;
     let balance = 0;
     const monthlyRate = rate / 12 / 100;
@@ -82,10 +103,10 @@ export default function BudgetManager() {
   };
 
   const investmentTimeData = [
-    { name: 'Bank Savings (2%)', months: calculateInvestmentTime(budgetData.savingsGoal, budgetData.remainingBudget, 2) },
-    { name: 'Fixed Deposit (6%)', months: calculateInvestmentTime(budgetData.savingsGoal, budgetData.remainingBudget, 6) },
-    { name: 'Govt Bonds (9%)', months: calculateInvestmentTime(budgetData.savingsGoal, budgetData.remainingBudget, 9) },
-    { name: 'Index Funds (13%)', months: calculateInvestmentTime(budgetData.savingsGoal, budgetData.remainingBudget, 13) },
+    { name: 'Bank Savings (2%)', months: calculateInvestmentTime(Number(budgetData.savingsGoal), budgetData.remainingBudget, 2) },
+    { name: 'Fixed Deposit (6%)', months: calculateInvestmentTime(Number(budgetData.savingsGoal), budgetData.remainingBudget, 6) },
+    { name: 'Govt Bonds (9%)', months: calculateInvestmentTime(Number(budgetData.savingsGoal), budgetData.remainingBudget, 9) },
+    { name: 'Index Funds (13%)', months: calculateInvestmentTime(Number(budgetData.savingsGoal), budgetData.remainingBudget, 13) },
   ];
 
   return (
