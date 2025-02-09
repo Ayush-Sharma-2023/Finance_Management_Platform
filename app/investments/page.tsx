@@ -7,7 +7,7 @@ import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { Wallet } from 'lucide-react';
 import { PieChart, Pie, Cell, ResponsiveContainer, LineChart, Line, XAxis, YAxis, Tooltip, CartesianGrid } from 'recharts';
-import { supabase } from '@/lib/supabase';
+// import { supabase } from '@/lib/supabase';
 import Navbar from '../../components/Navbar';
 // import { useSearchParams } from 'next/navigation';
 

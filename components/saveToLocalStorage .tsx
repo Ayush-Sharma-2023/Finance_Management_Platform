@@ -14,7 +14,7 @@ const saveToLocalStorage = () => {
 
   // Prepare the data to save
   const budgetData = {
-    salary: salary,
+    salary: salary ,
     categories: categories,
     savingsGoal: savingsGoal,
     finalIncome: finalIncome,
