@@ -3,6 +3,8 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   output: "export", // Enables static export for GitHub Pages
   distDir: "out", // Builds the site in "out" folder
+  basePath: "/Finance_Management_Platform", // Set correct base path for GitHub Pages
+
   images: {
     unoptimized: true, // GitHub Pages doesn't support Next.js image optimization
   },
