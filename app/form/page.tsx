@@ -5,6 +5,9 @@ import { Button } from '@/components/ui/button';
 import { Label } from '@/components/ui/label';
 import { PlusCircle, XCircle } from 'lucide-react';
 import Navbar from "../../components/Navbar"
+import Link from 'next/link';
+import { ArrowRight } from 'lucide-react';
+
 
 // Expense category type
 type Category = {
@@ -151,7 +154,7 @@ export default function Form() {
           />
         </div>
 
-        <a
+        {/* <a
   href="/taxations"
   onClick={(e) => {
     e.preventDefault(); // Prevents immediate navigation
@@ -161,7 +164,11 @@ export default function Form() {
   className="mt-4 w-full bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded text-center block"
 >
   Save Budget Information
-</a>
+</a> */}
+ <Link href="/taxations">
+                Get Started
+                <ArrowRight className="ml-2 h-4 w-4" />
+              </Link>
 
       </div>
     </>
