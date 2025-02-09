@@ -148,7 +148,7 @@ export default function InvestmentAdvisor() {
                 </a> */}
                 <Link href="/mutualfunds" legacyBehavior>
             <a
-              className="bg-white text-black py-2 px-6 rounded-lg hover:bg-gray-300 transition"
+              className="w-full bg-blue-600 hover:bg-blue-700 text-white flex items-center justify-center py-2 px-4 rounded"
             >
                   View Mutual Funds
                   {/* <ArrowRight className="ml-2 h-4 w-4" /> */}
