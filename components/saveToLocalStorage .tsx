@@ -32,3 +32,5 @@ const saveToLocalStorage = () => {
     alert('Failed to save data.');
   }
 };
+
+saveToLocalStorage();

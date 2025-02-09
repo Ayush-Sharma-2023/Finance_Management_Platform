@@ -34,7 +34,7 @@ export default function BudgetManager() {
   }, []);
 
   // Calculate actual expenses and savings
-  const actualExpenses = budgetData.categories.reduce((acc, cat) => acc + Number(cat.amount || 0), 0);
+  // const actualExpenses = budgetData.categories.reduce((acc, cat) => acc + Number(cat.amount || 0), 0);
   const actualSavings = budgetData.remainingBudget > 0 ? budgetData.remainingBudget : 0;
 
   // Data for actual expenses and savings pie chart

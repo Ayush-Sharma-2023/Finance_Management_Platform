@@ -2,14 +2,14 @@
 
 import { useState, useEffect } from 'react';
 import { Card } from '@/components/ui/card';
-import { Button } from '@/components/ui/button';
+// import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { Wallet } from 'lucide-react';
 import { PieChart, Pie, Cell, ResponsiveContainer, LineChart, Line, XAxis, YAxis, Tooltip, CartesianGrid } from 'recharts';
 import { supabase } from '@/lib/supabase';
 import Navbar from '../../components/Navbar';
-import { useSearchParams } from 'next/navigation';
+// import { useSearchParams } from 'next/navigation';
 
 type RiskProfile = 'conservative' | 'moderate' | 'aggressive';
 
@@ -75,19 +75,19 @@ export default function InvestmentAdvisor() {
   const allocation = portfolioAllocations[riskProfile];
   const investmentGrowthData = generateInvestmentGrowthData(remainingBudget, months);
 
-  const handleSubmit = async () => {
-    if (!supabase) return;
+  // const handleSubmit = async () => {
+  //   if (!supabase) return;
 
-    const { data: { user } } = await supabase.auth.getUser();
-    if (!user) return;
+  //   const { data: { user } } = await supabase.auth.getUser();
+  //   if (!user) return;
 
-    await supabase.from('investment_preferences').upsert({
-      user_id: user.id,
-      risk_tolerance: riskProfile,
-      investment_horizon: '5+ years',
-      monthly_investment: remainingBudget,
-    });
-  };
+  //   await supabase.from('investment_preferences').upsert({
+  //     user_id: user.id,
+  //     risk_tolerance: riskProfile,
+  //     investment_horizon: '5+ years',
+  //     monthly_investment: remainingBudget,
+  //   });
+  // };
 
   return (
     <>
@@ -126,7 +126,8 @@ export default function InvestmentAdvisor() {
             <Card className="p-6 bg-white shadow-md rounded-lg">
               <h2 className="text-lg font-medium mb-4 text-gray-900">Recommended Portfolio</h2>
               <div className="space-y-3">
-                {Object.entries(allocation).map(([key, value], index) => (
+                {/* {Object.entries(allocation).map(([key, value], index) => ( */}
+                {Object.entries(allocation).map(([key, value] ) => (
                   <div key={key} className="flex items-center justify-between py-2 border-b border-gray-200">
                     <span className="text-gray-700">{key.charAt(0).toUpperCase() + key.slice(1)}</span>
                     <span className="font-medium text-blue-600">{value}%</span>
@@ -151,7 +152,7 @@ export default function InvestmentAdvisor() {
                     label
                     outerRadius={100}
                   >
-                    {Object.entries(allocation).map(([key, _], index) => (
+                    {Object.entries(allocation).map(([key,], index) => (
                       <Cell key={key} fill={COLORS[index % COLORS.length]} />
                     ))}
                   </Pie>
