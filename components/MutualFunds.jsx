@@ -115,7 +115,7 @@ export default function Home() {
         </div>
 
         </div>
-        <div className="mt-6 text-center">
+        {/* <div className="mt-6 text-center">
 
         <a
             href="/demat"
@@ -123,7 +123,7 @@ export default function Home() {
           >
             View demat account
           </a>
-        </div>
+        </div> */}
 
       {/* Display Mutual Fund Cards */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-4">
