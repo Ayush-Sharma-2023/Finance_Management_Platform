@@ -1,7 +1,8 @@
 "use client";
 import React, { useState, useEffect } from "react";
-import Navbar from '../../components/Navbar';
-import TaxAcordian from '../../components/taxAcordian';
+import Navbar from "../../components/Navbar";
+import TaxAcordian from "../../components/taxAcordian";
+import Link from "next/link";
 
 export default function Taxations() {
   const [salary, setSalary] = useState("");
@@ -32,7 +33,6 @@ export default function Taxations() {
       }
     }
   }, []);
-  
 
   // Update tax values and total income when salary or deductions change
   useEffect(() => {
@@ -53,17 +53,24 @@ export default function Taxations() {
       // Set total income
       setTotalIncome(income);
     }
-  }, [salary, standardDeduction, section80C, section80D, section24B, section80E, section80G]);
+  }, [
+    salary,
+    standardDeduction,
+    section80C,
+    section80D,
+    section24B,
+    section80E,
+    section80G,
+  ]);
 
   const calculateTaxOld = (income) => {
-    const totalDeductions = (
+    const totalDeductions =
       (standardDeduction ? 50000 : 0) +
       (section80C ? 150000 : 0) +
       (section80D ? 50000 : 0) +
       (section24B ? 200000 : 0) +
       (section80E ? 50000 : 0) +
-      (section80G ? 50000 : 0)
-    );
+      (section80G ? 50000 : 0);
 
     const taxableIncome = Math.max(0, income - totalDeductions);
 
@@ -81,7 +88,11 @@ export default function Taxations() {
       if (taxableIncome > prevLimit) {
         let taxableAmount = Math.min(taxableIncome, limit) - prevLimit;
         let taxForSlab = taxableAmount * rate;
-        slabBreakdown.push({ slab: `₹${prevLimit} - ₹${limit}`, rate: `${rate * 100}%`, taxPaid: taxForSlab });
+        slabBreakdown.push({
+          slab: `₹${prevLimit} - ₹${limit}`,
+          rate: `${rate * 100}%`,
+          taxPaid: taxForSlab,
+        });
         tax += taxForSlab;
         prevLimit = limit;
       } else break;
@@ -112,7 +123,11 @@ export default function Taxations() {
       if (income > prevLimit) {
         let taxableAmount = Math.min(income, limit) - prevLimit;
         let taxForSlab = taxableAmount * rate;
-        slabBreakdown.push({ slab: `₹${prevLimit} - ₹${limit}`, rate: `${rate * 100}%`, taxPaid: taxForSlab });
+        slabBreakdown.push({
+          slab: `₹${prevLimit} - ₹${limit}`,
+          rate: `${rate * 100}%`,
+          taxPaid: taxForSlab,
+        });
         tax += taxForSlab;
         prevLimit = limit;
       } else break;
@@ -152,12 +167,22 @@ export default function Taxations() {
             {/* Old Tax Regime Section */}
             {taxOld && (
               <div className="w-1/2 bg-white p-6 rounded-lg shadow-md text-gray-800">
-                <h2 className="text-2xl font-semibold mb-4 text-blue-600">Old Tax Regime</h2>
-                <p className="text-lg mb-4 font-medium">Total Tax: ₹{taxOld.totalTax}</p>
-                <p className="text-lg mb-4 font-medium">Total Income: ₹{totalIncome}</p>
-                <p className="text-lg mb-4 font-medium">Final Income: ₹{totalIncome - taxOld.totalTax}</p>
+                <h2 className="text-2xl font-semibold mb-4 text-blue-600">
+                  Old Tax Regime
+                </h2>
+                <p className="text-lg mb-4 font-medium">
+                  Total Tax: ₹{taxOld.totalTax}
+                </p>
+                <p className="text-lg mb-4 font-medium">
+                  Total Income: ₹{totalIncome}
+                </p>
+                <p className="text-lg mb-4 font-medium">
+                  Final Income: ₹{totalIncome - taxOld.totalTax}
+                </p>
 
-                <h3 className="text-xl font-medium mb-4">Tax Breakdown per Slab</h3>
+                <h3 className="text-xl font-medium mb-4">
+                  Tax Breakdown per Slab
+                </h3>
                 <table className="table-auto w-full border-collapse border border-gray-300">
                   <thead>
                     <tr>
@@ -182,12 +207,22 @@ export default function Taxations() {
             {/* New Tax Regime Section */}
             {taxNew && (
               <div className="w-1/2 bg-white p-6 rounded-lg shadow-md text-gray-800">
-                <h2 className="text-2xl font-semibold mb-4 text-blue-600">New Tax Regime</h2>
-                <p className="text-lg mb-4 font-medium">Total Tax: ₹{taxNew.totalTax}</p>
-                <p className="text-lg mb-4 font-medium">Total Income: ₹{totalIncome}</p>
-                <p className="text-lg mb-4 font-medium">Final Income: ₹{totalIncome - taxNew.totalTax}</p>
+                <h2 className="text-2xl font-semibold mb-4 text-blue-600">
+                  New Tax Regime
+                </h2>
+                <p className="text-lg mb-4 font-medium">
+                  Total Tax: ₹{taxNew.totalTax}
+                </p>
+                <p className="text-lg mb-4 font-medium">
+                  Total Income: ₹{totalIncome}
+                </p>
+                <p className="text-lg mb-4 font-medium">
+                  Final Income: ₹{totalIncome - taxNew.totalTax}
+                </p>
 
-                <h3 className="text-xl font-medium mb-4">Tax Breakdown per Slab</h3>
+                <h3 className="text-xl font-medium mb-4">
+                  Tax Breakdown per Slab
+                </h3>
                 <table className="table-auto w-full border-collapse border border-gray-300">
                   <thead>
                     <tr>
@@ -213,12 +248,21 @@ export default function Taxations() {
 
         {/* Manage Budget Button */}
         <div className="mt-6 text-center">
-          <a
+          {/* <a
             href="/budget"
             className="bg-white text-black py-2 px-6 rounded-lg hover:bg-gray-300 transition"
           >
             Manage Budget
-          </a>
+          </a> */}
+          <Link href="/budget" legacyBehavior>
+            <a
+              className="bg-white text-black py-2 px-6 rounded-lg hover:bg-gray-300 transition"
+            >
+              Get Started
+              {/* <ArrowRight className="ml-2 h-4 w-4" /> */}
+            </a>
+          </Link>
+          ;
         </div>
       </div>
 
