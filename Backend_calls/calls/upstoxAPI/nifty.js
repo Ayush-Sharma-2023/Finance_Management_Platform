@@ -1,4 +1,4 @@
-/* eslint-disable @typescript-eslint/no-require-imports */
+
 
 import get from 'axios';
 import  config  from './config'; // Import specific config values
