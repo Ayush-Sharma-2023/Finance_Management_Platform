@@ -169,8 +169,8 @@ export default function Form() {
   Save Budget Information
 </a> */}
 
-<Link href="/Finance_Management_Platform/taxations" legacyBehavior>
-  <a onClick={handleClick} className="flex items-center">
+<Link href="/taxations" legacyBehavior>
+  <a onClick={handleClick} className="mt-4 w-full bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded text-center block">
     Get Started
     <ArrowRight className="ml-2 h-4 w-4" />
   </a>
