@@ -5,7 +5,6 @@
 // import Nifty from "@/components/Upstox/nifty";
 // import Funds from "@/components/Upstox/Funds";
 
-import exp from "constants";
 
 // export default function Template() {
 //   return (
