@@ -6,7 +6,7 @@ import { Label } from '@/components/ui/label';
 import { PlusCircle, XCircle } from 'lucide-react';
 import Navbar from "../../components/Navbar"
 import Link from 'next/link';
-import { ArrowRight } from 'lucide-react';
+// import { ArrowRight } from 'lucide-react';
 
 
 // Expense category type
@@ -172,7 +172,7 @@ export default function Form() {
 <Link href="/taxations" legacyBehavior>
   <a onClick={handleClick} className="mt-4 w-full bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded text-center block">
     Get Started
-    <ArrowRight className="ml-2 h-4 w-4" />
+    {/* <ArrowRight className="ml-2 h-4 w-4" /> */}
   </a>
 </Link>;
 
