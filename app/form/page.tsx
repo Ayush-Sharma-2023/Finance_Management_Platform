@@ -72,6 +72,9 @@ export default function Form() {
       alert('Failed to save data.');
     }
   };
+  const handleClick = () => {
+   saveToLocalStorage();
+  };
 
   return (
     <>
@@ -165,10 +168,13 @@ export default function Form() {
 >
   Save Budget Information
 </a> */}
- <Link href="/taxations">
-                Get Started
-                <ArrowRight className="ml-2 h-4 w-4" />
-              </Link>
+
+<Link href="/taxations" legacyBehavior>
+  <a onClick={handleClick} className="flex items-center">
+    Get Started
+    <ArrowRight className="ml-2 h-4 w-4" />
+  </a>
+</Link>;
 
       </div>
     </>
