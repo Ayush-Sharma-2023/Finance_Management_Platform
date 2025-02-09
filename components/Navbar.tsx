@@ -11,7 +11,7 @@ import { BarChart3, Calculator, LineChart, MessageSquare, PiggyBank } from 'luci
 import { useEffect, useState } from 'react';
 import { supabase } from '@/lib/supabase';
 import type { User } from '@supabase/supabase-js';
-import ChatBot from './chatbubble';
+// import ChatBot from './chatbubble';
 
 const navigation = [
   { name: 'Home', href: '/', icon: BarChart3 },
@@ -80,7 +80,7 @@ export default function Header() {
     </header>
     <div className='z-auto'>
 
-    <ChatBot/>
+    {/* <ChatBot/> */}
     </div>
 
           </>
