@@ -169,7 +169,7 @@ export default function Form() {
   Save Budget Information
 </a> */}
 
-<Link href="/taxations" legacyBehavior>
+<Link href="/Finance_Management_Platform/taxations" legacyBehavior>
   <a onClick={handleClick} className="flex items-center">
     Get Started
     <ArrowRight className="ml-2 h-4 w-4" />
