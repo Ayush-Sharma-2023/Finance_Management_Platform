@@ -95,10 +95,10 @@ export default function Footer() {
                 >
                   Github
                 </a>
-            1  </li>            
+              </li>            
               <li>
                 <a
-                  href="www.linkedin.com/in/ayush-sharma-fsd"
+                  href="http://www.linkedin.com/in/ayush-sharma-fsd"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-white"
